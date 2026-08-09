@@ -1,45 +1,36 @@
-# Skyrim Ancestries documentation
+# Skyrim Ancestries
 
 This repository documents my Skyrim mod list.
 
-## Sources of truth
+## Source of truth
 
-Files under `state/` and `configs/` are snapshots copied from
-the live Mod Organizer 2 installation.
+The live Mod Organizer 2 installation is authoritative.
 
-Do not modify synchronized snapshot files unless explicitly asked.
-
-The live MO2 installation is authoritative.
+Files under `state/` are synchronized snapshots of MO2 state.
+Do not modify them unless explicitly asked.
 
 ## Documentation
 
-Maintain documentation under `docs/`.
+Maintain:
 
-When I report installing, configuring, testing, removing, or replacing
-a mod, update the appropriate documentation.
+- `docs/diary.md` — chronological record of changes, testing and observations.
+- `docs/mods.md` — human-readable overview of the installed mod list.
 
-Never mark a mod as tested unless I explicitly report testing it.
+When I tell you that I installed, removed, configured or tested something,
+update the appropriate documentation.
 
-Distinguish between:
+Use information from `state/modlist.txt` when checking which mods are installed.
 
-- Installed
-- Configured
-- Tested
-- Confirmed working
-- Known issue
-- Removed
+Do not invent test results, compatibility conclusions or configuration choices.
 
-Do not invent compatibility conclusions or test results.
+Do not mark something as tested unless I explicitly say that I tested it.
 
-## Configuration
+## Style
 
-When documenting configuration changes:
+Keep documentation concise and practical.
 
-- record the relevant setting;
-- record why it was changed when known;
-- don't copy entire config files into Markdown;
-- link/reference the corresponding file under `configs/`.
+Do not turn routine mod installations into lengthy descriptions.
 
 ## Git
 
-Prefer small commits representing logical mod-list changes.
+Prefer small commits representing logical changes to the mod list.

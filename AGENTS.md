@@ -34,3 +34,6 @@ Do not turn routine mod installations into lengthy descriptions.
 ## Git
 
 Prefer small commits representing logical changes to the mod list.
+
+## Tools
+When I ask to sync or refresh the MO2 state, run `tools/sync-mo2.ps1`.

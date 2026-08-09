@@ -5,3 +5,7 @@
 - Installed/configured; no gameplay test done yet.
 - Added RaceMenu.
 - Installed USSEP and Alternative Life.
+- Installed Address Library, Engine Fixes, Community Shaders, and Mesh Fixes.
+- Synced MO2 state and updated the README from enabled non-`[O]` mods.
+- Synced MO2 state and added new enabled SKSE, UI, mesh, and weather mods to the README.
+- Synced MO2 state and updated Community Shaders and weather entries in the README.

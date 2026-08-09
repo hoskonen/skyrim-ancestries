@@ -2,23 +2,40 @@
 +Shader Cache [O]
 +SKSE [O]
 +SSEEdit Backups [O]
--Overwrite Mods_separator
+-999 ______________________ OVERRIDE MODS ______________________separator
++Azurite III CS - Realistic Darker Nights
++Azurite III CS
++Azurite Weathers and Seasons
++True Storms Special Edition
++Moons And Stars - Sky Overhaul SKSE
+-100 _________________________ WEATHER ____________________________separator
 +Alternate Start - Live Another Life - SSE
 +RaceMenu
--Character_separator
+-040 ________________________ CHARACTER _________________________separator
++Stay At The System Page NG
++Dragonborn UI - SkyUI Reskin - FOMOD
++SkyUI
+-035 _____________________ USER INTERFACE _______________________separator
++Smoother Skies - Meshes
 +Assorted Mesh Fixes
--Mesh Fixes_separator
+-030 ________________________ MESH FIXES __________________________separator
 +Unofficial Skyrim Special Edition Patch - USSEP
--020 ____________________ PATCHES & FIXES _______________________separator
+-020 ____________________ PATCHES & FIXES ________________________separator
++Terrain Blending - Community Shaders
++Wetness Effects - Community Shaders
++Terrain Variation - Community Shaders
 +Community Shaders
 -015 _________________ COMMUNITY SHADERS ____________________separator
++Base Object Swapper
++powerofthree's Tweaks
++SSE Display Tweaks
 +Address Library for SKSE Plugins
 +EngineFixes
 -010 ____________________________ SKSE ______________________________separator
 +Cleaned Vanilla Files
 -005 ____________________ CLEANED MASTERS ______________________separator
-*Creation Club: _ResourcePack
 *Creation Club: ccafdsse001-dwesanctuary
+*Creation Club: _ResourcePack
 *Creation Club: ccBGSSSE001-Fish
 *Creation Club: ccbgssse005-goldbrand
 *Creation Club: ccbgssse011-hrsarmrelvn
@@ -47,4 +64,4 @@
 *DLC: Dawnguard
 *DLC: Dragonborn
 *DLC: HearthFires
--001 ____________________________ DLC ________________________________separator
+-001 ____________________________ DLC _______________________________separator

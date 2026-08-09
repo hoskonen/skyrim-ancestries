@@ -12,14 +12,48 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 - Creation Club content from the current MO2 snapshot
 - Cleaned Vanilla Files
 
-### 2.0 Patches & Fixes
+### 2.0 SKSE
 
-- USSEP
+- Address Library for SKSE Plugins
+- Base Object Swapper
+- EngineFixes
+- powerofthree's Tweaks
+- SSE Display Tweaks
 
-### 3.0 Character Creation
+### 3.0 Patches & Fixes
+
+- Unofficial Skyrim Special Edition Patch - USSEP
+
+### 4.0 Character Creation
 
 - RaceMenu
 
-### 4.0 Gameplay
+### 5.0 UI
 
-- Alternative Life
+- Dragonborn UI - SkyUI Reskin - FOMOD
+- SkyUI
+- Stay At The System Page NG
+
+### 6.0 Community Shaders
+
+- Community Shaders
+- Terrain Blending - Community Shaders
+- Terrain Variation - Community Shaders
+- Wetness Effects - Community Shaders
+
+### 7.0 Mesh Fixes
+
+- Assorted Mesh Fixes
+- Smoother Skies - Meshes
+
+### 8.0 Gameplay
+
+- Alternate Start - Live Another Life - SSE
+
+### 9.0 Weather
+
+- Azurite III CS
+- Azurite III CS - Realistic Darker Nights
+- Azurite Weathers and Seasons
+- Moons And Stars - Sky Overhaul SKSE
+- True Storms Special Edition

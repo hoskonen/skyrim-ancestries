@@ -10,3 +10,8 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 
 - Skyrim base DLC: Dawnguard, Dragonborn, HearthFires
 - Creation Club content from the current MO2 snapshot
+- Cleaned Vanilla Files
+
+### 2.0 Character Creation
+
+- RaceMenu

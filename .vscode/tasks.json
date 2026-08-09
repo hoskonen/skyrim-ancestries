@@ -15,11 +15,22 @@
       "group": {
         "kind": "build",
         "isDefault": true
-      },
+      }
+    },
+    {
+      "label": "Make MO2 Separator",
+      "type": "shell",
+      "command": "powershell",
+      "args": [
+        "-ExecutionPolicy",
+        "Bypass",
+        "-File",
+        "${workspaceFolder}\\tools\\make-separator.ps1"
+      ],
+      "problemMatcher": [],
       "presentation": {
         "reveal": "always",
-        "panel": "shared",
-        "clear": true
+        "panel": "shared"
       }
     }
   ]

@@ -29,6 +29,13 @@ Do not invent test results, compatibility conclusions or configuration choices.
 
 Do not mark something as tested unless I explicitly say that I tested it.
 
+Mods whose names end with `[O]` are generated-output or override-container mods.
+
+Treat them as implementation/maintenance containers, not normal user-facing mods:
+- do not list them in the main README mod list unless explicitly asked;
+- do not infer gameplay functionality from them;
+- they may still be mentioned in the diary when created, rebuilt, or relevant to troubleshooting.
+
 ## Style
 
 Keep documentation concise and practical.

@@ -12,6 +12,14 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 - Creation Club content from the current MO2 snapshot
 - Cleaned Vanilla Files
 
-### 2.0 Character Creation
+### 2.0 Patches & Fixes
+
+- USSEP
+
+### 3.0 Character Creation
 
 - RaceMenu
+
+### 4.0 Gameplay
+
+- Alternative Life

@@ -13,13 +13,17 @@ Do not modify them unless explicitly asked.
 
 Maintain:
 
+- `README.md` — repository front page and human-readable overview of the installed mod list.
 - `docs/diary.md` — chronological record of changes, testing and observations.
-- `docs/mods.md` — human-readable overview of the installed mod list.
 
 When I tell you that I installed, removed, configured or tested something,
 update the appropriate documentation.
 
 Use information from `state/modlist.txt` when checking which mods are installed.
+
+Organize installed mods in `README.md` into numbered sections such as `1.0 Core`,
+`2.0 UI`, and so on. Keep the structure simple and only add categories as they
+become necessary.
 
 Do not invent test results, compatibility conclusions or configuration choices.
 

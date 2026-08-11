@@ -27,10 +27,16 @@ section order from `state/modlist.txt`. Main separators use whole numeric IDs
 such as `800`, `850`, and `900`.
 
 Sub-separators use hierarchical IDs such as `850.1` and belong under the main
-separator sharing the number before the decimal. For example, `850 ANIMATION`
-with `850.1 Animation Tools` should render as `## 850 Animation` with
-`### 850.1 Animation Tools` underneath. Do not turn sub-separators into
-independent top-level README sections.
+separator sharing the number before the decimal. Render sub-separators in
+`README.md` as collapsed `<details>` sections with a `<summary>`, underneath
+their parent main section. For example, `850 ANIMATION` with
+`850.1 Animation Tools` should render as `## 850 Animation`, then:
+
+`<details>`
+`<summary><strong>850.1 Animation Tools</strong></summary>`
+
+Do not collapse main sections or turn sub-separators into independent top-level
+README sections.
 
 Mods between separators belong to the currently active main/sub-section
 according to `state/modlist.txt`. Preserve MO2 ordering in `README.md`.

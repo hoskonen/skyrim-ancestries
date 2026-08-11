@@ -2,21 +2,25 @@ $type = Read-Host "Separator type (M = Main, S = Sub)"
 $number = Read-Host "Separator number"
 $name = Read-Host "Separator name"
 
-$number = "{0:D3}" -f [int]$number
-
 if ($type -match '^[Mm]$') {
+    if ($number -match '^\d+$') {
+        $number = "{0:D3}" -f [int]$number
+    }
+
     $name = $name.ToUpper()
 }
-elseif ($type -notmatch '^[Ss]$') {
+elseif ($type -match '^[Ss]$') {
+    # Preserve number and name exactly for sub separators.
+}
+else {
     Write-Error "Separator type must be M or S."
     exit 1
 }
 
 $separatorWidth = 64
-
-# Title always has one space before and after it.
 $title = " $name "
 
+# Account for "<number> " before the separator body.
 $underscoreCount = $separatorWidth - $title.Length
 
 if ($underscoreCount -lt 2) {

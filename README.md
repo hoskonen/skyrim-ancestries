@@ -75,9 +75,12 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 - Auto Skeleton Patch - Universal Behaviour Runtime
 - Pandora Behaviour Engine Plus
 
-### 850.1 Animation Tools
+<details>
+<summary><strong>850.1 Animation Tools</strong></summary>
 
 - Animation Motion Revolution
+
+</details>
 
 ## 900 Weather
 

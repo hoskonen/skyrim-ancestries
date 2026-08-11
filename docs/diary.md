@@ -1,4 +1,4 @@
-# 2026-08-09
+# 2026-08-09 - 23 listed mods
 
 - Synced MO2 state.
 - Cleaned the vanilla master files and added the enabled MO2 mod `Cleaned Vanilla Files`.
@@ -9,3 +9,7 @@
 - Synced MO2 state and updated the README from enabled non-`[O]` mods.
 - Synced MO2 state and added new enabled SKSE, UI, mesh, and weather mods to the README.
 - Synced MO2 state and updated Community Shaders and weather entries in the README.
+
+# 2026-08-11 - 34 listed mods
+
+- Synced MO2 state and updated the README from enabled non-`[O]` mods.

@@ -42,6 +42,14 @@ Keep documentation concise and practical.
 
 Do not turn routine mod installations into lengthy descriptions.
 
+When asked to "sync", "update" always keep README.md and Diary.md in sync, especially important that diary has exact dates of the edits listed.
+
+## Conventions
+
+When syncing, update `state/modlist.txt`, `README.md`, and `docs/diary.md`.
+Diary date headings may include the enabled listed mod count.
+Exclude `[O]`, separators, DLC lines, and Creation Club detail lines from that count.
+
 ## Git
 
 Prefer small commits representing logical changes to the mod list.

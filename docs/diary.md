@@ -10,6 +10,7 @@
 - Synced MO2 state and added new enabled SKSE, UI, mesh, and weather mods to the README.
 - Synced MO2 state and updated Community Shaders and weather entries in the README.
 
-# 2026-08-11 - 34 listed mods
+# 2026-08-11 - 36 listed mods
 
 - Synced MO2 state and updated the README from enabled non-`[O]` mods.
+- Synced MO2 state and added Precision and Animation Motion Revolution to the README.

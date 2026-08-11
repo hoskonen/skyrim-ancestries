@@ -10,17 +10,21 @@
 +Azurite Weathers and Seasons
 +True Storms Special Edition
 +Moons And Stars - Sky Overhaul SKSE
--100 _________________________ WEATHER ___________________________separator
+-900 _________________________ WEATHER ___________________________separator
++Animation Motion Revolution [SKSE]
+-851 _____________________ Animation Tools ________________________separator
 +Auto Skeleton Patch - Universal Behaviour Runtime
 +Pandora Behaviour Engine Plus
--060 _________________________ ANIMATION ________________________separator
+-850 _________________________ ANIMATION ________________________separator
++Precision [FOMOD]
+-810 _________________________ COMBAT ___________________________separator
 +True Directional Movement
--050 _______________________ MOVEMENT __________________________separator
+-800 _______________________ MOVEMENT __________________________separator
 +Alternate Start - Live Another Life - SSE
 +RaceMenu
--040 ________________________ CHARACTER _________________________separator
+-700 ________________________ CHARACTER _________________________separator
 +XP32 Maximum Skeleton Special Extended - FOMOD
--036 _________________________ SKELETON ___________________________separator
+-600 _________________________ SKELETON ___________________________separator
 +Dynamic Activation Key - MCM
 +Dynamic Activation Key
 +MCM Helper
@@ -28,18 +32,18 @@
 +TrueHUD - HUD Additions
 +Dragonborn UI - SkyUI Reskin - FOMOD
 +SkyUI
--035 _____________________ USER INTERFACE _______________________separator
+-500 _____________________ USER INTERFACE _______________________separator
 +Smoother Skies - Meshes
 +Assorted Mesh Fixes
--030 ________________________ MESH FIXES __________________________separator
+-400 ________________________ MESH FIXES __________________________separator
 +Unofficial Skyrim Special Edition Patch - USSEP
--020 ____________________ PATCHES & FIXES ________________________separator
+-300 ____________________ PATCHES & FIXES ________________________separator
 +Skylighting - Community Shaders
 +Terrain Blending - Community Shaders
 +Wetness Effects - Community Shaders
 +Terrain Variation - Community Shaders
 +Community Shaders
--015 _________________ COMMUNITY SHADERS ____________________separator
+-200 _________________ COMMUNITY SHADERS ____________________separator
 +Stay At The System Page NG
 +powerofthree's Papyrus Extender
 +Base Object Swapper
@@ -47,9 +51,9 @@
 +SSE Display Tweaks
 +Address Library for SKSE Plugins
 +EngineFixes
--010 ____________________________ SKSE ______________________________separator
+-100 ____________________________ SKSE ______________________________separator
 +Cleaned Vanilla Files
--005 ____________________ CLEANED MASTERS ______________________separator
+-010 ____________________ CLEANED MASTERS ______________________separator
 *Creation Club: ccafdsse001-dwesanctuary
 *Creation Club: _ResourcePack
 *Creation Club: ccBGSSSE001-Fish

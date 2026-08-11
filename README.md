@@ -4,15 +4,19 @@ Lightweight documentation workspace for the Ancestries Skyrim mod list.
 
 The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is the synchronized MO2 snapshot; do not maintain it by hand.
 
-## Installed Mods
-
-### 1.0 Core
+## 001 DLC
 
 - Skyrim base DLC: Dawnguard, Dragonborn, HearthFires
+
+## 002 Creation Content
+
 - Creation Club content from the current MO2 snapshot
+
+## 010 Cleaned Masters
+
 - Cleaned Vanilla Files
 
-### 2.0 SKSE
+## 100 SKSE
 
 - Address Library for SKSE Plugins
 - Base Object Swapper
@@ -22,19 +26,24 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 - SSE Display Tweaks
 - Stay At The System Page NG
 
-### 3.0 Patches & Fixes
+## 200 Community Shaders
+
+- Community Shaders
+- Skylighting - Community Shaders
+- Terrain Blending - Community Shaders
+- Terrain Variation - Community Shaders
+- Wetness Effects - Community Shaders
+
+## 300 Patches & Fixes
 
 - Unofficial Skyrim Special Edition Patch - USSEP
 
-### 4.0 Character Creation
+## 400 Mesh Fixes
 
-- RaceMenu
+- Assorted Mesh Fixes
+- Smoother Skies - Meshes
 
-### 5.0 Skeleton
-
-- XP32 Maximum Skeleton Special Extended - FOMOD
-
-### 6.0 UI
+## 500 User Interface
 
 - Dragonborn Reskin - TrueHUD
 - Dragonborn UI - SkyUI Reskin - FOMOD
@@ -44,33 +53,33 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 - SkyUI
 - TrueHUD - HUD Additions
 
-### 7.0 Community Shaders
+## 600 Skeleton
 
-- Community Shaders
-- Skylighting - Community Shaders
-- Terrain Blending - Community Shaders
-- Terrain Variation - Community Shaders
-- Wetness Effects - Community Shaders
+- XP32 Maximum Skeleton Special Extended - FOMOD
 
-### 8.0 Mesh Fixes
-
-- Assorted Mesh Fixes
-- Smoother Skies - Meshes
-
-### 9.0 Gameplay
+## 700 Character
 
 - Alternate Start - Live Another Life - SSE
+- RaceMenu
 
-### 10.0 Movement
+## 800 Movement
 
 - True Directional Movement
 
-### 11.0 Animation
+## 810 Combat
+
+- Precision
+
+## 850 Animation
 
 - Auto Skeleton Patch - Universal Behaviour Runtime
 - Pandora Behaviour Engine Plus
 
-### 12.0 Weather
+### 850.1 Animation Tools
+
+- Animation Motion Revolution
+
+## 900 Weather
 
 - Azurite III CS
 - Azurite III CS - Realistic Darker Nights

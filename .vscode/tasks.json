@@ -31,6 +31,23 @@
       "presentation": {
         "reveal": "always",
         "panel": "shared"
+      },
+    },
+    {
+      "label": "Save Modlist Snapshot",
+      "type": "shell",
+      "command": "powershell",
+      "args": [
+        "-ExecutionPolicy",
+        "Bypass",
+        "-File",
+        "${workspaceFolder}\\tools\\save-snapshot.ps1"
+      ],
+      "problemMatcher": [],
+      "presentation": {
+        "reveal": "always",
+        "panel": "shared",
+        "clear": true
       }
     }
   ]

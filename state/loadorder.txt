@@ -48,4 +48,6 @@ TrueDirectionalMovement.esp
 XPMSE.esp
 FNIS.esp
 Precision.esp
+Ricochet Framework - MCM.esp
+Broken Feathers.esp
 alternate start - live another life.esp

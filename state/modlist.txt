@@ -12,10 +12,13 @@
 +Moons And Stars - Sky Overhaul SKSE
 -900 _________________________ WEATHER ___________________________separator
 +Animation Motion Revolution [SKSE]
--851 _____________________ Animation Tools ________________________separator
+-850.1 _____________________ Animation Tools ________________________separator
 +Auto Skeleton Patch - Universal Behaviour Runtime
 +Pandora Behaviour Engine Plus
 -850 _________________________ ANIMATION ________________________separator
++Broken Feathers (Full Skyrim Arrow Pack)
+-810.1 _________________________ Archery ___________________________separator
++Death Drop Overhaul [SKSE]
 +Precision [FOMOD]
 -810 _________________________ COMBAT ___________________________separator
 +True Directional Movement
@@ -36,6 +39,7 @@
 +Smoother Skies - Meshes
 +Assorted Mesh Fixes
 -400 ________________________ MESH FIXES __________________________separator
++Inertia (Floating Gear Fix) [SKSE]
 +Unofficial Skyrim Special Edition Patch - USSEP
 -300 ____________________ PATCHES & FIXES ________________________separator
 +Skylighting - Community Shaders
@@ -44,6 +48,9 @@
 +Terrain Variation - Community Shaders
 +Community Shaders
 -200 _________________ COMMUNITY SHADERS ____________________separator
++Ricochet - Arrow Physics Framework MCM
++Ricochet - Arrow Physics Framework [SKSE]
+-110 _______________________ FRAMEWORKS ________________________separator
 +Stay At The System Page NG
 +powerofthree's Papyrus Extender
 +Base Object Swapper

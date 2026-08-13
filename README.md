@@ -26,6 +26,11 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 - SSE Display Tweaks
 - Stay At The System Page NG
 
+## 110 Frameworks
+
+- Ricochet - Arrow Physics Framework
+- Ricochet - Arrow Physics Framework MCM
+
 ## 200 Community Shaders
 
 - Community Shaders
@@ -36,6 +41,7 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 
 ## 300 Patches & Fixes
 
+- Inertia (Floating Gear Fix)
 - Unofficial Skyrim Special Edition Patch - USSEP
 
 ## 400 Mesh Fixes
@@ -68,7 +74,15 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 
 ## 810 Combat
 
+- Death Drop Overhaul
 - Precision
+
+<details>
+<summary><strong>810.1 Archery</strong></summary>
+
+- Broken Feathers (Full Skyrim Arrow Pack)
+
+</details>
 
 ## 850 Animation
 

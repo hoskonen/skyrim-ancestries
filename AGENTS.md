@@ -6,8 +6,8 @@ This repository documents my Skyrim mod list.
 
 The live Mod Organizer 2 installation is authoritative.
 
-`state/modlist.txt`, `state/plugins.txt`, and `state/loadorder.txt` are
-synchronized snapshots of MO2 state.
+`state/modlist.txt`, `state/plugins.txt`, `state/loadorder.txt`, and
+`state/comments-notes.md` are synchronized snapshots of MO2 state.
 Do not modify them unless explicitly asked.
 
 ## Documentation
@@ -62,6 +62,14 @@ For `[O]` mods:
 When referring to the actual mod name in prose, metadata tags may be omitted
 unless they are relevant.
 
+During sync, export only non-empty MO2 `comments` and `notes` fields from
+installed mod `meta.ini` files into `state/comments-notes.md`. Do not export
+Nexus descriptions or unrelated metadata. README entries may include these when
+present: treat comments as concise mod context and notes as
+installation/technical reminders. Preserve uncertainty and intent from the
+original notes; do not embellish or invent details. Blank fields should produce
+no README output.
+
 ## Style
 
 Keep documentation concise and practical.
@@ -72,7 +80,9 @@ When asked to "sync", "update" always keep README.md and Diary.md in sync, espec
 
 ## Conventions
 
-When syncing, update `state/modlist.txt`, `README.md`, and `docs/diary.md`.
+When syncing, update `state/modlist.txt`, `state/plugins.txt`,
+`state/loadorder.txt`, `state/comments-notes.md`, `README.md`, and
+`docs/diary.md`.
 Diary date headings may include the enabled listed mod count.
 Exclude `[O]`, separators, DLC lines, and Creation Club detail lines from that count.
 

@@ -19,15 +19,16 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 ## 100 SKSE
 
 - Address Library for SKSE Plugins
-- Base Object Swapper
 - EngineFixes
-- powerofthree's Papyrus Extender
 - powerofthree's Tweaks
 - SSE Display Tweaks
 - Stay At The System Page NG
+- Terrain Helper
 
 ## 110 Frameworks
 
+- Base Object Swapper
+- powerofthree's Papyrus Extender
 - Ricochet - Arrow Physics Framework
 - Ricochet - Arrow Physics Framework MCM
 
@@ -44,10 +45,19 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 - Inertia (Floating Gear Fix)
 - Unofficial Skyrim Special Edition Patch - USSEP
 
+## 350 Core Meshes
+
+- Static Mesh Improvement Mod
+- Static Mesh improvement Mod - SMIM - Quality Addon
+
 ## 400 Mesh Fixes
 
 - Assorted Mesh Fixes
 - Smoother Skies - Meshes
+
+## 450 Core Textures
+
+- Skyland AIO
 
 ## 500 User Interface
 

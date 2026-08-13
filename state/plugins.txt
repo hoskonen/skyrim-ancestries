@@ -2,6 +2,7 @@
 *unofficial skyrim special edition patch.esp
 *TrueHUD.esl
 *SkyUI_SE.esp
+*SMIM-SE-Merged-All.esp
 *RaceMenu.esp
 *RaceMenuPlugin.esp
 *MoonsAndStars.esp
@@ -19,4 +20,7 @@
 *Precision.esp
 *Ricochet Framework - MCM.esp
 *Broken Feathers.esp
+*TerrainHelper.esp
+*Lit Road Signs.esp
+*Skyland Watercolor - Slow Green-Vanilla.esp
 *alternate start - live another life.esp

@@ -57,7 +57,14 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 
 ## 450 Core Textures
 
+- Fantasia Landscapes - Green Tundra - Complex Parallax
 - Skyland AIO
+- Skyland AIO - Complex Parallax
+- Skyking Fantasia Landscapes
+
+## 460 Grass & Ground Cover
+
+- Wildlands Renewal - grass and groundcover improvement mod
 
 ## 500 User Interface
 

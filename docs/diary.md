@@ -15,8 +15,9 @@
 - Synced MO2 state and updated the README from enabled non-`[O]` mods.
 - Synced MO2 state and added Precision and Animation Motion Revolution to the README.
 
-# 2026-08-13 - 45 listed mods
+# 2026-08-13 - 49 listed mods
 
 - Synced MO2 state and added Death Drop Overhaul to the README.
 - Synced MO2 state and added Ricochet, Inertia, and Broken Feathers to the README.
 - Synced MO2 state and added Terrain Helper, SMIM, and Skyland AIO to the README.
+- Synced MO2 state and added Fantasia, Skyland parallax, and Wildlands grass entries to the README.

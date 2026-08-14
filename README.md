@@ -19,7 +19,9 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 ## 100 SKSE
 
 - Address Library for SKSE Plugins
+- Classic Sprinting Redone
 - EngineFixes
+- MCM Helper
 - powerofthree's Tweaks
 - SSE Display Tweaks
 - Stay At The System Page NG
@@ -66,15 +68,45 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 
 - Wildlands Renewal - grass and groundcover improvement mod
 
+## 470 Forest and Trees
+
+- Nature of the Wild Lands
+- Nature of the Wild Lands - Nordic Cut
+- Nature of the Wild Lands - Nordic Cut Patch Collection
+- Water for ENB
+
 ## 500 User Interface
 
-- Dragonborn Reskin - TrueHUD
+<details>
+<summary><strong>Core UI</strong></summary>
+
+- SkyUI
+
+</details>
+
+<details>
+<summary><strong>Main Skin</strong></summary>
+
 - Dragonborn UI - SkyUI Reskin - FOMOD
+
+</details>
+
+<details>
+<summary><strong>HUD Elements</strong></summary>
+
+- Dragonborn Reskin - TrueHUD
+- TrueHUD - HUD Additions
+
+</details>
+
+<details>
+<summary><strong>Interactions Related</strong></summary>
+
 - Dynamic Activation Key
 - Dynamic Activation Key - MCM
-- MCM Helper
-- SkyUI
-- TrueHUD - HUD Additions
+- Modex - A Mod Explorer Menu (AddItemMenu)
+
+</details>
 
 ## 600 Skeleton
 
@@ -104,12 +136,32 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 ## 850 Animation
 
 - Auto Skeleton Patch - Universal Behaviour Runtime
+- First Person Interactions
 - Pandora Behaviour Engine Plus
 
 <details>
 <summary><strong>850.1 Animation Tools</strong></summary>
 
 - Animation Motion Revolution
+- Open Animation Replacer
+
+</details>
+
+<details>
+<summary><strong>Animation Fixes</strong></summary>
+
+- Animation Queue Fix
+- Paired Animation Improvements
+- Unlocked 1st Person Combat
+  - Comments: Check later slowdown esp
+
+</details>
+
+<details>
+<summary><strong>Animation Frameworks</strong></summary>
+
+- Offset Movement Animation - Modders Resource
+- State Behavior Framework (SBF)
 
 </details>
 

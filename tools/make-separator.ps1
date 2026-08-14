@@ -17,7 +17,7 @@ else {
     exit 1
 }
 
-$separatorWidth = 64
+$separatorWidth = 60
 $title = " $name "
 
 # Account for "<number> " before the separator body.

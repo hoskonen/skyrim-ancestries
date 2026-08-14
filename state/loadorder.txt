@@ -33,9 +33,9 @@ _ResourcePack.esl
 unofficial skyrim special edition patch.esp
 PGPatcher.esp
 TrueHUD.esl
+SkyUI_SE.esp
 SMIM-SE-Merged-All.esp
 RaceMenu.esp
-SkyUI_SE.esp
 RaceMenuPlugin.esp
 MoonsAndStars.esp
 Azurite Weathers III.esp
@@ -53,10 +53,19 @@ Precision.esp
 Ricochet Framework - MCM.esp
 Broken Feathers.esp
 TerrainHelper.esp
+Nature of the Wild Lands.esp
+NotWL - Nordic Cut.esp
 Lit Road Signs.esp
 Skyland Watercolor - Slow Green-Vanilla.esp
 Fantasia Complex Parallax.esp
 Skyland AIO Complex Parallax.esp
 Groundcover.esp
+NotWL - Autumn Rift.esp
+NotWL - Autumn Tundra.esp
+FirstPersonInteractions.esp
+FirstPersonInteractions_Addon.esp
 alternate start - live another life.esp
+Nature of the Wild Lands - Alternate Start Patch.esp
+Water for ENB.esp
+Water for ENB - Patch - Darker LOD Water.esp
 PG_1.esp

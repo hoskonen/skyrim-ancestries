@@ -21,8 +21,10 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 - Address Library for SKSE Plugins
 - Classic Sprinting Redone
 - EngineFixes
+  - Comments: "fSleepWaitTimeModifier = 0.6, bScrollingDoesntSwitchPOV = true"
 - MCM Helper
 - powerofthree's Tweaks
+- SkyPatcher
 - SSE Display Tweaks
 - Stay At The System Page NG
 - Terrain Helper
@@ -57,10 +59,27 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 - Assorted Mesh Fixes
 - Smoother Skies - Meshes
 
+## 410 Core Meshes
+
+<details>
+<summary><strong>Roads</strong></summary>
+
+- Blended Roads
+
+</details>
+
+<details>
+<summary><strong>Rocks and Mountains</strong></summary>
+
+- Enhanced Rocks and Mountains - Complex Material and PBR
+
+</details>
+
 ## 450 Core Textures
 
 - Fantasia Landscapes - Green Tundra - Complex Parallax
 - Skyland AIO
+  - Comments: "No landscapes, no water"
 - Skyland AIO - Complex Parallax
 - Skyking Fantasia Landscapes
 
@@ -89,9 +108,11 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 </details>
 
 <details>
-<summary><strong>Main Skin</strong></summary>
+<summary><strong>Interactions Related</strong></summary>
 
-- Dragonborn UI - SkyUI Reskin - FOMOD
+- Dynamic Activation Key
+- Dynamic Activation Key - MCM
+- Modex - A Mod Explorer Menu (AddItemMenu)
 
 </details>
 
@@ -103,15 +124,6 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 
 </details>
 
-<details>
-<summary><strong>Interactions Related</strong></summary>
-
-- Dynamic Activation Key
-- Dynamic Activation Key - MCM
-- Modex - A Mod Explorer Menu (AddItemMenu)
-
-</details>
-
 ## 600 Skeleton
 
 - XP32 Maximum Skeleton Special Extended - FOMOD
@@ -120,6 +132,13 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 
 - Alternate Start - Live Another Life - SSE
 - RaceMenu
+
+<details>
+<summary><strong>Head</strong></summary>
+
+- High Poly Head
+
+</details>
 
 ## 800 Movement
 
@@ -168,6 +187,11 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 - State Behavior Framework (SBF)
 
 </details>
+
+## 860 Immersion
+
+- Dynamic Timescale - Remade
+- Skyrim Souls RE - Unpaused Menus
 
 ## 900 Weather
 

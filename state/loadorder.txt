@@ -31,7 +31,7 @@ cccbhsse001-gaunt.esl
 ccafdsse001-dwesanctuary.esm
 _ResourcePack.esl
 unofficial skyrim special edition patch.esp
-PGPatcher.esp
+High Poly Head.esm
 TrueHUD.esl
 SMIM-SE-Merged-All.esp
 RaceMenu.esp
@@ -57,7 +57,6 @@ Nature of the Wild Lands.esp
 NotWL - Nordic Cut.esp
 Lit Road Signs.esp
 water mod.esp
-Skyland Watercolor - Slow Green-Vanilla.esp
 Fantasia Complex Parallax.esp
 Skyland AIO Complex Parallax.esp
 Groundcover.esp
@@ -66,6 +65,7 @@ NotWL - Autumn Tundra.esp
 FirstPersonInteractions.esp
 FirstPersonInteractions_Addon.esp
 Cathedral - Water.esp
+Dynamic Timescale - Remade.esp
+BlendedRoads.esp
 alternate start - live another life.esp
 Nature of the Wild Lands - Alternate Start Patch.esp
-PG_1.esp

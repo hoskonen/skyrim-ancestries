@@ -22,7 +22,8 @@
 - Synced MO2 state and added Terrain Helper, SMIM, and Skyland AIO to the README.
 - Synced MO2 state and added Fantasia, Skyland parallax, and Wildlands grass entries to the README.
 
-# 2026-08-14 - 63 listed mods
+# 2026-08-14 - 68 listed mods
 
 - Synced MO2 state and updated the README from enabled non-`[O]` mods.
 - Synced MO2 state and updated the water entries in the README.
+- Synced MO2 state and updated SKSE, character, mesh, UI, and immersion entries in the README.

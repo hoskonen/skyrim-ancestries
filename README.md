@@ -73,7 +73,11 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 - Nature of the Wild Lands
 - Nature of the Wild Lands - Nordic Cut
 - Nature of the Wild Lands - Nordic Cut Patch Collection
-- Water for ENB
+
+## 480 Water
+
+- Cathedral - Water Overhaul and Bug Fixes
+- Simplicity of Sea
 
 ## 500 User Interface
 

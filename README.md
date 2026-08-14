@@ -21,7 +21,7 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 - Address Library for SKSE Plugins
 - Classic Sprinting Redone
 - EngineFixes
-  - Comments: "fSleepWaitTimeModifier = 0.6, bScrollingDoesntSwitchPOV = true"
+  - Comments: `"fSleepWaitTimeModifier = 0.6, bScrollingDoesntSwitchPOV = true"`
 - MCM Helper
 - powerofthree's Tweaks
 - SkyPatcher
@@ -79,7 +79,7 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 
 - Fantasia Landscapes - Green Tundra - Complex Parallax
 - Skyland AIO
-  - Comments: "No landscapes, no water"
+  - Comments: `"No landscapes, no water"`
 - Skyland AIO - Complex Parallax
 - Skyking Fantasia Landscapes
 
@@ -176,7 +176,7 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 - Animation Queue Fix
 - Paired Animation Improvements
 - Unlocked 1st Person Combat
-  - Comments: Check later slowdown esp
+  - Comments: `Check later slowdown esp`
 
 </details>
 

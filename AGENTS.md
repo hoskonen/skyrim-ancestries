@@ -68,7 +68,7 @@ Nexus descriptions or unrelated metadata. README entries may include these when
 present: treat comments as concise mod context and notes as
 installation/technical reminders. Preserve uncertainty and intent from the
 original notes; do not embellish or invent details. Blank fields should produce
-no README output.
+no README output. Format README comment/note values as inline code.
 
 ## Style
 

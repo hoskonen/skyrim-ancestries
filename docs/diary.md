@@ -27,3 +27,8 @@
 - Synced MO2 state and updated the README from enabled non-`[O]` mods.
 - Synced MO2 state and updated the water entries in the README.
 - Synced MO2 state and updated SKSE, character, mesh, UI, and immersion entries in the README.
+
+# 2026-08-15 - 107 listed mods
+
+- Synced MO2 state and updated the README from enabled non-`[O]` mods.
+- Synced MO2 state and updated the README for SKSE, frameworks, patches, textures, combat, animation, immersion, sound, weather, and skin entries.

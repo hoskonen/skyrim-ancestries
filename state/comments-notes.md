@@ -10,7 +10,7 @@
 
 ## Ambient Templates for Lighting Mods [FOMOD]
 
-- Comments: "HDR, Brightness = 40, Dungeon = 40"
+- Comments: "HDR, Brightness = 40, Dungeon = 33"
 
 ## Skyland AIO [FOMOD]
 

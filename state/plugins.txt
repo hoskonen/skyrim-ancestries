@@ -19,9 +19,8 @@
 *ELFX Shadows.esp
 *Nature of the Wild Lands.esp
 *NotWL - Nordic Cut.esp
-*Obsidian Weathers.esp
-*Obsidian CS.esp
 *TrueStormsSE.esp
+*Obsidian Weathers.esp
 *Dynamic Activation Key.esp
 *MCMHelper.esp
 *Dynamic Activation Key - MCM.esp
@@ -60,13 +59,14 @@
 *Embers XD - Fire Magick Add-On.esp
 *SkyParkour.esp
 *Shadows Of Sunlight - In Small Exterior World Spaces.esp
-*ObsidianWeathersCS-TrueStorms-Patch.esp
 *ELFX Shadows - USSEP patch.esp
 *Helios_Obsidian.esp
+*ClefJsWinterhold-ELFX-Patch.esp
 *ClefJ Winterhold - Inn fix.esp
+*True Storms - Obsidian Weathers - Patch .esp
 *alternate start - live another life.esp
 *Nature of the Wild Lands - Alternate Start Patch.esp
 *ClefJ Winterhold - Alternate Start patch.esp
-*ELFX - Hardcore.esp
+*ELFXEnhancer.esp
 *ENB Light.esp
 *PG_1.esp

@@ -53,6 +53,7 @@ rename them.
 - `[FOMOD]` means the mod has a FOMOD installer with selectable options or patches.
 - `[O]` means a generated-output or override-container mod. Treat these as
   implementation/maintenance containers, not normal user-facing mods.
+- `[C]` custom made patch, should be visible always
 
 For `[O]` mods:
 - do not list them in the main README mod list unless explicitly asked;

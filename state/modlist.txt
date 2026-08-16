@@ -14,8 +14,7 @@
 -DEV ______________________ DEVELOPMENT _______________________separator
 +Moons And Stars - Sky Overhaul SKSE
 +Obsidian Weathers - Darker Nights
-+Obsidian CS - True Storms - Patch
-+Obsidian CS
++Obisidian Weathers - True Storms 1.02 Patch
 +Obsidian Weathers and Seasons
 +True Storms Special Edition
 -900 _________________________ WEATHER ___________________________separator
@@ -68,10 +67,12 @@
 +Dismembering Framework [SKSE]
 +Next-Gen Decapitations [SKSE]
 +Death Drop Overhaul [SKSE]
++Precision - Attack Collision Fixes [FOMOD]
++Precision - NPC Combat Fix
 +Precision [FOMOD]
 -810 _________________________ COMBAT ___________________________separator
++Better Jumping SE
 +SkyParkour v3 - Procedural Parkour and Climbing Framework (SPPF)
-+Better Jumping SE NG
 +True Directional Movement
 -800 _______________________ MOVEMENT __________________________separator
 +High Poly Head [FOMOD]
@@ -104,6 +105,7 @@
 -470 ____________________ FOREST AND TREES _____________________separator
 +Wildlands Renewal - grass and groundcover improvement mod [FOMOD]
 -460 _________________ GRASS & GROUND COVER _________________separator
++Clef's Winterhold - ELFX Patch [C]
 +ClefJ's Winterhold - Alternate Start Patch
 +ClefJ's Winterhold - Inn Fix Patch
 +ClefJ's Winterhold
@@ -133,6 +135,8 @@
 +Static Mesh improvement Mod - SMIM - Quality Addon
 +Static Mesh Improvement Mod [FOMOD]
 -350 _______________________ CORE MESHES _________________________separator
++1st Person Vertical Aim Fix
++Cached Recursive Directory Walk [SKSE]
 +Disable Turn Animation NG
 +Rim Lighting Removed [SKSE]
 +No Sunlight Through Mountains [SKSE]

@@ -33,6 +33,7 @@
 - Synced MO2 state and updated the README from enabled non-`[O]` mods.
 - Synced MO2 state and updated the README for SKSE, frameworks, patches, textures, combat, animation, immersion, sound, weather, and skin entries.
 
-# 2026-08-16 - 124 listed mods
+# 2026-08-16 - 128 listed mods
 
 - Synced MO2 state and updated the README from enabled non-`[O]` mods.
+- Synced MO2 state and updated README entries for patches, Winterhold, movement, combat, lighting, and weather.

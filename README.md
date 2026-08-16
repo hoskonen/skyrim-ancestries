@@ -71,6 +71,8 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 
 ## 300 Patches & Fixes
 
+- 1st Person Vertical Aim Fix
+- Cached Recursive Directory Walk
 - Disable Turn Animation NG
 - Rim Lighting Removed
 - No Sunlight Through Mountains
@@ -143,6 +145,7 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 <details>
 <summary><strong>Winterhold</strong></summary>
 
+- Clef's Winterhold - ELFX Patch
 - ClefJ's Winterhold - Alternate Start Patch
 - ClefJ's Winterhold - Inn Fix Patch
 - ClefJ's Winterhold
@@ -217,8 +220,8 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 
 ## 800 Movement
 
+- Better Jumping SE
 - SkyParkour v3 - Procedural Parkour and Climbing Framework (SPPF)
-- Better Jumping SE NG
 - True Directional Movement
 
 ## 810 Combat
@@ -228,6 +231,8 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 - Dismembering Framework
 - Next-Gen Decapitations
 - Death Drop Overhaul
+- Precision - Attack Collision Fixes
+- Precision - NPC Combat Fix
 - Precision
 
 <details>
@@ -252,7 +257,7 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 - ELFX Shadows
 - Enhanced Lights and FX
 - Ambient Templates for Lighting Mods
-  - Comments: `"HDR, Brightness = 40, Dungeon = 40"`
+  - Comments: `"HDR, Brightness = 40, Dungeon = 33"`
 
 <details>
 <summary><strong>Lighting Fixes</strong></summary>
@@ -314,8 +319,7 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 
 - Moons And Stars - Sky Overhaul SKSE
 - Obsidian Weathers - Darker Nights
-- Obsidian CS - True Storms - Patch
-- Obsidian CS
+- Obisidian Weathers - True Storms 1.02 Patch
 - Obsidian Weathers and Seasons
 - True Storms Special Edition
 

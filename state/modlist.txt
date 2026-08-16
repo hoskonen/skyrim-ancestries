@@ -45,13 +45,19 @@
 +Unlocked 1st Person Combat [FOMOD]
 +First Person Interactions [FOMOD]
 -850 _________________________ ANIMATION ________________________separator
--Dynamic Interior Ambient Lighting (DIAL) [FOMOD]
++Shadows Of Sunlight - In Small Exterior World Spaces
+-Lighting Fixes_separator
+-Warmer Lights
 -Window Shadows Ultimate [FOMOD]
--Ambient Templates for Lighting Mods [FOMOD]
-+Particle Light Editor [SKSE]
++Helios [FOMOD]
++ELFX Shadows - Official Patches Hub [FOMOD]
++ELFX Shadows [FOMOD]
++Enhanced Lights and FX [FOMOD]
++Ambient Templates for Lighting Mods [FOMOD]
 -830 _________________________ LIGHTING __________________________separator
 +No Furniture Camera [SKSE]
 +Cinematic Conversation Camera
++Improved Camera SE
 -820 _________________________ CAMERA ___________________________separator
 +Ricochet - Arrow Physics Framework MCM
 +Ricochet - Arrow Physics Framework [SKSE]
@@ -64,6 +70,7 @@
 +Death Drop Overhaul [SKSE]
 +Precision [FOMOD]
 -810 _________________________ COMBAT ___________________________separator
++SkyParkour v3 - Procedural Parkour and Climbing Framework (SPPF)
 +Better Jumping SE NG
 +True Directional Movement
 -800 _______________________ MOVEMENT __________________________separator
@@ -97,6 +104,14 @@
 -470 ____________________ FOREST AND TREES _____________________separator
 +Wildlands Renewal - grass and groundcover improvement mod [FOMOD]
 -460 _________________ GRASS & GROUND COVER _________________separator
++ClefJ's Winterhold - Alternate Start Patch
++ClefJ's Winterhold - Inn Fix Patch
++ClefJ's Winterhold
+-Winterhold_separator
+-455 ___________________ TOWN OVERHAULS _______________________separator
++Dust not Clouds - FrankBlack
++Glorious Gradients
+-Particles Textures_separator
 +Embers XD[FOMOD]
 -Fire and Fireplaces_separator
 +Vanaheimr - Mountains - MM - Complex Material - PBR [FOMOD]
@@ -111,12 +126,14 @@
 +Blended Roads [FOMOD]
 -Roads_separator
 -410 _______________________ CORE MESHES _________________________separator
++Particle Patch [FOMOD]
 +Smoother Skies - Meshes
 +Assorted Mesh Fixes
 -400 ________________________ MESH FIXES __________________________separator
 +Static Mesh improvement Mod - SMIM - Quality Addon
 +Static Mesh Improvement Mod [FOMOD]
 -350 _______________________ CORE MESHES _________________________separator
++Disable Turn Animation NG
 +Rim Lighting Removed [SKSE]
 +No Sunlight Through Mountains [SKSE]
 +Kontrol
@@ -126,12 +143,14 @@
 +Inertia (Floating Gear Fix) [SKSE]
 +Unofficial Skyrim Special Edition Patch - USSEP
 -300 ____________________ PATCHES & FIXES ________________________separator
-+Skylighting - Community Shaders
-+Terrain Blending - Community Shaders
-+Wetness Effects - Community Shaders
-+Terrain Variation - Community Shaders
-+Community Shaders
--200 _________________ COMMUNITY SHADERS ____________________separator
++ENB Light - Patch 2
++ENB Light - Patch 1 [FOMOD]
++ENB Light [FOMOD]
++ENB Extender and Helper Skyrim
+-120 ____________________________ ENB _______________________________separator
++KiLoader for Skyrim
++Core Impact Framework (CIF)
++Accurate Projectile Collision
 +ConsoleUtilSSE NG
 +JContainers SE [SKSE]
 +Mini's Micro-Systems Framework (MMSF)
@@ -142,6 +161,7 @@
 +Base Object Swapper
 +powerofthree's Papyrus Extender
 -110 _______________________ FRAMEWORKS ________________________separator
++Crash Logger SSE AE VR - PDB support
 +ConsolePlusPlus
 +More Informative Console
 -105 ________________________DEBUG TOOLS ________________________separator

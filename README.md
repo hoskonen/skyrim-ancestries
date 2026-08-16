@@ -33,11 +33,15 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 
 ## 105 Debug Tools
 
+- Crash Logger SSE AE VR - PDB support
 - ConsolePlusPlus
 - More Informative Console
 
 ## 110 Frameworks
 
+- KiLoader for Skyrim
+- Core Impact Framework (CIF)
+- Accurate Projectile Collision
 - ConsoleUtilSSE NG
 - JContainers SE
 - Mini's Micro-Systems Framework (MMSF)
@@ -49,6 +53,14 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 - Base Object Swapper
 - powerofthree's Papyrus Extender
 
+## 120 ENB
+
+- ENB Light - Patch 2
+- ENB Light - Patch 1
+- ENB Light
+  - Comments: `Includes Patch 1 and 2`
+- ENB Extender and Helper Skyrim
+
 ## 200 Community Shaders
 
 - Skylighting - Community Shaders
@@ -59,6 +71,7 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 
 ## 300 Patches & Fixes
 
+- Disable Turn Animation NG
 - Rim Lighting Removed
 - No Sunlight Through Mountains
 - Kontrol
@@ -75,6 +88,7 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 
 ## 400 Mesh Fixes
 
+- Particle Patch
 - Smoother Skies - Meshes
 - Assorted Mesh Fixes
 
@@ -113,6 +127,25 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 <summary><strong>Fire and Fireplaces</strong></summary>
 
 - Embers XD
+
+</details>
+
+<details>
+<summary><strong>Particles Textures</strong></summary>
+
+- Dust not Clouds - FrankBlack
+- Glorious Gradients
+
+</details>
+
+## 455 Town Overhauls
+
+<details>
+<summary><strong>Winterhold</strong></summary>
+
+- ClefJ's Winterhold - Alternate Start Patch
+- ClefJ's Winterhold - Inn Fix Patch
+- ClefJ's Winterhold
 
 </details>
 
@@ -184,6 +217,7 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 
 ## 800 Movement
 
+- SkyParkour v3 - Procedural Parkour and Climbing Framework (SPPF)
 - Better Jumping SE NG
 - True Directional Movement
 
@@ -209,10 +243,23 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 
 - No Furniture Camera
 - Cinematic Conversation Camera
+- Improved Camera SE
 
 ## 830 Lighting
 
-- Particle Light Editor
+- Helios
+- ELFX Shadows - Official Patches Hub
+- ELFX Shadows
+- Enhanced Lights and FX
+- Ambient Templates for Lighting Mods
+  - Comments: `"HDR, Brightness = 40, Dungeon = 40"`
+
+<details>
+<summary><strong>Lighting Fixes</strong></summary>
+
+- Shadows Of Sunlight - In Small Exterior World Spaces
+
+</details>
 
 ## 850 Animation
 

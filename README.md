@@ -17,7 +17,8 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 
 ### Todo
 
-- -Controller needs reconfigured layout, there's no sprint
+- Controller needs reconfigured layout, there's no sprint
+- Get rid of sprinting fov change
 
 <!-- project-status:end -->
 
@@ -51,8 +52,10 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 - Comprehensive Attack Rate Patch
   - Comments: `Use Survival Mod - Weapon Speed Patch if you decide to use Survival Mode`
 - Survival Mode Improved - SKSE
+- Survival Control Panel
 - Animated Interactions SKSE
   - Comments: `"If using with Jayserpa's Immersive Interactions (recommended), disable the conflicting options with the mod's MCM."`
+- ReShade Effect Toggler
 
 ## 105 Debug Tools
 
@@ -115,6 +118,8 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 - Cached Recursive Directory Walk
 - 1st Person Vertical Aim Fix
 - Scrambled Bugs
+- Exit Sneak On Sprint
+- Sprint Stuttering Fix
 
 ## 350 Core Meshes
 
@@ -368,6 +373,7 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 
 - True Storms Special Edition
 - Obsidian Weathers and Seasons
+- Alternate Obsidian Weathers MCM - MCM Helper
 - Obsidian CS
 - Obsidian CS - True Storms - Patch
 - Obsidian Weathers - Darker Nights

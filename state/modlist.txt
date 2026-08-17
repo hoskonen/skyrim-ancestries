@@ -18,6 +18,7 @@
 +Obsidian Weathers - Darker Nights
 +Obsidian CS - True Storms - Patch
 +Obsidian CS
++Alternate Obsidian Weathers MCM - MCM Helper
 +Obsidian Weathers and Seasons
 +True Storms Special Edition
 -900 _________________________ WEATHER ___________________________separator
@@ -144,6 +145,8 @@
 +Static Mesh improvement Mod - SMIM - Quality Addon
 +Static Mesh Improvement Mod [FOMOD]
 -350 _______________________ CORE MESHES _________________________separator
++Sprint Stuttering Fix
++Exit Sneak On Sprint
 -Survival Mode - Weapon Speed Patch
 +Scrambled Bugs
 +1st Person Vertical Aim Fix
@@ -164,7 +167,7 @@
 +Skylighting - Community Shaders
 +Screen Space Global Illumination (SSGI)
 +Community Shaders
--125 ____________________ COMMUNITY SHADERS ______________________separator
+-125 _________________ COMMUNITY SHADERS ____________________separator
 +ENB Light - Patch 2
 +ENB Light - Patch 1 [FOMOD]
 +ENB Light [FOMOD]
@@ -194,7 +197,9 @@
 +ConsolePlusPlus
 +More Informative Console
 -105 ________________________DEBUG TOOLS ________________________separator
++ReShade Effect Toggler
 +Animated Interactions SKSE
++Survival Control Panel
 +Survival Mode Improved - SKSE
 +Comprehensive Attack Rate Patch [SKSE]
 +Dual Casting Fix

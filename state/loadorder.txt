@@ -39,9 +39,10 @@ Embers XD.esm
 PGPatcher.esp
 Helios.esp
 Helios_CS Tonemapping.esp
+SurvivalControlPanel.esp
 TrueHUD.esl
-Particle Patch.esp
 SkyUI_SE.esp
+Particle Patch.esp
 SMIM-SE-Merged-All.esp
 SurvivalModeImproved.esp
 RaceMenu.esp
@@ -105,6 +106,8 @@ Echoes of Oblivion.esp
 Sanguine Symphony.esp
 Animated Interactions.esp
 ObsidianWeathersCS-TrueStorms-Patch.esp
+Obsidian Weathers MCM.esp
+Wildlands Renewal NoGrass.esp
 alternate start - live another life.esp
 Nature of the Wild Lands - Alternate Start Patch.esp
 ClefJ Winterhold - Alternate Start patch.esp

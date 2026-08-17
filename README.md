@@ -7,9 +7,9 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 <!-- project-status:start -->
 ## Project Status
 
-### Critical
+### Testing
 
-- [TEST]Echoes of Oblivion chatter
+- Echoes of Oblivion chatter
 
 <!-- project-status:end -->
 
@@ -65,6 +65,11 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 - Accurate Projectile Collision
 - Core Impact Framework (CIF)
 - KiLoader for Skyrim
+- Sound Record Distributor
+
+## 115 SkyPatcher
+
+- Acoustic Space Improvement Fixes (Corrected Reverb - Ambience - Interiors - SkyPatcher)
 
 ## 120 ENB
 
@@ -320,6 +325,13 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 - Take a Peek - New Stealth Mechanic
 - Take a Peek - New Stealth Mechanic - Settings Loader
 
+<details>
+<summary><strong>Dialogue</strong></summary>
+
+- Echoes of Oblivion
+
+</details>
+
 ## 870 Loot
 
 - Open World Loot - SkyPatched by SICreef
@@ -327,6 +339,7 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 ## 880 Music and Sound
 
 - Mute The Music
+- Reverb Interior Sounds Expansion (SRD - Rain Thunder Ambience - Fixes)
 
 ## 900 Weather
 

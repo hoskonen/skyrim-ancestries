@@ -102,6 +102,7 @@ When I ask to sync or refresh the MO2 state, run `tools/sync-mo2.ps1`.
 
 `Skyrim Ancestries - Testing & Issues` is a special MO2 placeholder mod used
 for project status tracking. It is not a gameplay mod.
+Do not list it as a normal README mod or include it in the listed mod count.
 
 Its MO2 Notes field may contain these headings:
 

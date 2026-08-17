@@ -112,6 +112,16 @@ if (Test-Path -LiteralPath $statusMetaPath) {
             continue
         }
 
+        if ($paragraph -match '^(\[(?:CRITICAL|TEST|BROKEN|TODO|NOTE)\])\s*(.*)$') {
+            $currentCategory = $Matches[1]
+
+            if ($Matches[2].Trim()) {
+                $status[$currentCategory] += $Matches[2].Trim()
+            }
+
+            continue
+        }
+
         if ($currentCategory) {
             $status[$currentCategory] += $paragraph
         }

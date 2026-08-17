@@ -1,6 +1,6 @@
 # Skyrim Ancestries - Testing & Issues
 
-## [CRITICAL]
+## [TEST]
 
-- [TEST]Echoes of Oblivion chatter
+- Echoes of Oblivion chatter
 

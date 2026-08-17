@@ -135,8 +135,8 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 <details>
 <summary><strong>Particles Textures</strong></summary>
 
-- Dust not Clouds - FrankBlack
 - Glorious Gradients
+- Dust not Clouds - FrankBlack
 
 </details>
 
@@ -145,10 +145,10 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 <details>
 <summary><strong>Winterhold</strong></summary>
 
-- Clef's Winterhold - ELFX Patch
-- ClefJ's Winterhold - Alternate Start Patch
-- ClefJ's Winterhold - Inn Fix Patch
 - ClefJ's Winterhold
+- ClefJ's Winterhold - Inn Fix Patch
+- ClefJ's Winterhold - Alternate Start Patch
+- Clef's Winterhold - ELFX Patch
 
 </details>
 
@@ -172,27 +172,27 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 <details>
 <summary><strong>Core UI</strong></summary>
 
-- Infinity UI
-- SkyHUD
 - SkyUI
+- SkyHUD
+- Infinity UI
 
 </details>
 
 <details>
 <summary><strong>HUD Elements</strong></summary>
 
-- Show Player In Inventory
-- Compass Navigation Overhaul
-- Dragonborn Reskin - TrueHUD
 - TrueHUD - HUD Additions
+- Dragonborn Reskin - TrueHUD
+- Compass Navigation Overhaul
+- Show Player In Inventory
 
 </details>
 
 <details>
 <summary><strong>Interactions Related</strong></summary>
 
-- Dynamic Activation Key - MCM
 - Dynamic Activation Key
+- Dynamic Activation Key - MCM
 
 </details>
 
@@ -238,9 +238,9 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 <details>
 <summary><strong>810.1 Archery</strong></summary>
 
-- Ricochet - Arrow Physics Framework MCM
-- Ricochet - Arrow Physics Framework
 - Broken Feathers (Full Skyrim Arrow Pack)
+- Ricochet - Arrow Physics Framework
+- Ricochet - Arrow Physics Framework MCM
 
 </details>
 
@@ -283,19 +283,19 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 <details>
 <summary><strong>Animation Frameworks</strong></summary>
 
-- Offset Movement Animation - Modders Resource
-- State Behavior Framework (SBF)
-- Pandora Behaviour Engine Plus
 - Open Animation Replacer
+- Pandora Behaviour Engine Plus
+- State Behavior Framework (SBF)
+- Offset Movement Animation - Modders Resource
 
 </details>
 
 <details>
 <summary><strong>Animation Fixes</strong></summary>
 
-- Auto Skeleton Patch - Universal Behaviour Runtime
-- Paired Animation Improvements
 - Animation Queue Fix
+- Paired Animation Improvements
+- Auto Skeleton Patch - Universal Behaviour Runtime
 
 </details>
 

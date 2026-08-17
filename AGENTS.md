@@ -40,6 +40,9 @@ README sections.
 
 Mods between separators belong to the currently active main/sub-section
 according to `state/modlist.txt`. Preserve MO2 ordering in `README.md`.
+For mod entries within a section or sub-section, mirror the MO2 left-pane order;
+do not use right-pane plugin order. If `state/modlist.txt` presents a group in
+bottom-to-top order before its separator, reverse that group for README output.
 
 Do not invent test results, compatibility conclusions or configuration choices.
 

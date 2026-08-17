@@ -95,6 +95,12 @@ Helios_Obsidian.esp
 ClefJsWinterhold-ELFX-Patch.esp
 ClefJ Winterhold - Inn fix.esp
 True Storms - Obsidian Weathers - Patch .esp
+Reverb Interior Sounds Expansion.esp
+Reverb Interior Sounds Expansion_VolumeSlider_Rain.esp
+Reverb Interior Sounds Expansion_VolumeSlider_Thunder.esp
+AcousticTemplateFixes.esp
+AcousticTemplateFixes_ReverbInteriorSounds.esp
+Echoes of Oblivion.esp
 alternate start - live another life.esp
 Nature of the Wild Lands - Alternate Start Patch.esp
 ClefJ Winterhold - Alternate Start patch.esp

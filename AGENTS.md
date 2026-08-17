@@ -6,8 +6,9 @@ This repository documents my Skyrim mod list.
 
 The live Mod Organizer 2 installation is authoritative.
 
-`state/modlist.txt`, `state/plugins.txt`, `state/loadorder.txt`, and
-`state/comments-notes.md` are synchronized snapshots of MO2 state.
+`state/modlist.txt`, `state/plugins.txt`, `state/loadorder.txt`,
+`state/comments-notes.md`, and `state/project-status.md` are synchronized
+snapshots of MO2 state.
 Do not modify them unless explicitly asked.
 
 ## Documentation
@@ -96,3 +97,29 @@ Prefer small commits representing logical changes to the mod list.
 
 ## Tools
 When I ask to sync or refresh the MO2 state, run `tools/sync-mo2.ps1`.
+
+## Testing and issue tracking
+
+`Skyrim Ancestries - Testing & Issues` is a special MO2 placeholder mod used
+for project status tracking. It is not a gameplay mod.
+
+Its MO2 Notes field may contain these headings:
+
+- `[CRITICAL]`
+- `[TEST]`
+- `[BROKEN]`
+- `[TODO]`
+- `[NOTE]`
+
+During sync, preserve these notes in `state/comments-notes.md`.
+During sync, also decode this exact mod's MO2 Qt rich-text HTML Notes field into
+plain paragraph lines, parse the headings above, and write the structured result
+to `state/project-status.md`.
+
+Empty status categories are omitted from `state/project-status.md`. If all five
+categories are empty, write `No active project status entries.` The sync process
+also regenerates a managed project-status block near the top of `README.md` with
+readable headings for populated categories, so removed MO2 status entries do not
+remain stale.
+
+Do not invent, reclassify, resolve or remove entries unless explicitly asked.

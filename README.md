@@ -4,6 +4,15 @@ Lightweight documentation workspace for the Ancestries Skyrim mod list.
 
 The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is the synchronized MO2 snapshot; do not maintain it by hand.
 
+<!-- project-status:start -->
+## Project Status
+
+### Critical
+
+- [TEST]Echoes of Oblivion chatter
+
+<!-- project-status:end -->
+
 | Metric | Value |
 | --- | ---: |
 | Patches made | 1 |

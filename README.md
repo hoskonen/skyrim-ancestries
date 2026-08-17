@@ -15,6 +15,10 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 
 - Echoes of Oblivion chatter
 
+### Todo
+
+- -Controller needs reconfigured layout, there's no sprint
+
 <!-- project-status:end -->
 
 ## 001 DLC
@@ -46,6 +50,9 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 - Dual Casting Fix
 - Comprehensive Attack Rate Patch
   - Comments: `Use Survival Mod - Weapon Speed Patch if you decide to use Survival Mode`
+- Survival Mode Improved - SKSE
+- Animated Interactions SKSE
+  - Comments: `"If using with Jayserpa's Immersive Interactions (recommended), disable the conflicting options with the mod's MCM."`
 
 ## 105 Debug Tools
 
@@ -70,6 +77,9 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 - KiLoader for Skyrim
 - Sound Record Distributor
 - Spell Perk Item Distributor (SPID)
+- Keyword Item Distributor (KID)
+- MergeMapper
+- Dynamic Bloodpool Framework
 
 ## 115 SkyPatcher
 
@@ -77,19 +87,19 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 
 ## 120 ENB
 
-- ENB Extender and Helper Skyrim
 - ENB Light
   - Comments: `Includes Patch 1 and 2`
 - ENB Light - Patch 1
 - ENB Light - Patch 2
 
-## 200 Community Shaders
+## 125 Community Shaders
 
 - Community Shaders
-- Terrain Variation - Community Shaders
-- Wetness Effects - Community Shaders
-- Terrain Blending - Community Shaders
+- Screen Space Global Illumination (SSGI)
 - Skylighting - Community Shaders
+- Terrain Variation - Community Shaders
+- Terrain Blending - Community Shaders
+- Wetness Effects - Community Shaders
 
 ## 300 Patches & Fixes
 
@@ -252,18 +262,26 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 - Precision
 - Precision - NPC Combat Fix
 - Precision - Attack Collision Fixes
+- Parrying RPG
 - Death Drop Overhaul
-- Next-Gen Decapitations
-- Dismembering Framework
-- DF - Official Humanoid Asset Pack
-- DF - Official Creature Asset Pack
 
 <details>
-<summary><strong>810.1 Archery</strong></summary>
+<summary><strong>Archery</strong></summary>
 
 - Broken Feathers (Full Skyrim Arrow Pack)
 - Ricochet - Arrow Physics Framework
 - Ricochet - Arrow Physics Framework MCM
+
+</details>
+
+<details>
+<summary><strong>Dismemberment & Gore</strong></summary>
+
+- Next-Gen Decapitations
+- Dismembering Framework
+- DF - Official Humanoid Asset Pack
+- DF - Official Creature Asset Pack
+- Sanguine Symphony
 
 </details>
 
@@ -350,7 +368,8 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 
 - True Storms Special Edition
 - Obsidian Weathers and Seasons
-- Obisidian Weathers - True Storms 1.02 Patch
+- Obsidian CS
+- Obsidian CS - True Storms - Patch
 - Obsidian Weathers - Darker Nights
 - Moons And Stars - Sky Overhaul SKSE
 

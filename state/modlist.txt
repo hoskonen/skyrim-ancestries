@@ -16,7 +16,8 @@
 -DEV ______________________ DEVELOPMENT _______________________separator
 +Moons And Stars - Sky Overhaul SKSE
 +Obsidian Weathers - Darker Nights
-+Obisidian Weathers - True Storms 1.02 Patch
++Obsidian CS - True Storms - Patch
++Obsidian CS
 +Obsidian Weathers and Seasons
 +True Storms Special Edition
 -900 _________________________ WEATHER ___________________________separator
@@ -63,15 +64,18 @@
 +Cinematic Conversation Camera
 +Improved Camera SE
 -820 _________________________ CAMERA ___________________________separator
-+Ricochet - Arrow Physics Framework MCM
-+Ricochet - Arrow Physics Framework [SKSE]
-+Broken Feathers (Full Skyrim Arrow Pack)
--810.1 _________________________ Archery ___________________________separator
++Sanguine Symphony
 +DF - Official Creature Asset Pack
 +DF - Official Humanoid Asset Pack
 +Dismembering Framework [SKSE]
 +Next-Gen Decapitations [SKSE]
+-Dismemberment & Gore_separator
++Ricochet - Arrow Physics Framework MCM
++Ricochet - Arrow Physics Framework [SKSE]
++Broken Feathers (Full Skyrim Arrow Pack)
+-Archery_separator
 +Death Drop Overhaul [SKSE]
++Parrying RPG
 +Precision - Attack Collision Fixes [FOMOD]
 +Precision - NPC Combat Fix
 +Precision [FOMOD]
@@ -154,13 +158,23 @@
 +Inertia (Floating Gear Fix) [SKSE]
 +Unofficial Skyrim Special Edition Patch - USSEP
 -300 ____________________ PATCHES & FIXES ________________________separator
++Wetness Effects - Community Shaders
++Terrain Blending - Community Shaders
++Terrain Variation - Community Shaders
++Skylighting - Community Shaders
++Screen Space Global Illumination (SSGI)
++Community Shaders
+-125 ____________________ COMMUNITY SHADERS ______________________separator
 +ENB Light - Patch 2
 +ENB Light - Patch 1 [FOMOD]
 +ENB Light [FOMOD]
-+ENB Extender and Helper Skyrim
+-ENB Extender and Helper Skyrim
 -120 ____________________________ ENB _______________________________separator
 +Acoustic Space Improvement Fixes (Corrected Reverb - Ambience - Interiors - SkyPatcher) [FOMOD]
--115 _______________________ SKYPATCHER ________________________separator
+-115 ________________________ SKYPATCHER _________________________separator
++Dynamic Bloodpool Framework
++MergeMapper
++Keyword Item Distributor (KID)
 +Spell Perk Item Distributor (SPID)
 +Sound Record Distributor [SKSE]
 +KiLoader for Skyrim
@@ -180,6 +194,8 @@
 +ConsolePlusPlus
 +More Informative Console
 -105 ________________________DEBUG TOOLS ________________________separator
++Animated Interactions SKSE
++Survival Mode Improved - SKSE
 +Comprehensive Attack Rate Patch [SKSE]
 +Dual Casting Fix
 +XEMI Utility

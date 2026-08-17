@@ -4,6 +4,10 @@ Lightweight documentation workspace for the Ancestries Skyrim mod list.
 
 The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is the synchronized MO2 snapshot; do not maintain it by hand.
 
+| Metric | Value |
+| --- | ---: |
+| Patches made | 1 |
+
 <!-- project-status:start -->
 ## Project Status
 
@@ -12,10 +16,6 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 - Echoes of Oblivion chatter
 
 <!-- project-status:end -->
-
-| Metric | Value |
-| --- | ---: |
-| Patches made | 1 |
 
 ## 001 DLC
 
@@ -43,6 +43,9 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 - Better Third Person Selection - BTPS
 - Start On Save - Autoload Game
 - XEMI Utility
+- Dual Casting Fix
+- Comprehensive Attack Rate Patch
+  - Comments: `Use Survival Mod - Weapon Speed Patch if you decide to use Survival Mode`
 
 ## 105 Debug Tools
 
@@ -66,6 +69,7 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 - Core Impact Framework (CIF)
 - KiLoader for Skyrim
 - Sound Record Distributor
+- Spell Perk Item Distributor (SPID)
 
 ## 115 SkyPatcher
 
@@ -100,6 +104,7 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 - Disable Turn Animation NG
 - Cached Recursive Directory Walk
 - 1st Person Vertical Aim Fix
+- Scrambled Bugs
 
 ## 350 Core Meshes
 

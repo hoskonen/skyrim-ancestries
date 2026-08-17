@@ -28,6 +28,10 @@
 
 - Comments: "iAllowLeveledListsAddedToContainers=1"
 
+## Comprehensive Attack Rate Patch [SKSE]
+
+- Comments: Use Survival Mod - Weapon Speed Patch if you decide to use Survival Mode
+
 ## EngineFixes
 
 - Comments: "fSleepWaitTimeModifier = 0.6, bScrollingDoesntSwitchPOV = true"

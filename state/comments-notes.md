@@ -8,10 +8,6 @@
 
 - Comments: Turn off when running PGPatcher
 
-## Unlocked 1st Person Combat [FOMOD]
-
-- Comments: Check later slowdown esp
-
 ## Ambient Templates for Lighting Mods [FOMOD]
 
 - Comments: "HDR, Brightness = 40, Dungeon = 33"
@@ -19,6 +15,10 @@
 ## Skyland AIO [FOMOD]
 
 - Comments: "No landscapes, no water"
+
+## Unlocked 1st Person Combat [FOMOD]
+
+- Comments: Check later slowdown esp
 
 ## ENB Light [FOMOD]
 

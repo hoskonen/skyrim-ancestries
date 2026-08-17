@@ -46,7 +46,6 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 - Classic Sprinting Redone
 - Auto Input Switch
 - Better Third Person Selection - BTPS
-- Start On Save - Autoload Game
 - XEMI Utility
 - Dual Casting Fix
 - Comprehensive Attack Rate Patch
@@ -56,6 +55,14 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 - Animated Interactions SKSE
   - Comments: `"If using with Jayserpa's Immersive Interactions (recommended), disable the conflicting options with the mod's MCM."`
 - ReShade Effect Toggler
+
+<details>
+<summary><strong>Mainmenu</strong></summary>
+
+- Menu Load Indicator - SKSE
+- Start On Save - Autoload Game
+
+</details>
 
 ## 105 Debug Tools
 
@@ -111,7 +118,6 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 - Alt-Tab Stuck Key Fix
 - Media Keys Fix SKSE
 - Widescreen Scale Removed
-- Kontrol
 - No Sunlight Through Mountains
 - Rim Lighting Removed
 - Disable Turn Animation NG
@@ -120,6 +126,11 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 - Scrambled Bugs
 - Exit Sneak On Sprint
 - Sprint Stuttering Fix
+- Kontrol
+- Kontrol - FPS Preset
+- Native EditorID Fix
+- Unlocked 1st Person Combat
+  - Comments: `Check later slowdown esp`
 
 ## 350 Core Meshes
 
@@ -261,6 +272,7 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 - True Directional Movement
 - SkyParkour v3 - Procedural Parkour and Climbing Framework (SPPF)
 - Better Jumping SE
+- StepUpOnto SKSE
 
 ## 810 Combat
 
@@ -295,6 +307,8 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 - Improved Camera SE
 - Cinematic Conversation Camera
 - No Furniture Camera
+- First Person (FP) Camera Settle - SKSE
+- First Person (FP) Inertia - SKSE
 
 ## 830 Lighting
 
@@ -315,8 +329,7 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 ## 850 Animation
 
 - First Person Interactions
-- Unlocked 1st Person Combat
-  - Comments: `Check later slowdown esp`
+- JellyFishFP Movement Remake (1st person animations series)
 - Another Jump Animation - Male
 
 <details>
@@ -342,6 +355,8 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 - Animation Queue Fix
 - Paired Animation Improvements
 - Auto Skeleton Patch - Universal Behaviour Runtime
+- 1st Person Motion Sickness Remover - Regular Attacks
+- 1st Person Motion Sickness Remover - Power Attacks
 
 </details>
 
@@ -382,6 +397,10 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 ## DEV Development
 
 - sse-earned-mastery
+
+## 950 Override Mods
+
+- KiLoader
 
 ## 960 Skin
 

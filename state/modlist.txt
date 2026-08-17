@@ -4,6 +4,7 @@
 -999 ________ SKYRIM ANCESTRIES - TESTING & ISSUES _________separator
 +Norden UI [FOMOD}
 -960 _____________________________ SKIN _____________________________separator
++KiLoader
 +Pandora Output [O]
 +PGPatcher Output [O]
 +MCM [O]
@@ -35,6 +36,8 @@
 +Skyrim Souls RE - Unpaused Menus
 +Dynamic Timescale - Remade
 -860 ________________________ IMMERSION _________________________separator
++1st Person Motion Sickness Remover - Power Attacks
++1st Person Motion Sickness Remover - Regular Attacks
 +Auto Skeleton Patch - Universal Behaviour Runtime
 +Paired Animation Improvements
 +Animation Queue Fix
@@ -48,7 +51,7 @@
 -Animation Tools_separator
 -Another Jump Animation - Female
 +Another Jump Animation - Male
-+Unlocked 1st Person Combat [FOMOD]
++JellyFishFP Movement Remake (1st person animations series)
 +First Person Interactions [FOMOD]
 -850 _________________________ ANIMATION ________________________separator
 +Shadows Of Sunlight - In Small Exterior World Spaces
@@ -61,6 +64,8 @@
 +Enhanced Lights and FX [FOMOD]
 +Ambient Templates for Lighting Mods [FOMOD]
 -830 _________________________ LIGHTING __________________________separator
++First Person (FP) Inertia - SKSE
++First Person (FP) Camera Settle - SKSE
 +No Furniture Camera [SKSE]
 +Cinematic Conversation Camera
 +Improved Camera SE
@@ -81,6 +86,7 @@
 +Precision - NPC Combat Fix
 +Precision [FOMOD]
 -810 _________________________ COMBAT ___________________________separator
++StepUpOnto SKSE
 +Better Jumping SE
 +SkyParkour v3 - Procedural Parkour and Climbing Framework (SPPF)
 +True Directional Movement
@@ -145,6 +151,10 @@
 +Static Mesh improvement Mod - SMIM - Quality Addon
 +Static Mesh Improvement Mod [FOMOD]
 -350 _______________________ CORE MESHES _________________________separator
++Unlocked 1st Person Combat [FOMOD]
++Native EditorID Fix
++Kontrol - FPS Preset
++Kontrol
 +Sprint Stuttering Fix
 +Exit Sneak On Sprint
 -Survival Mode - Weapon Speed Patch
@@ -154,7 +164,6 @@
 +Disable Turn Animation NG
 +Rim Lighting Removed [SKSE]
 +No Sunlight Through Mountains [SKSE]
-+Kontrol
 +Widescreen Scale Removed
 +Media Keys Fix SKSE [SKSE]
 +Alt-Tab Stuck Key Fix
@@ -197,6 +206,9 @@
 +ConsolePlusPlus
 +More Informative Console
 -105 ________________________DEBUG TOOLS ________________________separator
++Start On Save - Autoload Game [SKSE]
++Menu Load Indicator - SKSE
+-Mainmenu_separator
 +ReShade Effect Toggler
 +Animated Interactions SKSE
 +Survival Control Panel
@@ -204,7 +216,6 @@
 +Comprehensive Attack Rate Patch [SKSE]
 +Dual Casting Fix
 +XEMI Utility
-+Start On Save - Autoload Game [SKSE]
 +Better Third Person Selection - BTPS [SKSE]
 +Auto Input Switch [SKSE]
 +Classic Sprinting Redone [SKSE]

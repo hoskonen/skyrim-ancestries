@@ -38,10 +38,12 @@
 - Synced MO2 state and updated the README from enabled non-`[O]` mods.
 - Synced MO2 state and updated README entries for patches, Winterhold, movement, combat, lighting, and weather.
 
-# 2026-08-17 - 164 listed mods
+# 2026-08-17 - 168 listed mods
 
 - Synced MO2 state and updated the README for SkyPatcher, frameworks, immersion dialogue, music and sound, and project status.
 - Synced MO2 state and updated the README for new SKSE, framework, and patches/fixes entries.
 - Synced MO2 state and updated the README for new SKSE/framework mods, Community Shaders, combat subsections, weather changes, and project status.
 - Synced MO2 state and updated the README for new SKSE, patches/fixes, weather entries, and project status TODOs.
 - Synced MO2 state and updated the README for Mainmenu, patches/fixes, movement, camera, animation, and override entries.
+- Synced MO2 state and added Papyrus Tweaks NG to the README.
+- Synced MO2 state and updated the README for Lighting, Mesh Fixes, Mesh Overrides, SkyPatcher, and the first mod notes entry.

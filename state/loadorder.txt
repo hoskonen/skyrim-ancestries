@@ -34,12 +34,13 @@ unofficial skyrim special edition patch.esp
 ATLM.esp
 High Poly Head.esm
 Dismembering Framework.esm
+Landscape and Water Fixes.esp
 ClefJ's Winterhold.esp
 Embers XD.esm
-PGPatcher.esp
 Helios.esp
 Helios_CS Tonemapping.esp
 SurvivalControlPanel.esp
+PGPatcher.esp
 TrueHUD.esl
 SkyUI_SE.esp
 Particle Patch.esp
@@ -102,12 +103,15 @@ Reverb Interior Sounds Expansion_VolumeSlider_Rain.esp
 Reverb Interior Sounds Expansion_VolumeSlider_Thunder.esp
 AcousticTemplateFixes.esp
 AcousticTemplateFixes_ReverbInteriorSounds.esp
+Landscape and Water Fixes - Patch - Farming.esp
 Echoes of Oblivion.esp
 Sanguine Symphony.esp
 Animated Interactions.esp
 ObsidianWeathersCS-TrueStorms-Patch.esp
 Obsidian Weathers MCM.esp
 Wildlands Renewal NoGrass.esp
+Landscape and Water Fixes - CC Fishing patch.esp
+Landscape and Water Fixes - Patch - ELFX Shadows.esp
 alternate start - live another life.esp
 Nature of the Wild Lands - Alternate Start Patch.esp
 ClefJ Winterhold - Alternate Start patch.esp

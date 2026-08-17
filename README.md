@@ -15,11 +15,6 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 
 - Echoes of Oblivion chatter
 
-### Todo
-
-- Controller needs reconfigured layout, there's no sprint
-- Get rid of sprinting fov change
-
 <!-- project-status:end -->
 
 ## 001 DLC
@@ -55,6 +50,7 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 - Animated Interactions SKSE
   - Comments: `"If using with Jayserpa's Immersive Interactions (recommended), disable the conflicting options with the mod's MCM."`
 - ReShade Effect Toggler
+- Papyrus Tweaks NG
 
 <details>
 <summary><strong>Mainmenu</strong></summary>
@@ -94,6 +90,7 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 ## 115 SkyPatcher
 
 - Acoustic Space Improvement Fixes (Corrected Reverb - Ambience - Interiors - SkyPatcher)
+- ELFX - Shadows - SkyPatcher
 
 ## 120 ENB
 
@@ -137,13 +134,29 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 - Static Mesh Improvement Mod
 - Static Mesh improvement Mod - SMIM - Quality Addon
 
+## 370 Lighting
+
+- Ambient Templates for Lighting Mods
+  - Comments: `"HDR, Brightness = 40, Dungeon = 33"`
+- Enhanced Lights and FX
+- ELFX Shadows
+- ELFX Shadows - Official Patches Hub
+- Helios
+
 ## 400 Mesh Fixes
 
+- Shadows Of Sunlight - In Small Exterior World Spaces
+- Skyrim Landscape and Water Fixes
+  - Notes:
+    - `Let SLaWF meshes overwrite SMIM,Enhanced texture detail (UV-tweaks), ELFX and No Sunlight Through Mountains.`
+    - `Let meshes from other WiZkiD, Majestic Mountains and Flickering Meshes Fix overwrite SLaWF.`
+    - `For other mods you can decide which mod should win the conflict yourself. SLaWF meshes are fixed carefully, especially regarding collisions, therefore you can overwrite most other mesh fix mods. If it's necessary, you can let other mods overwrite SLaWF at the cost of losing our fixes for those meshes.`
 - Assorted Mesh Fixes
 - Smoother Skies - Meshes
 - Particle Patch
+- Flickering Meshes Fix
 
-## 410 Core Meshes
+## 410 Mesh Overrides
 
 <details>
 <summary><strong>Roads</strong></summary>
@@ -309,22 +322,6 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 - No Furniture Camera
 - First Person (FP) Camera Settle - SKSE
 - First Person (FP) Inertia - SKSE
-
-## 830 Lighting
-
-- Ambient Templates for Lighting Mods
-  - Comments: `"HDR, Brightness = 40, Dungeon = 33"`
-- Enhanced Lights and FX
-- ELFX Shadows
-- ELFX Shadows - Official Patches Hub
-- Helios
-
-<details>
-<summary><strong>Lighting Fixes</strong></summary>
-
-- Shadows Of Sunlight - In Small Exterior World Spaces
-
-</details>
 
 ## 850 Animation
 

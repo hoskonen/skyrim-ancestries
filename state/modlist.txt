@@ -12,6 +12,8 @@
 +SKSE [O]
 +SSEEdit Backups [O]
 -950 ______________________ OVERRIDE MODS ______________________separator
+-Papyrus Stack Stalker NG
+-Papyrus Debug Mode
 -ancestries-performance-logger
 +sse-earned-mastery
 -DEV ______________________ DEVELOPMENT _______________________separator
@@ -54,16 +56,6 @@
 +JellyFishFP Movement Remake (1st person animations series)
 +First Person Interactions [FOMOD]
 -850 _________________________ ANIMATION ________________________separator
-+Shadows Of Sunlight - In Small Exterior World Spaces
--Lighting Fixes_separator
--Warmer Lights
--Window Shadows Ultimate [FOMOD]
-+Helios [FOMOD]
-+ELFX Shadows - Official Patches Hub [FOMOD]
-+ELFX Shadows [FOMOD]
-+Enhanced Lights and FX [FOMOD]
-+Ambient Templates for Lighting Mods [FOMOD]
--830 _________________________ LIGHTING __________________________separator
 +First Person (FP) Inertia - SKSE
 +First Person (FP) Camera Settle - SKSE
 +No Furniture Camera [SKSE]
@@ -143,11 +135,23 @@
 -Rock and Mountains Meshes_separator
 +Blended Roads [FOMOD]
 -Roads_separator
--410 _______________________ CORE MESHES _________________________separator
+-410 _____________________ MESH OVERRIDES _______________________separator
++Flickering Meshes Fix [FOMOD]
 +Particle Patch [FOMOD]
 +Smoother Skies - Meshes
 +Assorted Mesh Fixes
++Skyrim Landscape and Water Fixes [FOMOD]
++Shadows Of Sunlight - In Small Exterior World Spaces
 -400 ________________________ MESH FIXES __________________________separator
+-Warmer Lights
+-Window Shadows Ultimate [FOMOD]
++Helios [FOMOD]
++ELFX Shadows - Official Patches Hub [FOMOD]
+-ELFX Fixes [FOMOD]
++ELFX Shadows [FOMOD]
++Enhanced Lights and FX [FOMOD]
++Ambient Templates for Lighting Mods [FOMOD]
+-370 __________________________ LIGHTING ___________________________separator
 +Static Mesh improvement Mod - SMIM - Quality Addon
 +Static Mesh Improvement Mod [FOMOD]
 -350 _______________________ CORE MESHES _________________________separator
@@ -180,8 +184,8 @@
 +ENB Light - Patch 2
 +ENB Light - Patch 1 [FOMOD]
 +ENB Light [FOMOD]
--ENB Extender and Helper Skyrim
 -120 ____________________________ ENB _______________________________separator
++ELFX - Shadows - SkyPatcher
 +Acoustic Space Improvement Fixes (Corrected Reverb - Ambience - Interiors - SkyPatcher) [FOMOD]
 -115 ________________________ SKYPATCHER _________________________separator
 +Dynamic Bloodpool Framework
@@ -209,6 +213,7 @@
 +Start On Save - Autoload Game [SKSE]
 +Menu Load Indicator - SKSE
 -Mainmenu_separator
++Papyrus Tweaks NG
 +ReShade Effect Toggler
 +Animated Interactions SKSE
 +Survival Control Panel

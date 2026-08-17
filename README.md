@@ -18,81 +18,81 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 
 ## 100 SKSE
 
-- XEMI Utility
-- Start On Save - Autoload Game
-- Better Third Person Selection - BTPS
-- Auto Input Switch
-- Classic Sprinting Redone
-- Stay At The System Page NG
-- Terrain Helper
-- powerofthree's Tweaks
-- SSE Display Tweaks
-- Address Library for SKSE Plugins
 - EngineFixes
   - Comments: `"fSleepWaitTimeModifier = 0.6, bScrollingDoesntSwitchPOV = true"`
+- Address Library for SKSE Plugins
+- SSE Display Tweaks
+- powerofthree's Tweaks
+- Terrain Helper
+- Stay At The System Page NG
+- Classic Sprinting Redone
+- Auto Input Switch
+- Better Third Person Selection - BTPS
+- Start On Save - Autoload Game
+- XEMI Utility
 
 ## 105 Debug Tools
 
-- Crash Logger SSE AE VR - PDB support
-- ConsolePlusPlus
 - More Informative Console
+- ConsolePlusPlus
+- Crash Logger SSE AE VR - PDB support
 
 ## 110 Frameworks
 
-- KiLoader for Skyrim
-- Core Impact Framework (CIF)
-- Accurate Projectile Collision
-- ConsoleUtilSSE NG
-- JContainers SE
-- Mini's Micro-Systems Framework (MMSF)
-- Luma Utility
-- MCM Helper
+- powerofthree's Papyrus Extender
+- Base Object Swapper
+- SKSE Menu Framework
 - SkyPatcher
   - Comments: `"iAllowLeveledListsAddedToContainers=1"`
-- SKSE Menu Framework
-- Base Object Swapper
-- powerofthree's Papyrus Extender
+- MCM Helper
+- Luma Utility
+- Mini's Micro-Systems Framework (MMSF)
+- JContainers SE
+- ConsoleUtilSSE NG
+- Accurate Projectile Collision
+- Core Impact Framework (CIF)
+- KiLoader for Skyrim
 
 ## 120 ENB
 
-- ENB Light - Patch 2
-- ENB Light - Patch 1
+- ENB Extender and Helper Skyrim
 - ENB Light
   - Comments: `Includes Patch 1 and 2`
-- ENB Extender and Helper Skyrim
+- ENB Light - Patch 1
+- ENB Light - Patch 2
 
 ## 200 Community Shaders
 
-- Skylighting - Community Shaders
-- Terrain Blending - Community Shaders
-- Wetness Effects - Community Shaders
-- Terrain Variation - Community Shaders
 - Community Shaders
+- Terrain Variation - Community Shaders
+- Wetness Effects - Community Shaders
+- Terrain Blending - Community Shaders
+- Skylighting - Community Shaders
 
 ## 300 Patches & Fixes
 
-- 1st Person Vertical Aim Fix
-- Cached Recursive Directory Walk
-- Disable Turn Animation NG
-- Rim Lighting Removed
-- No Sunlight Through Mountains
-- Kontrol
-- Widescreen Scale Removed
-- Media Keys Fix SKSE
-- Alt-Tab Stuck Key Fix
-- Inertia (Floating Gear Fix)
 - Unofficial Skyrim Special Edition Patch - USSEP
+- Inertia (Floating Gear Fix)
+- Alt-Tab Stuck Key Fix
+- Media Keys Fix SKSE
+- Widescreen Scale Removed
+- Kontrol
+- No Sunlight Through Mountains
+- Rim Lighting Removed
+- Disable Turn Animation NG
+- Cached Recursive Directory Walk
+- 1st Person Vertical Aim Fix
 
 ## 350 Core Meshes
 
-- Static Mesh improvement Mod - SMIM - Quality Addon
 - Static Mesh Improvement Mod
+- Static Mesh improvement Mod - SMIM - Quality Addon
 
 ## 400 Mesh Fixes
 
-- Particle Patch
-- Smoother Skies - Meshes
 - Assorted Mesh Fixes
+- Smoother Skies - Meshes
+- Particle Patch
 
 ## 410 Core Meshes
 
@@ -112,11 +112,11 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 
 ## 450 Core Textures
 
-- Fantasia Landscapes - Green Tundra - Complex Parallax
-- Skyking Fantasia Landscapes
-- Skyland AIO - Complex Parallax
 - Skyland AIO
   - Comments: `"No landscapes, no water"`
+- Skyland AIO - Complex Parallax
+- Skyking Fantasia Landscapes
+- Fantasia Landscapes - Green Tundra - Complex Parallax
 
 <details>
 <summary><strong>Rock and Mountain Textures</strong></summary>
@@ -158,14 +158,14 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 
 ## 470 Forest and Trees
 
-- Nature of the Wild Lands - Nordic Cut Patch Collection
-- Nature of the Wild Lands - Nordic Cut
 - Nature of the Wild Lands
+- Nature of the Wild Lands - Nordic Cut
+- Nature of the Wild Lands - Nordic Cut Patch Collection
 
 ## 480 Water
 
-- Simplicity of Sea
 - Cathedral - Water Overhaul and Bug Fixes
+- Simplicity of Sea
 
 ## 500 User Interface
 
@@ -220,20 +220,20 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 
 ## 800 Movement
 
-- Better Jumping SE
-- SkyParkour v3 - Procedural Parkour and Climbing Framework (SPPF)
 - True Directional Movement
+- SkyParkour v3 - Procedural Parkour and Climbing Framework (SPPF)
+- Better Jumping SE
 
 ## 810 Combat
 
-- DF - Official Creature Asset Pack
-- DF - Official Humanoid Asset Pack
-- Dismembering Framework
-- Next-Gen Decapitations
-- Death Drop Overhaul
-- Precision - Attack Collision Fixes
-- Precision - NPC Combat Fix
 - Precision
+- Precision - NPC Combat Fix
+- Precision - Attack Collision Fixes
+- Death Drop Overhaul
+- Next-Gen Decapitations
+- Dismembering Framework
+- DF - Official Humanoid Asset Pack
+- DF - Official Creature Asset Pack
 
 <details>
 <summary><strong>810.1 Archery</strong></summary>
@@ -246,18 +246,18 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 
 ## 820 Camera
 
-- No Furniture Camera
-- Cinematic Conversation Camera
 - Improved Camera SE
+- Cinematic Conversation Camera
+- No Furniture Camera
 
 ## 830 Lighting
 
-- Helios
-- ELFX Shadows - Official Patches Hub
-- ELFX Shadows
-- Enhanced Lights and FX
 - Ambient Templates for Lighting Mods
   - Comments: `"HDR, Brightness = 40, Dungeon = 33"`
+- Enhanced Lights and FX
+- ELFX Shadows
+- ELFX Shadows - Official Patches Hub
+- Helios
 
 <details>
 <summary><strong>Lighting Fixes</strong></summary>
@@ -268,10 +268,10 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 
 ## 850 Animation
 
-- Another Jump Animation - Male
+- First Person Interactions
 - Unlocked 1st Person Combat
   - Comments: `Check later slowdown esp`
-- First Person Interactions
+- Another Jump Animation - Male
 
 <details>
 <summary><strong>Animation Tools</strong></summary>
@@ -301,11 +301,11 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 
 ## 860 Immersion
 
-- Take a Peek - New Stealth Mechanic - Settings Loader
-- Take a Peek - New Stealth Mechanic
-- Alternate Start - Live Another Life - SSE
-- Skyrim Souls RE - Unpaused Menus
 - Dynamic Timescale - Remade
+- Skyrim Souls RE - Unpaused Menus
+- Alternate Start - Live Another Life - SSE
+- Take a Peek - New Stealth Mechanic
+- Take a Peek - New Stealth Mechanic - Settings Loader
 
 ## 870 Loot
 
@@ -317,11 +317,11 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 
 ## 900 Weather
 
-- Moons And Stars - Sky Overhaul SKSE
-- Obsidian Weathers - Darker Nights
-- Obisidian Weathers - True Storms 1.02 Patch
-- Obsidian Weathers and Seasons
 - True Storms Special Edition
+- Obsidian Weathers and Seasons
+- Obisidian Weathers - True Storms 1.02 Patch
+- Obsidian Weathers - Darker Nights
+- Moons And Stars - Sky Overhaul SKSE
 
 ## DEV Development
 

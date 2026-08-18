@@ -40,7 +40,6 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 - Terrain Helper
 - Stay At The System Page NG
 - Classic Sprinting Redone
-- Auto Input Switch
 - Better Third Person Selection - BTPS
 - XEMI Utility
 - Dual Casting Fix
@@ -50,7 +49,6 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 - Survival Control Panel
 - Animated Interactions SKSE
   - Comments: `"If using with Jayserpa's Immersive Interactions (recommended), disable the conflicting options with the mod's MCM."`
-- ReShade Effect Toggler
 - Papyrus Tweaks NG
 - Immersive Equipment Displays
 
@@ -89,9 +87,11 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 - MergeMapper
 - Dynamic Bloodpool Framework
 - Inventory Interface Information Injector
-- dMenu
-  - Comments: `"key_toggle_dmenu = 56 (Left Alt)"`
-- dMenu NG
+- NL_MCM - A Modular MCM Framework
+- FormList Manipulator - FLM
+- Object Categorization Framework
+- Constructible Object Custom Keyword System
+- Constructible Object Custom Keyword System NG
 
 ## 115 SkyPatcher
 
@@ -146,7 +146,6 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 
 - Alt-Tab Stuck Key Fix
 - Media Keys Fix SKSE
-- Kontrol
 - Kontrol FPS Preset - No Quick Load Save
   - Comments: `https://hawk.bar/SkyrimControlMapper/`
   - Notes:
@@ -258,8 +257,8 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 
 ## 480 Water
 
-- Cathedral - Water Overhaul and Bug Fixes
-- Simplicity of Sea
+- Realistic Water Two SE (RWT)
+- Realistic Water Two - Better Water Original v5
 
 ## 500 User Interface
 
@@ -268,9 +267,20 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 
 - SkyUI
 - SkyHUD
+- Favorite Things - Extended Favorites Menu for SkyUI
+- Favorites Menu Effects Description
 - Infinity UI
 - ImGui Icons
 - Floating Subtitles
+
+</details>
+
+<details>
+<summary><strong>Icons</strong></summary>
+
+- B.O.O.B.I.E.S (aka Immersive Icons)
+- Aura's Scrumptious Supplement (A.S.S. for B.O.O.B.I.E.S.)
+- Phenomenally Enriched and Nuanced Ingredients for SkyUI (P.E.N.I.S. for B.O.O.B.I.E.S.)
 
 </details>
 
@@ -291,8 +301,6 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 
 - Dynamic Activation Key
 - Dynamic Activation Key - MCM
-- Wheeler - Quick Action Wheel Of Skyrim
-- WHEELER - Refined
 
 </details>
 
@@ -327,6 +335,7 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 - SkyParkour v3 - Procedural Parkour and Climbing Framework (SPPF)
 - Better Jumping SE
 - StepUpOnto SKSE
+- Scrolling Speed 2
 
 ## 810 Combat
 
@@ -370,17 +379,16 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 <details>
 <summary><strong>Blocking and Parry</strong></summary>
 
+- Dual Wield Parrying SKSE
 - Wider Block Angle
 
 </details>
 
 ## 820 Camera
 
-- Improved Camera SE
 - Cinematic Conversation Camera
 - No Furniture Camera
 - First Person (FP) Camera Settle - SKSE
-- First Person (FP) Inertia - SKSE
 
 ## 850 Animation
 
@@ -388,6 +396,16 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 - First Person Stagger Animation Remade
 - JellyFishFP Movement Remake (1st person animations series)
 - Another Jump Animation - Male
+
+<details>
+<summary><strong>Weapon Animations</strong></summary>
+
+- SIGMA - Shield animations
+- SIGMA - Sword animations - Medium
+- SIGMA - Archery animations
+- SIGMA - Waraxe animations - Low
+
+</details>
 
 <details>
 <summary><strong>IED</strong></summary>

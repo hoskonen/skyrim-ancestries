@@ -32,6 +32,7 @@ ccafdsse001-dwesanctuary.esm
 _ResourcePack.esl
 unofficial skyrim special edition patch.esp
 ATLM.esp
+RealisticWaterTwo - Resources.esm
 High Poly Head.esm
 Dismembering Framework.esm
 Landscape and Water Fixes.esp
@@ -40,8 +41,9 @@ Embers XD.esm
 Helios.esp
 Helios_CS Tonemapping.esp
 SurvivalControlPanel.esp
-PGPatcher.esp
 ___BlockAngleFix.esl
+OCF.esp
+PGPatcher.esp
 TrueHUD.esl
 SkyUI_SE.esp
 Particle Patch.esp
@@ -69,15 +71,12 @@ Ricochet Framework - MCM.esp
 Broken Feathers.esp
 TerrainHelper.esp
 Embers XD.esp
-water mod.esp
 Fantasia Complex Parallax.esp
-Skyland AIO Complex Parallax.esp
 Groundcover.esp
 NotWL - Autumn Rift.esp
 NotWL - Autumn Tundra.esp
 FirstPersonInteractions.esp
 FirstPersonInteractions_Addon.esp
-Cathedral - Water.esp
 Dynamic Timescale - Remade.esp
 BlendedRoads.esp
 earnedmastery.esp
@@ -109,7 +108,6 @@ Landscape and Water Fixes - Patch - Farming.esp
 Echoes of Oblivion.esp
 Sanguine Symphony.esp
 Animated Interactions.esp
-ObsidianWeathersCS-TrueStorms-Patch.esp
 Obsidian Weathers MCM.esp
 Wildlands Renewal NoGrass.esp
 Landscape and Water Fixes - CC Fishing patch.esp
@@ -119,9 +117,19 @@ ImmersiveWeaponSwitch.esp
 FloatingSubtitles.esp
 Smart Talk - MCM.esp
 fasterblockingmovement.esp
+Scrolling Speed 2.esp
+BOOBIES_ImmersiveIcons.esp
+ASS_IconsAddon.esp
+PENIS_IconsAddon.esp
+ObsidianWeathersCS-TrueStorms-Patch.esp
+Crackling Fire Volume Slider.esp
 alternate start - live another life.esp
 Nature of the Wild Lands - Alternate Start Patch.esp
 ClefJ Winterhold - Alternate Start patch.esp
-ELFXEnhancer.esp
+Window Shadows Ultimate.esp
+Window Shadows Ultimate Supplement.esp
+ELFX - Hardcore.esp
+RealisticWaterTwo.esp
+ELFX - Hardcore - Realistic Water Two patch.esp
 ENB Light.esp
 PG_1.esp

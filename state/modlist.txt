@@ -4,6 +4,7 @@
 -999 ________ SKYRIM ANCESTRIES - TESTING & ISSUES _________separator
 +Norden UI [FOMOD}
 -960 _____________________________ SKIN _____________________________separator
++NL_MCM
 +KiLoader [O]
 +Pandora Output [O]
 +PGPatcher Output [O]
@@ -11,7 +12,7 @@
 +Shader Cache [O]
 +SKSE [O]
 +SSEEdit Backups [O]
--950 ______________________ OVERRIDE MODS ______________________separator
+-950 ______________________ OVERWRITE MODS ______________________separator
 -Papyrus Stack Stalker NG
 -Papyrus Debug Mode
 -ancestries-performance-logger
@@ -25,6 +26,7 @@
 +Obsidian Weathers and Seasons
 +True Storms Special Edition
 -900 _________________________ WEATHER ___________________________separator
++Crackling Fire [FOMOD]
 +Reverb Interior Sounds Expansion (SRD - Rain Thunder Ambience - Fixes) [FOMOD]
 +Mute The Music [FOMOD]
 -880 ____________________ MUSIC AND SOUND _____________________separator
@@ -38,6 +40,11 @@
 +Skyrim Souls RE - Unpaused Menus
 +Dynamic Timescale - Remade
 -860 ________________________ IMMERSION _________________________separator
++SIGMA - Waraxe animations - Low
++SIGMA - Archery animations
++SIGMA - Sword animations - Medium
++SIGMA - Shield animations
+-Weapon Animations_separator
 +Weapon Switch Animation Fix - Behavior Patch Version [FOMOD]
 +1st Person Motion Sickness Remover - Power Attacks
 +1st Person Motion Sickness Remover - Regular Attacks
@@ -65,7 +72,7 @@
 +First Person (FP) Camera Settle - SKSE
 +No Furniture Camera [SKSE]
 +Cinematic Conversation Camera
-+Improved Camera SE
+-Improved Camera SE
 -820 _________________________ CAMERA ___________________________separator
 +Wider Block Angle
 -Blocking and Parry_separator
@@ -73,7 +80,7 @@
 +Enemy Friendly Fire [FOMOD] [SKSE]
 +Player Stagger with Cooldown
 +Immersive Weapon Switch - SKSE plugin [FOMOD]
--Dual Wield Parrying SKSE
++Dual Wield Parrying SKSE
 +Parrying RPG
 -Combat Features_separator
 +Sanguine Symphony
@@ -92,6 +99,7 @@
 +Precision - NPC Combat Fix
 +Precision [FOMOD]
 -810 _________________________ COMBAT ___________________________separator
++Scrolling Speed 2
 +StepUpOnto SKSE
 +Better Jumping SE
 +SkyParkour v3 - Procedural Parkour and Climbing Framework (SPPF)
@@ -105,13 +113,15 @@
 +XPMSSE - Left Hand Sheath Rotation Fix
 +XP32 Maximum Skeleton Special Extended - FOMOD
 -600 _________________________ SKELETON ___________________________separator
++Phenomenally Enriched and Nuanced Ingredients for SkyUI (P.E.N.I.S. for B.O.O.B.I.E.S.) [FOMOD]
++Aura's Scrumptious Supplement (A.S.S. for B.O.O.B.I.E.S.) [FOMOD]
++B.O.O.B.I.E.S (aka Immersive Icons) [FOMOD]
+-Icons_separator
 +Modex - A Mod Explorer Menu (AddItemMenu)
 -Utility_separator
 +Dynamic Activation Key - MCM
 +Dynamic Activation Key
 -Interactions Related_separator
-+WHEELER - Refined
-+Wheeler - Quick Action Wheel Of Skyrim
 +Smart Talk - MCM menu
 +Smart Talk (Dialogue Menu Enhancer)
 +Show Player In Inventory [SKSE]
@@ -122,12 +132,14 @@
 +Floating Subtitles [FOMOD]
 +ImGui Icons
 +Infinity UI
++Favorites Menu Effects Description
++Favorite Things - Extended Favorites Menu for SkyUI
 +SkyHUD
 +SkyUI
 -Core UI_separator
 -500 _____________________ USER INTERFACE ________________________separator
-+Simplicity of Sea [FOMOD]
-+Cathedral - Water Overhaul and Bug Fixes
++Realistic Water Two - Better Water Original v5
++Realistic Water Two SE (RWT) [FOMOD]
 -480 ___________________________ WATER ____________________________separator
 +Nature of the Wild Lands - Nordic Cut Patch Collection [FOMOD]
 +Nature of the Wild Lands - Nordic Cut [FOMOD]
@@ -150,7 +162,8 @@
 -Rock and Mountain Textures_separator
 +Fantasia Landscapes - Green Tundra - Complex Parallax
 +Skyking Fantasia Landscapes [FOMOD]
-+Skyland AIO - Complex Parallax
++Skyland AIO - Complex Parallax [FOMOD]
+-Skyland AIO - Complex Parallax
 +Skyland AIO [FOMOD]
 -450 ______________________ CORE TEXTURES ________________________separator
 +Enhanced Rocks and Mountains - Complex Material and PBR [FOMOD]
@@ -166,7 +179,7 @@
 +Shadows Of Sunlight - In Small Exterior World Spaces
 -400 ________________________ MESH FIXES __________________________separator
 -Warmer Lights
--Window Shadows Ultimate [FOMOD]
++Window Shadows Ultimate [FOMOD]
 +Helios [FOMOD]
 +ELFX Shadows - Official Patches Hub [FOMOD]
 +ELFX Shadows [FOMOD]
@@ -178,7 +191,7 @@
 -350 _______________________ CORE MESHES _________________________separator
 +Kontrol FPS Preset - No Quick Load Save
 -Kontrol - FPS Preset
-+Kontrol
+-Kontrol
 +Media Keys Fix SKSE [SKSE]
 +Alt-Tab Stuck Key Fix
 -Controller and Keyboard_separator
@@ -214,8 +227,11 @@
 +ELFX - Shadows - SkyPatcher
 +Acoustic Space Improvement Fixes (Corrected Reverb - Ambience - Interiors - SkyPatcher) [FOMOD]
 -115 ________________________ SKYPATCHER _________________________separator
-+dMenu NG
-+dMenu
++Constructible Object Custom Keyword System NG
++Constructible Object Custom Keyword System
++Object Categorization Framework [FOMOD]
++FormList Manipulator - FLM
++NL_MCM - A Modular MCM Framework
 +Inventory Interface Information Injector
 +Dynamic Bloodpool Framework
 +MergeMapper
@@ -244,7 +260,7 @@
 -Mainmenu_separator
 +Immersive Equipment Displays
 +Papyrus Tweaks NG
-+ReShade Effect Toggler
+-ReShade Effect Toggler
 +Animated Interactions SKSE
 +Survival Control Panel
 +Survival Mode Improved - SKSE
@@ -252,7 +268,6 @@
 +Dual Casting Fix
 +XEMI Utility
 +Better Third Person Selection - BTPS [SKSE]
-+Auto Input Switch [SKSE]
 +Classic Sprinting Redone [SKSE]
 +Stay At The System Page NG
 +Terrain Helper [SKSE]

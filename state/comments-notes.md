@@ -40,10 +40,6 @@
 
 - Comments: Includes Patch 1 and 2
 
-## dMenu
-
-- Comments: "key_toggle_dmenu = 56 (Left Alt)"
-
 ## SkyPatcher
 
 - Comments: "iAllowLeveledListsAddedToContainers=1"

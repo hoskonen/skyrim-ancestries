@@ -49,8 +49,10 @@
 - Synced MO2 state and updated the README for Lighting, Mesh Fixes, Mesh Overrides, SkyPatcher, and the first mod notes entry.
 - Synced MO2 state and removed the `[O]` KiLoader override container from the README.
 
-# 2026-08-18 - 190 listed mods
+# 2026-08-18 - 201 listed mods
 
 - Synced MO2 state and updated the README for new UI, skeleton, combat, animation, framework, SKSE, and project-status entries.
 - Synced MO2 state and updated the README for patches/fixes subsections, movement, combat features, IED animation, and project status.
 - Synced MO2 state and updated the README for dMenu, Wheeler, controller fixes, combat, and blocking entries.
+- Synced MO2 state and updated the README for framework, UI, movement, camera, and controller changes.
+- Synced MO2 state and updated the README for frameworks, water, UI icons, combat, camera, and weapon animations.

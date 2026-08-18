@@ -14,7 +14,6 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 ### Testing
 
 - Echoes of Oblivion chatter
-- First perseon stagger
 - SKSE Sheathing
 
 <!-- project-status:end -->
@@ -90,6 +89,9 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 - MergeMapper
 - Dynamic Bloodpool Framework
 - Inventory Interface Information Injector
+- dMenu
+  - Comments: `"key_toggle_dmenu = 56 (Left Alt)"`
+- dMenu NG
 
 ## 115 SkyPatcher
 
@@ -116,22 +118,48 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 
 - Unofficial Skyrim Special Edition Patch - USSEP
 - Inertia (Floating Gear Fix)
-- Alt-Tab Stuck Key Fix
-- Media Keys Fix SKSE
-- Widescreen Scale Removed
-- No Sunlight Through Mountains
-- Rim Lighting Removed
-- Disable Turn Animation NG
-- Cached Recursive Directory Walk
-- 1st Person Vertical Aim Fix
 - Scrambled Bugs
-- Exit Sneak On Sprint
-- Sprint Stuttering Fix
-- Kontrol
-- Kontrol - FPS Preset
+- Cached Recursive Directory Walk
+- Widescreen Scale Removed
 - Native EditorID Fix
+- Disable Turn Animation NG
+
+<details>
+<summary><strong>First Person Fixes</strong></summary>
+
+- 1st Person Vertical Aim Fix
 - Unlocked 1st Person Combat
   - Comments: `Check later slowdown esp`
+
+</details>
+
+<details>
+<summary><strong>Lighting Fixes</strong></summary>
+
+- No Sunlight Through Mountains
+- Rim Lighting Removed
+
+</details>
+
+<details>
+<summary><strong>Controller and Keyboard</strong></summary>
+
+- Alt-Tab Stuck Key Fix
+- Media Keys Fix SKSE
+- Kontrol
+- Kontrol FPS Preset - No Quick Load Save
+  - Comments: `https://hawk.bar/SkyrimControlMapper/`
+  - Notes:
+    - `Favorites (same as original Kontrol):`
+    - `Favorites Menu: LB + Y; Favorite 1: D-Pad Up; Favorite 2: D-Pad Right; Favorite 3: D-Pad Down; Favorite 4: D-Pad Left.`
+    - `Favorite 5: LB + D-Pad Up; Favorite 6: LB + D-Pad Right; Favorite 7: LB + D-Pad Down; Favorite 8: LB + D-Pad Left.`
+    - `Menus (modified to include Skills Menu and changes Tween Menu):`
+    - `Tween Menu: LB + RS; Quick Inventory Menu: LB + B; Quick Magic Menu: LB + X; Quick Map Menu: LB + A; Quick Stats (Skills Menu): LB + RB.`
+- Exit Sneak On Sprint
+- Sprint Stuttering Fix
+- Skyrim Souls and Wheeler Slow Time Fix
+
+</details>
 
 ## 350 Core Meshes
 
@@ -263,6 +291,8 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 
 - Dynamic Activation Key
 - Dynamic Activation Key - MCM
+- Wheeler - Quick Action Wheel Of Skyrim
+- WHEELER - Refined
 
 </details>
 
@@ -293,6 +323,7 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 ## 800 Movement
 
 - True Directional Movement
+- Faster Blocking Movement
 - SkyParkour v3 - Procedural Parkour and Climbing Framework (SPPF)
 - Better Jumping SE
 - StepUpOnto SKSE
@@ -331,6 +362,15 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 - Parrying RPG
 - Immersive Weapon Switch - SKSE plugin
 - Player Stagger with Cooldown
+- Enemy Friendly Fire
+- Simple Offence Suppression
+
+</details>
+
+<details>
+<summary><strong>Blocking and Parry</strong></summary>
+
+- Wider Block Angle
 
 </details>
 
@@ -358,6 +398,7 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
     - How to separate Spears/Javelins from One-handed Swords: check this [article](https://www.nexusmods.com/skyrimspecialedition/articles/5284).
     - How to place quiver at back hip: check this [article](https://www.nexusmods.com/skyrimspecialedition/articles/4785).
     - How to place maces at back, swords at back hip, shield on hand: check this [mod](https://www.nexusmods.com/skyrimspecialedition/mods/92244).
+- Open Animation Replacer - IED Conditions
 
 </details>
 

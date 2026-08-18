@@ -52,6 +52,7 @@
 -Animation Frameworks_separator
 +Animation Motion Revolution [SKSE]
 -Animation Tools_separator
++Open Animation Replacer - IED Conditions
 +Weapon Styles - Draw-Sheathe animations for IED
 -IED_separator
 -Another Jump Animation - Female
@@ -66,8 +67,13 @@
 +Cinematic Conversation Camera
 +Improved Camera SE
 -820 _________________________ CAMERA ___________________________separator
++Wider Block Angle
+-Blocking and Parry_separator
++Simple Offence Suppression [FOMOD] [SKSE]
++Enemy Friendly Fire [FOMOD] [SKSE]
 +Player Stagger with Cooldown
 +Immersive Weapon Switch - SKSE plugin [FOMOD]
+-Dual Wield Parrying SKSE
 +Parrying RPG
 -Combat Features_separator
 +Sanguine Symphony
@@ -89,6 +95,7 @@
 +StepUpOnto SKSE
 +Better Jumping SE
 +SkyParkour v3 - Procedural Parkour and Climbing Framework (SPPF)
++Faster Blocking Movement
 +True Directional Movement
 -800 _______________________ MOVEMENT __________________________separator
 +High Poly Head [FOMOD]
@@ -103,6 +110,8 @@
 +Dynamic Activation Key - MCM
 +Dynamic Activation Key
 -Interactions Related_separator
++WHEELER - Refined
++Wheeler - Quick Action Wheel Of Skyrim
 +Smart Talk - MCM menu
 +Smart Talk (Dialogue Menu Enhancer)
 +Show Player In Inventory [SKSE]
@@ -167,23 +176,28 @@
 +Static Mesh improvement Mod - SMIM - Quality Addon
 +Static Mesh Improvement Mod [FOMOD]
 -350 _______________________ CORE MESHES _________________________separator
-+Unlocked 1st Person Combat [FOMOD]
-+Native EditorID Fix
-+Kontrol - FPS Preset
++Kontrol FPS Preset - No Quick Load Save
+-Kontrol - FPS Preset
 +Kontrol
-+Sprint Stuttering Fix
-+Exit Sneak On Sprint
--Survival Mode - Weapon Speed Patch
-+Scrambled Bugs
-+1st Person Vertical Aim Fix
-+Cached Recursive Directory Walk [SKSE]
-+Disable Turn Animation NG
-+Rim Lighting Removed [SKSE]
-+No Sunlight Through Mountains [SKSE]
-+Widescreen Scale Removed
 +Media Keys Fix SKSE [SKSE]
 +Alt-Tab Stuck Key Fix
+-Controller and Keyboard_separator
++Rim Lighting Removed [SKSE]
++No Sunlight Through Mountains [SKSE]
+-Lighting Fixes_separator
++Unlocked 1st Person Combat [FOMOD]
++1st Person Vertical Aim Fix
+-First Person Fixes_separator
++Skyrim Souls and Wheeler Slow Time Fix [SKSE]
++Sprint Stuttering Fix [SKSE]
++Exit Sneak On Sprint [SKSE]
+-Survival Mode - Weapon Speed Patch
++Disable Turn Animation NG [SKSE]
 +Inertia (Floating Gear Fix) [SKSE]
++Native EditorID Fix [SKSE]
++Widescreen Scale Removed [SKSE]
++Cached Recursive Directory Walk [SKSE]
++Scrambled Bugs [SKSE]
 +Unofficial Skyrim Special Edition Patch - USSEP
 -300 ____________________ PATCHES & FIXES ________________________separator
 +Wetness Effects - Community Shaders
@@ -200,6 +214,8 @@
 +ELFX - Shadows - SkyPatcher
 +Acoustic Space Improvement Fixes (Corrected Reverb - Ambience - Interiors - SkyPatcher) [FOMOD]
 -115 ________________________ SKYPATCHER _________________________separator
++dMenu NG
++dMenu
 +Inventory Interface Information Injector
 +Dynamic Bloodpool Framework
 +MergeMapper

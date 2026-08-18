@@ -41,6 +41,7 @@ Helios.esp
 Helios_CS Tonemapping.esp
 SurvivalControlPanel.esp
 PGPatcher.esp
+___BlockAngleFix.esl
 TrueHUD.esl
 SkyUI_SE.esp
 Particle Patch.esp
@@ -117,6 +118,7 @@ Player Stagger.esp
 ImmersiveWeaponSwitch.esp
 FloatingSubtitles.esp
 Smart Talk - MCM.esp
+fasterblockingmovement.esp
 alternate start - live another life.esp
 Nature of the Wild Lands - Alternate Start Patch.esp
 ClefJ Winterhold - Alternate Start patch.esp

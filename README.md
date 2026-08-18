@@ -14,6 +14,8 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 ### Testing
 
 - Echoes of Oblivion chatter
+- First perseon stagger
+- SKSE Sheathing
 
 <!-- project-status:end -->
 
@@ -51,6 +53,7 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
   - Comments: `"If using with Jayserpa's Immersive Interactions (recommended), disable the conflicting options with the mod's MCM."`
 - ReShade Effect Toggler
 - Papyrus Tweaks NG
+- Immersive Equipment Displays
 
 <details>
 <summary><strong>Mainmenu</strong></summary>
@@ -86,6 +89,7 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 - Keyword Item Distributor (KID)
 - MergeMapper
 - Dynamic Bloodpool Framework
+- Inventory Interface Information Injector
 
 ## 115 SkyPatcher
 
@@ -237,6 +241,8 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 - SkyUI
 - SkyHUD
 - Infinity UI
+- ImGui Icons
+- Floating Subtitles
 
 </details>
 
@@ -247,6 +253,8 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 - Dragonborn Reskin - TrueHUD
 - Compass Navigation Overhaul
 - Show Player In Inventory
+- Smart Talk (Dialogue Menu Enhancer)
+- Smart Talk - MCM menu
 
 </details>
 
@@ -268,6 +276,8 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 ## 600 Skeleton
 
 - XP32 Maximum Skeleton Special Extended - FOMOD
+- XPMSSE - Left Hand Sheath Rotation Fix
+  - Comments: `Wonder if this is still needed?`
 
 ## 700 Character
 
@@ -292,8 +302,8 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 - Precision
 - Precision - NPC Combat Fix
 - Precision - Attack Collision Fixes
-- Parrying RPG
 - Death Drop Overhaul
+- Simple Dual Sheath
 
 <details>
 <summary><strong>Archery</strong></summary>
@@ -315,6 +325,15 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 
 </details>
 
+<details>
+<summary><strong>Combat Features</strong></summary>
+
+- Parrying RPG
+- Immersive Weapon Switch - SKSE plugin
+- Player Stagger with Cooldown
+
+</details>
+
 ## 820 Camera
 
 - Improved Camera SE
@@ -326,8 +345,21 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 ## 850 Animation
 
 - First Person Interactions
+- First Person Stagger Animation Remade
 - JellyFishFP Movement Remake (1st person animations series)
 - Another Jump Animation - Male
+
+<details>
+<summary><strong>IED</strong></summary>
+
+- Weapon Styles - Draw-Sheathe animations for IED
+  - Notes:
+    - How to separate Greatswords from Battleaxes/Warhammers: check this [article](https://www.nexusmods.com/skyrimspecialedition/articles/4604).
+    - How to separate Spears/Javelins from One-handed Swords: check this [article](https://www.nexusmods.com/skyrimspecialedition/articles/5284).
+    - How to place quiver at back hip: check this [article](https://www.nexusmods.com/skyrimspecialedition/articles/4785).
+    - How to place maces at back, swords at back hip, shield on hand: check this [mod](https://www.nexusmods.com/skyrimspecialedition/mods/92244).
+
+</details>
 
 <details>
 <summary><strong>Animation Tools</strong></summary>
@@ -354,6 +386,7 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 - Auto Skeleton Patch - Universal Behaviour Runtime
 - 1st Person Motion Sickness Remover - Regular Attacks
 - 1st Person Motion Sickness Remover - Power Attacks
+- Weapon Switch Animation Fix - Behavior Patch Version
 
 </details>
 
@@ -394,10 +427,6 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 ## DEV Development
 
 - sse-earned-mastery
-
-## 950 Override Mods
-
-- KiLoader
 
 ## 960 Skin
 

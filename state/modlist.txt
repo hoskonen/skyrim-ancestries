@@ -4,7 +4,7 @@
 -999 ________ SKYRIM ANCESTRIES - TESTING & ISSUES _________separator
 +Norden UI [FOMOD}
 -960 _____________________________ SKIN _____________________________separator
-+KiLoader
++KiLoader [O]
 +Pandora Output [O]
 +PGPatcher Output [O]
 +MCM [O]
@@ -38,6 +38,7 @@
 +Skyrim Souls RE - Unpaused Menus
 +Dynamic Timescale - Remade
 -860 ________________________ IMMERSION _________________________separator
++Weapon Switch Animation Fix - Behavior Patch Version [FOMOD]
 +1st Person Motion Sickness Remover - Power Attacks
 +1st Person Motion Sickness Remover - Regular Attacks
 +Auto Skeleton Patch - Universal Behaviour Runtime
@@ -51,9 +52,12 @@
 -Animation Frameworks_separator
 +Animation Motion Revolution [SKSE]
 -Animation Tools_separator
++Weapon Styles - Draw-Sheathe animations for IED
+-IED_separator
 -Another Jump Animation - Female
 +Another Jump Animation - Male
 +JellyFishFP Movement Remake (1st person animations series)
++First Person Stagger Animation Remade
 +First Person Interactions [FOMOD]
 -850 _________________________ ANIMATION ________________________separator
 +First Person (FP) Inertia - SKSE
@@ -62,6 +66,10 @@
 +Cinematic Conversation Camera
 +Improved Camera SE
 -820 _________________________ CAMERA ___________________________separator
++Player Stagger with Cooldown
++Immersive Weapon Switch - SKSE plugin [FOMOD]
++Parrying RPG
+-Combat Features_separator
 +Sanguine Symphony
 +DF - Official Creature Asset Pack
 +DF - Official Humanoid Asset Pack
@@ -72,8 +80,8 @@
 +Ricochet - Arrow Physics Framework [SKSE]
 +Broken Feathers (Full Skyrim Arrow Pack)
 -Archery_separator
++Simple Dual Sheath
 +Death Drop Overhaul [SKSE]
-+Parrying RPG
 +Precision - Attack Collision Fixes [FOMOD]
 +Precision - NPC Combat Fix
 +Precision [FOMOD]
@@ -87,6 +95,7 @@
 -Head_separator
 +RaceMenu
 -700 ________________________ CHARACTER _________________________separator
++XPMSSE - Left Hand Sheath Rotation Fix
 +XP32 Maximum Skeleton Special Extended - FOMOD
 -600 _________________________ SKELETON ___________________________separator
 +Modex - A Mod Explorer Menu (AddItemMenu)
@@ -94,11 +103,15 @@
 +Dynamic Activation Key - MCM
 +Dynamic Activation Key
 -Interactions Related_separator
++Smart Talk - MCM menu
++Smart Talk (Dialogue Menu Enhancer)
 +Show Player In Inventory [SKSE]
 +Compass Navigation Overhaul
 +Dragonborn Reskin - TrueHUD
 +TrueHUD - HUD Additions
 -HUD Elements_separator
++Floating Subtitles [FOMOD]
++ImGui Icons
 +Infinity UI
 +SkyHUD
 +SkyUI
@@ -147,7 +160,6 @@
 -Window Shadows Ultimate [FOMOD]
 +Helios [FOMOD]
 +ELFX Shadows - Official Patches Hub [FOMOD]
--ELFX Fixes [FOMOD]
 +ELFX Shadows [FOMOD]
 +Enhanced Lights and FX [FOMOD]
 +Ambient Templates for Lighting Mods [FOMOD]
@@ -188,6 +200,7 @@
 +ELFX - Shadows - SkyPatcher
 +Acoustic Space Improvement Fixes (Corrected Reverb - Ambience - Interiors - SkyPatcher) [FOMOD]
 -115 ________________________ SKYPATCHER _________________________separator
++Inventory Interface Information Injector
 +Dynamic Bloodpool Framework
 +MergeMapper
 +Keyword Item Distributor (KID)
@@ -213,6 +226,7 @@
 +Start On Save - Autoload Game [SKSE]
 +Menu Load Indicator - SKSE
 -Mainmenu_separator
++Immersive Equipment Displays
 +Papyrus Tweaks NG
 +ReShade Effect Toggler
 +Animated Interactions SKSE

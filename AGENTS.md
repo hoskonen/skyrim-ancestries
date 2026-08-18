@@ -74,6 +74,8 @@ present: treat comments as concise mod context and notes as
 installation/technical reminders. Preserve uncertainty and intent from the
 original notes; do not embellish or invent details. Blank fields should produce
 no README output. Format README comment/note values as inline code.
+If MO2 rich-text notes contain links, render those links as normal Markdown
+links in `README.md` while preserving the note's intent.
 
 ## Style
 

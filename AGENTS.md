@@ -100,6 +100,9 @@ Prefer small commits representing logical changes to the mod list.
 ## Tools
 When I ask to sync or refresh the MO2 state, run `tools/sync-mo2.ps1`.
 
+Overwrite routing must use explicit approved mappings only. Unknown or ambiguous
+MO2 overwrite contents must never be moved automatically.
+
 ## Testing and issue tracking
 
 `Skyrim Ancestries - Testing & Issues` is a special MO2 placeholder mod used

@@ -40,6 +40,7 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 - Terrain Helper
 - Stay At The System Page NG
 - Classic Sprinting Redone
+- Auto Input Switch
 - Better Third Person Selection - BTPS
 - XEMI Utility
 - Dual Casting Fix
@@ -92,6 +93,7 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 - Object Categorization Framework
 - Constructible Object Custom Keyword System
 - Constructible Object Custom Keyword System NG
+- PapyrusUtil SE - Modders Scripting Utility Functions
 
 ## 115 SkyPatcher
 

@@ -4,7 +4,7 @@
 -999 ________ SKYRIM ANCESTRIES - TESTING & ISSUES _________separator
 +Norden UI [FOMOD}
 -960 _____________________________ SKIN _____________________________separator
-+NL_MCM
++NL_MCM [O]
 +KiLoader [O]
 +Pandora Output [O]
 +PGPatcher Output [O]
@@ -227,6 +227,7 @@
 +ELFX - Shadows - SkyPatcher
 +Acoustic Space Improvement Fixes (Corrected Reverb - Ambience - Interiors - SkyPatcher) [FOMOD]
 -115 ________________________ SKYPATCHER _________________________separator
++PapyrusUtil SE - Modders Scripting Utility Functions
 +Constructible Object Custom Keyword System NG
 +Constructible Object Custom Keyword System
 +Object Categorization Framework [FOMOD]
@@ -258,9 +259,9 @@
 +Start On Save - Autoload Game [SKSE]
 +Menu Load Indicator - SKSE
 -Mainmenu_separator
++Auto Input Switch
 +Immersive Equipment Displays
 +Papyrus Tweaks NG
--ReShade Effect Toggler
 +Animated Interactions SKSE
 +Survival Control Panel
 +Survival Mode Improved - SKSE

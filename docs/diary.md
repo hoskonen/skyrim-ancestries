@@ -56,3 +56,7 @@
 - Synced MO2 state and updated the README for dMenu, Wheeler, controller fixes, combat, and blocking entries.
 - Synced MO2 state and updated the README for framework, UI, movement, camera, and controller changes.
 - Synced MO2 state and updated the README for frameworks, water, UI icons, combat, camera, and weapon animations.
+
+# 2026-08-19 - 202 listed mods
+
+- Synced MO2 state and updated the README for Auto Input Switch, PapyrusUtil, and overwrite metadata cleanup.

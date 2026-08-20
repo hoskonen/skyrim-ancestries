@@ -12,7 +12,7 @@ $mappings = @(
         TargetPath = "SKSE"
     },
     @{
-        Source = "Shader Cache"
+        Source = "ShaderCache"
         TargetMod = "Shader Cache [O]"
         TargetPath = "Shader Cache"
     },

@@ -60,3 +60,7 @@
 # 2026-08-19 - 202 listed mods
 
 - Synced MO2 state and updated the README for Auto Input Switch, PapyrusUtil, and overwrite metadata cleanup.
+
+# 2026-08-20 - 204 listed mods
+
+- Synced MO2 state and updated the README for SKSE, patches/fixes, lighting, combat, immersion, and sound changes.

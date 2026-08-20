@@ -39,6 +39,8 @@
 +Alternate Start - Live Another Life - SSE
 +Skyrim Souls RE - Unpaused Menus
 +Dynamic Timescale - Remade
++Dynamic Footprints [SKSE]
++Dynamic Footprins [SKSE] - Fantasia Color Palette
 -860 ________________________ IMMERSION _________________________separator
 +SIGMA - Waraxe animations - Low
 +SIGMA - Archery animations
@@ -74,13 +76,13 @@
 +Cinematic Conversation Camera
 -Improved Camera SE
 -820 _________________________ CAMERA ___________________________separator
++Dual Wield Parrying - SKSE Menu Framework Integration
 +Wider Block Angle
 -Blocking and Parry_separator
 +Simple Offence Suppression [FOMOD] [SKSE]
 +Enemy Friendly Fire [FOMOD] [SKSE]
 +Player Stagger with Cooldown
-+Immersive Weapon Switch - SKSE plugin [FOMOD]
-+Dual Wield Parrying SKSE
+-Immersive Weapon Switch - SKSE plugin [FOMOD]
 +Parrying RPG
 -Combat Features_separator
 +Sanguine Symphony
@@ -117,6 +119,7 @@
 +Aura's Scrumptious Supplement (A.S.S. for B.O.O.B.I.E.S.) [FOMOD]
 +B.O.O.B.I.E.S (aka Immersive Icons) [FOMOD]
 -Icons_separator
++Photo Mode [FOMOD]
 +Modex - A Mod Explorer Menu (AddItemMenu)
 -Utility_separator
 +Dynamic Activation Key - MCM
@@ -156,14 +159,13 @@
 +Dust not Clouds - FrankBlack
 +Glorious Gradients
 -Particles Textures_separator
-+Embers XD[FOMOD]
++Embers XD [FOMOD]
 -Fire and Fireplaces_separator
 +Vanaheimr - Mountains - MM - Complex Material - PBR [FOMOD]
 -Rock and Mountain Textures_separator
 +Fantasia Landscapes - Green Tundra - Complex Parallax
 +Skyking Fantasia Landscapes [FOMOD]
 +Skyland AIO - Complex Parallax [FOMOD]
--Skyland AIO - Complex Parallax
 +Skyland AIO [FOMOD]
 -450 ______________________ CORE TEXTURES ________________________separator
 +Enhanced Rocks and Mountains - Complex Material and PBR [FOMOD]
@@ -184,15 +186,16 @@
 +ELFX Shadows - Official Patches Hub [FOMOD]
 +ELFX Shadows [FOMOD]
 +Enhanced Lights and FX [FOMOD]
++True Light [FOMOD]
++Light Placer [FOMOD]
 +Ambient Templates for Lighting Mods [FOMOD]
 -370 __________________________ LIGHTING ___________________________separator
 +Static Mesh improvement Mod - SMIM - Quality Addon
 +Static Mesh Improvement Mod [FOMOD]
 -350 _______________________ CORE MESHES _________________________separator
 +Kontrol FPS Preset - No Quick Load Save
--Kontrol - FPS Preset
 -Kontrol
-+Media Keys Fix SKSE [SKSE]
+-Media Keys Fix SKSE [SKSE]
 +Alt-Tab Stuck Key Fix
 -Controller and Keyboard_separator
 +Rim Lighting Removed [SKSE]
@@ -201,7 +204,6 @@
 +Unlocked 1st Person Combat [FOMOD]
 +1st Person Vertical Aim Fix
 -First Person Fixes_separator
-+Skyrim Souls and Wheeler Slow Time Fix [SKSE]
 +Sprint Stuttering Fix [SKSE]
 +Exit Sneak On Sprint [SKSE]
 -Survival Mode - Weapon Speed Patch
@@ -224,7 +226,7 @@
 +ENB Light - Patch 1 [FOMOD]
 +ENB Light [FOMOD]
 -120 ____________________________ ENB _______________________________separator
-+ELFX - Shadows - SkyPatcher
+-ELFX - Shadows - SkyPatcher
 +Acoustic Space Improvement Fixes (Corrected Reverb - Ambience - Interiors - SkyPatcher) [FOMOD]
 -115 ________________________ SKYPATCHER _________________________separator
 +PapyrusUtil SE - Modders Scripting Utility Functions
@@ -259,6 +261,7 @@
 +Start On Save - Autoload Game [SKSE]
 +Menu Load Indicator - SKSE
 -Mainmenu_separator
++Dynamic Settings [SKSE]
 +Auto Input Switch
 +Immersive Equipment Displays
 +Papyrus Tweaks NG

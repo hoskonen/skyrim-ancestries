@@ -40,7 +40,6 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 - Terrain Helper
 - Stay At The System Page NG
 - Classic Sprinting Redone
-- Auto Input Switch
 - Better Third Person Selection - BTPS
 - XEMI Utility
 - Dual Casting Fix
@@ -52,6 +51,8 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
   - Comments: `"If using with Jayserpa's Immersive Interactions (recommended), disable the conflicting options with the mod's MCM."`
 - Papyrus Tweaks NG
 - Immersive Equipment Displays
+- Auto Input Switch
+- Dynamic Settings
 
 <details>
 <summary><strong>Mainmenu</strong></summary>
@@ -98,7 +99,6 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 ## 115 SkyPatcher
 
 - Acoustic Space Improvement Fixes (Corrected Reverb - Ambience - Interiors - SkyPatcher)
-- ELFX - Shadows - SkyPatcher
 
 ## 120 ENB
 
@@ -147,7 +147,6 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 <summary><strong>Controller and Keyboard</strong></summary>
 
 - Alt-Tab Stuck Key Fix
-- Media Keys Fix SKSE
 - Kontrol FPS Preset - No Quick Load Save
   - Comments: `https://hawk.bar/SkyrimControlMapper/`
   - Notes:
@@ -158,7 +157,6 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
     - `Tween Menu: LB + RS; Quick Inventory Menu: LB + B; Quick Magic Menu: LB + X; Quick Map Menu: LB + A; Quick Stats (Skills Menu): LB + RB.`
 - Exit Sneak On Sprint
 - Sprint Stuttering Fix
-- Skyrim Souls and Wheeler Slow Time Fix
 
 </details>
 
@@ -171,6 +169,8 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 
 - Ambient Templates for Lighting Mods
   - Comments: `"HDR, Brightness = 40, Dungeon = 33"`
+- Light Placer
+- True Light
 - Enhanced Lights and FX
 - ELFX Shadows
 - ELFX Shadows - Official Patches Hub
@@ -310,6 +310,7 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 <summary><strong>Utility</strong></summary>
 
 - Modex - A Mod Explorer Menu (AddItemMenu)
+- Photo Mode
 
 </details>
 
@@ -371,7 +372,7 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 <summary><strong>Combat Features</strong></summary>
 
 - Parrying RPG
-- Immersive Weapon Switch - SKSE plugin
+- Dual Wield Parrying SKSE
 - Player Stagger with Cooldown
 - Enemy Friendly Fire
 - Simple Offence Suppression
@@ -381,8 +382,8 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 <details>
 <summary><strong>Blocking and Parry</strong></summary>
 
-- Dual Wield Parrying SKSE
 - Wider Block Angle
+- Dual Wield Parrying - SKSE Menu Framework Integration
 
 </details>
 
@@ -458,6 +459,8 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 - Alternate Start - Live Another Life - SSE
 - Take a Peek - New Stealth Mechanic
 - Take a Peek - New Stealth Mechanic - Settings Loader
+- Dynamic Footprins - Fantasia Color Palette
+- Dynamic Footprints
 
 <details>
 <summary><strong>Dialogue</strong></summary>
@@ -474,6 +477,7 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 
 - Mute The Music
 - Reverb Interior Sounds Expansion (SRD - Rain Thunder Ambience - Fixes)
+- Crackling Fire
 
 ## 900 Weather
 

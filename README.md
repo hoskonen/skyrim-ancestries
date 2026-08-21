@@ -53,6 +53,7 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 - Immersive Equipment Displays
 - Auto Input Switch
 - Dynamic Settings
+- Save and Load Accelerator for SKSE Cosaves - S.L.A.C.K
 
 <details>
 <summary><strong>Mainmenu</strong></summary>
@@ -67,6 +68,7 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 - More Informative Console
 - ConsolePlusPlus
 - Crash Logger SSE AE VR - PDB support
+- SSEEdit Linker
 
 ## 110 Frameworks
 
@@ -115,6 +117,7 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 - Terrain Variation - Community Shaders
 - Terrain Blending - Community Shaders
 - Wetness Effects - Community Shaders
+- Hair Specular - Community Shaders
 
 ## 300 Patches & Fixes
 
@@ -125,6 +128,8 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 - Widescreen Scale Removed
 - Native EditorID Fix
 - Disable Turn Animation NG
+- Exit Sneak On Sprint
+- Sprint Stuttering Fix
 
 <details>
 <summary><strong>First Person Fixes</strong></summary>
@@ -155,8 +160,6 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
     - `Favorite 5: LB + D-Pad Up; Favorite 6: LB + D-Pad Right; Favorite 7: LB + D-Pad Down; Favorite 8: LB + D-Pad Left.`
     - `Menus (modified to include Skills Menu and changes Tween Menu):`
     - `Tween Menu: LB + RS; Quick Inventory Menu: LB + B; Quick Magic Menu: LB + X; Quick Map Menu: LB + A; Quick Stats (Skills Menu): LB + RB.`
-- Exit Sneak On Sprint
-- Sprint Stuttering Fix
 
 </details>
 
@@ -167,14 +170,11 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 
 ## 370 Lighting
 
-- Ambient Templates for Lighting Mods
-  - Comments: `"HDR, Brightness = 40, Dungeon = 33"`
-- Light Placer
-- True Light
 - Enhanced Lights and FX
 - ELFX Shadows
 - ELFX Shadows - Official Patches Hub
 - Helios
+- Window Shadows Ultimate
 
 ## 400 Mesh Fixes
 
@@ -295,6 +295,7 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 - Show Player In Inventory
 - Smart Talk (Dialogue Menu Enhancer)
 - Smart Talk - MCM menu
+- moreHUD SE
 
 </details>
 
@@ -311,6 +312,7 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 
 - Modex - A Mod Explorer Menu (AddItemMenu)
 - Photo Mode
+- Dynamic Interface Patcher - DIP
 
 </details>
 
@@ -323,11 +325,38 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 ## 700 Character
 
 - RaceMenu
+- Expressive Facegen Morphs SE
+
+<details>
+<summary><strong>Body</strong></summary>
+
+- Caliente's Beautiful Bodies Enhancer CBBE
+
+</details>
 
 <details>
 <summary><strong>Head</strong></summary>
 
 - High Poly Head
+
+</details>
+
+<details>
+<summary><strong>Hair</strong></summary>
+
+- Vanilla Hair Remake - NO SMP
+- Vanilla hair - Salt and Wind
+- Hair Specular Textures - Community Shaders
+- Maevan2's Eye Brows SE
+- Maevan2's Eye Brows for High Poly Head
+
+</details>
+
+<details>
+<summary><strong>Skin</strong></summary>
+
+- SkySight Skins 2025
+- Maevan2's Mature Skin Texture for CBBE - UNP
 
 </details>
 
@@ -392,6 +421,7 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 - Cinematic Conversation Camera
 - No Furniture Camera
 - First Person (FP) Camera Settle - SKSE
+- First Person (FP) Inertia - SKSE
 
 ## 850 Animation
 
@@ -478,12 +508,12 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 - Mute The Music
 - Reverb Interior Sounds Expansion (SRD - Rain Thunder Ambience - Fixes)
 - Crackling Fire
+- RUPTURE - Enhanced Destruction Magic Sounds
 
 ## 900 Weather
 
 - True Storms Special Edition
 - Obsidian Weathers and Seasons
-- Alternate Obsidian Weathers MCM - MCM Helper
 - Obsidian CS
 - Obsidian CS - True Storms - Patch
 - Obsidian Weathers - Darker Nights
@@ -496,3 +526,4 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 ## 960 Skin
 
 - Norden UI
+- Norden - RaceMenu DIP Patch

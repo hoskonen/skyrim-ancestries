@@ -2,8 +2,10 @@
 -Save by Journaling and Sleeping
 +Skyrim Ancestries - Testing & Issues
 -999 ________ SKYRIM ANCESTRIES - TESTING & ISSUES _________separator
++Norden - RaceMenu DIP Patch [FOMOD]
 +Norden UI [FOMOD}
 -960 _____________________________ SKIN _____________________________separator
++DIP [O]
 +NL_MCM [O]
 +KiLoader [O]
 +Pandora Output [O]
@@ -22,10 +24,10 @@
 +Obsidian Weathers - Darker Nights
 +Obsidian CS - True Storms - Patch
 +Obsidian CS
-+Alternate Obsidian Weathers MCM - MCM Helper
 +Obsidian Weathers and Seasons
 +True Storms Special Edition
 -900 _________________________ WEATHER ___________________________separator
++RUPTURE - Enhanced Destruction Magic Sounds
 +Crackling Fire [FOMOD]
 +Reverb Interior Sounds Expansion (SRD - Rain Thunder Ambience - Fixes) [FOMOD]
 +Mute The Music [FOMOD]
@@ -108,8 +110,20 @@
 +Faster Blocking Movement
 +True Directional Movement
 -800 _______________________ MOVEMENT __________________________separator
++Maevan2's Mature Skin Texture for CBBE - UNP [FOMOD]
++SkySight Skins 2025 [FOMOD]
+-Skin_separator
++Maevan2's Eye Brows for High Poly Head
++Maevan2's Eye Brows SE [FOMOD]
++Hair Specular Textures - Community Shaders
++Vanilla hair - Salt and Wind
++Vanilla Hair Remake - NO SMP
+-Hair_separator
 +High Poly Head [FOMOD]
 -Head_separator
++Caliente's Beautiful Bodies Enhancer CBBE [FOMOD]
+-Body_separator
++Expressive Facegen Morphs SE
 +RaceMenu
 -700 ________________________ CHARACTER _________________________separator
 +XPMSSE - Left Hand Sheath Rotation Fix
@@ -119,12 +133,15 @@
 +Aura's Scrumptious Supplement (A.S.S. for B.O.O.B.I.E.S.) [FOMOD]
 +B.O.O.B.I.E.S (aka Immersive Icons) [FOMOD]
 -Icons_separator
+-Automatic Patcher
++Dynamic Interface Patcher - DIP
 +Photo Mode [FOMOD]
 +Modex - A Mod Explorer Menu (AddItemMenu)
 -Utility_separator
 +Dynamic Activation Key - MCM
 +Dynamic Activation Key
 -Interactions Related_separator
++moreHUD SE
 +Smart Talk - MCM menu
 +Smart Talk (Dialogue Menu Enhancer)
 +Show Player In Inventory [SKSE]
@@ -186,9 +203,6 @@
 +ELFX Shadows - Official Patches Hub [FOMOD]
 +ELFX Shadows [FOMOD]
 +Enhanced Lights and FX [FOMOD]
-+True Light [FOMOD]
-+Light Placer [FOMOD]
-+Ambient Templates for Lighting Mods [FOMOD]
 -370 __________________________ LIGHTING ___________________________separator
 +Static Mesh improvement Mod - SMIM - Quality Addon
 +Static Mesh Improvement Mod [FOMOD]
@@ -215,6 +229,7 @@
 +Scrambled Bugs [SKSE]
 +Unofficial Skyrim Special Edition Patch - USSEP
 -300 ____________________ PATCHES & FIXES ________________________separator
++Hair Specular - Community Shaders
 +Wetness Effects - Community Shaders
 +Terrain Blending - Community Shaders
 +Terrain Variation - Community Shaders
@@ -254,6 +269,7 @@
 +Base Object Swapper
 +powerofthree's Papyrus Extender
 -110 _______________________ FRAMEWORKS ________________________separator
++SSEEdit Linker
 +Crash Logger SSE AE VR - PDB support
 +ConsolePlusPlus
 +More Informative Console
@@ -261,6 +277,7 @@
 +Start On Save - Autoload Game [SKSE]
 +Menu Load Indicator - SKSE
 -Mainmenu_separator
++Save and Load Accelerator for SKSE Cosaves - S.L.A.C.K [FOMOD]
 +Dynamic Settings [SKSE]
 +Auto Input Switch
 +Immersive Equipment Displays

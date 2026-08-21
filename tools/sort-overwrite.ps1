@@ -40,6 +40,16 @@ $mappings = @(
         Source = "SSEEdit Cache"
         TargetMod = "SSEEdit Backups [O]"
         TargetPath = "SSEEdit Cache"
+    },
+    @{
+        Source = "DIP"
+        TargetMod = "DIP [O]"
+        TargetPath = "DIP"
+    },
+    @{
+        Source = "interface"
+        TargetMod = "DIP [O]"
+        TargetPath = "DIP"
     }
 )
 

@@ -54,6 +54,7 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 - Auto Input Switch
 - Dynamic Settings
 - Save and Load Accelerator for SKSE Cosaves - S.L.A.C.K
+- Sandbox When Idle
 
 <details>
 <summary><strong>Mainmenu</strong></summary>
@@ -97,6 +98,7 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 - Constructible Object Custom Keyword System
 - Constructible Object Custom Keyword System NG
 - PapyrusUtil SE - Modders Scripting Utility Functions
+- Input Manager
 
 ## 115 SkyPatcher
 
@@ -108,16 +110,7 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
   - Comments: `Includes Patch 1 and 2`
 - ENB Light - Patch 1
 - ENB Light - Patch 2
-
-## 125 Community Shaders
-
-- Community Shaders
-- Screen Space Global Illumination (SSGI)
-- Skylighting - Community Shaders
-- Terrain Variation - Community Shaders
-- Terrain Blending - Community Shaders
-- Wetness Effects - Community Shaders
-- Hair Specular - Community Shaders
+- ENB Extender and Helper Skyrim
 
 ## 300 Patches & Fixes
 
@@ -130,6 +123,8 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 - Disable Turn Animation NG
 - Exit Sneak On Sprint
 - Sprint Stuttering Fix
+- Native Mesh Light Flicker Fix
+- Bug Fixes SSE
 
 <details>
 <summary><strong>First Person Fixes</strong></summary>
@@ -173,7 +168,6 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 - Enhanced Lights and FX
 - ELFX Shadows
 - ELFX Shadows - Official Patches Hub
-- Helios
 - Window Shadows Ultimate
 
 ## 400 Mesh Fixes
@@ -296,6 +290,7 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 - Smart Talk (Dialogue Menu Enhancer)
 - Smart Talk - MCM menu
 - moreHUD SE
+- Oxygen Meter 2
 
 </details>
 
@@ -313,6 +308,7 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 - Modex - A Mod Explorer Menu (AddItemMenu)
 - Photo Mode
 - Dynamic Interface Patcher - DIP
+- Automatic Patcher
 
 </details>
 
@@ -321,6 +317,14 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 - XP32 Maximum Skeleton Special Extended - FOMOD
 - XPMSSE - Left Hand Sheath Rotation Fix
   - Comments: `Wonder if this is still needed?`
+
+<details>
+<summary><strong>Skeleton Fixes</strong></summary>
+
+- SSS-CT - Slaughterfish Stay Submerged - Collision Tweak
+  - Comments: `Skeleton tweak`
+
+</details>
 
 ## 700 Character
 
@@ -331,6 +335,7 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 <summary><strong>Body</strong></summary>
 
 - Caliente's Beautiful Bodies Enhancer CBBE
+- BodySlide and Outfit Studio
 
 </details>
 
@@ -342,11 +347,18 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 </details>
 
 <details>
+<summary><strong>Eyes</strong></summary>
+
+- The Eyes Of Beauty
+  - Comments: `Saved in CK to fix plugin format`
+
+</details>
+
+<details>
 <summary><strong>Hair</strong></summary>
 
 - Vanilla Hair Remake - NO SMP
-- Vanilla hair - Salt and Wind
-- Hair Specular Textures - Community Shaders
+- LM's Vanilla Hair Retexture
 - Maevan2's Eye Brows SE
 - Maevan2's Eye Brows for High Poly Head
 
@@ -356,7 +368,16 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 <summary><strong>Skin</strong></summary>
 
 - SkySight Skins 2025
-- Maevan2's Mature Skin Texture for CBBE - UNP
+- Tempered Skins for Females - UNP CBBE and Vanilla
+- Keloid Scars
+  - Comments: `Magnificent scar mod which is not in nexus`
+
+</details>
+
+<details>
+<summary><strong>Outfits</strong></summary>
+
+- CBBE AE-CC Outfits
 
 </details>
 
@@ -374,6 +395,8 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 - Precision
 - Precision - NPC Combat Fix
 - Precision - Attack Collision Fixes
+- Blade and Blunt - A Combat Overhaul
+  - Comments: `Minor Conflict currently with Faster Blocking Movements`
 - Death Drop Overhaul
 - Simple Dual Sheath
 
@@ -405,6 +428,7 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 - Player Stagger with Cooldown
 - Enemy Friendly Fire
 - Simple Offence Suppression
+- Left Hand Cast and Attack
 
 </details>
 
@@ -479,6 +503,7 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 - 1st Person Motion Sickness Remover - Regular Attacks
 - 1st Person Motion Sickness Remover - Power Attacks
 - Weapon Switch Animation Fix - Behavior Patch Version
+- No More Swimming In Air - Fixed Floating SwimIdle
 
 </details>
 
@@ -512,12 +537,9 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 
 ## 900 Weather
 
-- True Storms Special Edition
-- Obsidian Weathers and Seasons
-- Obsidian CS
-- Obsidian CS - True Storms - Patch
-- Obsidian Weathers - Darker Nights
+- Picturesque - graphical overhaul - weathers mod plus ENB Part 1
 - Moons And Stars - Sky Overhaul SKSE
+- Twilight
 
 ## DEV Development
 

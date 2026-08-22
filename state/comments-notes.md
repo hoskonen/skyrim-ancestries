@@ -12,6 +12,22 @@
 
 - Notes: "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n<html><head><meta name=\"qrichtext\" content=\"1\" /><meta charset=\"utf-8\" /><style type=\"text/css\">\np, li { white-space: pre-wrap; }\nhr { height: 1px; border-width: 0; }\nli.unchecked::marker { content: \"\\2610\"; }\nli.checked::marker { content: \"\\2612\"; }\n</style></head><body style=\" font-family:'Segoe UI'; font-size:9pt; font-weight:400; font-style:normal;\">\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-family:'Inter','sans-serif'; font-size:medium; font-weight:300; color:#f1f1f1; background-color:#29292e;\">- How to separate Greatswords from Battleaxes/Warhammers: Check this </span><a href=\"https://www.nexusmods.com/skyrimspecialedition/articles/4604\"><span style=\" font-family:'Inter','sans-serif'; font-size:medium; font-weight:500; color:#d98f40; background-color:#29292e;\">article</span></a><span style=\" font-family:'Inter','sans-serif'; font-size:medium; font-weight:300; color:#f1f1f1; background-color:#29292e;\">. </span></p>\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-family:'Inter','sans-serif'; font-size:medium; font-weight:300; color:#f1f1f1; background-color:#29292e;\">- How to separate Spears/Javelins from One-handed Swords: Check this </span><a href=\"https://www.nexusmods.com/skyrimspecialedition/articles/5284\"><span style=\" font-family:'Inter','sans-serif'; font-size:medium; font-weight:500; color:#d98f40; background-color:#29292e;\">article</span></a><span style=\" font-family:'Inter','sans-serif'; font-size:medium; font-weight:300; color:#f1f1f1; background-color:#29292e;\">. </span></p>\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-family:'Inter','sans-serif'; font-size:medium; font-weight:300; color:#f1f1f1; background-color:#29292e;\">- How to place quiver at back hip: Check this </span><a href=\"https://www.nexusmods.com/skyrimspecialedition/articles/4785\"><span style=\" font-family:'Inter','sans-serif'; font-size:medium; font-weight:500; color:#d98f40; background-color:#29292e;\">article</span></a><span style=\" font-family:'Inter','sans-serif'; font-size:medium; font-weight:300; color:#f1f1f1; background-color:#29292e;\">. </span></p>\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-family:'Inter','sans-serif'; font-size:medium; font-weight:300; color:#f1f1f1; background-color:#29292e;\">- How to place maces at back, swords at back hip, shield on hand: Check this </span><a href=\"https://www.nexusmods.com/skyrimspecialedition/mods/92244\"><span style=\" font-family:'Inter','sans-serif'; font-size:medium; font-weight:500; color:#d98f40; background-color:#29292e;\">mod</span></a><span style=\" font-family:'Inter','sans-serif'; font-size:medium; font-weight:300; color:#f1f1f1; background-color:#29292e;\">.</span></p></body></html>"
 
+## Blade and Blunt - A Combat Overhaul [FOMOD]
+
+- Comments: Minor Conflict currently with Faster Blocking Movements
+
+## Keloid Scars
+
+- Comments: Magnificent scar mod which is not in nexus
+
+## The Eyes Of Beauty
+
+- Comments: Saved in CK to fix plugin format
+
+## SSS-CT - Slaughterfish Stay Submerged - Collision Tweak
+
+- Comments: Skeleton tweak
+
 ## XPMSSE - Left Hand Sheath Rotation Fix
 
 - Comments: Wonder if this is still needed?

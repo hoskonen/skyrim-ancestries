@@ -68,3 +68,8 @@
 # 2026-08-21 - 216 listed mods
 
 - Synced MO2 state and updated the README for SKSE, UI, character, lighting, sound, weather, and skin changes.
+
+# 2026-08-22 - 219 listed mods
+
+- Synced MO2 state and updated the README for SKSE, patches/fixes, UI, skeleton, character, animation, and metadata changes.
+- Synced MO2 state and updated the README for ENB, shader, lighting, UI, combat, character hair, and weather changes.

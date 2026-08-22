@@ -5,6 +5,7 @@
 +Norden - RaceMenu DIP Patch [FOMOD]
 +Norden UI [FOMOD}
 -960 _____________________________ SKIN _____________________________separator
++BodySlide [O]
 +DIP [O]
 +NL_MCM [O]
 +KiLoader [O]
@@ -20,12 +21,14 @@
 -ancestries-performance-logger
 +sse-earned-mastery
 -DEV ______________________ DEVELOPMENT _______________________separator
++Twilight
 +Moons And Stars - Sky Overhaul SKSE
-+Obsidian Weathers - Darker Nights
-+Obsidian CS - True Storms - Patch
-+Obsidian CS
-+Obsidian Weathers and Seasons
-+True Storms Special Edition
+-Obsidian Weathers - Darker Nights
+-Obsidian CS - True Storms - Patch
+-Obsidian CS
++Picturesque - graphical overhaul - weathers mod plus ENB Part 1
+-Obsidian Weathers and Seasons
+-True Storms Special Edition
 -900 _________________________ WEATHER ___________________________separator
 +RUPTURE - Enhanced Destruction Magic Sounds
 +Crackling Fire [FOMOD]
@@ -49,6 +52,7 @@
 +SIGMA - Sword animations - Medium
 +SIGMA - Shield animations
 -Weapon Animations_separator
++No More Swimming In Air - Fixed Floating SwimIdle
 +Weapon Switch Animation Fix - Behavior Patch Version [FOMOD]
 +1st Person Motion Sickness Remover - Power Attacks
 +1st Person Motion Sickness Remover - Regular Attacks
@@ -81,6 +85,7 @@
 +Dual Wield Parrying - SKSE Menu Framework Integration
 +Wider Block Angle
 -Blocking and Parry_separator
++Left Hand Cast and Attack
 +Simple Offence Suppression [FOMOD] [SKSE]
 +Enemy Friendly Fire [FOMOD] [SKSE]
 +Player Stagger with Cooldown
@@ -99,10 +104,14 @@
 -Archery_separator
 +Simple Dual Sheath
 +Death Drop Overhaul [SKSE]
++Blade and Blunt - A Combat Overhaul [FOMOD]
 +Precision - Attack Collision Fixes [FOMOD]
 +Precision - NPC Combat Fix
 +Precision [FOMOD]
 -810 _________________________ COMBAT ___________________________separator
+-Wade in Water Redux - Swimming Overhaul
+-Loki's Wade In Water
+-Swimming_separator
 +Scrolling Speed 2
 +StepUpOnto SKSE
 +Better Jumping SE
@@ -110,22 +119,32 @@
 +Faster Blocking Movement
 +True Directional Movement
 -800 _______________________ MOVEMENT __________________________separator
-+Maevan2's Mature Skin Texture for CBBE - UNP [FOMOD]
++CBBE AE-CC Outfits
+-Outfits_separator
++Keloid Scars
++Tempered Skins for Females - UNP CBBE and Vanilla [FOMOD]
 +SkySight Skins 2025 [FOMOD]
 -Skin_separator
 +Maevan2's Eye Brows for High Poly Head
 +Maevan2's Eye Brows SE [FOMOD]
-+Hair Specular Textures - Community Shaders
-+Vanilla hair - Salt and Wind
+-LM's Vanilla Hair Retex Flowmaps for CS HairSpec
+-Hair Specular Textures - Community Shaders
++LM's Vanilla Hair Retexture
+-Vanilla hair - Salt and Wind
 +Vanilla Hair Remake - NO SMP
 -Hair_separator
++The Eyes Of Beauty
+-Eyes_separator
 +High Poly Head [FOMOD]
 -Head_separator
++BodySlide and Outfit Studio
 +Caliente's Beautiful Bodies Enhancer CBBE [FOMOD]
 -Body_separator
 +Expressive Facegen Morphs SE
 +RaceMenu
 -700 ________________________ CHARACTER _________________________separator
++SSS-CT - Slaughterfish Stay Submerged - Collision Tweak
+-Skeleton Fixes_separator
 +XPMSSE - Left Hand Sheath Rotation Fix
 +XP32 Maximum Skeleton Special Extended - FOMOD
 -600 _________________________ SKELETON ___________________________separator
@@ -133,7 +152,7 @@
 +Aura's Scrumptious Supplement (A.S.S. for B.O.O.B.I.E.S.) [FOMOD]
 +B.O.O.B.I.E.S (aka Immersive Icons) [FOMOD]
 -Icons_separator
--Automatic Patcher
++Automatic Patcher
 +Dynamic Interface Patcher - DIP
 +Photo Mode [FOMOD]
 +Modex - A Mod Explorer Menu (AddItemMenu)
@@ -141,6 +160,7 @@
 +Dynamic Activation Key - MCM
 +Dynamic Activation Key
 -Interactions Related_separator
++Oxygen Meter 2 [FOMOD]
 +moreHUD SE
 +Smart Talk - MCM menu
 +Smart Talk (Dialogue Menu Enhancer)
@@ -199,7 +219,7 @@
 -400 ________________________ MESH FIXES __________________________separator
 -Warmer Lights
 +Window Shadows Ultimate [FOMOD]
-+Helios [FOMOD]
+-Helios [FOMOD]
 +ELFX Shadows - Official Patches Hub [FOMOD]
 +ELFX Shadows [FOMOD]
 +Enhanced Lights and FX [FOMOD]
@@ -218,6 +238,8 @@
 +Unlocked 1st Person Combat [FOMOD]
 +1st Person Vertical Aim Fix
 -First Person Fixes_separator
++Bug Fixes SSE
++Native Mesh Light Flicker Fix [SKSE]
 +Sprint Stuttering Fix [SKSE]
 +Exit Sneak On Sprint [SKSE]
 -Survival Mode - Weapon Speed Patch
@@ -229,14 +251,16 @@
 +Scrambled Bugs [SKSE]
 +Unofficial Skyrim Special Edition Patch - USSEP
 -300 ____________________ PATCHES & FIXES ________________________separator
-+Hair Specular - Community Shaders
-+Wetness Effects - Community Shaders
-+Terrain Blending - Community Shaders
-+Terrain Variation - Community Shaders
-+Skylighting - Community Shaders
-+Screen Space Global Illumination (SSGI)
-+Community Shaders
+-Hair Specular - Community Shaders
+-Wetness Effects - Community Shaders
+-Terrain Blending - Community Shaders
+-Terrain Variation - Community Shaders
+-Skylighting - Community Shaders
+-Screen Space Global Illumination (SSGI)
+-Community Shaders
 -125 _________________ COMMUNITY SHADERS ____________________separator
++ENB Extender and Helper Skyrim
+-ENB Helper SE
 +ENB Light - Patch 2
 +ENB Light - Patch 1 [FOMOD]
 +ENB Light [FOMOD]
@@ -244,6 +268,7 @@
 -ELFX - Shadows - SkyPatcher
 +Acoustic Space Improvement Fixes (Corrected Reverb - Ambience - Interiors - SkyPatcher) [FOMOD]
 -115 ________________________ SKYPATCHER _________________________separator
++Input Manager
 +PapyrusUtil SE - Modders Scripting Utility Functions
 +Constructible Object Custom Keyword System NG
 +Constructible Object Custom Keyword System
@@ -277,6 +302,7 @@
 +Start On Save - Autoload Game [SKSE]
 +Menu Load Indicator - SKSE
 -Mainmenu_separator
++Sandbox When Idle
 +Save and Load Accelerator for SKSE Cosaves - S.L.A.C.K [FOMOD]
 +Dynamic Settings [SKSE]
 +Auto Input Switch

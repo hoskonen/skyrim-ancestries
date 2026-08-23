@@ -32,6 +32,10 @@
 +Reverb Interior Sounds Expansion (SRD - Rain Thunder Ambience - Fixes) [FOMOD]
 +Mute The Music [FOMOD]
 -880 ____________________ MUSIC AND SOUND _____________________separator
++Rare Spell Tomes [SkyPatcher] [DEV]
++Lowered Loot - [Skypatcher]
++Goods of Ill Repute [SkyPatcher] [DEV]
+-Loot Reduction and Rarity_separator
 +Open World Loot - SkyPatched by SICreef
 -870 ____________________________ LOOT _____________________________separator
 +Locks Are Just Locked
@@ -256,7 +260,6 @@
 +ENB Light - Patch 1 [FOMOD]
 +ENB Light [FOMOD]
 -120 ____________________________ ENB _______________________________separator
-+Goods of Ill Repute [SkyPatcher]
 +ELFX - Shadows - SkyPatcher
 +Acoustic Space Improvement Fixes (Corrected Reverb - Ambience - Interiors - SkyPatcher) [FOMOD]
 -115 ________________________ SKYPATCHER _________________________separator

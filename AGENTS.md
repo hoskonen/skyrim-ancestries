@@ -59,8 +59,19 @@ rename them.
   implementation/maintenance containers, not normal user-facing mods.
 - `[C]` custom made patch, should be visible always
 - `[SkyPatcher]` Skypatcher mod
+- `[DEV]` mod being developed
+
+Near the top of `README.md`, maintain a concise generated summary block:
+
+- `## Being Developed` lists enabled non-`[O]` mods tagged `[DEV]`.
+- `## Patches Created` lists enabled non-`[O]` mods tagged `[C]`.
+
+If a listed mod has an MO2 comment, include it after the mod name as inline
+code. Preserve visible metadata tags such as `[SkyPatcher]`, `[DEV]`, and `[C]`
+in this summary.
 
 For `[O]` mods:
+
 - do not list them in the main README mod list unless explicitly asked;
 - do not infer gameplay functionality from them;
 - they may still be mentioned in the diary when created, rebuilt, or relevant to troubleshooting.

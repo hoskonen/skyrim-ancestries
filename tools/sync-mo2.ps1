@@ -18,6 +18,7 @@ Copy-Item `
     -Force
 
 $metadata = @("# MO2 Comments and Notes", "")
+$commentsByMod = @{}
 
 Get-Content "$repo\state\modlist.txt" | ForEach-Object {
     if (-not $_.StartsWith("+")) {
@@ -46,6 +47,8 @@ Get-Content "$repo\state\modlist.txt" | ForEach-Object {
         $metadata += "## $modName"
 
         if ($comments) {
+            $commentsByMod[$modName] = $comments
+
             $metadata += ""
             $metadata += "- Comments: $comments"
         }
@@ -60,6 +63,55 @@ Get-Content "$repo\state\modlist.txt" | ForEach-Object {
 }
 
 $metadata | Set-Content "$repo\state\comments-notes.md" -Encoding UTF8
+
+function Get-ReadmeModName {
+    param([string]$ModName)
+
+    return ($ModName -replace '\s+\[(?:SKSE|FOMOD|O)\]', '').Trim()
+}
+
+function Get-InlineCode {
+    param([string]$Value)
+
+    $text = $Value.Trim()
+
+    if ($text.StartsWith('"') -and $text.EndsWith('"')) {
+        $text = $text.Substring(1, $text.Length - 2)
+    }
+
+    $text = $text -replace '\\n', ' '
+    $text = $text -replace '\\"', '"'
+    $text = $text -replace '`', '``'
+
+    return "``$text``"
+}
+
+function Get-TopListItem {
+    param([string]$ModName)
+
+    $displayName = Get-ReadmeModName $ModName
+
+    if ($commentsByMod.ContainsKey($ModName)) {
+        return "- $displayName`: $(Get-InlineCode $commentsByMod[$ModName])"
+    }
+
+    return "- $displayName"
+}
+
+$enabledMods = @()
+
+Get-Content "$repo\state\modlist.txt" | ForEach-Object {
+    if ($_.StartsWith("+")) {
+        $enabledMods += $_.Substring(1)
+    }
+}
+
+$developingMods = @($enabledMods | Where-Object {
+    $_ -match '\[DEV\]' -and $_ -notmatch '\[O\]'
+})
+$patchMods = @($enabledMods | Where-Object {
+    $_ -match '\[C\]' -and $_ -notmatch '\[O\]'
+})
 
 $statusModName = "Skyrim Ancestries - Testing & Issues"
 $statusMetaPath = Join-Path (Join-Path $mo2Mods $statusModName) "meta.ini"
@@ -164,6 +216,76 @@ $statusOutput | Set-Content "$repo\state\project-status.md" -Encoding UTF8
 
 $readmePath = "$repo\README.md"
 $readme = Get-Content $readmePath
+
+$overviewReadme = @(
+    "<!-- mod-development:start -->",
+    "## Being Developed",
+    ""
+)
+
+if ($developingMods.Count -gt 0) {
+    foreach ($modName in $developingMods) {
+        $overviewReadme += Get-TopListItem $modName
+    }
+} else {
+    $overviewReadme += "- None"
+}
+
+$overviewReadme += ""
+$overviewReadme += "## Patches Created"
+$overviewReadme += ""
+
+if ($patchMods.Count -gt 0) {
+    foreach ($modName in $patchMods) {
+        $overviewReadme += Get-TopListItem $modName
+    }
+} else {
+    $overviewReadme += "- None"
+}
+
+$overviewReadme += ""
+$overviewReadme += "<!-- mod-development:end -->"
+
+$overviewStart = [Array]::IndexOf($readme, "<!-- mod-development:start -->")
+$overviewEnd = [Array]::IndexOf($readme, "<!-- mod-development:end -->")
+
+if ($overviewStart -ge 0 -and $overviewEnd -ge $overviewStart) {
+    $before = @()
+    $after = @()
+
+    if ($overviewStart -gt 0) {
+        $before = @($readme[0..($overviewStart - 1)])
+    }
+
+    if ($overviewEnd -lt ($readme.Count - 1)) {
+        $after = @($readme[($overviewEnd + 1)..($readme.Count - 1)])
+    }
+
+    $readme = $before + $overviewReadme + $after
+} else {
+    $metricStart = [Array]::IndexOf($readme, "| Metric | Value |")
+    $metricEnd = $metricStart
+
+    if ($metricStart -ge 0) {
+        while ($metricEnd -lt $readme.Count -and $readme[$metricEnd].Trim()) {
+            $metricEnd++
+        }
+
+        $before = @()
+        $after = @()
+
+        if ($metricStart -gt 0) {
+            $before = @($readme[0..($metricStart - 1)])
+        }
+
+        if ($metricEnd -lt ($readme.Count - 1)) {
+            $after = @($readme[($metricEnd + 1)..($readme.Count - 1)])
+        }
+
+        $readme = $before + $overviewReadme + "" + $after
+    }
+}
+
 $statusReadme = @(
     "<!-- project-status:start -->",
     "## Project Status",

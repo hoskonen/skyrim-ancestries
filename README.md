@@ -4,9 +4,17 @@ Lightweight documentation workspace for the Ancestries Skyrim mod list.
 
 The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is the synchronized MO2 snapshot; do not maintain it by hand.
 
-| Metric | Value |
-| --- | ---: |
-| Patches made | 1 |
+<!-- mod-development:start -->
+## Being Developed
+
+- Rare Spell Tomes [SkyPatcher] [DEV]: `Makes spell tomes more rare`
+- Goods of Ill Repute [SkyPatcher] [DEV]: `Removes lockpicks from normal merchants`
+
+## Patches Created
+
+- Clef's Winterhold - ELFX Patch [C]
+
+<!-- mod-development:end -->
 
 <!-- project-status:start -->
 ## Project Status
@@ -104,7 +112,6 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 
 - Acoustic Space Improvement Fixes (Corrected Reverb - Ambience - Interiors - SkyPatcher)
 - ELFX - Shadows - SkyPatcher
-- Goods of Ill Repute
 
 ## 120 ENB
 
@@ -560,6 +567,17 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 ## 870 Loot
 
 - Open World Loot - SkyPatched by SICreef
+
+<details>
+<summary><strong>Loot Reduction and Rarity</strong></summary>
+
+- Goods of Ill Repute
+  - Comments: `Removes lockpicks from normal merchants`
+- Lowered Loot
+- Rare Spell Tomes
+  - Comments: `Makes spell tomes more rare`
+
+</details>
 
 ## 880 Music and Sound
 

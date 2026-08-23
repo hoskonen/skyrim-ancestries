@@ -73,3 +73,7 @@
 
 - Synced MO2 state and updated the README for SKSE, patches/fixes, UI, skeleton, character, animation, and metadata changes.
 - Synced MO2 state and updated the README for ENB, shader, lighting, UI, combat, character hair, and weather changes.
+
+# 2026-08-23 - 224 listed mods
+
+- Synced MO2 state and updated the README for SkyPatcher, immersion lockpicking, Skyrim Souls notes, and weather changes.

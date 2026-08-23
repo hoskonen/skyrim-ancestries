@@ -58,6 +58,7 @@ rename them.
 - `[O]` means a generated-output or override-container mod. Treat these as
   implementation/maintenance containers, not normal user-facing mods.
 - `[C]` custom made patch, should be visible always
+- `[SkyPatcher]` Skypatcher mod
 
 For `[O]` mods:
 - do not list them in the main README mod list unless explicitly asked;

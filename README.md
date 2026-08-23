@@ -103,6 +103,8 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 ## 115 SkyPatcher
 
 - Acoustic Space Improvement Fixes (Corrected Reverb - Ambience - Interiors - SkyPatcher)
+- ELFX - Shadows - SkyPatcher
+- Goods of Ill Repute
 
 ## 120 ENB
 
@@ -511,6 +513,29 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 
 - Dynamic Timescale - Remade
 - Skyrim Souls RE - Unpaused Menus
+  - Notes:
+    - `[UNPAUSED_MENUS]`
+    - `bBarterMenu = true`
+    - `bBookMenu = true`
+    - `bConsole = false`
+    - `bContainerMenu = true`
+    - `bFavoritesMenu = true`
+    - `bGiftMenu = true`
+    - `bInventoryMenu = true`
+    - `bJournalMenu = false`
+    - `bLevelUpMenu = true`
+    - `bLockpickingMenu = true`
+    - `bMagicMenu = true`
+    - `bMapMenu = true`
+    - `bMessageBoxMenu = true`
+    - `bModManagerMenu = false`
+    - `bSleepWaitMenu = false`
+    - `bStatsMenu = true`
+    - `bTrainingMenu = true`
+    - `bTutorialMenu = true`
+    - `bTweenMenu = true`
+    - `bCustomMenu = true`
+    - `bQuestJournalOverhaul_QuestMenu = true`
 - Alternate Start - Live Another Life - SSE
 - Take a Peek - New Stealth Mechanic
 - Take a Peek - New Stealth Mechanic - Settings Loader
@@ -521,6 +546,14 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 <summary><strong>Dialogue</strong></summary>
 
 - Echoes of Oblivion
+
+</details>
+
+<details>
+<summary><strong>Lockpicking</strong></summary>
+
+- No Lockpick Activate (SKSE) - Updated
+- Locks Are Just Locked
 
 </details>
 
@@ -537,7 +570,8 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 
 ## 900 Weather
 
-- Picturesque - graphical overhaul - weathers mod plus ENB Part 1
+- Picturesque - ENB
+- Obsidian Mountain Fogs
 - Moons And Stars - Sky Overhaul SKSE
 - Twilight
 

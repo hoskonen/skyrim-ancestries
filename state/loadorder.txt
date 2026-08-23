@@ -36,6 +36,7 @@ High Poly Head.esm
 Dismembering Framework.esm
 Landscape and Water Fixes.esp
 ClefJ's Winterhold.esp
+Obsidian Mountain Fogs.esm
 Embers XD.esm
 SurvivalControlPanel.esp
 ___BlockAngleFix.esl
@@ -44,9 +45,9 @@ Expressive Facegen Morphs.esl
 AHZmoreHUD.esl
 PGPatcher.esp
 TrueHUD.esl
-I4IconAddon.esp
 SkyUI_SE.esp
 Particle Patch.esp
+I4IconAddon.esp
 SMIM-SE-Merged-All.esp
 SurvivalModeImproved.esp
 EnhancedLightsandFX.esp
@@ -128,13 +129,14 @@ TheEyesOfBeauty.esp
 SandboxWhenIdle.esp
 BBNoKillmoves.esp
 Picturesque.esp
+Locks Are Just Locked.esp
 alternate start - live another life.esp
 Nature of the Wild Lands - Alternate Start Patch.esp
 ClefJ Winterhold - Alternate Start patch.esp
-ELFXEnhancer.esp
 Window Shadows Ultimate.esp
 Window Shadows Ultimate Supplement.esp
+ELFX - Hardcore.esp
 RealisticWaterTwo.esp
-ELFX Enhancer - Realistic Water Two patch.esp
+ELFX - Hardcore - Realistic Water Two patch.esp
 ENB Light.esp
 PG_1.esp

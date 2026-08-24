@@ -79,7 +79,8 @@
 - Synced MO2 state and updated the README for SkyPatcher, immersion lockpicking, Skyrim Souls notes, and weather changes.
 - Replaced the README metric table with generated Being Developed and Patches Created lists from MO2 tags.
 
-# 2026-08-24 - 244 listed mods
+# 2026-08-24 - 241 listed mods
 
 - Synced MO2 state and updated the README for leveling, lighting, loot, camera, combat, animation, immersion, and metadata changes.
 - Synced MO2 state and updated the README for SKSE, frameworks, UI, combat, animation, loot-rarity, and project-status changes.
+- Synced MO2 state and updated the README for SKSE, patches/fixes, lighting, UI, and skin changes.

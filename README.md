@@ -71,7 +71,6 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 - Save and Load Accelerator for SKSE Cosaves - S.L.A.C.K
 - Sandbox When Idle
 - Better Grabbing
-- Grab And Throw
 
 <details>
 <summary><strong>Mainmenu</strong></summary>
@@ -142,7 +141,6 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 - Disable Turn Animation NG
 - Exit Sneak On Sprint
 - Sprint Stuttering Fix
-- Native Mesh Light Flicker Fix
 - Bug Fixes SSE
 
 <details>
@@ -188,7 +186,7 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 - Enhanced Lights and FX
 - ELFX Shadows
 - ELFX Shadows - Official Patches Hub
-- Window Shadows Ultimate
+- Helios
 
 ## 400 Mesh Fixes
 
@@ -311,7 +309,6 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 - Smart Talk - MCM menu
 - moreHUD SE
 - Oxygen Meter 2
-- Grab And Throw - Show in UI
 
 </details>
 
@@ -389,7 +386,7 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 <summary><strong>Skin</strong></summary>
 
 - SkySight Skins 2025
-- Tempered Skins for Females - UNP CBBE and Vanilla
+- Maevan2's Mature Skin Texture for CBBE - UNP
 - Keloid Scars
   - Comments: `Magnificent scar mod which is not in nexus`
 

@@ -144,7 +144,8 @@
 +CBBE AE-CC Outfits
 -Outfits_separator
 +Keloid Scars
-+Tempered Skins for Females - UNP CBBE and Vanilla [FOMOD]
+-SC - Mature Skin Specs [FOMOD]
++Maevan2's Mature Skin Texture for CBBE - UNP
 +SkySight Skins 2025 [FOMOD]
 -Skin_separator
 +Maevan2's Eye Brows for High Poly Head
@@ -182,7 +183,6 @@
 +Dynamic Activation Key - MCM
 +Dynamic Activation Key
 -Interactions Related_separator
-+Grab And Throw - Show in UI
 +Oxygen Meter 2 [FOMOD]
 +moreHUD SE
 +Smart Talk - MCM menu
@@ -242,8 +242,7 @@
 +Shadows Of Sunlight - In Small Exterior World Spaces
 -400 ________________________ MESH FIXES __________________________separator
 -Warmer Lights
-+Window Shadows Ultimate [FOMOD]
--Helios [FOMOD]
++Helios [FOMOD]
 +ELFX Shadows - Official Patches Hub [FOMOD]
 +ELFX Shadows [FOMOD]
 +Enhanced Lights and FX [FOMOD]
@@ -264,7 +263,7 @@
 +1st Person Vertical Aim Fix
 -First Person Fixes_separator
 +Bug Fixes SSE
-+Native Mesh Light Flicker Fix [SKSE]
+-Native Mesh Light Flicker Fix [SKSE]
 +Sprint Stuttering Fix [SKSE]
 +Exit Sneak On Sprint [SKSE]
 -Survival Mode - Weapon Speed Patch
@@ -319,7 +318,6 @@
 +Start On Save - Autoload Game [SKSE]
 +Menu Load Indicator - SKSE
 -Mainmenu_separator
-+Grab And Throw [FOMOD]
 +Better Grabbing [SKSE]
 +Sandbox When Idle
 +Save and Load Accelerator for SKSE Cosaves - S.L.A.C.K [FOMOD]

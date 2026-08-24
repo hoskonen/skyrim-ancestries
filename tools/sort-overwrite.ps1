@@ -50,6 +50,16 @@ $mappings = @(
         Source = "interface"
         TargetMod = "DIP [O]"
         TargetPath = "DIP"
+    },
+    @{
+        Source = "CalienteTools"
+        TargetMod = "CalienteTools [O]"
+        TargetPath = "CalienteTools"
+    },
+    @{
+        Source = "Viny Mods"
+        TargetMod = "Viny Mods [O]"
+        TargetPath = "Viny Mods"
     }
 )
 

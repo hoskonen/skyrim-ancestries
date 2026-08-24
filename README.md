@@ -7,8 +7,9 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 <!-- mod-development:start -->
 ## Being Developed
 
+- Remedies Of Repute [SkyPatcher] [DEV]: `Removes cure disease from general merchants`
+- Goods of Ill Repute [SkyPatcher] [DEV]: `Removes lockpicks from normal merchants, removes skooma and moonsugar from normal merchants`
 - Rare Spell Tomes [SkyPatcher] [DEV]: `Makes spell tomes more rare`
-- Goods of Ill Repute [SkyPatcher] [DEV]: `Removes lockpicks from normal merchants`
 
 ## Patches Created
 
@@ -23,6 +24,12 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 
 - Echoes of Oblivion chatter
 - SKSE Sheathing
+- RAID Detection
+- Wider block vs. dynamic combat collision
+
+### Broken
+
+- RW2 water lod seam seen from stones
 
 <!-- project-status:end -->
 
@@ -63,6 +70,8 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 - Dynamic Settings
 - Save and Load Accelerator for SKSE Cosaves - S.L.A.C.K
 - Sandbox When Idle
+- Better Grabbing
+- Grab And Throw
 
 <details>
 <summary><strong>Mainmenu</strong></summary>
@@ -107,6 +116,7 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 - Constructible Object Custom Keyword System NG
 - PapyrusUtil SE - Modders Scripting Utility Functions
 - Input Manager
+- SkyPrompt
 
 ## 115 SkyPatcher
 
@@ -174,6 +184,7 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 
 ## 370 Lighting
 
+- Standard Lighting Templates - SLT
 - Enhanced Lights and FX
 - ELFX Shadows
 - ELFX Shadows - Official Patches Hub
@@ -300,6 +311,7 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 - Smart Talk - MCM menu
 - moreHUD SE
 - Oxygen Meter 2
+- Grab And Throw - Show in UI
 
 </details>
 
@@ -390,6 +402,11 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 
 </details>
 
+## 750 Leveling
+
+- Experience
+- Experience - MCM
+
 ## 800 Movement
 
 - True Directional Movement
@@ -398,12 +415,14 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 - Better Jumping SE
 - StepUpOnto SKSE
 - Scrolling Speed 2
+  - Comments: `Use if playing with keyboard`
 
 ## 810 Combat
 
 - Precision
 - Precision - NPC Combat Fix
 - Precision - Attack Collision Fixes
+- Dynamic combat collision
 - Blade and Blunt - A Combat Overhaul
   - Comments: `Minor Conflict currently with Faster Blocking Movements`
 - Death Drop Overhaul
@@ -432,12 +451,12 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 <details>
 <summary><strong>Combat Features</strong></summary>
 
-- Parrying RPG
-- Dual Wield Parrying SKSE
-- Player Stagger with Cooldown
+- Immersive Weapon Switch - SKSE plugin
 - Enemy Friendly Fire
 - Simple Offence Suppression
 - Left Hand Cast and Attack
+- Combat Pathing Revolution
+- Combat Pathing Revolution AE
 
 </details>
 
@@ -445,12 +464,18 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 <summary><strong>Blocking and Parry</strong></summary>
 
 - Wider Block Angle
+  - Comments: `"fCombatHitConeAngle = 55, fCombatBlockAttackStrikeAngleMult = 4"`
 - Dual Wield Parrying - SKSE Menu Framework Integration
+- Player Stagger with Cooldown
+- Parrying RPG
+- Engaging Combat - Keep Combat Dynamic at Higher Levels
 
 </details>
 
 ## 820 Camera
 
+- Improved Camera SE
+  - Comments: `Pressing capslock sinks the fps`
 - Cinematic Conversation Camera
 - No Furniture Camera
 - First Person (FP) Camera Settle - SKSE
@@ -462,6 +487,8 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 - First Person Stagger Animation Remade
 - JellyFishFP Movement Remake (1st person animations series)
 - Another Jump Animation - Male
+- Jumping Attack
+  - Comments: `"Sometimes holster key is not working, jump again and then it works"`
 
 <details>
 <summary><strong>Weapon Animations</strong></summary>
@@ -490,6 +517,8 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 <summary><strong>Animation Tools</strong></summary>
 
 - Animation Motion Revolution
+- Behavior Data Injector
+- Behavior Data Injector - Universal Support NG
 
 </details>
 
@@ -509,8 +538,6 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 - Animation Queue Fix
 - Paired Animation Improvements
 - Auto Skeleton Patch - Universal Behaviour Runtime
-- 1st Person Motion Sickness Remover - Regular Attacks
-- 1st Person Motion Sickness Remover - Power Attacks
 - Weapon Switch Animation Fix - Behavior Patch Version
 - No More Swimming In Air - Fixed Floating SwimIdle
 
@@ -544,6 +571,7 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
     - `bCustomMenu = true`
     - `bQuestJournalOverhaul_QuestMenu = true`
 - Alternate Start - Live Another Life - SSE
+- Realistic AI Detection (RAID)
 - Take a Peek - New Stealth Mechanic
 - Take a Peek - New Stealth Mechanic - Settings Loader
 - Dynamic Footprins - Fantasia Color Palette
@@ -571,11 +599,27 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 <details>
 <summary><strong>Loot Reduction and Rarity</strong></summary>
 
-- Goods of Ill Repute
-  - Comments: `Removes lockpicks from normal merchants`
 - Lowered Loot
 - Rare Spell Tomes
   - Comments: `Makes spell tomes more rare`
+- Goods of Ill Repute
+  - Comments: `"Removes lockpicks from normal merchants, removes skooma and moonsugar from normal merchants"`
+- Remedies Of Repute
+  - Comments: `Removes cure disease from general merchants`
+
+</details>
+
+<details>
+<summary><strong>Weapons</strong></summary>
+
+- Reforging - To the Masses (Weapons Expansion)
+
+</details>
+
+<details>
+<summary><strong>OWL Patches</strong></summary>
+
+- Reforging To Masses - OWL
 
 </details>
 

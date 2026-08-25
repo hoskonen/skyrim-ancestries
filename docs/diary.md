@@ -84,3 +84,7 @@
 - Synced MO2 state and updated the README for leveling, lighting, loot, camera, combat, animation, immersion, and metadata changes.
 - Synced MO2 state and updated the README for SKSE, frameworks, UI, combat, animation, loot-rarity, and project-status changes.
 - Synced MO2 state and updated the README for SKSE, patches/fixes, lighting, UI, and skin changes.
+
+# 2026-08-25 - 246 listed mods
+
+- Synced MO2 state and updated the README for SKSE, frameworks, character, armor, movement, camera, animation, immersion, and development changes.

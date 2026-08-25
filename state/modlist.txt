@@ -21,7 +21,7 @@
 -Papyrus Stack Stalker NG
 -Papyrus Debug Mode
 -ancestries-performance-logger
-+sse-earned-mastery
+-sse-earned-mastery
 -DEV ______________________ DEVELOPMENT _______________________separator
 +Twilight
 +Moons And Stars - Sky Overhaul SKSE
@@ -55,6 +55,7 @@
 +Dynamic Timescale - Remade
 +Dynamic Footprints [SKSE]
 +Dynamic Footprins [SKSE] - Fantasia Color Palette
++Tamrielic Names - NND
 -Realistic AI Detection (RAID) - High
 +Realistic AI Detection (RAID)
 +Alternate Start - Live Another Life - SSE
@@ -84,7 +85,7 @@
 +Open Animation Replacer - IED Conditions
 +Weapon Styles - Draw-Sheathe animations for IED
 -IED_separator
-+Jumping Attack [FOMOD]
+-Jumping Attack [FOMOD]
 -Another Jump Animation - Female
 +Another Jump Animation - Male
 +JellyFishFP Movement Remake (1st person animations series)
@@ -96,7 +97,7 @@
 +No Furniture Camera [SKSE]
 +Cinematic Conversation Camera
 +Improved Camera SE
--820 _________________________ CAMERA ___________________________separator
+-840 _________________________ CAMERA ___________________________separator
 +Engaging Combat - Keep Combat Dynamic at Higher Levels
 +Parrying RPG
 +Player Stagger with Cooldown
@@ -131,7 +132,7 @@
 -Wade in Water Redux - Swimming Overhaul
 -Loki's Wade In Water
 -Swimming_separator
-+Scrolling Speed 2
+-Scrolling Speed 2
 +StepUpOnto SKSE
 +Better Jumping SE
 +SkyParkour v3 - Procedural Parkour and Climbing Framework (SPPF)
@@ -141,6 +142,11 @@
 +Experience - MCM
 +Experience
 -750 __________________________ LEVELING __________________________separator
++Creation Club Open Helmets 2.0 - Patches [FOMOD]
++Creation Club Open Helmets [FOMOD]
++Improved Closefaced Helmets (ICH) - SkyPatched
++Improved Closefaced Helmets
+-710 ___________________________ ARMOR ___________________________separator
 +CBBE AE-CC Outfits
 -Outfits_separator
 +Keloid Scars
@@ -163,6 +169,7 @@
 +BodySlide and Outfit Studio
 +Caliente's Beautiful Bodies Enhancer CBBE [FOMOD]
 -Body_separator
++Why I Came to Skyrim - Origin Stories [FOMOD]
 +Expressive Facegen Morphs SE
 +RaceMenu
 -700 ________________________ CHARACTER _________________________separator
@@ -283,6 +290,7 @@
 +ELFX - Shadows - SkyPatcher
 +Acoustic Space Improvement Fixes (Corrected Reverb - Ambience - Interiors - SkyPatcher) [FOMOD]
 -115 ________________________ SKYPATCHER _________________________separator
++NPCs Names Distributor
 +SkyPrompt
 +Input Manager
 +PapyrusUtil SE - Modders Scripting Utility Functions
@@ -318,6 +326,7 @@
 +Start On Save - Autoload Game [SKSE]
 +Menu Load Indicator - SKSE
 -Mainmenu_separator
++Smooth Terrain
 +Better Grabbing [SKSE]
 +Sandbox When Idle
 +Save and Load Accelerator for SKSE Cosaves - S.L.A.C.K [FOMOD]

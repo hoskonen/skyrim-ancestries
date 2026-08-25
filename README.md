@@ -56,6 +56,7 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 - Stay At The System Page NG
 - Classic Sprinting Redone
 - Better Third Person Selection - BTPS
+  - Comments: `"bIsActivationButtonEnabled = 0"`
 - XEMI Utility
 - Dual Casting Fix
 - Comprehensive Attack Rate Patch
@@ -71,6 +72,7 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 - Save and Load Accelerator for SKSE Cosaves - S.L.A.C.K
 - Sandbox When Idle
 - Better Grabbing
+- Smooth Terrain
 
 <details>
 <summary><strong>Mainmenu</strong></summary>
@@ -116,6 +118,7 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 - PapyrusUtil SE - Modders Scripting Utility Functions
 - Input Manager
 - SkyPrompt
+- NPCs Names Distributor
 
 ## 115 SkyPatcher
 
@@ -348,6 +351,7 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 
 - RaceMenu
 - Expressive Facegen Morphs SE
+- Why I Came to Skyrim - Origin Stories
 
 <details>
 <summary><strong>Body</strong></summary>
@@ -399,6 +403,13 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 
 </details>
 
+## 710 Armor
+
+- Improved Closefaced Helmets
+- Improved Closefaced Helmets (ICH) - SkyPatched
+- Creation Club Open Helmets
+- Creation Club Open Helmets 2.0 - Patches
+
 ## 750 Leveling
 
 - Experience
@@ -411,8 +422,6 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 - SkyParkour v3 - Procedural Parkour and Climbing Framework (SPPF)
 - Better Jumping SE
 - StepUpOnto SKSE
-- Scrolling Speed 2
-  - Comments: `Use if playing with keyboard`
 
 ## 810 Combat
 
@@ -469,7 +478,7 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 
 </details>
 
-## 820 Camera
+## 840 Camera
 
 - Improved Camera SE
   - Comments: `Pressing capslock sinks the fps`
@@ -484,8 +493,6 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 - First Person Stagger Animation Remade
 - JellyFishFP Movement Remake (1st person animations series)
 - Another Jump Animation - Male
-- Jumping Attack
-  - Comments: `"Sometimes holster key is not working, jump again and then it works"`
 
 <details>
 <summary><strong>Weapon Animations</strong></summary>
@@ -569,6 +576,7 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
     - `bQuestJournalOverhaul_QuestMenu = true`
 - Alternate Start - Live Another Life - SSE
 - Realistic AI Detection (RAID)
+- Tamrielic Names - NND
 - Take a Peek - New Stealth Mechanic
 - Take a Peek - New Stealth Mechanic - Settings Loader
 - Dynamic Footprins - Fantasia Color Palette
@@ -633,10 +641,6 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 - Obsidian Mountain Fogs
 - Moons And Stars - Sky Overhaul SKSE
 - Twilight
-
-## DEV Development
-
-- sse-earned-mastery
 
 ## 960 Skin
 

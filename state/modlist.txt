@@ -42,6 +42,7 @@
 +Rare Spell Tomes [SkyPatcher] [DEV]
 +Lowered Loot - [Skypatcher]
 -Loot Reduction and Rarity_separator
++Open World Loot - Rarity Module [DEV]
 +Open World Loot - SkyPatched by SICreef
 -870 ____________________________ LOOT _____________________________separator
 +Locks Are Just Locked
@@ -209,7 +210,6 @@
 -Core UI_separator
 -500 _____________________ USER INTERFACE ________________________separator
 -Water for ENB [FOMOD]
-+Realistic Water Two - Better Water Original v5
 +Realistic Water Two SE (RWT) [FOMOD]
 -480 ___________________________ WATER ____________________________separator
 +Nature of the Wild Lands - Nordic Cut Patch Collection [FOMOD]
@@ -224,6 +224,8 @@
 +ClefJ's Winterhold
 -Winterhold_separator
 -455 ___________________ TOWN OVERHAULS _______________________separator
++Weapons and Armors Remastered - Complex Materials
+-Weapon Textures_separator
 +Dust not Clouds - FrankBlack
 +Glorious Gradients
 -Particles Textures_separator
@@ -236,6 +238,9 @@
 +Skyland AIO - Complex Parallax [FOMOD]
 +Skyland AIO [FOMOD]
 -450 ______________________ CORE TEXTURES ________________________separator
++Believable Weapons [FOMOD]
++LeanWolf's Better-Shaped Weapons SE [FOMOD][H]
+-Weapon Meshes_separator
 +Enhanced Rocks and Mountains - Complex Material and PBR [FOMOD]
 -Rock and Mountains Meshes_separator
 +Blended Roads [FOMOD]

@@ -30,7 +30,7 @@
 
 ## Improved Camera SE
 
-- Comments: Pressing capslock sinks the fps
+- Comments: "First Person Overhaul ON, Override Vanilla Arms on Movement OFF"
 
 ## Wider Block Angle
 
@@ -59,6 +59,10 @@
 ## Skyland AIO [FOMOD]
 
 - Comments: "No landscapes, no water"
+
+## LeanWolf's Better-Shaped Weapons SE [FOMOD][H]
+
+- Comments: Hid all the meshes which conflict with Believable Weapons
 
 ## Skyrim Landscape and Water Fixes [FOMOD]
 

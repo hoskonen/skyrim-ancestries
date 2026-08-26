@@ -10,6 +10,7 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 - Remedies Of Repute [SkyPatcher] [DEV]: `Removes cure disease from general merchants`
 - Goods of Ill Repute [SkyPatcher] [DEV]: `Removes lockpicks from normal merchants, removes skooma and moonsugar from normal merchants`
 - Rare Spell Tomes [SkyPatcher] [DEV]: `Makes spell tomes more rare`
+- Open World Loot - Rarity Module [DEV]
 
 ## Patches Created
 
@@ -220,6 +221,15 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 
 </details>
 
+<details>
+<summary><strong>Weapon Meshes</strong></summary>
+
+- LeanWolf's Better-Shaped Weapons SE
+  - Comments: `Hid all the meshes which conflict with Believable Weapons`
+- Believable Weapons
+
+</details>
+
 ## 450 Core Textures
 
 - Skyland AIO
@@ -250,6 +260,13 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 
 </details>
 
+<details>
+<summary><strong>Weapon Textures</strong></summary>
+
+- Weapons and Armors Remastered - Complex Materials
+
+</details>
+
 ## 455 Town Overhauls
 
 <details>
@@ -275,7 +292,6 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 ## 480 Water
 
 - Realistic Water Two SE (RWT)
-- Realistic Water Two - Better Water Original v5
 
 ## 500 User Interface
 
@@ -481,7 +497,7 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 ## 840 Camera
 
 - Improved Camera SE
-  - Comments: `Pressing capslock sinks the fps`
+  - Comments: `"First Person Overhaul ON, Override Vanilla Arms on Movement OFF"`
 - Cinematic Conversation Camera
 - No Furniture Camera
 - First Person (FP) Camera Settle - SKSE
@@ -600,6 +616,7 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 ## 870 Loot
 
 - Open World Loot - SkyPatched by SICreef
+- Open World Loot - Rarity Module
 
 <details>
 <summary><strong>Loot Reduction and Rarity</strong></summary>

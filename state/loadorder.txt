@@ -45,8 +45,8 @@ AHZmoreHUD.esl
 RFM.esm
 Experience.esl
 Embers XD.esm
-PGPatcher.esp
 Helios.esp
+PGPatcher.esp
 TrueHUD.esl
 SkyUI_SE.esp
 Helios_ELFX Enhancer.esp
@@ -142,6 +142,7 @@ The Book of Origins - Alternate Start.esp
 imp_helm_legend.esp
 CC Open Helmets.esp
 CC Open Helmets Patches.esp
+OWLRM.esp
 alternate start - live another life.esp
 ClefJ Winterhold - Alternate Start patch.esp
 Nature of the Wild Lands - Alternate Start Patch.esp

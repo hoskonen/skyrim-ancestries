@@ -60,6 +60,7 @@ rename them.
 - `[C]` custom made patch, should be visible always
 - `[SkyPatcher]` Skypatcher mod
 - `[DEV]` mod being developed
+- `[H]` mod has files that has been set to hidden
 
 Near the top of `README.md`, maintain a concise generated summary block:
 

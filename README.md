@@ -7,10 +7,11 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 <!-- mod-development:start -->
 ## Being Developed
 
+- Goods In Transit [DEV]
 - Remedies Of Repute [SkyPatcher] [DEV]: `Removes cure disease from general merchants`
 - Goods of Ill Repute [SkyPatcher] [DEV]: `Removes lockpicks from normal merchants, removes skooma and moonsugar from normal merchants`
 - Rare Spell Tomes [SkyPatcher] [DEV]: `Makes spell tomes more rare`
-- Open World Loot - Rarity Module [DEV]
+- Open World Loot - Rarity Module [DEV][H]
 
 ## Patches Created
 
@@ -146,6 +147,7 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 - Exit Sneak On Sprint
 - Sprint Stuttering Fix
 - Bug Fixes SSE
+- Actor Limit Fix
 
 <details>
 <summary><strong>First Person Fixes</strong></summary>
@@ -204,6 +206,7 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 - Smoother Skies - Meshes
 - Particle Patch
 - Flickering Meshes Fix
+- Skyrim Objects SMIMed - Warmaiden's Holes
 
 ## 410 Mesh Overrides
 
@@ -406,7 +409,7 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 <summary><strong>Skin</strong></summary>
 
 - SkySight Skins 2025
-- Maevan2's Mature Skin Texture for CBBE - UNP
+- Northbourne Maiden Skin CBBE
 - Keloid Scars
   - Comments: `Magnificent scar mod which is not in nexus`
 
@@ -566,6 +569,10 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 ## 860 Immersion
 
 - Dynamic Timescale - Remade
+- Alternate Start - Live Another Life - SSE
+- AI Overhaul SSE
+- AI Overhaul SSE - SPIDified
+- AI Overhaul SSE SkyPatcher Patch
 - Skyrim Souls RE - Unpaused Menus
   - Notes:
     - `[UNPAUSED_MENUS]`
@@ -590,7 +597,6 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
     - `bTweenMenu = true`
     - `bCustomMenu = true`
     - `bQuestJournalOverhaul_QuestMenu = true`
-- Alternate Start - Live Another Life - SSE
 - Realistic AI Detection (RAID)
 - Tamrielic Names - NND
 - Take a Peek - New Stealth Mechanic
@@ -616,7 +622,7 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 ## 870 Loot
 
 - Open World Loot - SkyPatched by SICreef
-- Open World Loot - Rarity Module
+- Open World Loot - Rarity Module [H]
 
 <details>
 <summary><strong>Loot Reduction and Rarity</strong></summary>
@@ -638,13 +644,6 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 
 </details>
 
-<details>
-<summary><strong>OWL Patches</strong></summary>
-
-- Reforging To Masses - OWL
-
-</details>
-
 ## 880 Music and Sound
 
 - Mute The Music
@@ -658,6 +657,10 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 - Obsidian Mountain Fogs
 - Moons And Stars - Sky Overhaul SKSE
 - Twilight
+
+## DEV Development
+
+- Goods In Transit
 
 ## 960 Skin
 

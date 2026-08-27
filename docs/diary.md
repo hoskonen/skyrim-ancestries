@@ -92,3 +92,7 @@
 # 2026-08-26 - 249 listed mods
 
 - Synced MO2 state and updated the README for mesh, texture, water, camera, loot, and metadata changes.
+
+# 2026-08-27 - 254 listed mods
+
+- Synced MO2 state and updated the README for patches/fixes, mesh fixes, skin, immersion AI, loot, and development changes.

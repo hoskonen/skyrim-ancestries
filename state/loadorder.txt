@@ -49,7 +49,6 @@ Helios.esp
 PGPatcher.esp
 TrueHUD.esl
 SkyUI_SE.esp
-Helios_ELFX Enhancer.esp
 Particle Patch.esp
 I4IconAddon.esp
 SMIM-SE-Merged-All.esp
@@ -58,10 +57,13 @@ EnhancedLightsandFX.esp
 ELFX Shadows.esp
 Nature of the Wild Lands.esp
 NotWL - Nordic Cut.esp
+AI Overhaul.esp
 StandardLightingTemplatesUSSEP.esp
 Embers XD.esp
 Landscape and Water Fixes - Patch - Farming.esp
+AI Overhaul - USSEP Patch.esp
 Echoes of Oblivion.esp
+Helios_ELFX Enhancer.esp
 ClefJsWinterhold-ELFX-Patch.esp
 RaceMenu.esp
 RaceMenuPlugin.esp
@@ -121,6 +123,7 @@ CBBE.esp
 RaceMenuMorphsCBBE.esp
 Maevan2EyeBrows.esp
 Maevan2 Eye Brows for High Poly Head.esp
+AI Overhaul - Fishing Addon.esp
 TheEyesOfBeauty.esp
 SandboxWhenIdle.esp
 BBNoKillmoves.esp
@@ -143,6 +146,8 @@ imp_helm_legend.esp
 CC Open Helmets.esp
 CC Open Helmets Patches.esp
 OWLRM.esp
+GoodsInTransit.esp
+GoodInTransitDesigns.esp
 alternate start - live another life.esp
 ClefJ Winterhold - Alternate Start patch.esp
 Nature of the Wild Lands - Alternate Start Patch.esp

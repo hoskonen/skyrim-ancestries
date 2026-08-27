@@ -18,6 +18,7 @@
 +SKSE [O]
 +SSEEdit Backups [O]
 -950 ______________________ OVERWRITE MODS ______________________separator
++Goods In Transit [DEV]
 -Papyrus Stack Stalker NG
 -Papyrus Debug Mode
 -ancestries-performance-logger
@@ -33,7 +34,7 @@
 +Reverb Interior Sounds Expansion (SRD - Rain Thunder Ambience - Fixes) [FOMOD]
 +Mute The Music [FOMOD]
 -880 ____________________ MUSIC AND SOUND _____________________separator
-+Reforging To Masses - OWL - [SkyPatcher]
+-Reforging To Masses - OWL - [SkyPatcher]
 -OWL Patches_separator
 +Reforging - To the Masses (Weapons Expansion)
 -Weapons_separator
@@ -42,7 +43,7 @@
 +Rare Spell Tomes [SkyPatcher] [DEV]
 +Lowered Loot - [Skypatcher]
 -Loot Reduction and Rarity_separator
-+Open World Loot - Rarity Module [DEV]
++Open World Loot - Rarity Module [DEV][H]
 +Open World Loot - SkyPatched by SICreef
 -870 ____________________________ LOOT _____________________________separator
 +Locks Are Just Locked
@@ -59,6 +60,9 @@
 +Tamrielic Names - NND
 -Realistic AI Detection (RAID) - High
 +Realistic AI Detection (RAID)
++AI Overhaul SSE SkyPatcher Patch [FOMOD]
++AI Overhaul SSE - SPIDified
++AI Overhaul SSE [FOMOD]
 +Alternate Start - Live Another Life - SSE
 -860 ________________________ IMMERSION _________________________separator
 +SIGMA - Waraxe animations - Low
@@ -151,8 +155,10 @@
 +CBBE AE-CC Outfits
 -Outfits_separator
 +Keloid Scars
++Northbourne Maiden Skin CBBE
+-Reverie - Skin
 -SC - Mature Skin Specs [FOMOD]
-+Maevan2's Mature Skin Texture for CBBE - UNP
+-Maevan2's Mature Skin Texture for CBBE - UNP
 +SkySight Skins 2025 [FOMOD]
 -Skin_separator
 +Maevan2's Eye Brows for High Poly Head
@@ -246,6 +252,7 @@
 +Blended Roads [FOMOD]
 -Roads_separator
 -410 _____________________ MESH OVERRIDES _______________________separator
++Skyrim Objects SMIMed - Warmaiden's Holes
 +Flickering Meshes Fix [FOMOD]
 +Particle Patch [FOMOD]
 +Smoother Skies - Meshes
@@ -274,6 +281,7 @@
 +Unlocked 1st Person Combat [FOMOD]
 +1st Person Vertical Aim Fix
 -First Person Fixes_separator
++Actor Limit Fix
 +Bug Fixes SSE
 -Native Mesh Light Flicker Fix [SKSE]
 +Sprint Stuttering Fix [SKSE]

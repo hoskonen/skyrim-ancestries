@@ -15,7 +15,7 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 
 ## Patches Created
 
-- Clef's Winterhold - ELFX Patch [C]
+- None
 
 <!-- mod-development:end -->
 
@@ -74,6 +74,7 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 - Save and Load Accelerator for SKSE Cosaves - S.L.A.C.K
 - Sandbox When Idle
 - Better Grabbing
+- Auto Parallax
 - Smooth Terrain
 
 <details>
@@ -121,11 +122,14 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 - Input Manager
 - SkyPrompt
 - NPCs Names Distributor
+- Automatic Renamer
 
-## 115 SkyPatcher
+## 115 Patchers
 
 - Acoustic Space Improvement Fixes (Corrected Reverb - Ambience - Interiors - SkyPatcher)
 - ELFX - Shadows - SkyPatcher
+- Automatic Renamer - Ore Veins
+  - Comments: `Renames ore veins just to ore veins`
 
 ## 120 ENB
 
@@ -207,6 +211,9 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 - Particle Patch
 - Flickering Meshes Fix
 - Skyrim Objects SMIMed - Warmaiden's Holes
+- Actually flat flat Snow Drifts
+- Word Wall Transparency Fix for ENB
+- Terrain Parallax Blending Fix
 
 ## 410 Mesh Overrides
 
@@ -214,13 +221,9 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 <summary><strong>Roads</strong></summary>
 
 - Blended Roads
-
-</details>
-
-<details>
-<summary><strong>Rock and Mountains Meshes</strong></summary>
-
-- Enhanced Rocks and Mountains - Complex Material and PBR
+- Blended Roads - Parallax Meshes
+- Blended Roads - Simplicity of Snow Patch
+- Blended Roads less bumpiness - Base Object Swapper
 
 </details>
 
@@ -235,16 +238,23 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 
 ## 450 Core Textures
 
+<details>
+<summary><strong>Landscape</strong></summary>
+
 - Skyland AIO
   - Comments: `"No landscapes, no water"`
 - Skyland AIO - Complex Parallax
 - Skyking Fantasia Landscapes
-- Fantasia Landscapes - Green Tundra - Complex Parallax
+- Skyking Fantasia Landscapes - Green Tundra - Complex Parallax
+
+</details>
 
 <details>
 <summary><strong>Rock and Mountain Textures</strong></summary>
 
-- Vanaheimr - Mountains - MM - Complex Material - PBR
+- ERM - Enhanced Rocks and Mountains - Main Meshes
+- ERM - Complex Material Textures Collection - Textures
+- Vanaheimr Mountains - MM - Complex Material
 
 </details>
 
@@ -270,6 +280,21 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 
 </details>
 
+<details>
+<summary><strong>Road Textures</strong></summary>
+
+- Tomato's Blended Roads Retexture - 2k
+
+</details>
+
+<details>
+<summary><strong>Snow Textures</strong></summary>
+
+- Simplicity of Snow
+- Skyking Snowburst - 4K Complex Parallax Snow
+
+</details>
+
 ## 455 Town Overhauls
 
 <details>
@@ -277,8 +302,10 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 
 - ClefJ's Winterhold
 - ClefJ's Winterhold - Inn Fix Patch
+- ClefJ's Winterhold - Patches
 - ClefJ's Winterhold - Alternate Start Patch
-- Clef's Winterhold - ELFX Patch [C]
+- ELFX Shadows - ClefJ's Winterhold Patch
+- ClefJ Winterhold - LOD Meshes for DynDOLOD [LODS]
 
 </details>
 
@@ -337,8 +364,15 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 <details>
 <summary><strong>Interactions Related</strong></summary>
 
-- Dynamic Activation Key
-- Dynamic Activation Key - MCM
+- Dynamic Activation Key - DLL NG Edition
+  - Notes:
+    - `iDAKModifierKey = 209`
+    - `iDAKControllerKey = 267`
+- Dynamic Activation Key - DLL NG Edition - MCM
+- Dynamic Activation Key - Addons Collection
+  - Notes:
+    - `iDAKModifierKey = 209`
+    - `iDAKControllerKey = 267`
 
 </details>
 
@@ -349,6 +383,7 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 - Photo Mode
 - Dynamic Interface Patcher - DIP
 - Automatic Patcher
+- Menu Maid 2 - MCM manager
 
 </details>
 
@@ -497,6 +532,13 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 
 </details>
 
+<details>
+<summary><strong>Spawning and Encounter Zones</strong></summary>
+
+- Ultimate Automated Encounter Zones Patcher - Hard
+
+</details>
+
 ## 840 Camera
 
 - Improved Camera SE
@@ -601,7 +643,6 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 - Tamrielic Names - NND
 - Take a Peek - New Stealth Mechanic
 - Take a Peek - New Stealth Mechanic - Settings Loader
-- Dynamic Footprins - Fantasia Color Palette
 - Dynamic Footprints
 
 <details>
@@ -616,6 +657,13 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 
 - No Lockpick Activate (SKSE) - Updated
 - Locks Are Just Locked
+
+</details>
+
+<details>
+<summary><strong>Saving Limitation</strong></summary>
+
+- Dynamic Footprins - Fantasia Color Palette
 
 </details>
 

@@ -61,6 +61,7 @@ rename them.
 - `[SkyPatcher]` Skypatcher mod
 - `[DEV]` mod being developed
 - `[H]` mod has files that has been set to hidden
+- `[LODS]` DynDoLod meshes
 
 Near the top of `README.md`, maintain a concise generated summary block:
 

@@ -96,3 +96,7 @@
 # 2026-08-27 - 254 listed mods
 
 - Synced MO2 state and updated the README for patches/fixes, mesh fixes, skin, immersion AI, loot, and development changes.
+
+# 2026-08-29 - 272 listed mods
+
+- Synced MO2 state and updated the README for patchers, mesh overrides, core textures, Winterhold patches, UI interactions, combat, immersion, and metadata changes.

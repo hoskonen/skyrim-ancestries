@@ -38,7 +38,6 @@ Landscape and Water Fixes.esp
 ClefJ's Winterhold.esp
 Obsidian Mountain Fogs.esm
 SurvivalControlPanel.esp
-___BlockAngleFix.esl
 OCF.esp
 Expressive Facegen Morphs.esl
 AHZmoreHUD.esl
@@ -47,9 +46,9 @@ Experience.esl
 Embers XD.esm
 Helios.esp
 PGPatcher.esp
+___BlockAngleFix.esl
 TrueHUD.esl
 SkyUI_SE.esp
-Helios_ELFX Enhancer.esp
 Particle Patch.esp
 I4IconAddon.esp
 SMIM-SE-Merged-All.esp
@@ -62,11 +61,15 @@ AI Overhaul.esp
 StandardLightingTemplatesUSSEP.esp
 Parallax TXST Fixes.esp
 Embers XD.esp
+GoodsInTransit.esp
+UAEZP.esp
+EncounterZonesEasy.esp
 ClefJ Winterhold - ELFX.esp
 SC ClefJ Winterhold - AI Overhaul.esp
 Landscape and Water Fixes - Patch - Farming.esp
 AI Overhaul - USSEP Patch.esp
 Echoes of Oblivion.esp
+Helios_ELFX Enhancer.esp
 TerrainHelper.esp
 Groundcover.esp
 Fantasia Complex Parallax.esp
@@ -134,7 +137,6 @@ SandboxWhenIdle.esp
 BBNoKillmoves.esp
 Picturesque.esp
 Locks Are Just Locked.esp
-DynamicCombatCollision.esp
 NotWL - Autumn Tundra.esp
 NotWL - Autumn Rift.esp
 Realistic AI Detection 3 - Medium Interior, Medium Exterior.esp
@@ -151,10 +153,8 @@ imp_helm_legend.esp
 CC Open Helmets.esp
 CC Open Helmets Patches.esp
 OWLRM.esp
-GoodsInTransit.esp
 GoodInTransitDesigns.esp
 Dynamic Activation Key - Addons Collection.esp
-MenuMaid2.esp
 ELFX-Shadows-ClefJs-Winterhold-Patch.esp
 Parallax TXST Fixes - _ResourcePack.esp
 Parallax TXST Fixes - Unofficial Skyrim Special Edition Patch.esp
@@ -167,12 +167,13 @@ Parallax TXST Fixes - ccBGSSSE025-AdvDSGS.esp
 Simplicity of Snow - Dwemer Sanctuary Patch.esp
 Parallax TXST Fixes - Simplicity of Snow.esp
 Parallax TXST Fixes - Simplicity of Snow - Blended Roads Patch.esp
-UAEZP.esp
+DynamicCombatCollision.esp
+CombatStaminaRequirements.esp
 alternate start - live another life.esp
 ClefJ Winterhold - Alternate Start patch.esp
 Nature of the Wild Lands - Alternate Start Patch.esp
 ELFX - Hardcore.esp
-EncounterZones.esp
+EncounterZonesHard.esp
 RealisticWaterTwo.esp
 ELFX - Hardcore - Realistic Water Two patch.esp
 Skyland Watercolor - Slow Green-RW2.esp

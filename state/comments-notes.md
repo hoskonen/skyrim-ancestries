@@ -40,6 +40,10 @@
 
 - Comments: Minor Conflict currently with Faster Blocking Movements
 
+## Precision - Ancestries Tweaks TOML
+
+- Comments: Removes all block/bash entries from the precision_base.toml. Fixes bashes not connecting in first person.
+
 ## Keloid Scars
 
 - Comments: Magnificent scar mod which is not in nexus
@@ -92,9 +96,17 @@
 
 - Comments: Renames ore veins just to ore veins
 
+## Lexicon SKSE
+
+- Comments: Use 0.1.4.3
+
 ## SkyPatcher
 
 - Comments: "iAllowLeveledListsAddedToContainers=1"
+
+## Actor Value Generator
+
+- Comments: Use 2.2.9.4
 
 ## Animated Interactions SKSE
 

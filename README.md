@@ -74,8 +74,10 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 - Save and Load Accelerator for SKSE Cosaves - S.L.A.C.K
 - Sandbox When Idle
 - Better Grabbing
-- Auto Parallax
 - Smooth Terrain
+- Auto Parallax
+- Actor Value Generator
+  - Comments: `Use 2.2.9.4`
 
 <details>
 <summary><strong>Mainmenu</strong></summary>
@@ -123,6 +125,8 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 - SkyPrompt
 - NPCs Names Distributor
 - Automatic Renamer
+- Lexicon SKSE
+  - Comments: `Use 0.1.4.3`
 
 ## 115 Patchers
 
@@ -383,7 +387,7 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 - Photo Mode
 - Dynamic Interface Patcher - DIP
 - Automatic Patcher
-- Menu Maid 2 - MCM manager
+- MCM Memory - Settings Backup and Restore
 
 </details>
 
@@ -482,6 +486,8 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 - Precision
 - Precision - NPC Combat Fix
 - Precision - Attack Collision Fixes
+- Precision - Ancestries Tweaks TOML
+  - Comments: `Removes all block/bash entries from the precision_base.toml. Fixes bashes not connecting in first person.`
 - Dynamic combat collision
 - Blade and Blunt - A Combat Overhaul
   - Comments: `Minor Conflict currently with Faster Blocking Movements`
@@ -494,6 +500,7 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 - Broken Feathers (Full Skyrim Arrow Pack)
 - Ricochet - Arrow Physics Framework
 - Ricochet - Arrow Physics Framework MCM
+- NPCs Learn to Aim (Skill-Based Aiming)
 
 </details>
 
@@ -525,17 +532,18 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 
 - Wider Block Angle
   - Comments: `"fCombatHitConeAngle = 55, fCombatBlockAttackStrikeAngleMult = 4"`
-- Dual Wield Parrying - SKSE Menu Framework Integration
 - Player Stagger with Cooldown
+- Dual Wield Parrying - SKSE Menu Framework Integration
 - Parrying RPG
 - Engaging Combat - Keep Combat Dynamic at Higher Levels
+- Shield of Stamina - More Consistent Stamina Costs
 
 </details>
 
 <details>
 <summary><strong>Spawning and Encounter Zones</strong></summary>
 
-- Ultimate Automated Encounter Zones Patcher - Hard
+- Ultimate Automated Encounter Zones Patcher - Easy
 
 </details>
 
@@ -610,11 +618,14 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 
 ## 860 Immersion
 
-- Dynamic Timescale - Remade
 - Alternate Start - Live Another Life - SSE
 - AI Overhaul SSE
 - AI Overhaul SSE - SPIDified
 - AI Overhaul SSE SkyPatcher Patch
+- Realistic AI Detection (RAID)
+- Tamrielic Names - NND
+- Dynamic Footprints
+- Dynamic Timescale - Remade
 - Skyrim Souls RE - Unpaused Menus
   - Notes:
     - `[UNPAUSED_MENUS]`
@@ -639,11 +650,9 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
     - `bTweenMenu = true`
     - `bCustomMenu = true`
     - `bQuestJournalOverhaul_QuestMenu = true`
-- Realistic AI Detection (RAID)
-- Tamrielic Names - NND
 - Take a Peek - New Stealth Mechanic
 - Take a Peek - New Stealth Mechanic - Settings Loader
-- Dynamic Footprints
+- Dynamic Footprins - Fantasia Color Palette
 
 <details>
 <summary><strong>Dialogue</strong></summary>
@@ -661,9 +670,9 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 </details>
 
 <details>
-<summary><strong>Saving Limitation</strong></summary>
+<summary><strong>Effects and Shaders</strong></summary>
 
-- Dynamic Footprins - Fantasia Color Palette
+- Soaking Wet - Character Wetness Effect
 
 </details>
 
@@ -714,3 +723,8 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 
 - Norden UI
 - Norden - RaceMenu DIP Patch
+
+## 999 Skyrim Ancestries - Testing & Issues
+
+- Final Look Tuner FLT - Live Color Adjust
+- Combat Stamina Requirements

@@ -5,7 +5,6 @@
 - Echoes of Oblivion chatter
 - SKSE Sheathing
 - RAID Detection
-- Wider block vs. dynamic combat collision
 
 ## [BROKEN]
 

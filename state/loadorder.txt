@@ -49,6 +49,7 @@ PGPatcher.esp
 ___BlockAngleFix.esl
 TrueHUD.esl
 SkyUI_SE.esp
+Helios_ELFX Enhancer.esp
 Particle Patch.esp
 I4IconAddon.esp
 SMIM-SE-Merged-All.esp
@@ -69,7 +70,6 @@ SC ClefJ Winterhold - AI Overhaul.esp
 Landscape and Water Fixes - Patch - Farming.esp
 AI Overhaul - USSEP Patch.esp
 Echoes of Oblivion.esp
-Helios_ELFX Enhancer.esp
 TerrainHelper.esp
 Groundcover.esp
 Fantasia Complex Parallax.esp
@@ -118,7 +118,6 @@ Crackling Fire Volume Slider.esp
 PhotoMode.esp
 NMN_DynamicFootprints.esp
 BetterThirdPersonSelection.esp
-Animated Interactions.esp
 Smart Talk - MCM.esp
 Dynamic Activation Key.esp
 Dynamic Activation Key - MCM.esp
@@ -168,12 +167,18 @@ Simplicity of Snow - Dwemer Sanctuary Patch.esp
 Parallax TXST Fixes - Simplicity of Snow.esp
 Parallax TXST Fixes - Simplicity of Snow - Blended Roads Patch.esp
 DynamicCombatCollision.esp
-CombatStaminaRequirements.esp
+Simple Hunting Overhaul.esp
+ImmersiveHunting.esp
+Animated Interactions.esp
 alternate start - live another life.esp
 ClefJ Winterhold - Alternate Start patch.esp
 Nature of the Wild Lands - Alternate Start Patch.esp
+AlternateStart-Loot-Patch.esp
 ELFX - Hardcore.esp
 EncounterZonesHard.esp
+Scarcity SE - Less Loot Mod.esp
+Scarcity SE - 6x Loot Rarity.esp
+Scarcity SE - 4x Merchant Item Rarity.esp
 RealisticWaterTwo.esp
 ELFX - Hardcore - Realistic Water Two patch.esp
 Skyland Watercolor - Slow Green-RW2.esp

@@ -8,6 +8,7 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 ## Being Developed
 
 - Goods In Transit [DEV]
+- Riches Of Repute [Skypatcher] [DEV]
 - Remedies Of Repute [SkyPatcher] [DEV]: `Removes cure disease from general merchants`
 - Goods of Ill Repute [SkyPatcher] [DEV]: `Removes lockpicks from normal merchants, removes skooma and moonsugar from normal merchants`
 - Rare Spell Tomes [SkyPatcher] [DEV]: `Makes spell tomes more rare`
@@ -27,7 +28,6 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 - Echoes of Oblivion chatter
 - SKSE Sheathing
 - RAID Detection
-- Wider block vs. dynamic combat collision
 
 ### Broken
 
@@ -78,6 +78,9 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 - Auto Parallax
 - Actor Value Generator
   - Comments: `Use 2.2.9.4`
+- Variadic Collision Dynamics
+- Variadic Collision Dynamics - Resources
+- Final Look Tuner FLT - Live Color Adjust
 
 <details>
 <summary><strong>Mainmenu</strong></summary>
@@ -93,6 +96,7 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 - ConsolePlusPlus
 - Crash Logger SSE AE VR - PDB support
 - SSEEdit Linker
+- Log Watcher - Real-time Analysis of SKSE Logs
 
 ## 110 Frameworks
 
@@ -134,6 +138,7 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 - ELFX - Shadows - SkyPatcher
 - Automatic Renamer - Ore Veins
   - Comments: `Renames ore veins just to ore veins`
+- Gems Economy Overhaul - Skypatcher V2
 
 ## 120 ENB
 
@@ -156,6 +161,7 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 - Sprint Stuttering Fix
 - Bug Fixes SSE
 - Actor Limit Fix
+- GC Bug Fix
 
 <details>
 <summary><strong>First Person Fixes</strong></summary>
@@ -320,6 +326,7 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 ## 470 Forest and Trees
 
 - Nature of the Wild Lands
+- Nature of the Wild Lands - Snowier Spruce Trees
 - Nature of the Wild Lands - Nordic Cut
 - Nature of the Wild Lands - Nordic Cut Patch Collection
 
@@ -377,6 +384,7 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
   - Notes:
     - `iDAKModifierKey = 209`
     - `iDAKControllerKey = 267`
+- Read Or Take
 
 </details>
 
@@ -388,6 +396,7 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 - Dynamic Interface Patcher - DIP
 - Automatic Patcher
 - MCM Memory - Settings Backup and Restore
+- Clean Loading Transitions
 
 </details>
 
@@ -483,9 +492,7 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 
 ## 810 Combat
 
-- Precision
-- Precision - NPC Combat Fix
-- Precision - Attack Collision Fixes
+- Precision NEW
 - Precision - Ancestries Tweaks TOML
   - Comments: `Removes all block/bash entries from the precision_base.toml. Fixes bashes not connecting in first person.`
 - Dynamic combat collision
@@ -501,6 +508,7 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 - Ricochet - Arrow Physics Framework
 - Ricochet - Arrow Physics Framework MCM
 - NPCs Learn to Aim (Skill-Based Aiming)
+- Bows Can Break
 
 </details>
 
@@ -556,22 +564,82 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 - First Person (FP) Camera Settle - SKSE
 - First Person (FP) Inertia - SKSE
 
-## 850 Animation
+## 850 Immersion
+
+- Alternate Start - Live Another Life - SSE
+- Alternate Start - Loot Patch
+- AI Overhaul SSE
+- AI Overhaul SSE - SPIDified
+- AI Overhaul SSE SkyPatcher Patch
+- Realistic AI Detection (RAID)
+- Tamrielic Names - NND
+- Dynamic Footprints
+- Dynamic Timescale - Remade
+- Skyrim Souls RE - Unpaused Menus
+  - Notes:
+    - `[UNPAUSED_MENUS]`
+    - `bBarterMenu = true`
+    - `bBookMenu = true`
+    - `bConsole = false`
+    - `bContainerMenu = true`
+    - `bFavoritesMenu = true`
+    - `bGiftMenu = true`
+    - `bInventoryMenu = true`
+    - `bJournalMenu = false`
+    - `bLevelUpMenu = true`
+    - `bLockpickingMenu = true`
+    - `bMagicMenu = true`
+    - `bMapMenu = true`
+    - `bMessageBoxMenu = true`
+    - `bModManagerMenu = false`
+    - `bSleepWaitMenu = false`
+    - `bStatsMenu = true`
+    - `bTrainingMenu = true`
+    - `bTutorialMenu = true`
+    - `bTweenMenu = true`
+    - `bCustomMenu = true`
+    - `bQuestJournalOverhaul_QuestMenu = true`
+- Take a Peek - New Stealth Mechanic
+- Take a Peek - New Stealth Mechanic - Settings Loader
+- Dynamic Footprins - Fantasia Color Palette
+- Wash That Blood Off 2
+
+<details>
+<summary><strong>Dialogue</strong></summary>
+
+- Echoes of Oblivion
+
+</details>
+
+<details>
+<summary><strong>Lockpicking</strong></summary>
+
+- Locks Are Just Locked
+- No Lockpick Activate (SKSE) - Updated
+
+</details>
+
+<details>
+<summary><strong>Effects and Shaders</strong></summary>
+
+- Soaking Wet - Character Wetness Effect
+
+</details>
+
+<details>
+<summary><strong>Hunting</strong></summary>
+
+- Simple Hunting Overhaul
+  - Comments: `"Minor cell conflict with Lighting template, Use ICC - Simple Hunting Overhaul IED Preset"`
+
+</details>
+
+## 860 Animation
 
 - First Person Interactions
 - First Person Stagger Animation Remade
 - JellyFishFP Movement Remake (1st person animations series)
 - Another Jump Animation - Male
-
-<details>
-<summary><strong>Weapon Animations</strong></summary>
-
-- SIGMA - Shield animations
-- SIGMA - Sword animations - Medium
-- SIGMA - Archery animations
-- SIGMA - Waraxe animations - Low
-
-</details>
 
 <details>
 <summary><strong>IED</strong></summary>
@@ -613,66 +681,34 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 - Auto Skeleton Patch - Universal Behaviour Runtime
 - Weapon Switch Animation Fix - Behavior Patch Version
 - No More Swimming In Air - Fixed Floating SwimIdle
-
-</details>
-
-## 860 Immersion
-
-- Alternate Start - Live Another Life - SSE
-- AI Overhaul SSE
-- AI Overhaul SSE - SPIDified
-- AI Overhaul SSE SkyPatcher Patch
-- Realistic AI Detection (RAID)
-- Tamrielic Names - NND
-- Dynamic Footprints
-- Dynamic Timescale - Remade
-- Skyrim Souls RE - Unpaused Menus
-  - Notes:
-    - `[UNPAUSED_MENUS]`
-    - `bBarterMenu = true`
-    - `bBookMenu = true`
-    - `bConsole = false`
-    - `bContainerMenu = true`
-    - `bFavoritesMenu = true`
-    - `bGiftMenu = true`
-    - `bInventoryMenu = true`
-    - `bJournalMenu = false`
-    - `bLevelUpMenu = true`
-    - `bLockpickingMenu = true`
-    - `bMagicMenu = true`
-    - `bMapMenu = true`
-    - `bMessageBoxMenu = true`
-    - `bModManagerMenu = false`
-    - `bSleepWaitMenu = false`
-    - `bStatsMenu = true`
-    - `bTrainingMenu = true`
-    - `bTutorialMenu = true`
-    - `bTweenMenu = true`
-    - `bCustomMenu = true`
-    - `bQuestJournalOverhaul_QuestMenu = true`
-- Take a Peek - New Stealth Mechanic
-- Take a Peek - New Stealth Mechanic - Settings Loader
-- Dynamic Footprins - Fantasia Color Palette
-
-<details>
-<summary><strong>Dialogue</strong></summary>
-
-- Echoes of Oblivion
+- Barstool Exit Animation Fix
 
 </details>
 
 <details>
-<summary><strong>Lockpicking</strong></summary>
+<summary><strong>Weapon Animations</strong></summary>
 
-- No Lockpick Activate (SKSE) - Updated
-- Locks Are Just Locked
+- SIGMA - Dagger animations - High
+- SIGMA - Shield animations
+- SIGMA - Sword animations - Medium
+- SIGMA - Archery animations
+- SIGMA - Waraxe animations - Low
 
 </details>
 
 <details>
-<summary><strong>Effects and Shaders</strong></summary>
+<summary><strong>Swimming Animations</strong></summary>
 
-- Soaking Wet - Character Wetness Effect
+- Simple Diving System (SDS) - Dive Into Water Animations
+
+</details>
+
+<details>
+<summary><strong>Hunting Animations</strong></summary>
+
+- Immerive Carcass Carrying - Simple Hunting Overhaul
+  - Comments: `Use ICC - Simple Hunting Overhaul IED Preset`
+- Immersive Hunting Animations
 
 </details>
 
@@ -684,6 +720,9 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 <details>
 <summary><strong>Loot Reduction and Rarity</strong></summary>
 
+- Scarcity SE - Less Loot Mod
+  - Comments: `Removed LeveledLists`
+- Scarcity SE - Less Loot Mod - SkyPatcher
 - Lowered Loot
 - Rare Spell Tomes
   - Comments: `Makes spell tomes more rare`
@@ -691,6 +730,7 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
   - Comments: `"Removes lockpicks from normal merchants, removes skooma and moonsugar from normal merchants"`
 - Remedies Of Repute
   - Comments: `Removes cure disease from general merchants`
+- Riches Of Repute
 
 </details>
 
@@ -723,8 +763,3 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 
 - Norden UI
 - Norden - RaceMenu DIP Patch
-
-## 999 Skyrim Ancestries - Testing & Issues
-
-- Final Look Tuner FLT - Live Color Adjust
-- Combat Stamina Requirements

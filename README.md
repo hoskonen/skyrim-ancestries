@@ -81,6 +81,9 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 - Variadic Collision Dynamics
 - Variadic Collision Dynamics - Resources
 - Final Look Tuner FLT - Live Color Adjust
+- Underwater NG
+- Skyrim Water Inertia
+- Name Those Ash Piles
 
 <details>
 <summary><strong>Mainmenu</strong></summary>
@@ -97,6 +100,7 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 - Crash Logger SSE AE VR - PDB support
 - SSEEdit Linker
 - Log Watcher - Real-time Analysis of SKSE Logs
+- Quick Commands
 
 ## 110 Frameworks
 
@@ -224,6 +228,7 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 - Actually flat flat Snow Drifts
 - Word Wall Transparency Fix for ENB
 - Terrain Parallax Blending Fix
+- Floating Ash Pile Fix
 
 ## 410 Mesh Overrides
 
@@ -272,6 +277,7 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 <summary><strong>Fire and Fireplaces</strong></summary>
 
 - Embers XD
+- Skyking Ash Piles and Dust Piles
 
 </details>
 
@@ -314,6 +320,7 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 - ClefJ's Winterhold - Inn Fix Patch
 - ClefJ's Winterhold - Patches
 - ClefJ's Winterhold - Alternate Start Patch
+- ClefJ's Winterhold - Missives - Patch
 - ELFX Shadows - ClefJ's Winterhold Patch
 - ClefJ Winterhold - LOD Meshes for DynDOLOD [LODS]
 
@@ -369,6 +376,7 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 - Smart Talk - MCM menu
 - moreHUD SE
 - Oxygen Meter 2
+- Kill Feed
 
 </details>
 
@@ -492,7 +500,7 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 
 ## 810 Combat
 
-- Precision NEW
+- Precision
 - Precision - Ancestries Tweaks TOML
   - Comments: `Removes all block/bash entries from the precision_base.toml. Fixes bashes not connecting in first person.`
 - Dynamic combat collision
@@ -552,13 +560,15 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 <summary><strong>Spawning and Encounter Zones</strong></summary>
 
 - Ultimate Automated Encounter Zones Patcher - Easy
+- Ultimate Automated Encounter Zones - Output
+  - Comments: `Use Late Loaders group in LOOT`
 
 </details>
 
 ## 840 Camera
 
 - Improved Camera SE
-  - Comments: `"First Person Overhaul ON, Override Vanilla Arms on Movement OFF"`
+  - Comments: `"First Person Overhaul ON, Override Vanilla Arms on Movement OFF, Third person arms OFF"`
 - Cinematic Conversation Camera
 - No Furniture Camera
 - First Person (FP) Camera Settle - SKSE
@@ -637,6 +647,7 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 ## 860 Animation
 
 - First Person Interactions
+  - Comments: `"Incompatibility with Immersive Camera, works with weapon out"`
 - First Person Stagger Animation Remade
 - JellyFishFP Movement Remake (1st person animations series)
 - Another Jump Animation - Male
@@ -700,6 +711,7 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 <summary><strong>Swimming Animations</strong></summary>
 
 - Simple Diving System (SDS) - Dive Into Water Animations
+- Swimming Extensions - Swimming Overhaul (Svimex)
 
 </details>
 
@@ -747,6 +759,10 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 - Reverb Interior Sounds Expansion (SRD - Rain Thunder Ambience - Fixes)
 - Crackling Fire
 - RUPTURE - Enhanced Destruction Magic Sounds
+
+## 890 Quests
+
+- Missives
 
 ## 900 Weather
 

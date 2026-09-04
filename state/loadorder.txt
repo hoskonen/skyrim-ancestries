@@ -47,6 +47,7 @@ Embers XD.esm
 Helios.esp
 PGPatcher.esp
 ___BlockAngleFix.esl
+SkyrimWaterInertia.esl
 TrueHUD.esl
 SkyUI_SE.esp
 Helios_ELFX Enhancer.esp
@@ -62,14 +63,15 @@ AI Overhaul.esp
 StandardLightingTemplatesUSSEP.esp
 Parallax TXST Fixes.esp
 Embers XD.esp
-GoodsInTransit.esp
-UAEZP.esp
-EncounterZonesEasy.esp
 ClefJ Winterhold - ELFX.esp
 SC ClefJ Winterhold - AI Overhaul.esp
 Landscape and Water Fixes - Patch - Farming.esp
+Missives.esp
 AI Overhaul - USSEP Patch.esp
 Echoes of Oblivion.esp
+GoodsInTransit.esp
+UAEZP.esp
+Landscape and Water Fixes - CC Fishing patch.esp
 TerrainHelper.esp
 Groundcover.esp
 Fantasia Complex Parallax.esp
@@ -106,7 +108,6 @@ AcousticTemplateFixes.esp
 AcousticTemplateFixes_ReverbInteriorSounds.esp
 Sanguine Symphony.esp
 Wildlands Renewal NoGrass.esp
-Landscape and Water Fixes - CC Fishing patch.esp
 Player Stagger.esp
 FloatingSubtitles.esp
 BladeAndBlunt.esp
@@ -131,6 +132,7 @@ RaceMenuMorphsCBBE.esp
 Maevan2EyeBrows.esp
 Maevan2 Eye Brows for High Poly Head.esp
 AI Overhaul - Fishing Addon.esp
+ClefJsWinterhold-Missives-Patch.esp
 TheEyesOfBeauty.esp
 SandboxWhenIdle.esp
 BBNoKillmoves.esp
@@ -170,12 +172,15 @@ DynamicCombatCollision.esp
 Simple Hunting Overhaul.esp
 ImmersiveHunting.esp
 Animated Interactions.esp
+KillFeed.esp
+UnderwaterNG.esp
+SwimmingExtensions.esp
 alternate start - live another life.esp
 ClefJ Winterhold - Alternate Start patch.esp
 Nature of the Wild Lands - Alternate Start Patch.esp
 AlternateStart-Loot-Patch.esp
 ELFX - Hardcore.esp
-EncounterZonesHard.esp
+EncounterZonesEasy.esp
 Scarcity SE - Less Loot Mod.esp
 Scarcity SE - 6x Loot Rarity.esp
 Scarcity SE - 4x Merchant Item Rarity.esp

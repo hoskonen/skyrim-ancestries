@@ -108,3 +108,7 @@
 # 2026-09-02 - 294 listed mods
 
 - Synced MO2 state and updated the README for SKSE, patches, UI, combat, immersion, animation, loot, and project-status changes.
+
+# 2026-09-04 - 305 listed mods
+
+- Synced MO2 state and updated the README for SKSE, debug tools, mesh fixes, textures, UI, combat, animation, quests, and Winterhold patch changes.

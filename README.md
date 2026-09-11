@@ -23,15 +23,7 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 <!-- project-status:start -->
 ## Project Status
 
-### Testing
-
-- Echoes of Oblivion chatter
-- SKSE Sheathing
-- RAID Detection
-
-### Broken
-
-- RW2 water lod seam seen from stones
+No active project status entries.
 
 <!-- project-status:end -->
 
@@ -49,47 +41,60 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 
 ## 100 SKSE
 
-- EngineFixes
-  - Comments: `"fSleepWaitTimeModifier = 0.6, bScrollingDoesntSwitchPOV = true"`
 - Address Library for SKSE Plugins
+- EngineFixes
+  - Comments: `fSleepWaitTimeModifier = 0.6, bScrollingDoesntSwitchPOV = true`
+- SKSE 2.2.8 Scripts
 - SSE Display Tweaks
 - powerofthree's Tweaks
 - Terrain Helper
 - Stay At The System Page NG
-- Classic Sprinting Redone
-- Better Third Person Selection - BTPS
-  - Comments: `"bIsActivationButtonEnabled = 0"`
 - XEMI Utility
 - Dual Casting Fix
 - Comprehensive Attack Rate Patch
   - Comments: `Use Survival Mod - Weapon Speed Patch if you decide to use Survival Mode`
-- Survival Mode Improved - SKSE
-- Survival Control Panel
-- Animated Interactions SKSE
-  - Comments: `"If using with Jayserpa's Immersive Interactions (recommended), disable the conflicting options with the mod's MCM."`
 - Papyrus Tweaks NG
-- Immersive Equipment Displays
-- Auto Input Switch
 - Dynamic Settings
-- Save and Load Accelerator for SKSE Cosaves - S.L.A.C.K
-- Sandbox When Idle
-- Better Grabbing
 - Smooth Terrain
 - Auto Parallax
 - Actor Value Generator
-  - Comments: `Use 2.2.9.4`
 - Variadic Collision Dynamics
 - Variadic Collision Dynamics - Resources
-- Final Look Tuner FLT - Live Color Adjust
 - Underwater NG
-- Skyrim Water Inertia
-- Name Those Ash Piles
+- No Grass In Objects
+- KreatE
+- Grass Cache Helper NG
+- Texture Downscaler
+- Save and Load Accelerator for SKSE Cosaves - S.L.A.C.K 1.4.2
+- AutoBlend
 
 <details>
 <summary><strong>Mainmenu</strong></summary>
 
 - Menu Load Indicator - SKSE
 - Start On Save - Autoload Game
+
+</details>
+
+<details>
+<summary><strong>Controller Related</strong></summary>
+
+- Auto Input Switch
+
+</details>
+
+<details>
+<summary><strong>Game Mechanic Related</strong></summary>
+
+- Traceless Loot
+- Name Those Ash Piles
+- Skyrim Water Inertia
+- Better Grabbing
+- Survival Mode Improved - SKSE
+- Survival Control Panel
+- Better Third Person Selection - BTPS
+  - Comments: `bIsActivationButtonEnabled = 0`
+- Classic Sprinting Redone
 
 </details>
 
@@ -108,7 +113,7 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 - Base Object Swapper
 - SKSE Menu Framework
 - SkyPatcher
-  - Comments: `"iAllowLeveledListsAddedToContainers=1"`
+  - Comments: `iAllowLeveledListsAddedToContainers=1`
 - MCM Helper
 - Luma Utility
 - Mini's Micro-Systems Framework (MMSF)
@@ -134,7 +139,7 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 - NPCs Names Distributor
 - Automatic Renamer
 - Lexicon SKSE
-  - Comments: `Use 0.1.4.3`
+- Music Type Distributor
 
 ## 115 Patchers
 
@@ -143,6 +148,9 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 - Automatic Renamer - Ore Veins
   - Comments: `Renames ore veins just to ore veins`
 - Gems Economy Overhaul - Skypatcher V2
+- Kyne's Accord - Custom Creature Behavior
+- Kynes Accord - Modded Animals
+- Alternate Start - Realistic Wearable Lanterns - Patch [BOS]
 
 ## 120 ENB
 
@@ -152,20 +160,21 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 - ENB Light - Patch 2
 - ENB Extender and Helper Skyrim
 
-## 300 Patches & Fixes
+## 200 Patches & Fixes
 
 - Unofficial Skyrim Special Edition Patch - USSEP
-- Inertia (Floating Gear Fix)
 - Scrambled Bugs
 - Cached Recursive Directory Walk
 - Widescreen Scale Removed
 - Native EditorID Fix
+- Inertia (Floating Gear Fix)
 - Disable Turn Animation NG
 - Exit Sneak On Sprint
 - Sprint Stuttering Fix
 - Bug Fixes SSE
 - Actor Limit Fix
 - GC Bug Fix
+- Water Collision Crash Fix NG
 
 <details>
 <summary><strong>First Person Fixes</strong></summary>
@@ -190,27 +199,28 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 - Alt-Tab Stuck Key Fix
 - Kontrol FPS Preset - No Quick Load Save
   - Comments: `https://hawk.bar/SkyrimControlMapper/`
-  - Notes:
-    - `Favorites (same as original Kontrol):`
-    - `Favorites Menu: LB + Y; Favorite 1: D-Pad Up; Favorite 2: D-Pad Right; Favorite 3: D-Pad Down; Favorite 4: D-Pad Left.`
-    - `Favorite 5: LB + D-Pad Up; Favorite 6: LB + D-Pad Right; Favorite 7: LB + D-Pad Down; Favorite 8: LB + D-Pad Left.`
-    - `Menus (modified to include Skills Menu and changes Tween Menu):`
-    - `Tween Menu: LB + RS; Quick Inventory Menu: LB + B; Quick Magic Menu: LB + X; Quick Map Menu: LB + A; Quick Stats (Skills Menu): LB + RB.`
 
 </details>
 
-## 350 Core Meshes
+## 300 Core Meshes
 
 - Static Mesh Improvement Mod
 - Static Mesh improvement Mod - SMIM - Quality Addon
 
-## 370 Lighting
+## 310 NPC Animals
+
+- Wolves of Cyrodiil - Mihail Monsters and Animals
+- Wolves of Cyrodiil - Food Addon - Survival
+
+## 350 Lighting
 
 - Standard Lighting Templates - SLT
 - Enhanced Lights and FX
 - ELFX Shadows
 - ELFX Shadows - Official Patches Hub
 - Helios
+- Torch Mechanics Fixed
+  - Comments: `Has ELFX Patch, loaded after Enb Light`
 
 ## 400 Mesh Fixes
 
@@ -245,7 +255,7 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 <details>
 <summary><strong>Weapon Meshes</strong></summary>
 
-- LeanWolf's Better-Shaped Weapons SE
+- LeanWolf's Better-Shaped Weapons SE[H]
   - Comments: `Hid all the meshes which conflict with Believable Weapons`
 - Believable Weapons
 
@@ -257,7 +267,7 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 <summary><strong>Landscape</strong></summary>
 
 - Skyland AIO
-  - Comments: `"No landscapes, no water"`
+  - Comments: `No landscapes, no water`
 - Skyland AIO - Complex Parallax
 - Skyking Fantasia Landscapes
 - Skyking Fantasia Landscapes - Green Tundra - Complex Parallax
@@ -278,6 +288,13 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 
 - Embers XD
 - Skyking Ash Piles and Dust Piles
+
+</details>
+
+<details>
+<summary><strong>Architecture</strong></summary>
+
+- High Quality Hearth - 3D Farmhouse Firepit
 
 </details>
 
@@ -311,6 +328,27 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 
 </details>
 
+<details>
+<summary><strong>Cloud Textures</strong></summary>
+
+- ETHEREAL CLOUDS - Special Edition
+
+</details>
+
+<details>
+<summary><strong>NPC Animal Textures</strong></summary>
+
+- Wolves of Cyrodiil - My optimized textures SE by Xtudo
+
+</details>
+
+<details>
+<summary><strong>NPC Animal Fluffy</strong></summary>
+
+- Wolves of Cyrodiil - Fluffy
+
+</details>
+
 ## 455 Town Overhauls
 
 <details>
@@ -320,26 +358,31 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 - ClefJ's Winterhold - Inn Fix Patch
 - ClefJ's Winterhold - Patches
 - ClefJ's Winterhold - Alternate Start Patch
-- ClefJ's Winterhold - Missives - Patch
 - ELFX Shadows - ClefJ's Winterhold Patch
+- ClefJ's Winterhold - Missives - Patch
 - ClefJ Winterhold - LOD Meshes for DynDOLOD [LODS]
 
 </details>
 
 ## 460 Grass & Ground Cover
 
-- Wildlands Renewal - grass and groundcover improvement mod
+- DrJacopo's - 3D Landscapes and Grass Library
+- Witchy Wilderness - Modular Grass Overhaul
 
 ## 470 Forest and Trees
 
-- Nature of the Wild Lands
-- Nature of the Wild Lands - Snowier Spruce Trees
-- Nature of the Wild Lands - Nordic Cut
-- Nature of the Wild Lands - Nordic Cut Patch Collection
+- Happy Little Trees
+- Happy Little Trees - Lighter Pine Trees
+- Mostly Treeless Tundra
+- Mostly Treeless Tundra - Happy Little Trees Patch
+- Happy Little Trees Add-On - DynDOLOD 3
+- Realistic High Altitude Treeline
+  - Comments: `Needs LOD generation`
 
 ## 480 Water
 
 - Realistic Water Two SE (RWT)
+- Realistic Water Two SE - Darker Gradient Textures v5 and up
 
 ## 500 User Interface
 
@@ -357,19 +400,9 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 </details>
 
 <details>
-<summary><strong>Icons</strong></summary>
-
-- B.O.O.B.I.E.S (aka Immersive Icons)
-- Aura's Scrumptious Supplement (A.S.S. for B.O.O.B.I.E.S.)
-- Phenomenally Enriched and Nuanced Ingredients for SkyUI (P.E.N.I.S. for B.O.O.B.I.E.S.)
-
-</details>
-
-<details>
 <summary><strong>HUD Elements</strong></summary>
 
 - TrueHUD - HUD Additions
-- Dragonborn Reskin - TrueHUD
 - Compass Navigation Overhaul
 - Show Player In Inventory
 - Smart Talk (Dialogue Menu Enhancer)
@@ -377,6 +410,7 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 - moreHUD SE
 - Oxygen Meter 2
 - Kill Feed
+- Legendary Map
 
 </details>
 
@@ -405,6 +439,15 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 - Automatic Patcher
 - MCM Memory - Settings Backup and Restore
 - Clean Loading Transitions
+
+</details>
+
+<details>
+<summary><strong>Icons</strong></summary>
+
+- B.O.O.B.I.E.S (aka Immersive Icons)
+- Aura's Scrumptious Supplement (A.S.S. for B.O.O.B.I.E.S.)
+- Phenomenally Enriched and Nuanced Ingredients for SkyUI (P.E.N.I.S. for B.O.O.B.I.E.S.)
 
 </details>
 
@@ -489,6 +532,9 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 
 - Experience
 - Experience - MCM
+- Skyrim Skill Uncapper for SE and AE
+  - Comments: `bUsePCLevelSkillExpMults = false, SkillExpGainMults all to 0.0`
+- Static Skill Leveling Rewritten
 
 ## 800 Movement
 
@@ -506,8 +552,10 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 - Dynamic combat collision
 - Blade and Blunt - A Combat Overhaul
   - Comments: `Minor Conflict currently with Faster Blocking Movements`
-- Death Drop Overhaul
 - Simple Dual Sheath
+  - Comments: `[ShieldOnBack] Flags=Player`
+- Death Drop Overhaul
+- Unpoisoned Blocking
 
 <details>
 <summary><strong>Archery</strong></summary>
@@ -525,9 +573,16 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 
 - Next-Gen Decapitations
 - Dismembering Framework
+- Sanguine Symphony
+
+</details>
+
+<details>
+<summary><strong>Dismemberment Assets</strong></summary>
+
 - DF - Official Humanoid Asset Pack
 - DF - Official Creature Asset Pack
-- Sanguine Symphony
+- DF - Creatures by Xtudo - Mihails Cydoriil Wolves Fluffy
 
 </details>
 
@@ -547,7 +602,7 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 <summary><strong>Blocking and Parry</strong></summary>
 
 - Wider Block Angle
-  - Comments: `"fCombatHitConeAngle = 55, fCombatBlockAttackStrikeAngleMult = 4"`
+  - Comments: `fCombatHitConeAngle = 55, fCombatBlockAttackStrikeAngleMult = 4`
 - Player Stagger with Cooldown
 - Dual Wield Parrying - SKSE Menu Framework Integration
 - Parrying RPG
@@ -568,7 +623,7 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 ## 840 Camera
 
 - Improved Camera SE
-  - Comments: `"First Person Overhaul ON, Override Vanilla Arms on Movement OFF, Third person arms OFF"`
+  - Comments: `First Person Overhaul ON, Override Vanilla Arms on Movement OFF, Third person arms OFF, Shift+Home`
 - Cinematic Conversation Camera
 - No Furniture Camera
 - First Person (FP) Camera Settle - SKSE
@@ -581,7 +636,6 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 - AI Overhaul SSE
 - AI Overhaul SSE - SPIDified
 - AI Overhaul SSE SkyPatcher Patch
-- Realistic AI Detection (RAID)
 - Tamrielic Names - NND
 - Dynamic Footprints
 - Dynamic Timescale - Remade
@@ -609,10 +663,27 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
     - `bTweenMenu = true`
     - `bCustomMenu = true`
     - `bQuestJournalOverhaul_QuestMenu = true`
-- Take a Peek - New Stealth Mechanic
-- Take a Peek - New Stealth Mechanic - Settings Loader
 - Dynamic Footprins - Fantasia Color Palette
 - Wash That Blood Off 2
+- Store Entrance Doorbells
+- Realistic Usable Lanterns
+- Producers of Skyrim - Farmers Miners Fishermen Are Vendors
+
+<details>
+<summary><strong>Stealth</strong></summary>
+
+- Realistic AI Detection (RAID)
+- Take a Peek - New Stealth Mechanic
+- Take a Peek - New Stealth Mechanic - Settings Loader
+
+</details>
+
+<details>
+<summary><strong>Jobs and Work</strong></summary>
+
+- Andrealletius' Jobs Overhaul (AJO)
+
+</details>
 
 <details>
 <summary><strong>Dialogue</strong></summary>
@@ -640,16 +711,25 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 <summary><strong>Hunting</strong></summary>
 
 - Simple Hunting Overhaul
-  - Comments: `"Minor cell conflict with Lighting template, Use ICC - Simple Hunting Overhaul IED Preset"`
+  - Comments: `Minor cell conflict with Lighting template, Use ICC - Simple Hunting Overhaul IED Preset`
+
+</details>
+
+<details>
+<summary><strong>Equipment Displays</strong></summary>
+
+- Immersive Equipment Displays
+- Missile's IED Preset - Immersive Equipment Displays
 
 </details>
 
 ## 860 Animation
 
 - First Person Interactions
-  - Comments: `"Incompatibility with Immersive Camera, works with weapon out"`
+  - Comments: `Incompatibility with Immersive Camera, works with weapon out`
 - First Person Stagger Animation Remade
 - JellyFishFP Movement Remake (1st person animations series)
+- JellyFishFP Torch (1st person animations series)
 - Another Jump Animation - Male
 
 <details>
@@ -657,10 +737,10 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 
 - Weapon Styles - Draw-Sheathe animations for IED
   - Notes:
-    - How to separate Greatswords from Battleaxes/Warhammers: check this [article](https://www.nexusmods.com/skyrimspecialedition/articles/4604).
-    - How to separate Spears/Javelins from One-handed Swords: check this [article](https://www.nexusmods.com/skyrimspecialedition/articles/5284).
-    - How to place quiver at back hip: check this [article](https://www.nexusmods.com/skyrimspecialedition/articles/4785).
-    - How to place maces at back, swords at back hip, shield on hand: check this [mod](https://www.nexusmods.com/skyrimspecialedition/mods/92244).
+    - How to separate Greatswords from Battleaxes/Warhammers: Check this [article](https://www.nexusmods.com/skyrimspecialedition/articles/4604).
+    - How to separate Spears/Javelins from One-handed Swords: Check this [article](https://www.nexusmods.com/skyrimspecialedition/articles/5284).
+    - How to place quiver at back hip: Check this [article](https://www.nexusmods.com/skyrimspecialedition/articles/4785).
+    - How to place maces at back, swords at back hip, shield on hand: Check this [mod](https://www.nexusmods.com/skyrimspecialedition/mods/92244).
 - Open Animation Replacer - IED Conditions
 
 </details>
@@ -718,6 +798,7 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 <details>
 <summary><strong>Hunting Animations</strong></summary>
 
+- Carry Your Carcasses
 - Immerive Carcass Carrying - Simple Hunting Overhaul
   - Comments: `Use ICC - Simple Hunting Overhaul IED Preset`
 - Immersive Hunting Animations
@@ -727,7 +808,7 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 ## 870 Loot
 
 - Open World Loot - SkyPatched by SICreef
-- Open World Loot - Rarity Module [H]
+- Open World Loot - Rarity Module [DEV][H]
 
 <details>
 <summary><strong>Loot Reduction and Rarity</strong></summary>
@@ -735,14 +816,14 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 - Scarcity SE - Less Loot Mod
   - Comments: `Removed LeveledLists`
 - Scarcity SE - Less Loot Mod - SkyPatcher
-- Lowered Loot
-- Rare Spell Tomes
+- Lowered Loot - [Skypatcher]
+- Rare Spell Tomes [SkyPatcher] [DEV]
   - Comments: `Makes spell tomes more rare`
-- Goods of Ill Repute
-  - Comments: `"Removes lockpicks from normal merchants, removes skooma and moonsugar from normal merchants"`
-- Remedies Of Repute
+- Goods of Ill Repute [SkyPatcher] [DEV]
+  - Comments: `Removes lockpicks from normal merchants, removes skooma and moonsugar from normal merchants`
+- Remedies Of Repute [SkyPatcher] [DEV]
   - Comments: `Removes cure disease from general merchants`
-- Riches Of Repute
+- Riches Of Repute [Skypatcher] [DEV]
 
 </details>
 
@@ -759,23 +840,83 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 - Reverb Interior Sounds Expansion (SRD - Rain Thunder Ambience - Fixes)
 - Crackling Fire
 - RUPTURE - Enhanced Destruction Magic Sounds
+- Personal Music Framework
 
-## 890 Quests
+## 890 Quests, Missives and Bounties
 
 - Missives
+- Missives - Notes Retexture
+- Missives - Voice and Quest Expansion
+- Missives - Worldspace Additions
+- Missives - Worldspace Additions (Solstheim) - Notes Retexture Patch
+- Headhunter - Bounties Redone
 
 ## 900 Weather
 
-- Picturesque - ENB
-- Obsidian Mountain Fogs
+- Obsidian Weathers and Seasons
+- Alternate Obsidian Weathers MCM
+- Obsidian Mountain Fogs Tweaked - Default
+  - Comments: `Removed esm flag`
 - Moons And Stars - Sky Overhaul SKSE
 - Twilight
+- Splashes of Storms
+- SRW0 Ancient Moons
 
 ## DEV Development
 
-- Goods In Transit
+- Goods In Transit [DEV]
 
 ## 960 Skin
 
-- Norden UI
+- Norden UI [FOMOD}
+- Norder UI Settings - Tweak your settings here
+  - Comments: `This is so that Norden updates won't wipe your preferred settings`
+- Extended Tween Menu - Needs Norden Patch
 - Norden - RaceMenu DIP Patch
+
+## 970 LODs
+
+<details>
+<summary><strong>DynDOLOD</strong></summary>
+
+- DynDOLOD Resources SE 3
+- DynDOLOD DLL NG
+
+</details>
+
+<details>
+<summary><strong>DynDOLOD Overrides</strong></summary>
+
+- Rudy HQ - More dramatic Red Mountain Volcano Plume
+
+</details>
+
+<details>
+<summary><strong>Generated Output - xLODGen</strong></summary>
+
+- xLODGen Terrain Output - Baseline v1
+
+</details>
+
+<details>
+<summary><strong>Generated Output - Grass Cache</strong></summary>
+
+- Grass Cache Output
+
+</details>
+
+<details>
+<summary><strong>Generated Output - TexGen</strong></summary>
+
+- TexGen Output - Baseline v1
+
+</details>
+
+<details>
+<summary><strong>Generated Output - DynDOLOD</strong></summary>
+
+- DynDOLOD Output - Baseline v1
+
+</details>
+
+

@@ -117,6 +117,28 @@ When I ask to sync or refresh the MO2 state, run `tools/sync-mo2.ps1`.
 Overwrite routing must use explicit approved mappings only. Unknown or ambiguous
 MO2 overwrite contents must never be moved automatically.
 
+Use `tools/copy-xlodgen-terrain-output.ps1` for xLODGen terrain output copying.
+It copies `F:\Modding\Tools\xLODGen\OUTPUT` into the existing
+`xLODGen Terrain Output - Baseline v1` MO2 mod. The destination must be emptied
+before copying so old and new generated files are not mixed. After a successful
+copy, the xLODGen source output folder is emptied so it is clean for the next
+run.
+
+Use `tools/copy-grass-cache-output.ps1` for grass cache output copying. It
+copies `F:\Modding\Skyrim\Ancestries\overwrite\grass` into the existing
+`Grass Cache Output` MO2 mod, replacing that mod's existing `grass` folder
+first. Remove the source overwrite `grass` folder only after the copy succeeds.
+
+Use `tools/copy-dyndolod-output.ps1` for DynDOLOD and TexGen output copying.
+It copies the generated output into the existing baseline output MO2 mods:
+`F:\Modding\Tools\DynDOLOD\DynDOLOD\DynDOLOD_Output` to
+`DynDOLOD Output - Baseline v1`, and
+`F:\Modding\Tools\DynDOLOD\TexGen_Output` to `TexGen Output - Baseline v1`.
+The destination output mod must be emptied before copying so old and new
+generated files are not mixed. The DynDOLOD and TexGen clean tasks empty the
+generated output source folders so they are clean for the next run, not the MO2
+output mods.
+
 ## Testing and issue tracking
 
 `Skyrim Ancestries - Testing & Issues` is a special MO2 placeholder mod used

@@ -1,4 +1,4 @@
-# 2026-08-09 - 23 listed mods
+﻿# 2026-08-09 - 23 listed mods
 
 - Synced MO2 state.
 - Cleaned the vanilla master files and added the enabled MO2 mod `Cleaned Vanilla Files`.
@@ -112,3 +112,11 @@
 # 2026-09-04 - 305 listed mods
 
 - Synced MO2 state and updated the README for SKSE, debug tools, mesh fixes, textures, UI, combat, animation, quests, and Winterhold patch changes.
+
+# 2026-09-06 - 326 listed mods
+
+- Synced MO2 state and updated the README for LOD outputs, weather, quests, grass, UI, combat, textures, and project-status changes.
+
+# 2026-09-11 - 357 listed mods
+
+- Synced MO2 state and updated the README from the current enabled non-`[O]` mod list.

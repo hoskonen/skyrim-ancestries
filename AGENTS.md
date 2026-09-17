@@ -78,6 +78,9 @@ For `[O]` mods:
 - do not infer gameplay functionality from them;
 - they may still be mentioned in the diary when created, rebuilt, or relevant to troubleshooting.
 
+As an explicit exception, list enabled `[O]` mods under the `970 LODs`
+`Pre-LOD Generated Patches` subsection. Continue to omit disabled entries.
+
 When referring to the actual mod name in prose, metadata tags may be omitted
 unless they are relevant.
 

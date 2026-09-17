@@ -245,16 +245,9 @@ No active project status entries.
 - Shadows Of Sunlight - In Small Exterior World Spaces
 - Skyrim Landscape and Water Fixes
   - Notes:
-    - `<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd">`
-    - `<html><head><meta name="qrichtext" content="1" /><meta charset="utf-8" /><style type="text/css">`
-    - `p, li { white-space: pre-wrap; }`
-    - `hr { height: 1px; border-width: 0; }`
-    - `li.unchecked::marker { content: "\\2610"; }`
-    - `li.checked::marker { content: "\\2612"; }`
-    - `</style></head><body style=" font-family:'Segoe UI'; font-size:9pt; font-weight:400; font-style:normal;">`
-    - `<pre style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:19px; background-color:#193549;"><span style=" font-family:'Dank Mono','Consolas','Courier New','monospace','Consolas','Courier New','monospace'; font-size:14px; color:#e1efff;">Let SLaWF meshes overwrite SMIM,Enhanced texture detail (UV-tweaks), ELFX and No Sunlight Through Mountains.</span></pre>`
-    - `<pre style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#193549;"><span style=" font-family:'Dank Mono','Consolas','Courier New','monospace','Consolas','Courier New','monospace'; font-size:14px; color:#e1efff;">Let meshes from other WiZkiD, Majestic Mountains and Flickering Meshes Fix overwrite SLaWF.</span></pre>`
-    - `<pre style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#193549;"><span style=" font-family:'Dank Mono','Consolas','Courier New','monospace','Consolas','Courier New','monospace'; font-size:14px; color:#e1efff;">For other mods you can decide which mod should win the conflict yourself. SLaWF meshes are fixed carefully, especially regarding collisions, therefore you can overwrite most other mesh fix mods. If it's necessary, you can let other mods overwrite SLaWF at the cost of losing our fixes for those meshes.</span></pre></body></html>`
+    - `Let SLaWF meshes overwrite SMIM,Enhanced texture detail (UV-tweaks), ELFX and No Sunlight Through Mountains.`
+    - `Let meshes from other WiZkiD, Majestic Mountains and Flickering Meshes Fix overwrite SLaWF.`
+    - `For other mods you can decide which mod should win the conflict yourself. SLaWF meshes are fixed carefully, especially regarding collisions, therefore you can overwrite most other mesh fix mods. If it's necessary, you can let other mods overwrite SLaWF at the cost of losing our fixes for those meshes.`
 - Assorted Mesh Fixes
 - Smoother Skies - Meshes
 - Flickering Meshes Fix
@@ -1043,6 +1036,15 @@ No active project status entries.
 <summary><strong>DynDOLOD Overrides</strong></summary>
 
 - Rudy HQ - More dramatic Red Mountain Volcano Plume
+
+</details>
+
+<details>
+<summary><strong>Pre-LOD Generated Patches</strong></summary>
+
+- Autoblend Output
+- PGPatcher Output
+  - Comments: `Turn off when running PGPatcher`
 
 </details>
 

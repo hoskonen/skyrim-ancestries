@@ -73,6 +73,20 @@ function Get-ReadmeModName {
 function Get-InlineCode {
     param([string]$Value)
 
+    $text = Get-VisibleComment $Value
+
+    if (-not $text) {
+        return ""
+    }
+
+    $text = $text -replace '`', '``'
+
+    return "``$text``"
+}
+
+function Get-VisibleComment {
+    param([string]$Value)
+
     $text = $Value.Trim()
 
     if ($text.StartsWith('"') -and $text.EndsWith('"')) {
@@ -81,9 +95,9 @@ function Get-InlineCode {
 
     $text = $text -replace '\\n', ' '
     $text = $text -replace '\\"', '"'
-    $text = $text -replace '`', '``'
+    $text = $text -replace '(?i)\[PATCH\]', ''
 
-    return "``$text``"
+    return $text.Trim()
 }
 
 function Get-TopListItem {
@@ -92,7 +106,11 @@ function Get-TopListItem {
     $displayName = Get-ReadmeModName $ModName
 
     if ($commentsByMod.ContainsKey($ModName)) {
-        return "- $displayName`: $(Get-InlineCode $commentsByMod[$ModName])"
+        $comment = Get-InlineCode $commentsByMod[$ModName]
+
+        if ($comment) {
+            return "- $displayName`: $comment"
+        }
     }
 
     return "- $displayName"
@@ -110,7 +128,9 @@ $developingMods = @($enabledMods | Where-Object {
     $_ -match '\[DEV\]' -and $_ -notmatch '\[O\]'
 })
 $patchMods = @($enabledMods | Where-Object {
-    $_ -match '\[C\]' -and $_ -notmatch '\[O\]'
+    $_ -notmatch '\[O\]' -and
+    $commentsByMod.ContainsKey($_) -and
+    $commentsByMod[$_] -match '(?i)\[PATCH\]'
 })
 
 $statusModName = "Skyrim Ancestries - Testing & Issues"

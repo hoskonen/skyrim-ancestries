@@ -57,7 +57,6 @@ rename them.
 - `[FOMOD]` means the mod has a FOMOD installer with selectable options or patches.
 - `[O]` means a generated-output or override-container mod. Treat these as
   implementation/maintenance containers, not normal user-facing mods.
-- `[C]` custom made patch, should be visible always
 - `[SkyPatcher]` Skypatcher mod
 - `[DEV]` mod being developed
 - `[H]` mod has files that has been set to hidden
@@ -66,11 +65,13 @@ rename them.
 Near the top of `README.md`, maintain a concise generated summary block:
 
 - `## Being Developed` lists enabled non-`[O]` mods tagged `[DEV]`.
-- `## Patches Created` lists enabled non-`[O]` mods tagged `[C]`.
+- `## Patches Created` lists enabled non-`[O]` mods whose MO2 Comments field
+  contains `[PATCH]` (case-insensitive).
 
 If a listed mod has an MO2 comment, include it after the mod name as inline
-code. Preserve visible metadata tags such as `[SkyPatcher]`, `[DEV]`, and `[C]`
-in this summary.
+code. Treat `[PATCH]` as hidden metadata: remove the marker from all README
+output. If nothing remains after removing it, show only the mod name. Preserve
+visible metadata tags such as `[SkyPatcher]` and `[DEV]` in this summary.
 
 For `[O]` mods:
 

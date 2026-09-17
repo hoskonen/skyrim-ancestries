@@ -15,7 +15,9 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 
 ## Patches Created
 
-- None
+- Alternate Start - Loot Patch
+- Happy Little Trees - Campfire Patch
+- Riverwood Trader Is A Mess - ELFX Shadows - Patch
 
 <!-- mod-development:end -->
 

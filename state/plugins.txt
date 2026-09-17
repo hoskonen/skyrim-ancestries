@@ -116,7 +116,7 @@
 *Missives - Solstheim.esp
 *Slays-Many-Beasts Quest Mod.esp
 *Mostly Treeless Tundra - Happy Little Trees patch.esp
-LoS II - Skyrim Bridges patch.esp
+*LoS II - Skyrim Bridges patch.esp
 *LoS II - USSEP patch.esp
 *AI Overhaul - Fishing Addon.esp
 *FishermenFish.esp

@@ -1,4 +1,4 @@
-﻿# Skyrim Ancestries - Testing & Issues
+# Skyrim Ancestries - Testing & Issues
 
 No active project status entries.
 

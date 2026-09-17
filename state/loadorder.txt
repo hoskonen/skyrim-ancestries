@@ -35,6 +35,7 @@ RealisticWaterTwo - Resources.esm
 High Poly Head.esm
 Dismembering Framework.esm
 Landscape and Water Fixes.esp
+Lanterns Of Skyrim II.esm
 Mostly Treeless Tundra 2.esp
 ClefJ's Winterhold.esp
 SurvivalControlPanel.esp
@@ -43,17 +44,17 @@ Expressive Facegen Morphs.esl
 AHZmoreHUD.esl
 RFM.esm
 Experience.esl
+Campfire.esm
 Embers XD.esm
 Helios.esp
 ___BlockAngleFix.esl
 SkyrimWaterInertia.esl
 TrueHUD.esl
-PGPatcher.esp
-DynDOLOD.esm
 LexiconSKSE.esl
+PGPatcher.esp
+RASS - Visual Effects.esl
+DynDOLOD.esm
 SkyUI_SE.esp
-Helios_ELFX Enhancer.esp
-Particle Patch.esp
 I4IconAddon.esp
 SMIM-SE-Merged-All.esp
 SurvivalModeImproved.esp
@@ -61,13 +62,16 @@ EnhancedLightsandFX.esp
 ELFX Shadows.esp
 Realistic Treeline.esp
 AI Overhaul.esp
-Obsidian Weathers.esp
 HappyLittleTrees.esp
-Obsidian Mountain Fogs.esp
 Parallax TXST Fixes.esp
+Skyrim Bridges.esp
 Embers XD.esp
 ClefJ Winterhold - ELFX.esp
+Morning Fogs SSE.esp
 Andrealphus Jobs Overhaul - MASTER.esp
+SpectersOfSkyrim.esp
+Andrealletius Harder Quests - MERGED.esp
+LoS II - ELFX patch.esp
 SC ClefJ Winterhold - AI Overhaul.esp
 Landscape and Water Fixes - Patch - Farming.esp
 Missives.esp
@@ -76,14 +80,15 @@ Headhunter - Bounties Redone.esp
 StandardLightingTemplatesUSSEP.esp
 AI Overhaul - USSEP Patch.esp
 mihailwolvesofcyrodiil.esp
+Embers XD - Patch - Lanterns of Skyrim II.esp
 Echoes of Oblivion.esp
-GoodsInTransit.esp
 UAEZP.esp
 Landscape and Water Fixes - CC Fishing patch.esp
 TerrainHelper.esp
 Fantasia Complex Parallax.esp
-BlendedRoads.esp
 Simplicity of Snow.esp
+Shadows Of Sunlight - In Small Exterior World Spaces.esp
+BlendedRoads.esp
 Simplicity of Snow - Blended Roads Patch.esp
 Parallax TXST Fixes - BlendedRoads.esp
 RaceMenu.esp
@@ -105,7 +110,6 @@ Next-Gen Decapitations.esp
 DF - Official Creature Pack.esp
 DF - Official Humanoid Pack.esp
 SkyParkour.esp
-Shadows Of Sunlight - In Small Exterior World Spaces.esp
 Embers XD - Patch - ClefJ's Winterhold.esp
 ClefJ Winterhold - Inn fix.esp
 Reverb Interior Sounds Expansion.esp
@@ -137,12 +141,21 @@ CBBE.esp
 RaceMenuMorphsCBBE.esp
 Maevan2EyeBrows.esp
 Maevan2 Eye Brows for High Poly Head.esp
+SVMiscMCMMerged.esp
+LoS II - ClefJ Winterhold patch.esp
+LoS II - SMIM patch.esp
+Missives - Solstheim.esp
+Slays-Many-Beasts Quest Mod.esp
 Mostly Treeless Tundra - Happy Little Trees patch.esp
+LoS II - Skyrim Bridges patch.esp
+LoS II - USSEP patch.esp
 AI Overhaul - Fishing Addon.esp
+FishermenFish.esp
 Torch Mechanics Fixed.esp
 Producers of Skyrim.esp
 Producers of Skyrim - CC Fishing.esp
 ClefJsWinterhold-Missives-Patch.esp
+CoMAP - KhajiitCaravans.esp
 TheEyesOfBeauty.esp
 BBNoKillmoves.esp
 Locks Are Just Locked.esp
@@ -160,7 +173,6 @@ imp_helm_legend.esp
 CC Open Helmets.esp
 CC Open Helmets Patches.esp
 OWLRM.esp
-GoodInTransitDesigns.esp
 Dynamic Activation Key - Addons Collection.esp
 ELFX-Shadows-ClefJs-Winterhold-Patch.esp
 Parallax TXST Fixes - _ResourcePack.esp
@@ -181,10 +193,10 @@ KillFeed.esp
 UnderwaterNG.esp
 SwimmingExtensions.esp
 KynesAccord.esp
-Obsidian Weathers MCM.esp
 Witchy Wilderness Resources.esp
 Witchy Wilderness Full.esp
-Missives - Solstheim.esp
+Riverwood Trader Is A Mess.esp
+RiverwoodTraderIsAMess-ELFXShadows-Patch.esp
 StoreDoorbells.esp
 BountiesRedone_MissivesExtension.esp
 BountiesRedone_Missives_Solstheim.esp
@@ -198,11 +210,36 @@ Wolves of Cyrodiil - Food Addon - Survival.esp
 DF - Xtudo Creature Pack - Mihail's Wolves of Cyrodiil.esp
 CarryYourCarcasses - SHO.esp
 ImmersiveHunting.esp
+CraftingNeedsTools.esp
+Hammer and Whetstone.esp
+MCM for FWMF.esp
+Alchemy Requires Bottles Redux.esp
+MorePainfulNPCDeathSounds.esp
+[ETH]AllDeathAnimations.esp
+Lore Ghosts.esp
+Cut Content - Ghost Shader - Philter of the Phantom.esp
+spookier ghosts.esp
+TimingIsEverything.esp
+Fullscreen Book and Item Zoom.esp
+RASS - No Animal Shaders.esp
+Character Menu SE.esp
+StormLightning.esp
+Dunmerpaint.esp
+LovelyLetter.esp
+EmptyPotionsAlchemyLab.esp
+ShowEmptyBottlesMenu.esp
+master_of_one.esp
+CreatureSizeVariants.esp
+Absorb Dragon Soul Lesser Power.esp
+FavorOrc.esp
+HappyLittleTrees-Campfire-Patch.esp
+CampfireDynamicActivate.esp
+Campfire Animations.esp
+CampfireAnim.esp
 alternate start - live another life.esp
 ClefJ Winterhold - Alternate Start patch.esp
 AlternateStart-Loot-Patch.esp
 ELFX - Hardcore.esp
-EncounterZonesEasy.esp
 Scarcity SE - Less Loot Mod.esp
 Scarcity SE - 6x Loot Rarity.esp
 Scarcity SE - 4x Merchant Item Rarity.esp
@@ -210,7 +247,15 @@ RealisticWaterTwo.esp
 ELFX - Hardcore - Realistic Water Two patch.esp
 ENB Light.esp
 Torch Mechanics Fixed - ELFX Shadows Hardcore Patch.esp
+NAT-ENB.esp
+NAT-ENB GRIM patch.esp
+Helios_NAT III.esp
+Helios_NAT III_Dim.esp
+RASS - Tweaks and Fixes NAT III.esp
 Synthesis.esp
 PG_1.esp
 DynDOLOD.esp
 Occlusion.esp
+FWMF for Fantasy Paper Maps.esp
+RW2 - Patch - FWMF for Fantasy Paper Maps.esp
+Bashed Patch, 0.esp

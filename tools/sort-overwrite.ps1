@@ -7,6 +7,11 @@ param(
 
 $mappings = @(
     @{
+        Source = "SKSE\Plugins\IED"
+        TargetMod = "IED [O]"
+        TargetPath = "SKSE\Plugins\IED"
+    },
+    @{
         Source = "SKSE"
         TargetMod = "SKSE [O]"
         TargetPath = "SKSE"
@@ -67,7 +72,8 @@ function Copy-MappedEntry {
     param(
         [System.IO.FileSystemInfo]$Entry,
         [hashtable]$Mapping,
-        [string]$TargetModPath
+        [string]$TargetModPath,
+        [string[]]$ExcludedRelativePaths = @()
     )
 
     $targetRoot = Join-Path $TargetModPath $Mapping.TargetPath
@@ -85,6 +91,19 @@ function Copy-MappedEntry {
 
         foreach ($file in $files) {
             $relativePath = $file.FullName.Substring($Entry.FullName.Length).TrimStart("\", "/")
+
+            $excluded = $false
+            foreach ($excludedPath in $ExcludedRelativePaths) {
+                if ($relativePath -eq $excludedPath -or $relativePath.StartsWith("$excludedPath\")) {
+                    $excluded = $true
+                    break
+                }
+            }
+
+            if ($excluded) {
+                continue
+            }
+
             $destination = Join-Path $targetRoot $relativePath
             $destinationDirectory = Split-Path -Path $destination -Parent
 
@@ -137,15 +156,19 @@ $routable = @()
 $moved = @()
 $blocked = @()
 $unmanaged = @()
+$matchedTopLevelEntries = @{}
 
-foreach ($entry in $entries) {
-    $sourceDisplay = Join-Path "Overwrite" $entry.Name
-    $mapping = $mappings | Where-Object { $_.Source -eq $entry.Name } | Select-Object -First 1
+foreach ($mapping in $mappings) {
+    $sourcePath = Join-Path $OverwritePath $mapping.Source
 
-    if (-not $mapping) {
-        $unmanaged += $sourceDisplay
+    if (-not (Test-Path -LiteralPath $sourcePath)) {
         continue
     }
+
+    $entry = Get-Item -LiteralPath $sourcePath -Force
+    $sourceDisplay = Join-Path "Overwrite" $mapping.Source
+    $topLevelName = ($mapping.Source -split '[\\/]')[0]
+    $matchedTopLevelEntries[$topLevelName] = $true
 
     if (-not $entry.PSIsContainer) {
         $blocked += @{
@@ -164,6 +187,7 @@ foreach ($entry in $entries) {
         Source = $sourceDisplay
         Target = $targetDisplay
         TargetModPath = $targetModPath
+        ExcludedRelativePaths = @()
     }
 
     if (-not (Test-Path -LiteralPath $targetModPath)) {
@@ -172,6 +196,24 @@ foreach ($entry in $entries) {
     }
 
     $routable += $route
+}
+
+$routable = @($routable | Sort-Object @{ Expression = { $_.Source.Length }; Descending = $true }, Source)
+$blocked = @($blocked | Sort-Object Source)
+
+foreach ($route in $routable) {
+    $sourcePrefix = "$($route.Mapping.Source)\"
+    $route.ExcludedRelativePaths = @(
+        $mappings |
+            Where-Object { $_.Source.StartsWith($sourcePrefix) } |
+            ForEach-Object { $_.Source.Substring($sourcePrefix.Length) }
+    )
+}
+
+foreach ($entry in $entries) {
+    if (-not $matchedTopLevelEntries.ContainsKey($entry.Name)) {
+        $unmanaged += (Join-Path "Overwrite" $entry.Name)
+    }
 }
 
 if ($Apply) {
@@ -218,7 +260,7 @@ if ($Apply) {
         }
 
         foreach ($item in $routable) {
-            if (Copy-MappedEntry -Entry $item.Entry -Mapping $item.Mapping -TargetModPath $item.TargetModPath) {
+            if (Copy-MappedEntry -Entry $item.Entry -Mapping $item.Mapping -TargetModPath $item.TargetModPath -ExcludedRelativePaths $item.ExcludedRelativePaths) {
                 $moved += $item
             } else {
                 $blocked += $item + @{ Reason = "copy failed; source content left in Overwrite" }

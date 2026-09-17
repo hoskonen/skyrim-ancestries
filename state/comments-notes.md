@@ -1,8 +1,12 @@
-﻿# MO2 Comments and Notes
+# MO2 Comments and Notes
 
 ## Skyrim Ancestries - Testing & Issues
 
 - Notes: "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n<html><head><meta name=\"qrichtext\" content=\"1\" /><meta charset=\"utf-8\" /><style type=\"text/css\">\np, li { white-space: pre-wrap; }\nhr { height: 1px; border-width: 0; }\nli.unchecked::marker { content: \"\\2610\"; }\nli.checked::marker { content: \"\\2612\"; }\n</style></head><body style=\" font-family:'Segoe UI'; font-size:9pt; font-weight:400; font-style:normal;\">\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">[CRITICAL]</p>\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">[TEST]</p>\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">[BROKEN]</p>\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">[TODO]</p>\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">[NOTE]</p></body></html>"
+
+## Custom Map Markers for Traditional Skyrim and Solstheim Paper Maps [FOMOD]
+
+- Comments: Using only player marker
 
 ## PGPatcher Output [O]
 
@@ -10,11 +14,11 @@
 
 ## Norder UI Settings - Tweak your settings here
 
-- Comments: This is so that Norden updates won't wipe your preferred settings
+- Comments: "This is so that Norden updates won't wipe your preferred settings, global fontfconfig here"
 
-## Obsidian Mountain Fogs Tweaked - Default
+## A Lovely Letter Alternate Routes
 
-- Comments: Removed esm flag
+- Comments: Reverts AI Overhaul flags but that's probably okay
 
 ## Remedies Of Repute [SkyPatcher] [DEV]
 
@@ -38,7 +42,11 @@
 
 ## Weapon Styles - Draw-Sheathe animations for IED
 
-- Notes: "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n<html><head><meta name=\"qrichtext\" content=\"1\" /><meta charset=\"utf-8\" /><style type=\"text/css\">\np, li { white-space: pre-wrap; }\nhr { height: 1px; border-width: 0; }\nli.unchecked::marker { content: \"\\2610\"; }\nli.checked::marker { content: \"\\2612\"; }\n</style></head><body style=\" font-family:'Segoe UI'; font-size:9pt; font-weight:400; font-style:normal;\">\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-family:'Inter','sans-serif'; font-size:medium; font-weight:300; color:#f1f1f1; background-color:#29292e;\">- How to separate Greatswords from Battleaxes/Warhammers: Check thisÂ </span><a href=\"https://www.nexusmods.com/skyrimspecialedition/articles/4604\"><span style=\" font-family:'Inter','sans-serif'; font-size:medium; font-weight:500; color:#d98f40; background-color:#29292e;\">article</span></a><span style=\" font-family:'Inter','sans-serif'; font-size:medium; font-weight:300; color:#f1f1f1; background-color:#29292e;\">. </span></p>\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-family:'Inter','sans-serif'; font-size:medium; font-weight:300; color:#f1f1f1; background-color:#29292e;\">- How to separate Spears/Javelins from One-handed Swords: Check thisÂ </span><a href=\"https://www.nexusmods.com/skyrimspecialedition/articles/5284\"><span style=\" font-family:'Inter','sans-serif'; font-size:medium; font-weight:500; color:#d98f40; background-color:#29292e;\">article</span></a><span style=\" font-family:'Inter','sans-serif'; font-size:medium; font-weight:300; color:#f1f1f1; background-color:#29292e;\">. </span></p>\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-family:'Inter','sans-serif'; font-size:medium; font-weight:300; color:#f1f1f1; background-color:#29292e;\">- How to place quiver at back hip: Check thisÂ </span><a href=\"https://www.nexusmods.com/skyrimspecialedition/articles/4785\"><span style=\" font-family:'Inter','sans-serif'; font-size:medium; font-weight:500; color:#d98f40; background-color:#29292e;\">article</span></a><span style=\" font-family:'Inter','sans-serif'; font-size:medium; font-weight:300; color:#f1f1f1; background-color:#29292e;\">. </span></p>\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-family:'Inter','sans-serif'; font-size:medium; font-weight:300; color:#f1f1f1; background-color:#29292e;\">- How to place maces at back, swords at back hip, shield on hand: Check thisÂ </span><a href=\"https://www.nexusmods.com/skyrimspecialedition/mods/92244\"><span style=\" font-family:'Inter','sans-serif'; font-size:medium; font-weight:500; color:#d98f40; background-color:#29292e;\">mod</span></a><span style=\" font-family:'Inter','sans-serif'; font-size:medium; font-weight:300; color:#f1f1f1; background-color:#29292e;\">.</span></p></body></html>"
+- Notes: "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n<html><head><meta name=\"qrichtext\" content=\"1\" /><meta charset=\"utf-8\" /><style type=\"text/css\">\np, li { white-space: pre-wrap; }\nhr { height: 1px; border-width: 0; }\nli.unchecked::marker { content: \"\\2610\"; }\nli.checked::marker { content: \"\\2612\"; }\n</style></head><body style=\" font-family:'Segoe UI'; font-size:9pt; font-weight:400; font-style:normal;\">\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-family:'Inter','sans-serif'; font-size:medium; font-weight:300; color:#f1f1f1; background-color:#29292e;\">- How to separate Greatswords from Battleaxes/Warhammers: Check this </span><a href=\"https://www.nexusmods.com/skyrimspecialedition/articles/4604\"><span style=\" font-family:'Inter','sans-serif'; font-size:medium; font-weight:500; color:#d98f40; background-color:#29292e;\">article</span></a><span style=\" font-family:'Inter','sans-serif'; font-size:medium; font-weight:300; color:#f1f1f1; background-color:#29292e;\">. </span></p>\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-family:'Inter','sans-serif'; font-size:medium; font-weight:300; color:#f1f1f1; background-color:#29292e;\">- How to separate Spears/Javelins from One-handed Swords: Check this </span><a href=\"https://www.nexusmods.com/skyrimspecialedition/articles/5284\"><span style=\" font-family:'Inter','sans-serif'; font-size:medium; font-weight:500; color:#d98f40; background-color:#29292e;\">article</span></a><span style=\" font-family:'Inter','sans-serif'; font-size:medium; font-weight:300; color:#f1f1f1; background-color:#29292e;\">. </span></p>\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-family:'Inter','sans-serif'; font-size:medium; font-weight:300; color:#f1f1f1; background-color:#29292e;\">- How to place quiver at back hip: Check this </span><a href=\"https://www.nexusmods.com/skyrimspecialedition/articles/4785\"><span style=\" font-family:'Inter','sans-serif'; font-size:medium; font-weight:500; color:#d98f40; background-color:#29292e;\">article</span></a><span style=\" font-family:'Inter','sans-serif'; font-size:medium; font-weight:300; color:#f1f1f1; background-color:#29292e;\">. </span></p>\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-family:'Inter','sans-serif'; font-size:medium; font-weight:300; color:#f1f1f1; background-color:#29292e;\">- How to place maces at back, swords at back hip, shield on hand: Check this </span><a href=\"https://www.nexusmods.com/skyrimspecialedition/mods/92244\"><span style=\" font-family:'Inter','sans-serif'; font-size:medium; font-weight:500; color:#d98f40; background-color:#29292e;\">mod</span></a><span style=\" font-family:'Inter','sans-serif'; font-size:medium; font-weight:300; color:#f1f1f1; background-color:#29292e;\">.</span></p></body></html>"
+
+## Fishermen Fish [FOMOD]
+
+- Comments: "Patches: Whispers of the depths, Thuldors Ivarstead, JK's Skyrim, Shadows Over Illinalta"
 
 ## First Person Interactions [FOMOD]
 
@@ -48,6 +56,10 @@
 
 - Comments: "Minor cell conflict with Lighting template, Use ICC - Simple Hunting Overhaul IED Preset"
 
+## Absorb Dragon Soul Lesser Power
+
+- Comments: Changes ADSLP_MGEF_AbsorbScript
+
 ## Skyrim Souls RE - Unpaused Menus
 
 - Notes: "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n<html><head><meta name=\"qrichtext\" content=\"1\" /><meta charset=\"utf-8\" /><style type=\"text/css\">\np, li { white-space: pre-wrap; }\nhr { height: 1px; border-width: 0; }\nli.unchecked::marker { content: \"\\2610\"; }\nli.checked::marker { content: \"\\2612\"; }\n</style></head><body style=\" font-family:'Segoe UI'; font-size:9pt; font-weight:400; font-style:normal;\">\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">[UNPAUSED_MENUS]</p>\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">bBarterMenu = true</p>\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">bBookMenu = true</p>\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">bConsole = false</p>\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">bContainerMenu = true</p>\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">bFavoritesMenu = true</p>\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">bGiftMenu = true</p>\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">bInventoryMenu = true</p>\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">bJournalMenu = false</p>\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">bLevelUpMenu = true</p>\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">bLockpickingMenu = true</p>\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">bMagicMenu = true</p>\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">bMapMenu = true</p>\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">bMessageBoxMenu = true</p>\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">bModManagerMenu = false</p>\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">bSleepWaitMenu = false</p>\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">bStatsMenu = true</p>\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">bTrainingMenu = true</p>\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">bTutorialMenu = true</p>\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">bTweenMenu = true</p>\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">bCustomMenu = true</p>\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">bQuestJournalOverhaul_QuestMenu = true</p></body></html>"
@@ -55,6 +67,10 @@
 ## Improved Camera SE
 
 - Comments: "First Person Overhaul ON, Override Vanilla Arms on Movement OFF, Third person arms OFF, Shift+Home"
+
+## SV Mods Menu SE - Crimes Spells and Followers
+
+- Comments: Includes Skyrim Souls Fix
 
 ## Ultimate Automated Encounter Zones - Output
 
@@ -139,6 +155,10 @@
 ## Automatic Renamer - Ore Veins
 
 - Comments: Renames ore veins just to ore veins
+
+## Keyword Item Distributor (KID) - ENABLE VERBOSE LOGGING
+
+- Comments: Use this to override KID ini and enable Verbose Logging
 
 ## SkyPatcher
 

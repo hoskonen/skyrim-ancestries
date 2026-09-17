@@ -7,7 +7,6 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 <!-- mod-development:start -->
 ## Being Developed
 
-- Goods In Transit [DEV]
 - Riches Of Repute [Skypatcher] [DEV]
 - Remedies Of Repute [SkyPatcher] [DEV]: `Removes cure disease from general merchants`
 - Goods of Ill Repute [SkyPatcher] [DEV]: `Removes lockpicks from normal merchants, removes skooma and moonsugar from normal merchants`
@@ -54,7 +53,6 @@ No active project status entries.
 - Comprehensive Attack Rate Patch
   - Comments: `Use Survival Mod - Weapon Speed Patch if you decide to use Survival Mode`
 - Papyrus Tweaks NG
-- Dynamic Settings
 - Smooth Terrain
 - Auto Parallax
 - Actor Value Generator
@@ -62,17 +60,14 @@ No active project status entries.
 - Variadic Collision Dynamics - Resources
 - Underwater NG
 - No Grass In Objects
-- KreatE
 - Grass Cache Helper NG
 - Texture Downscaler
-- Save and Load Accelerator for SKSE Cosaves - S.L.A.C.K 1.4.2
-- AutoBlend
+- Leaf Animation Fix SKSE
 
 <details>
 <summary><strong>Mainmenu</strong></summary>
 
 - Menu Load Indicator - SKSE
-- Start On Save - Autoload Game
 
 </details>
 
@@ -95,6 +90,15 @@ No active project status entries.
 - Better Third Person Selection - BTPS
   - Comments: `bIsActivationButtonEnabled = 0`
 - Classic Sprinting Redone
+- Recipe Auto-Learn
+
+</details>
+
+<details>
+<summary><strong>Tools</strong></summary>
+
+- AutoBlend
+- Snow Fixer
 
 </details>
 
@@ -125,6 +129,8 @@ No active project status entries.
 - Sound Record Distributor
 - Spell Perk Item Distributor (SPID)
 - Keyword Item Distributor (KID)
+- Keyword Item Distributor (KID) - ENABLE VERBOSE LOGGING
+  - Comments: `Use this to override KID ini and enable Verbose Logging`
 - MergeMapper
 - Dynamic Bloodpool Framework
 - Inventory Interface Information Injector
@@ -151,6 +157,7 @@ No active project status entries.
 - Kyne's Accord - Custom Creature Behavior
 - Kynes Accord - Modded Animals
 - Alternate Start - Realistic Wearable Lanterns - Patch [BOS]
+- Simple Hunting Overhaul - Modded Support [KIDFLM]
 
 ## 120 ENB
 
@@ -164,7 +171,6 @@ No active project status entries.
 
 - Unofficial Skyrim Special Edition Patch - USSEP
 - Scrambled Bugs
-- Cached Recursive Directory Walk
 - Widescreen Scale Removed
 - Native EditorID Fix
 - Inertia (Floating Gear Fix)
@@ -175,6 +181,7 @@ No active project status entries.
 - Actor Limit Fix
 - GC Bug Fix
 - Water Collision Crash Fix NG
+- Draw Fix - Move Equip Animation Fix
 
 <details>
 <summary><strong>First Person Fixes</strong></summary>
@@ -212,8 +219,19 @@ No active project status entries.
 - Wolves of Cyrodiil - Mihail Monsters and Animals
 - Wolves of Cyrodiil - Food Addon - Survival
 
+## 320 NPC Enemy
+
+<details>
+<summary><strong>Ghosts</strong></summary>
+
+- Specters of Skyrim
+- Spookier Ghosts with Ethereal Shout
+
+</details>
+
 ## 350 Lighting
 
+- Enhanced Volumetric Lighting and Shadows (EVLaS)
 - Standard Lighting Templates - SLT
 - Enhanced Lights and FX
 - ELFX Shadows
@@ -227,12 +245,18 @@ No active project status entries.
 - Shadows Of Sunlight - In Small Exterior World Spaces
 - Skyrim Landscape and Water Fixes
   - Notes:
-    - `Let SLaWF meshes overwrite SMIM,Enhanced texture detail (UV-tweaks), ELFX and No Sunlight Through Mountains.`
-    - `Let meshes from other WiZkiD, Majestic Mountains and Flickering Meshes Fix overwrite SLaWF.`
-    - `For other mods you can decide which mod should win the conflict yourself. SLaWF meshes are fixed carefully, especially regarding collisions, therefore you can overwrite most other mesh fix mods. If it's necessary, you can let other mods overwrite SLaWF at the cost of losing our fixes for those meshes.`
+    - `<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd">`
+    - `<html><head><meta name="qrichtext" content="1" /><meta charset="utf-8" /><style type="text/css">`
+    - `p, li { white-space: pre-wrap; }`
+    - `hr { height: 1px; border-width: 0; }`
+    - `li.unchecked::marker { content: "\\2610"; }`
+    - `li.checked::marker { content: "\\2612"; }`
+    - `</style></head><body style=" font-family:'Segoe UI'; font-size:9pt; font-weight:400; font-style:normal;">`
+    - `<pre style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:19px; background-color:#193549;"><span style=" font-family:'Dank Mono','Consolas','Courier New','monospace','Consolas','Courier New','monospace'; font-size:14px; color:#e1efff;">Let SLaWF meshes overwrite SMIM,Enhanced texture detail (UV-tweaks), ELFX and No Sunlight Through Mountains.</span></pre>`
+    - `<pre style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#193549;"><span style=" font-family:'Dank Mono','Consolas','Courier New','monospace','Consolas','Courier New','monospace'; font-size:14px; color:#e1efff;">Let meshes from other WiZkiD, Majestic Mountains and Flickering Meshes Fix overwrite SLaWF.</span></pre>`
+    - `<pre style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#193549;"><span style=" font-family:'Dank Mono','Consolas','Courier New','monospace','Consolas','Courier New','monospace'; font-size:14px; color:#e1efff;">For other mods you can decide which mod should win the conflict yourself. SLaWF meshes are fixed carefully, especially regarding collisions, therefore you can overwrite most other mesh fix mods. If it's necessary, you can let other mods overwrite SLaWF at the cost of losing our fixes for those meshes.</span></pre></body></html>`
 - Assorted Mesh Fixes
 - Smoother Skies - Meshes
-- Particle Patch
 - Flickering Meshes Fix
 - Skyrim Objects SMIMed - Warmaiden's Holes
 - Actually flat flat Snow Drifts
@@ -261,7 +285,7 @@ No active project status entries.
 
 </details>
 
-## 450 Core Textures
+## 420 Core Textures
 
 <details>
 <summary><strong>Landscape</strong></summary>
@@ -329,9 +353,10 @@ No active project status entries.
 </details>
 
 <details>
-<summary><strong>Cloud Textures</strong></summary>
+<summary><strong>Cloud and Sky Textures</strong></summary>
 
-- ETHEREAL CLOUDS - Special Edition
+- SRW0 Ancient Moons
+- Skyrim Textures Redone - Stars
 
 </details>
 
@@ -349,7 +374,12 @@ No active project status entries.
 
 </details>
 
-## 455 Town Overhauls
+## 430 Global Overhauls
+
+- Skyrim Bridges
+- Lanterns Of Skyrim II
+
+## 450 Town Overhauls
 
 <details>
 <summary><strong>Winterhold</strong></summary>
@@ -364,6 +394,14 @@ No active project status entries.
 
 </details>
 
+<details>
+<summary><strong>Riverwood</strong></summary>
+
+- Riverwood Trader Is A Mess
+- Riverwood Trader Is A Mess - ELFX Shadows - Patch
+
+</details>
+
 ## 460 Grass & Ground Cover
 
 - DrJacopo's - 3D Landscapes and Grass Library
@@ -372,7 +410,7 @@ No active project status entries.
 ## 470 Forest and Trees
 
 - Happy Little Trees
-- Happy Little Trees - Lighter Pine Trees
+- Happy Little Trees - Campfire Patch
 - Mostly Treeless Tundra
 - Mostly Treeless Tundra - Happy Little Trees Patch
 - Happy Little Trees Add-On - DynDOLOD 3
@@ -396,6 +434,7 @@ No active project status entries.
 - Infinity UI
 - ImGui Icons
 - Floating Subtitles
+- Character Menu SE
 
 </details>
 
@@ -404,13 +443,13 @@ No active project status entries.
 
 - TrueHUD - HUD Additions
 - Compass Navigation Overhaul
-- Show Player In Inventory
 - Smart Talk (Dialogue Menu Enhancer)
 - Smart Talk - MCM menu
 - moreHUD SE
 - Oxygen Meter 2
-- Kill Feed
 - Legendary Map
+- Kill Feed
+- Show Empty Bottes in the Menu
 
 </details>
 
@@ -439,6 +478,8 @@ No active project status entries.
 - Automatic Patcher
 - MCM Memory - Settings Backup and Restore
 - Clean Loading Transitions
+- Show Player In Inventory
+- Fullscreen Book and Item Zoom
 
 </details>
 
@@ -448,6 +489,14 @@ No active project status entries.
 - B.O.O.B.I.E.S (aka Immersive Icons)
 - Aura's Scrumptious Supplement (A.S.S. for B.O.O.B.I.E.S.)
 - Phenomenally Enriched and Nuanced Ingredients for SkyUI (P.E.N.I.S. for B.O.O.B.I.E.S.)
+
+</details>
+
+<details>
+<summary><strong>Fonts</strong></summary>
+
+- Sanguis - Mist's Font Replacer
+- 12th century Bookfont
 
 </details>
 
@@ -521,6 +570,13 @@ No active project status entries.
 
 </details>
 
+<details>
+<summary><strong>Overlays</strong></summary>
+
+- Dunmer Overlays for RaceMenu
+
+</details>
+
 ## 710 Armor
 
 - Improved Closefaced Helmets
@@ -535,6 +591,13 @@ No active project status entries.
 - Skyrim Skill Uncapper for SE and AE
   - Comments: `bUsePCLevelSkillExpMults = false, SkillExpGainMults all to 0.0`
 - Static Skill Leveling Rewritten
+
+<details>
+<summary><strong>Perks</strong></summary>
+
+- Master of One - A Double-Edged Perk Overhaul
+
+</details>
 
 ## 800 Movement
 
@@ -620,6 +683,11 @@ No active project status entries.
 
 </details>
 
+## 820 Economy
+
+- SV Mods Menu SE - Crimes Spells and Followers
+  - Comments: `Includes Skyrim Souls Fix`
+
 ## 840 Camera
 
 - Improved Camera SE
@@ -636,6 +704,7 @@ No active project status entries.
 - AI Overhaul SSE
 - AI Overhaul SSE - SPIDified
 - AI Overhaul SSE SkyPatcher Patch
+- Creature Size Variants SE
 - Tamrielic Names - NND
 - Dynamic Footprints
 - Dynamic Timescale - Remade
@@ -665,9 +734,10 @@ No active project status entries.
     - `bQuestJournalOverhaul_QuestMenu = true`
 - Dynamic Footprins - Fantasia Color Palette
 - Wash That Blood Off 2
-- Store Entrance Doorbells
 - Realistic Usable Lanterns
 - Producers of Skyrim - Farmers Miners Fishermen Are Vendors
+- Absorb Dragon Soul Lesser Power
+  - Comments: `Changes ADSLP_MGEF_AbsorbScript`
 
 <details>
 <summary><strong>Stealth</strong></summary>
@@ -704,6 +774,9 @@ No active project status entries.
 <summary><strong>Effects and Shaders</strong></summary>
 
 - Soaking Wet - Character Wetness Effect
+- R.A.S.S. Rain Ash And Snow Shaders - Wet Frost Cold Dust
+- R.A.S.S. Rain Ash And Snow Shaders - Tweaks and Fixes
+- R.A.S.S. Rain Ash And Snow Shaders - No Animal Shaders
 
 </details>
 
@@ -723,6 +796,41 @@ No active project status entries.
 
 </details>
 
+<details>
+<summary><strong>Crafting</strong></summary>
+
+- Crafting Requires Tools Redone
+- Crafting Requires Tools - Extended
+- Hammer and Whetstone - Portable Tempering
+- Alchemy Requires Bottles Redux
+- Alchemy Requires Bottles - Empty Potions at the Alchemy Lab
+
+</details>
+
+<details>
+<summary><strong>Ghost Related</strong></summary>
+
+- Lore Friendly Ghosts
+- CC - Ghost Shader - Philter of the Phantom
+
+</details>
+
+<details>
+<summary><strong>Quest Timing and Delay</strong></summary>
+
+- Timing is Everything SE
+
+</details>
+
+<details>
+<summary><strong>Camping</strong></summary>
+
+- Campfire - Complete Camping System
+- Campfire - Dynamic Activation Key
+- Campfire - Script Optimization
+
+</details>
+
 ## 860 Animation
 
 - First Person Interactions
@@ -731,6 +839,8 @@ No active project status entries.
 - JellyFishFP Movement Remake (1st person animations series)
 - JellyFishFP Torch (1st person animations series)
 - Another Jump Animation - Male
+- Fishermen Fish
+  - Comments: `Patches: Whispers of the depths, Thuldors Ivarstead, JK's Skyrim, Shadows Over Illinalta`
 
 <details>
 <summary><strong>IED</strong></summary>
@@ -773,6 +883,8 @@ No active project status entries.
 - Weapon Switch Animation Fix - Behavior Patch Version
 - No More Swimming In Air - Fixed Floating SwimIdle
 - Barstool Exit Animation Fix
+- First-Person Motion Sickness Fix
+- 1st Person Equip Pitch Fix
 
 </details>
 
@@ -805,6 +917,22 @@ No active project status entries.
 
 </details>
 
+<details>
+<summary><strong>Death Animations</strong></summary>
+
+- Guaranteed Death Animations
+- UNDERDOG Death Animations
+
+</details>
+
+<details>
+<summary><strong>Survival Animations</strong></summary>
+
+- Campfire Animations
+- Igniting Animation for Campfire
+
+</details>
+
 ## 870 Loot
 
 - Open World Loot - SkyPatched by SICreef
@@ -834,14 +962,6 @@ No active project status entries.
 
 </details>
 
-## 880 Music and Sound
-
-- Mute The Music
-- Reverb Interior Sounds Expansion (SRD - Rain Thunder Ambience - Fixes)
-- Crackling Fire
-- RUPTURE - Enhanced Destruction Magic Sounds
-- Personal Music Framework
-
 ## 890 Quests, Missives and Bounties
 
 - Missives
@@ -850,27 +970,62 @@ No active project status entries.
 - Missives - Worldspace Additions
 - Missives - Worldspace Additions (Solstheim) - Notes Retexture Patch
 - Headhunter - Bounties Redone
+- A Lovely Letter Alternate Routes
+  - Comments: `Reverts AI Overhaul flags but that's probably okay`
+- Andrealletius Harder Quests
+- Forgemaster's Fingers Quest for Orcs and Blood-Kin
+- Whispers of the Depths - Quest Mod
 
 ## 900 Weather
 
-- Obsidian Weathers and Seasons
-- Alternate Obsidian Weathers MCM
-- Obsidian Mountain Fogs Tweaked - Default
-  - Comments: `Removed esm flag`
+- NAT.ENB III - Natural and Atmospheric Tamriel
+- NAT.ENB III - Natural and Atmospheric Tamriel - GRIM PATCH
+- Morning Fogs SSE
 - Moons And Stars - Sky Overhaul SKSE
 - Twilight
 - Splashes of Storms
-- SRW0 Ancient Moons
+- Storm Lightning (Minty Lightning 2019)
 
-## DEV Development
+## 910 Music and Sound
 
-- Goods In Transit [DEV]
+- Reverb Interior Sounds Expansion (SRD - Rain Thunder Ambience - Fixes)
+
+<details>
+<summary><strong>Music Related</strong></summary>
+
+- Mute The Music
+- Personal Music Framework
+
+</details>
+
+<details>
+<summary><strong>Magic Related</strong></summary>
+
+- RUPTURE - Enhanced Destruction Magic Sounds
+
+</details>
+
+<details>
+<summary><strong>SFX</strong></summary>
+
+- Crackling Fire
+- Store Entrance Doorbells
+- More Painful Death Sounds SE
+
+</details>
+
+<details>
+<summary><strong>Animal Related</strong></summary>
+
+- Thunder Sounds - WiZkiD Mix -
+
+</details>
 
 ## 960 Skin
 
-- Norden UI [FOMOD}
+- Norden UI
 - Norder UI Settings - Tweak your settings here
-  - Comments: `This is so that Norden updates won't wipe your preferred settings`
+  - Comments: `This is so that Norden updates won't wipe your preferred settings, global fontfconfig here`
 - Extended Tween Menu - Needs Norden Patch
 - Norden - RaceMenu DIP Patch
 
@@ -919,4 +1074,24 @@ No active project status entries.
 
 </details>
 
+## 980 Maps
+
+- Flat World Map Framework (FWMF)
+
+<details>
+<summary><strong>Map Textures</strong></summary>
+
+- Skyrim and Solstheim Paper Maps by Mirhayasu for FWMF
+- Wooden background for Flat World Map Framework
+
+</details>
+
+<details>
+<summary><strong>Map Markers</strong></summary>
+
+- CoMAP - Common Marker Addon Project
+- Custom Map Markers for Traditional Skyrim and Solstheim Paper Maps
+  - Comments: `Using only player marker`
+
+</details>
 

@@ -120,3 +120,7 @@
 # 2026-09-11 - 357 listed mods
 
 - Synced MO2 state and updated the README from the current enabled non-`[O]` mod list.
+
+# 2026-09-17 - 406 listed mods
+
+- Synced MO2 state and updated the README for the large mod-list and section reorganization across maps, sound, quests, immersion, animation, UI, weather, towns, textures, and fixes.

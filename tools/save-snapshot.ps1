@@ -11,15 +11,22 @@ if (-not $changes) {
 
 $timestamp = Get-Date -Format "yyyy-MM-dd HH:mm"
 
-$modCount = (
-    Get-Content "$repo\state\modlist.txt" |
-    Where-Object {
-        $_ -match '^\+' -and
-        $_ -notmatch '\[O\]$'
-    }
+$modlist = Get-Content "$repo\state\modlist.txt"
+$activeModCount = @($modlist | Where-Object { $_ -match '^\+' }).Count
+
+$profilePluginCount = @(
+    Get-Content "$repo\state\plugins.txt" |
+    Where-Object { $_ -match '^\*' }
 ).Count
 
-$commitMessage = "snapshot: $modCount mods - $timestamp"
+# plugins.txt omits Skyrim.esm, Update.esm, DLC, and Creation Club plugins.
+$builtInPluginCount = 2 + @(
+    $modlist |
+    Where-Object { $_ -match '^\*(?:DLC|Creation Club):' }
+).Count
+$pluginCount = $profilePluginCount + $builtInPluginCount
+
+$commitMessage = "snapshot: M$activeModCount P$pluginCount - $timestamp"
 
 git add -A
 

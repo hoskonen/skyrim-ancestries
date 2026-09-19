@@ -297,6 +297,23 @@
       }
     },
     {
+      "label": "Toggle DynDOLOD Patch Plugins",
+      "type": "shell",
+      "command": "powershell",
+      "args": [
+        "-ExecutionPolicy",
+        "Bypass",
+        "-File",
+        "${workspaceFolder}\\tools\\toggle-dyndolod-patches.ps1"
+      ],
+      "problemMatcher": [],
+      "presentation": {
+        "reveal": "always",
+        "panel": "shared",
+        "clear": true
+      }
+    },
+    {
       "label": "Save Modlist Snapshot",
       "type": "shell",
       "command": "powershell",

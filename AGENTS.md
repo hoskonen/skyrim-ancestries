@@ -143,6 +143,11 @@ generated files are not mixed. The DynDOLOD and TexGen clean tasks empty the
 generated output source folders so they are clean for the next run, not the MO2
 output mods.
 
+Use `tools/toggle-dyndolod-patches.ps1` to toggle `Synthesis.esp` and
+`Bashed Patch, 0.esp` together between their normal names and MO2's
+`.mohidden` names before and after DynDOLOD generation. Mixed or missing states
+must block the toggle without changing either plugin.
+
 ## Testing and issue tracking
 
 `Skyrim Ancestries - Testing & Issues` is a special MO2 placeholder mod used

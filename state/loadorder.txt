@@ -32,6 +32,7 @@ ccafdsse001-dwesanctuary.esm
 _ResourcePack.esl
 unofficial skyrim special edition patch.esp
 RealisticWaterTwo - Resources.esm
+FarmhouseChimneys.esp
 High Poly Head.esm
 Dismembering Framework.esm
 Landscape and Water Fixes.esp
@@ -88,6 +89,9 @@ TerrainHelper.esp
 Fantasia Complex Parallax.esp
 Simplicity of Snow.esp
 Shadows Of Sunlight - In Small Exterior World Spaces.esp
+Parallax TXST Fixes - Simplicity of Snow.esp
+AutoBlend.esp
+SnowFixer.esp
 BlendedRoads.esp
 Simplicity of Snow - Blended Roads Patch.esp
 Parallax TXST Fixes - BlendedRoads.esp
@@ -177,8 +181,6 @@ Dynamic Activation Key - Addons Collection.esp
 ELFX-Shadows-ClefJs-Winterhold-Patch.esp
 Parallax TXST Fixes - _ResourcePack.esp
 Parallax TXST Fixes - Unofficial Skyrim Special Edition Patch.esp
-Parallax TXST Fixes - Simplicity of Snow.esp
-AutoBlend.esp
 Parallax TXST Fixes - Landscape and Water Fixes.esp
 Parallax TXST Fixes - Embers XD.esp
 Parallax TXST Fixes - cceejsse005-cave.esp
@@ -187,7 +189,6 @@ Parallax TXST Fixes - ccBGSSSE001-Fish.esp
 Parallax TXST Fixes - ccBGSSSE025-AdvDSGS.esp
 Simplicity of Snow - Dwemer Sanctuary Patch.esp
 Parallax TXST Fixes - Simplicity of Snow - Blended Roads Patch.esp
-DynamicCombatCollision.esp
 Simple Hunting Overhaul.esp
 KillFeed.esp
 UnderwaterNG.esp
@@ -204,7 +205,6 @@ Missile IED Meshes.esp
 Legendary Map.esp
 StaticSkillLeveling.esp
 Realistic Usable Lanterns.esp
-Realistic Usable Lanterns - Torch Mechanics Fixed Patch.esp
 Personal Music Framework - MTD.esp
 Wolves of Cyrodiil - Food Addon - Survival.esp
 DF - Xtudo Creature Pack - Mihail's Wolves of Cyrodiil.esp
@@ -236,6 +236,16 @@ HappyLittleTrees-Campfire-Patch.esp
 CampfireDynamicActivate.esp
 Campfire Animations.esp
 CampfireAnim.esp
+City Bag Checks.esp
+Hunters Not Bandits.esp
+SRE.esp
+Heritage_02.esp
+Phenderix Weather Changer.esp
+UIExtensions.esp
+Realistic Usable Lanterns - Torch Mechanics Fixed Patch.esp
+Torch Mechanics Fixed - Campfire Patch.esp
+ImmersiveInteractions.esp
+Improved Innkeepers + Dragonborn.esp
 alternate start - live another life.esp
 ClefJ Winterhold - Alternate Start patch.esp
 AlternateStart-Loot-Patch.esp
@@ -248,10 +258,10 @@ ELFX - Hardcore - Realistic Water Two patch.esp
 ENB Light.esp
 Torch Mechanics Fixed - ELFX Shadows Hardcore Patch.esp
 NAT-ENB.esp
-NAT-ENB GRIM patch.esp
 Helios_NAT III.esp
 Helios_NAT III_Dim.esp
 RASS - Tweaks and Fixes NAT III.esp
+Dawnfire ENB NAT3 Addon.esp
 Synthesis.esp
 PG_1.esp
 DynDOLOD.esp

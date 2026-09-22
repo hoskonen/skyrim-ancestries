@@ -1,4 +1,12 @@
-# Skyrim Ancestries - Testing & Issues
+﻿# Skyrim Ancestries - Testing & Issues
 
-No active project status entries.
+## [BROKEN]
+
+- Slack Save always CTD's
+
+## [TODO]
+
+- Fisherman fish, IED setup test
+- Torch activator spawns again in first person
+- Bandit was a ghost?
 

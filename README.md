@@ -1,4 +1,4 @@
-# Skyrim Ancestries
+﻿# Skyrim Ancestries
 
 Lightweight documentation workspace for the Ancestries Skyrim mod list.
 
@@ -24,7 +24,15 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 <!-- project-status:start -->
 ## Project Status
 
-No active project status entries.
+### Broken
+
+- Slack Save always CTD's
+
+### Todo
+
+- Fisherman fish, IED setup test
+- Torch activator spawns again in first person
+- Bandit was a ghost?
 
 <!-- project-status:end -->
 
@@ -52,8 +60,6 @@ No active project status entries.
 - Stay At The System Page NG
 - XEMI Utility
 - Dual Casting Fix
-- Comprehensive Attack Rate Patch
-  - Comments: `Use Survival Mod - Weapon Speed Patch if you decide to use Survival Mode`
 - Papyrus Tweaks NG
 - Smooth Terrain
 - Auto Parallax
@@ -65,11 +71,16 @@ No active project status entries.
 - Grass Cache Helper NG
 - Texture Downscaler
 - Leaf Animation Fix SKSE
+- KreatE
+- Comprehensive Attack Rate Patch
+  - Comments: `Use Survival Mod - Weapon Speed Patch if you decide to use Survival Mode`
+- First Person FOV and Tween Menu Fix SKSE
 
 <details>
 <summary><strong>Mainmenu</strong></summary>
 
 - Menu Load Indicator - SKSE
+- Start On Save - Autoload Game
 
 </details>
 
@@ -101,6 +112,7 @@ No active project status entries.
 
 - AutoBlend
 - Snow Fixer
+- Typing Mode
 
 </details>
 
@@ -112,6 +124,8 @@ No active project status entries.
 - SSEEdit Linker
 - Log Watcher - Real-time Analysis of SKSE Logs
 - Quick Commands
+- Console Commands Extender AE
+- ClickLight - Highlight Objects Clicked in Console
 
 ## 110 Frameworks
 
@@ -148,6 +162,7 @@ No active project status entries.
 - Automatic Renamer
 - Lexicon SKSE
 - Music Type Distributor
+- UIExtensions
 
 ## 115 Patchers
 
@@ -184,6 +199,9 @@ No active project status entries.
 - GC Bug Fix
 - Water Collision Crash Fix NG
 - Draw Fix - Move Equip Animation Fix
+- Hunters Not Bandits
+- Torch Mechanics Fixed
+  - Comments: `Has ELFX Patch, loaded after Enb Light`
 
 <details>
 <summary><strong>First Person Fixes</strong></summary>
@@ -223,6 +241,8 @@ No active project status entries.
 
 ## 320 NPC Enemy
 
+- Heritage Enemies 2
+
 <details>
 <summary><strong>Ghosts</strong></summary>
 
@@ -239,8 +259,6 @@ No active project status entries.
 - ELFX Shadows
 - ELFX Shadows - Official Patches Hub
 - Helios
-- Torch Mechanics Fixed
-  - Comments: `Has ELFX Patch, loaded after Enb Light`
 
 ## 400 Mesh Fixes
 
@@ -321,7 +339,6 @@ No active project status entries.
 <summary><strong>Particles Textures</strong></summary>
 
 - Glorious Gradients
-- Dust not Clouds - FrankBlack
 
 </details>
 
@@ -369,10 +386,11 @@ No active project status entries.
 
 </details>
 
-## 430 Global Overhauls
+## 440 Global Overhauls
 
 - Skyrim Bridges
 - Lanterns Of Skyrim II
+- Farmhouse Chimneys SE
 
 ## 450 Town Overhauls
 
@@ -607,7 +625,6 @@ No active project status entries.
 - Precision
 - Precision - Ancestries Tweaks TOML
   - Comments: `Removes all block/bash entries from the precision_base.toml. Fixes bashes not connecting in first person.`
-- Dynamic combat collision
 - Blade and Blunt - A Combat Overhaul
   - Comments: `Minor Conflict currently with Faster Blocking Movements`
 - Simple Dual Sheath
@@ -665,7 +682,6 @@ No active project status entries.
 - Dual Wield Parrying - SKSE Menu Framework Integration
 - Parrying RPG
 - Engaging Combat - Keep Combat Dynamic at Higher Levels
-- Shield of Stamina - More Consistent Stamina Costs
 
 </details>
 
@@ -685,8 +701,6 @@ No active project status entries.
 
 ## 840 Camera
 
-- Improved Camera SE
-  - Comments: `First Person Overhaul ON, Override Vanilla Arms on Movement OFF, Third person arms OFF, Shift+Home`
 - Cinematic Conversation Camera
 - No Furniture Camera
 - First Person (FP) Camera Settle - SKSE
@@ -702,7 +716,6 @@ No active project status entries.
 - Creature Size Variants SE
 - Tamrielic Names - NND
 - Dynamic Footprints
-- Dynamic Timescale - Remade
 - Skyrim Souls RE - Unpaused Menus
   - Notes:
     - `[UNPAUSED_MENUS]`
@@ -725,14 +738,16 @@ No active project status entries.
     - `bTrainingMenu = true`
     - `bTutorialMenu = true`
     - `bTweenMenu = true`
-    - `bCustomMenu = true`
+    - `bCustomMenu = false`
     - `bQuestJournalOverhaul_QuestMenu = true`
+    - `bDragonbornsBestiary_BestiaryMenu = true`
 - Dynamic Footprins - Fantasia Color Palette
 - Wash That Blood Off 2
 - Realistic Usable Lanterns
 - Producers of Skyrim - Farmers Miners Fishermen Are Vendors
 - Absorb Dragon Soul Lesser Power
   - Comments: `Changes ADSLP_MGEF_AbsorbScript`
+- Improved Innkeepers
 
 <details>
 <summary><strong>Stealth</strong></summary>
@@ -758,7 +773,7 @@ No active project status entries.
 </details>
 
 <details>
-<summary><strong>Lockpicking</strong></summary>
+<summary><strong>Lockpicking and Locks</strong></summary>
 
 - Locks Are Just Locked
 - No Lockpick Activate (SKSE) - Updated
@@ -776,7 +791,7 @@ No active project status entries.
 </details>
 
 <details>
-<summary><strong>Hunting</strong></summary>
+<summary><strong>Hunting and Fishing</strong></summary>
 
 - Simple Hunting Overhaul
   - Comments: `Minor cell conflict with Lighting template, Use ICC - Simple Hunting Overhaul IED Preset`
@@ -826,10 +841,19 @@ No active project status entries.
 
 </details>
 
+<details>
+<summary><strong>Encounters</strong></summary>
+
+- City Bag Checks
+- SRE - Strange Random Encounters
+
+</details>
+
 ## 860 Animation
 
+- Immersive Interactions - Animated Actions
 - First Person Interactions
-  - Comments: `Incompatibility with Immersive Camera, works with weapon out`
+  - Comments: `Override Immersive Interactions`
 - First Person Stagger Animation Remade
 - JellyFishFP Movement Remake (1st person animations series)
 - JellyFishFP Torch (1st person animations series)
@@ -874,12 +898,12 @@ No active project status entries.
 
 - Animation Queue Fix
 - Paired Animation Improvements
-- Auto Skeleton Patch - Universal Behaviour Runtime
 - Weapon Switch Animation Fix - Behavior Patch Version
 - No More Swimming In Air - Fixed Floating SwimIdle
 - Barstool Exit Animation Fix
 - First-Person Motion Sickness Fix
 - 1st Person Equip Pitch Fix
+- First Person Animation Teleport Bug Fix
 
 </details>
 
@@ -974,12 +998,15 @@ No active project status entries.
 ## 900 Weather
 
 - NAT.ENB III - Natural and Atmospheric Tamriel
-- NAT.ENB III - Natural and Atmospheric Tamriel - GRIM PATCH
-- Morning Fogs SSE
+- Dawnfire NAT3 ENB - Reborn
+- Morning Fogs SSE - Thin Fog
 - Moons And Stars - Sky Overhaul SKSE
 - Twilight
 - Splashes of Storms
+  - Comments: `Disable ripples, they look bad and small area.`
+- Rudy fix for Splashes of Storms and ENB
 - Storm Lightning (Minty Lightning 2019)
+- Phenderix Weather Changer
 
 ## 910 Music and Sound
 
@@ -990,6 +1017,7 @@ No active project status entries.
 
 - Mute The Music
 - Personal Music Framework
+- Random Main Menu Music
 
 </details>
 
@@ -1006,22 +1034,29 @@ No active project status entries.
 - Crackling Fire
 - Store Entrance Doorbells
 - More Painful Death Sounds SE
+- Thunder Sounds - WiZkiD Mix -
 
 </details>
 
 <details>
 <summary><strong>Animal Related</strong></summary>
 
-- Thunder Sounds - WiZkiD Mix -
+- Spiders Don't Breathe
+- Quieter Skeever Breathing
 
 </details>
+
+## 920 Priority Mesh Overrides
+
+- DUST By Ramccoid
+- Interior and Dungeon Fog Remover
+- Rudy fix for Smoke
 
 ## 960 Skin
 
 - Norden UI
 - Norder UI Settings - Tweak your settings here
-  - Comments: `This is so that Norden updates won't wipe your preferred settings, global fontfconfig here`
-- Extended Tween Menu - Needs Norden Patch
+  - Comments: `This is so that Norden updates won't wipe your preferred settings, global fontfconfig, Equipment Durability SkyUI`
 - Norden - RaceMenu DIP Patch
 
 ## 970 LODs
@@ -1044,6 +1079,7 @@ No active project status entries.
 <details>
 <summary><strong>Pre-LOD Generated Patches</strong></summary>
 
+- SnowFixer
 - Autoblend Output
 - PGPatcher Output
   - Comments: `Turn off when running PGPatcher`

@@ -68,6 +68,15 @@ $mappings = @(
     }
 )
 
+$emptyDirectoryCleanupNames = @(
+    "INI Tweaks",
+    "ShaderCache"
+)
+
+$alwaysRemoveDirectoryNames = @(
+    "Docs"
+)
+
 function Copy-MappedEntry {
     param(
         [System.IO.FileSystemInfo]$Entry,
@@ -156,12 +165,51 @@ $routable = @()
 $moved = @()
 $blocked = @()
 $unmanaged = @()
+$emptyDirectories = @()
+$removedEmptyDirectories = @()
+$removeDirectories = @()
+$removedDirectories = @()
 $matchedTopLevelEntries = @{}
+$emptyDirectoryPaths = @{}
+
+foreach ($name in $emptyDirectoryCleanupNames) {
+    $path = Join-Path $OverwritePath $name
+    if (-not (Test-Path -LiteralPath $path -PathType Container)) {
+        continue
+    }
+
+    if (@(Get-ChildItem -LiteralPath $path -Force).Count -eq 0) {
+        $item = @{
+            Path = $path
+            Source = Join-Path "Overwrite" $name
+        }
+        $emptyDirectories += $item
+        $emptyDirectoryPaths[$path] = $true
+        $matchedTopLevelEntries[$name] = $true
+    }
+}
+
+foreach ($name in $alwaysRemoveDirectoryNames) {
+    $path = Join-Path $OverwritePath $name
+    if (-not (Test-Path -LiteralPath $path -PathType Container)) {
+        continue
+    }
+
+    $removeDirectories += @{
+        Path = $path
+        Source = Join-Path "Overwrite" $name
+    }
+    $matchedTopLevelEntries[$name] = $true
+}
 
 foreach ($mapping in $mappings) {
     $sourcePath = Join-Path $OverwritePath $mapping.Source
 
     if (-not (Test-Path -LiteralPath $sourcePath)) {
+        continue
+    }
+
+    if ($emptyDirectoryPaths.ContainsKey($sourcePath)) {
         continue
     }
 
@@ -227,6 +275,26 @@ if ($Apply) {
     }
     Write-Host ""
 
+    Write-Host "EMPTY DIRECTORIES"
+    if ($emptyDirectories.Count -eq 0) {
+        Write-Host "  (none)"
+    } else {
+        foreach ($item in $emptyDirectories) {
+            Write-Host "  $($item.Source)"
+        }
+    }
+    Write-Host ""
+
+    Write-Host "DIRECTORIES TO REMOVE"
+    if ($removeDirectories.Count -eq 0) {
+        Write-Host "  (none)"
+    } else {
+        foreach ($item in $removeDirectories) {
+            Write-Host "  $($item.Source)"
+        }
+    }
+    Write-Host ""
+
     if ($blocked.Count -gt 0) {
         Write-Host "BLOCKED"
         foreach ($item in $blocked) {
@@ -246,7 +314,7 @@ if ($Apply) {
     }
     Write-Host ""
 
-    if ($routable.Count -gt 0) {
+    if ($routable.Count -gt 0 -or $emptyDirectories.Count -gt 0 -or $removeDirectories.Count -gt 0) {
         if (-not $Yes) {
             Write-Host -NoNewline "Apply these changes? [y/N]: "
             $answer = [Console]::In.ReadLine()
@@ -266,6 +334,32 @@ if ($Apply) {
                 $blocked += $item + @{ Reason = "copy failed; source content left in Overwrite" }
             }
         }
+
+        foreach ($item in $emptyDirectories) {
+            try {
+                Remove-Item -LiteralPath $item.Path -Force
+                $removedEmptyDirectories += $item
+            } catch {
+                $blocked += @{
+                    Source = $item.Source
+                    Target = "(remove empty directory)"
+                    Reason = "cleanup failed: $($_.Exception.Message)"
+                }
+            }
+        }
+
+        foreach ($item in $removeDirectories) {
+            try {
+                Remove-Item -LiteralPath $item.Path -Recurse -Force
+                $removedDirectories += $item
+            } catch {
+                $blocked += @{
+                    Source = $item.Source
+                    Target = "(remove directory)"
+                    Reason = "cleanup failed: $($_.Exception.Message)"
+                }
+            }
+        }
     }
 
     Write-Host "MOVED"
@@ -274,6 +368,26 @@ if ($Apply) {
     } else {
         foreach ($item in $moved) {
             Write-Host "  $($item.Source) -> $($item.Target)"
+        }
+    }
+    Write-Host ""
+
+    Write-Host "REMOVED EMPTY DIRECTORIES"
+    if ($removedEmptyDirectories.Count -eq 0) {
+        Write-Host "  (none)"
+    } else {
+        foreach ($item in $removedEmptyDirectories) {
+            Write-Host "  $($item.Source)"
+        }
+    }
+    Write-Host ""
+
+    Write-Host "REMOVED DIRECTORIES"
+    if ($removedDirectories.Count -eq 0) {
+        Write-Host "  (none)"
+    } else {
+        foreach ($item in $removedDirectories) {
+            Write-Host "  $($item.Source)"
         }
     }
     Write-Host ""
@@ -302,6 +416,26 @@ if ($Apply) {
     } else {
         foreach ($item in $routable) {
             Write-Host "  $($item.Source) -> $($item.Target)"
+        }
+    }
+    Write-Host ""
+
+    Write-Host "EMPTY DIRECTORIES"
+    if ($emptyDirectories.Count -eq 0) {
+        Write-Host "  (none)"
+    } else {
+        foreach ($item in $emptyDirectories) {
+            Write-Host "  $($item.Source)"
+        }
+    }
+    Write-Host ""
+
+    Write-Host "DIRECTORIES TO REMOVE"
+    if ($removeDirectories.Count -eq 0) {
+        Write-Host "  (none)"
+    } else {
+        foreach ($item in $removeDirectories) {
+            Write-Host "  $($item.Source)"
         }
     }
     Write-Host ""

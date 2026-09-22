@@ -35,7 +35,7 @@ Get-Content "$repo\state\modlist.txt" | ForEach-Object {
     $comments = ""
     $notes = ""
 
-    Get-Content -LiteralPath $metaPath | ForEach-Object {
+    Get-Content -LiteralPath $metaPath -Encoding UTF8 | ForEach-Object {
         if ($_ -match "^comments=(.*)$") {
             $comments = $Matches[1].Trim()
         } elseif ($_ -match "^notes=(.*)$") {
@@ -145,7 +145,7 @@ $statusCategories | ForEach-Object {
 if (Test-Path -LiteralPath $statusMetaPath) {
     $rawNotes = ""
 
-    Get-Content -LiteralPath $statusMetaPath | ForEach-Object {
+    Get-Content -LiteralPath $statusMetaPath -Encoding UTF8 | ForEach-Object {
         if ($_ -match "^notes=(.*)$") {
             $rawNotes = $Matches[1].Trim()
         }

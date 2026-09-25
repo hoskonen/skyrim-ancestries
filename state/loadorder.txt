@@ -52,13 +52,13 @@ ___BlockAngleFix.esl
 SkyrimWaterInertia.esl
 TrueHUD.esl
 LexiconSKSE.esl
-PGPatcher.esp
 RASS - Visual Effects.esl
+PGPatcher.esp
+WEC - Core.esp
 DynDOLOD.esm
 SkyUI_SE.esp
 I4IconAddon.esp
 SMIM-SE-Merged-All.esp
-SurvivalModeImproved.esp
 EnhancedLightsandFX.esp
 ELFX Shadows.esp
 Realistic Treeline.esp
@@ -73,28 +73,33 @@ Andrealphus Jobs Overhaul - MASTER.esp
 SpectersOfSkyrim.esp
 Andrealletius Harder Quests - MERGED.esp
 LoS II - ELFX patch.esp
+Frostfall.esp
 SC ClefJ Winterhold - AI Overhaul.esp
 Landscape and Water Fixes - Patch - Farming.esp
+SunHelmSurvival.esp
+SkyrimReputation_SSE.esp
 Missives.esp
 MissivesExpansion.esp
 Headhunter - Bounties Redone.esp
+C.O.I.N.esp
+TreasuryExchange.esp
 StandardLightingTemplatesUSSEP.esp
 AI Overhaul - USSEP Patch.esp
 mihailwolvesofcyrodiil.esp
 Embers XD - Patch - Lanterns of Skyrim II.esp
 Echoes of Oblivion.esp
 UAEZP.esp
+RiverwoodBandits.esp
+BleakFallsReCovered.esp
 Landscape and Water Fixes - CC Fishing patch.esp
 TerrainHelper.esp
 Fantasia Complex Parallax.esp
-Simplicity of Snow.esp
 Shadows Of Sunlight - In Small Exterior World Spaces.esp
-Parallax TXST Fixes - Simplicity of Snow.esp
+Diverse Farmhouse Chimneys.esp
 AutoBlend.esp
 SnowFixer.esp
-BlendedRoads.esp
-Simplicity of Snow - Blended Roads Patch.esp
-Parallax TXST Fixes - BlendedRoads.esp
+Simplicity of Snow.esp
+Parallax TXST Fixes - Simplicity of Snow.esp
 RaceMenu.esp
 RaceMenuPlugin.esp
 MoonsAndStars.esp
@@ -105,7 +110,6 @@ FNIS.esp
 Precision.esp
 Ricochet Framework - MCM.esp
 Broken Feathers.esp
-Dynamic Timescale - Remade.esp
 SkyHUD.esp
 UntarnishedUI_Subtitle.esp
 Open World Loot.esp
@@ -115,6 +119,7 @@ DF - Official Creature Pack.esp
 DF - Official Humanoid Pack.esp
 SkyParkour.esp
 Embers XD - Patch - ClefJ's Winterhold.esp
+Cooking in Inns.esp
 ClefJ Winterhold - Inn fix.esp
 Reverb Interior Sounds Expansion.esp
 Reverb Interior Sounds Expansion_VolumeSlider_Rain.esp
@@ -145,8 +150,8 @@ CBBE.esp
 RaceMenuMorphsCBBE.esp
 Maevan2EyeBrows.esp
 Maevan2 Eye Brows for High Poly Head.esp
+ClefJ's Winterhold-LOS2-Patch.esp
 SVMiscMCMMerged.esp
-LoS II - ClefJ Winterhold patch.esp
 LoS II - SMIM patch.esp
 Missives - Solstheim.esp
 Slays-Many-Beasts Quest Mod.esp
@@ -163,11 +168,9 @@ CoMAP - KhajiitCaravans.esp
 TheEyesOfBeauty.esp
 BBNoKillmoves.esp
 Locks Are Just Locked.esp
-Realistic AI Detection 3 - Medium Interior, Medium Exterior.esp
 madEngagingCombat.esp
 ImmersiveWeaponSwitch.esp
 Embers XD - Patch - Survival Mode.esp
-Embers XD - Patch - Survival Mode Improved.esp
 Embers XD - Patch - ELFX.esp
 Embers XD - Fire Magick Add-On.esp
 Embers XD - Patch - Goldenhills Plantation.esp
@@ -188,7 +191,6 @@ Parallax TXST Fixes - ccbgssse067-daedinv.esp
 Parallax TXST Fixes - ccBGSSSE001-Fish.esp
 Parallax TXST Fixes - ccBGSSSE025-AdvDSGS.esp
 Simplicity of Snow - Dwemer Sanctuary Patch.esp
-Parallax TXST Fixes - Simplicity of Snow - Blended Roads Patch.esp
 Simple Hunting Overhaul.esp
 KillFeed.esp
 UnderwaterNG.esp
@@ -204,7 +206,6 @@ BountiesRedone_Missives_Solstheim.esp
 Missile IED Meshes.esp
 Legendary Map.esp
 StaticSkillLeveling.esp
-Realistic Usable Lanterns.esp
 Personal Music Framework - MTD.esp
 Wolves of Cyrodiil - Food Addon - Survival.esp
 DF - Xtudo Creature Pack - Mihail's Wolves of Cyrodiil.esp
@@ -242,10 +243,39 @@ SRE.esp
 Heritage_02.esp
 Phenderix Weather Changer.esp
 UIExtensions.esp
-Realistic Usable Lanterns - Torch Mechanics Fixed Patch.esp
-Torch Mechanics Fixed - Campfire Patch.esp
 ImmersiveInteractions.esp
 Improved Innkeepers + Dragonborn.esp
+DynamicCombatCollision.esp
+UCantTouchFish.esp
+UCantTouchFish_InteractionsPatch.esp
+Embers XD - Patch - Campfire.esp
+LoS II - Campfire addon.esp
+DynamicBlockHit.esp
+Skyrim Reputation Patch.esp
+Skyrim Reputation Improved.esp
+JamDoorsAndGates.esp
+Immersive Equipping Animations.esp
+Torch Mechanics Fixed - Campfire Patch.esp
+Realistic Usable Lanterns.esp
+Realistic Usable Lanterns - Torch Mechanics Fixed Patch.esp
+Handcarts_BOS.esp
+JustMyImagination.esp
+WaitCarriageInns.esp
+ClefJ'sWinterhold-CookingInInns-Patch.esp
+Bandit Lines Expansion.esp
+DarkElfVoicesForBandits.esp
+Turn In Contraband.esp
+Dynamic Things Alternative.esp
+ShameOfSkyrim.esp
+Accuracy - MCM.esp
+SunHelmForceDisableCold.esp
+Ivy Replacer BOS.esp
+OptimalPotionHotkeyMCM.esp
+C.O.I.N. - The Cause Patch.esp
+RotolsMoreIcons.esp
+test.esp
+LFGAmmoLimiter.esp
+Parallax TXST Fixes - Lanterns Of Skyrim II.esp
 alternate start - live another life.esp
 ClefJ Winterhold - Alternate Start patch.esp
 AlternateStart-Loot-Patch.esp

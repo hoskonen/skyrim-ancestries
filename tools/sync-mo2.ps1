@@ -1,4 +1,4 @@
-$mo2Profile = "F:\Modding\Skyrim\Ancestries\profiles\Default"
+$mo2Profile = "F:\Modding\Skyrim\Ancestries\profiles\Ancestries"
 $mo2Mods = "F:\Modding\Skyrim\Ancestries\mods"
 $repo = "F:\Modding\Skyrim\ancestries-codex"
 

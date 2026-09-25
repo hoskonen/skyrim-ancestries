@@ -129,3 +129,7 @@
 # 2026-09-22 - 422 listed mods
 
 - Synced MO2 state and updated the README for the large SKSE, fixes, UI, weather, sound, animation, immersion, encounters, LOD, and project-status changes.
+
+# 2026-09-25 - 481 listed mods
+
+- Corrected the sync source to the active Ancestries profile and updated the README for the expanded mod list, metadata, sections, and project-status changes.

@@ -18,21 +18,15 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 - Alternate Start - Loot Patch
 - Happy Little Trees - Campfire Patch
 - Riverwood Trader Is A Mess - ELFX Shadows - Patch
+- ClefJ's Winterhold - Cooking in Inns - Patch
+- ClefJ's Winterhold - LOS2 - Patch
 
 <!-- mod-development:end -->
 
 <!-- project-status:start -->
 ## Project Status
 
-### Broken
-
-- Slack Save always CTD's
-
-### Todo
-
-- Fisherman fish, IED setup test
-- Torch activator spawns again in first person
-- Bandit was a ghost?
+No active project status entries.
 
 <!-- project-status:end -->
 
@@ -47,7 +41,6 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 ## 010 Cleaned Masters
 
 - Cleaned Vanilla Files
-
 ## 100 SKSE
 
 - Address Library for SKSE Plugins
@@ -59,35 +52,33 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 - Terrain Helper
 - Stay At The System Page NG
 - XEMI Utility
-- Dual Casting Fix
 - Papyrus Tweaks NG
 - Smooth Terrain
 - Auto Parallax
 - Actor Value Generator
-- Variadic Collision Dynamics
-- Variadic Collision Dynamics - Resources
 - Underwater NG
 - No Grass In Objects
 - Grass Cache Helper NG
-- Texture Downscaler
 - Leaf Animation Fix SKSE
 - KreatE
 - Comprehensive Attack Rate Patch
   - Comments: `Use Survival Mod - Weapon Speed Patch if you decide to use Survival Mode`
 - First Person FOV and Tween Menu Fix SKSE
-
-<details>
-<summary><strong>Mainmenu</strong></summary>
-
-- Menu Load Indicator - SKSE
-- Start On Save - Autoload Game
-
-</details>
+- Time Control
+- Glow Be Gone Redone - NG
+- Horizon Fix
+- No Idle Vanity Camera SKSE
+- No UI On Screenshots
+- Game Settings Override
+- Game Settings Override - Collection
+- Smart Optimal Salves - Optimal Potion Hotkey MCM
+- Smart Optimal Salves - SKSE
 
 <details>
 <summary><strong>Controller Related</strong></summary>
 
 - Auto Input Switch
+- Gamepad Button Freer
 
 </details>
 
@@ -98,7 +89,6 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 - Name Those Ash Piles
 - Skyrim Water Inertia
 - Better Grabbing
-- Survival Mode Improved - SKSE
 - Survival Control Panel
 - Better Third Person Selection - BTPS
   - Comments: `bIsActivationButtonEnabled = 0`
@@ -122,11 +112,10 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 - ConsolePlusPlus
 - Crash Logger SSE AE VR - PDB support
 - SSEEdit Linker
-- Log Watcher - Real-time Analysis of SKSE Logs
 - Quick Commands
 - Console Commands Extender AE
 - ClickLight - Highlight Objects Clicked in Console
-
+- Start On Save - Autoload Game
 ## 110 Frameworks
 
 - powerofthree's Papyrus Extender
@@ -145,8 +134,6 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 - Sound Record Distributor
 - Spell Perk Item Distributor (SPID)
 - Keyword Item Distributor (KID)
-- Keyword Item Distributor (KID) - ENABLE VERBOSE LOGGING
-  - Comments: `Use this to override KID ini and enable Verbose Logging`
 - MergeMapper
 - Dynamic Bloodpool Framework
 - Inventory Interface Information Injector
@@ -155,15 +142,19 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 - Object Categorization Framework
 - Constructible Object Custom Keyword System
 - Constructible Object Custom Keyword System NG
-- PapyrusUtil SE - Modders Scripting Utility Functions
 - Input Manager
 - SkyPrompt
 - NPCs Names Distributor
 - Automatic Renamer
 - Lexicon SKSE
+- Container Distribution Framework
 - Music Type Distributor
 - UIExtensions
-
+- Variadic Collision Dynamics
+- Variadic Collision Dynamics - Resources
+- Accuracy (Localized Combat Damage)
+- Accuracy (Localized Combat Damage) - MCM
+- Description Framework
 ## 115 Patchers
 
 - Acoustic Space Improvement Fixes (Corrected Reverb - Ambience - Interiors - SkyPatcher)
@@ -175,7 +166,6 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 - Kynes Accord - Modded Animals
 - Alternate Start - Realistic Wearable Lanterns - Patch [BOS]
 - Simple Hunting Overhaul - Modded Support [KIDFLM]
-
 ## 120 ENB
 
 - ENB Light
@@ -183,7 +173,6 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 - ENB Light - Patch 1
 - ENB Light - Patch 2
 - ENB Extender and Helper Skyrim
-
 ## 200 Patches & Fixes
 
 - Unofficial Skyrim Special Edition Patch - USSEP
@@ -202,6 +191,10 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 - Hunters Not Bandits
 - Torch Mechanics Fixed
   - Comments: `Has ELFX Patch, loaded after Enb Light`
+- Equip Enchantment Fix
+- Dual Casting Fix
+- LeveledList Crash Fix
+- No Auto-Equip Behaviour
 
 <details>
 <summary><strong>First Person Fixes</strong></summary>
@@ -224,6 +217,7 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 <summary><strong>Controller and Keyboard</strong></summary>
 
 - Alt-Tab Stuck Key Fix
+- Media Keys Fix SKSE
 - Kontrol FPS Preset - No Quick Load Save
   - Comments: `https://hawk.bar/SkyrimControlMapper/`
 
@@ -233,12 +227,10 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 
 - Static Mesh Improvement Mod
 - Static Mesh improvement Mod - SMIM - Quality Addon
-
 ## 310 NPC Animals
 
 - Wolves of Cyrodiil - Mihail Monsters and Animals
 - Wolves of Cyrodiil - Food Addon - Survival
-
 ## 320 NPC Enemy
 
 - Heritage Enemies 2
@@ -259,7 +251,7 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 - ELFX Shadows
 - ELFX Shadows - Official Patches Hub
 - Helios
-
+- Window Emittance Consistency (WEC)
 ## 400 Mesh Fixes
 
 - Shadows Of Sunlight - In Small Exterior World Spaces
@@ -268,7 +260,6 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
     - `Let SLaWF meshes overwrite SMIM,Enhanced texture detail (UV-tweaks), ELFX and No Sunlight Through Mountains.`
     - `Let meshes from other WiZkiD, Majestic Mountains and Flickering Meshes Fix overwrite SLaWF.`
     - `For other mods you can decide which mod should win the conflict yourself. SLaWF meshes are fixed carefully, especially regarding collisions, therefore you can overwrite most other mesh fix mods. If it's necessary, you can let other mods overwrite SLaWF at the cost of losing our fixes for those meshes.`
-- Assorted Mesh Fixes
 - Smoother Skies - Meshes
 - Flickering Meshes Fix
 - Skyrim Objects SMIMed - Warmaiden's Holes
@@ -276,18 +267,9 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 - Word Wall Transparency Fix for ENB
 - Terrain Parallax Blending Fix
 - Floating Ash Pile Fix
-
+- Assorted mesh fixes
+- Wood Chopping Camera Glitch Fix
 ## 410 Mesh Overrides
-
-<details>
-<summary><strong>Roads</strong></summary>
-
-- Blended Roads
-- Blended Roads - Parallax Meshes
-- Blended Roads - Simplicity of Snow Patch
-- Blended Roads less bumpiness - Base Object Swapper
-
-</details>
 
 <details>
 <summary><strong>Weapon Meshes</strong></summary>
@@ -332,6 +314,8 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 <summary><strong>Architecture</strong></summary>
 
 - High Quality Hearth - 3D Farmhouse Firepit
+- Carts HD - Pfuscher
+  - Comments: `This replaces vanilla Cart mesh and textures`
 
 </details>
 
@@ -360,6 +344,7 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 <summary><strong>Snow Textures</strong></summary>
 
 - Simplicity of Snow
+- Simplicity of Snow - Parallax Meshes
 - Skyking Snowburst - 4K Complex Parallax Snow
 
 </details>
@@ -391,7 +376,7 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 - Skyrim Bridges
 - Lanterns Of Skyrim II
 - Farmhouse Chimneys SE
-
+- Cooking Pots in Inns
 ## 450 Town Overhauls
 
 <details>
@@ -400,9 +385,11 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 - ClefJ's Winterhold
 - ClefJ's Winterhold - Inn Fix Patch
 - ClefJ's Winterhold - Patches
+- ClefJ's Winterhold - LOS2 - Patch
 - ClefJ's Winterhold - Alternate Start Patch
 - ELFX Shadows - ClefJ's Winterhold Patch
 - ClefJ's Winterhold - Missives - Patch
+- ClefJ's Winterhold - Cooking in Inns - Patch
 - ClefJ Winterhold - LOD Meshes for DynDOLOD [LODS]
 
 </details>
@@ -412,6 +399,9 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 
 - Riverwood Trader Is A Mess
 - Riverwood Trader Is A Mess - ELFX Shadows - Patch
+- Skybound Underhang Camp
+  - Comments: `Add Lawbringer Patch later`
+- Ryn's Bleak Falls Barrow
 
 </details>
 
@@ -419,22 +409,26 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 
 - DrJacopo's - 3D Landscapes and Grass Library
 - Witchy Wilderness - Modular Grass Overhaul
-
+- High Quality Ivy Replacer - Base Object Swapper
+  - Comments: `Patches for Stonewalls`
 ## 470 Forest and Trees
 
 - Happy Little Trees
+- Happy Little Trees - Lighter Pine Trees
 - Happy Little Trees - Campfire Patch
 - Mostly Treeless Tundra
 - Mostly Treeless Tundra - Happy Little Trees Patch
 - Happy Little Trees Add-On - DynDOLOD 3
 - Realistic High Altitude Treeline
   - Comments: `Needs LOD generation`
-
 ## 480 Water
 
 - Realistic Water Two SE (RWT)
 - Realistic Water Two SE - Darker Gradient Textures v5 and up
+## 490 Dynamic Replacers
 
+- Handcarts - Base Object Swapper
+- Diverse Farmhouse Chimneys - Base Object Swapper
 ## 500 User Interface
 
 <details>
@@ -454,8 +448,8 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 <details>
 <summary><strong>HUD Elements</strong></summary>
 
-- TrueHUD - HUD Additions
 - Compass Navigation Overhaul
+- TrueHUD - HUD Additions
 - Smart Talk (Dialogue Menu Enhancer)
 - Smart Talk - MCM menu
 - moreHUD SE
@@ -479,6 +473,7 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
     - `iDAKModifierKey = 209`
     - `iDAKControllerKey = 267`
 - Read Or Take
+- Use or Take SKSE
 
 </details>
 
@@ -488,11 +483,12 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 - Modex - A Mod Explorer Menu (AddItemMenu)
 - Photo Mode
 - Dynamic Interface Patcher - DIP
-- Automatic Patcher
 - MCM Memory - Settings Backup and Restore
 - Clean Loading Transitions
 - Show Player In Inventory
 - Fullscreen Book and Item Zoom
+- Hud NG
+- Clean Loading Transitions Settings
 
 </details>
 
@@ -502,6 +498,8 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 - B.O.O.B.I.E.S (aka Immersive Icons)
 - Aura's Scrumptious Supplement (A.S.S. for B.O.O.B.I.E.S.)
 - Phenomenally Enriched and Nuanced Ingredients for SkyUI (P.E.N.I.S. for B.O.O.B.I.E.S.)
+- Rotols More Icons
+- Rotols Additional Icons - AIT Sunhelm Patch
 
 </details>
 
@@ -531,7 +529,6 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 
 - RaceMenu
 - Expressive Facegen Morphs SE
-- Why I Came to Skyrim - Origin Stories
 
 <details>
 <summary><strong>Body</strong></summary>
@@ -593,10 +590,10 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 ## 710 Armor
 
 - Improved Closefaced Helmets
+- Improved Closefaced Helmets - Fixes (Mesh Only)
 - Improved Closefaced Helmets (ICH) - SkyPatched
 - Creation Club Open Helmets
 - Creation Club Open Helmets 2.0 - Patches
-
 ## 750 Leveling
 
 - Experience
@@ -625,6 +622,7 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 - Precision
 - Precision - Ancestries Tweaks TOML
   - Comments: `Removes all block/bash entries from the precision_base.toml. Fixes bashes not connecting in first person.`
+- Dynamic combat collision
 - Blade and Blunt - A Combat Overhaul
   - Comments: `Minor Conflict currently with Faster Blocking Movements`
 - Simple Dual Sheath
@@ -640,6 +638,8 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 - Ricochet - Arrow Physics Framework MCM
 - NPCs Learn to Aim (Skill-Based Aiming)
 - Bows Can Break
+- Smooth Arrow Trails and Fixes
+- Arrow Limiter SSE
 
 </details>
 
@@ -682,6 +682,8 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 - Dual Wield Parrying - SKSE Menu Framework Integration
 - Parrying RPG
 - Engaging Combat - Keep Combat Dynamic at Higher Levels
+- Maxsu Block Overhaul
+- Dynamic Block Hit
 
 </details>
 
@@ -689,8 +691,6 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 <summary><strong>Spawning and Encounter Zones</strong></summary>
 
 - Ultimate Automated Encounter Zones Patcher - Easy
-- Ultimate Automated Encounter Zones - Output
-  - Comments: `Use Late Loaders group in LOOT`
 
 </details>
 
@@ -698,14 +698,12 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 
 - SV Mods Menu SE - Crimes Spells and Followers
   - Comments: `Includes Skyrim Souls Fix`
-
 ## 840 Camera
 
 - Cinematic Conversation Camera
 - No Furniture Camera
 - First Person (FP) Camera Settle - SKSE
 - First Person (FP) Inertia - SKSE
-
 ## 850 Immersion
 
 - Alternate Start - Live Another Life - SSE
@@ -747,12 +745,17 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 - Producers of Skyrim - Farmers Miners Fishermen Are Vendors
 - Absorb Dragon Soul Lesser Power
   - Comments: `Changes ADSLP_MGEF_AbsorbScript`
-- Improved Innkeepers
+- Skyrim Reputation
+- Skyrim Reputation - Fixed and Patched
+- Skyrim Reputation Improved
+- Equipment Durability System NG
+- Dynamic Things Alternative - Base Object Swapper
+- Shame of Skyrim
 
 <details>
 <summary><strong>Stealth</strong></summary>
 
-- Realistic AI Detection (RAID)
+- Just My Imagination - Sneak Detection Overhaul
 - Take a Peek - New Stealth Mechanic
 - Take a Peek - New Stealth Mechanic - Settings Loader
 
@@ -777,6 +780,7 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 
 - Locks Are Just Locked
 - No Lockpick Activate (SKSE) - Updated
+- Block or Lock Doors and Gates
 
 </details>
 
@@ -795,6 +799,8 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 
 - Simple Hunting Overhaul
   - Comments: `Minor cell conflict with Lighting template, Use ICC - Simple Hunting Overhaul IED Preset`
+- U Can't Touch Fish - Chance Edition
+- U Can't Touch Fish - Immersive Interactions
 
 </details>
 
@@ -833,11 +839,15 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 </details>
 
 <details>
-<summary><strong>Camping</strong></summary>
+<summary><strong>Survival and Camping</strong></summary>
 
 - Campfire - Complete Camping System
-- Campfire - Dynamic Activation Key
 - Campfire - Script Optimization
+- Campfire - Dynamic Activation Key
+- Frostfall - Hypothermia Camping Survival
+- Frostfall - Spell Monitor Optimized
+- Campfire and Frostfall - Unofficial SSE Update
+- SunHelm Survival and needs
 
 </details>
 
@@ -846,6 +856,23 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 
 - City Bag Checks
 - SRE - Strange Random Encounters
+
+</details>
+
+<details>
+<summary><strong>Travelling and Carriage</strong></summary>
+
+- Wait Carriage in Inns - Fast Travel Improvement
+
+</details>
+
+<details>
+<summary><strong>Economy</strong></summary>
+
+- C.O.I.N. - Coins of Interesting Nature
+- C.O.I.N. - Treasury Exchange
+- Improved Innkeepers
+- Turn in Contraband
 
 </details>
 
@@ -898,6 +925,7 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 
 - Animation Queue Fix
 - Paired Animation Improvements
+- Auto Skeleton Patch - Universal Behaviour Runtime
 - Weapon Switch Animation Fix - Behavior Patch Version
 - No More Swimming In Air - Fixed Floating SwimIdle
 - Barstool Exit Animation Fix
@@ -915,6 +943,9 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 - SIGMA - Sword animations - Medium
 - SIGMA - Archery animations
 - SIGMA - Waraxe animations - Low
+- Weapon Switch Animations Complete
+- Immersive Equipping Animations
+- First Person Animations - For some mods
 
 </details>
 
@@ -949,6 +980,14 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 
 - Campfire Animations
 - Igniting Animation for Campfire
+
+</details>
+
+<details>
+<summary><strong>Idle Animations</strong></summary>
+
+- NPC Animation Remix (OAR)
+- Gesture Animation Remix (OAR)
 
 </details>
 
@@ -994,7 +1033,7 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 - Andrealletius Harder Quests
 - Forgemaster's Fingers Quest for Orcs and Blood-Kin
 - Whispers of the Depths - Quest Mod
-
+- Why I Came to Skyrim - Origin Stories
 ## 900 Weather
 
 - NAT.ENB III - Natural and Atmospheric Tamriel
@@ -1007,7 +1046,6 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 - Rudy fix for Splashes of Storms and ENB
 - Storm Lightning (Minty Lightning 2019)
 - Phenderix Weather Changer
-
 ## 910 Music and Sound
 
 - Reverb Interior Sounds Expansion (SRD - Rain Thunder Ambience - Fixes)
@@ -1015,7 +1053,6 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 <details>
 <summary><strong>Music Related</strong></summary>
 
-- Mute The Music
 - Personal Music Framework
 - Random Main Menu Music
 
@@ -1046,19 +1083,27 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 
 </details>
 
+<details>
+<summary><strong>Dialogue and Speech</strong></summary>
+
+- Bandit Lines Expansion
+- Bandit Lines Expansion - Dark Elf Voices For Bandits
+
+</details>
+
 ## 920 Priority Mesh Overrides
 
 - DUST By Ramccoid
 - Interior and Dungeon Fog Remover
 - Rudy fix for Smoke
-
 ## 960 Skin
 
 - Norden UI
 - Norder UI Settings - Tweak your settings here
   - Comments: `This is so that Norden updates won't wipe your preferred settings, global fontfconfig, Equipment Durability SkyUI`
-- Norden - RaceMenu DIP Patch
-
+- Extended Tween Menu
+- Extended Tween Menu - Character Menu Patch
+- Extended Tween Menu - Photo Mode Patch
 ## 970 LODs
 
 <details>
@@ -1132,6 +1177,18 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 - CoMAP - Common Marker Addon Project
 - Custom Map Markers for Traditional Skyrim and Solstheim Paper Maps
   - Comments: `Using only player marker`
+
+</details>
+
+## 985 Script & Runtime Overrides
+
+- PapyrusUtil SE - Modders Scripting Utility Functions
+
+<details>
+<summary><strong>Development</strong></summary>
+
+- GripBreaker
+- Respite
 
 </details>
 

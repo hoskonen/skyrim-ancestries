@@ -97,8 +97,8 @@ Fantasia Complex Parallax.esp
 Shadows Of Sunlight - In Small Exterior World Spaces.esp
 Diverse Farmhouse Chimneys.esp
 AutoBlend.esp
-SnowFixer.esp
 Simplicity of Snow.esp
+SnowFixer.esp
 Parallax TXST Fixes - Simplicity of Snow.esp
 RaceMenu.esp
 RaceMenuPlugin.esp
@@ -273,9 +273,26 @@ Ivy Replacer BOS.esp
 OptimalPotionHotkeyMCM.esp
 C.O.I.N. - The Cause Patch.esp
 RotolsMoreIcons.esp
-test.esp
+snowroadsforskyrim.esp
 LFGAmmoLimiter.esp
 Parallax TXST Fixes - Lanterns Of Skyrim II.esp
+Undying.esp
+WetandCold.esp
+DynamicLoweredHoods.esp
+DynamicLoweredHoods_WetAndCold.esp
+Helmet Toggle 2.esp
+Shield debuff.esp
+GLZ-InformedMailDelivery.esp
+Alchemical Appraisal Services.esp
+Campfire collectable wood.esp
+Campfire Dynamic Collisions.esp
+Fully Harvest Hanging Carcasses.esp
+Fully Harvest Hanging Carcasses - CC Fishing Patch.esp
+Fully Harvest Hanging Carcasses - C.O.I.N. Patch.esp
+Wounds.esp
+WoundsOverlay.esp
+Wounds Overlays Applied.esp
+Dirt and Blood - Dynamic Visuals.esp
 alternate start - live another life.esp
 ClefJ Winterhold - Alternate Start patch.esp
 AlternateStart-Loot-Patch.esp

@@ -26,7 +26,9 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 <!-- project-status:start -->
 ## Project Status
 
-No active project status entries.
+### Testing
+
+- Ryn's Bleakfalls
 
 <!-- project-status:end -->
 
@@ -73,6 +75,9 @@ No active project status entries.
 - Game Settings Override - Collection
 - Smart Optimal Salves - Optimal Potion Hotkey MCM
 - Smart Optimal Salves - SKSE
+- Sleep in Bed
+- Item Preview Customizer
+- Magic Organizer SKSE - Hide Spells Powers Active Effects
 
 <details>
 <summary><strong>Controller Related</strong></summary>
@@ -155,6 +160,8 @@ No active project status entries.
 - Accuracy (Localized Combat Damage)
 - Accuracy (Localized Combat Damage) - MCM
 - Description Framework
+- XPMF - Extended Projected Materials Framework
+- Dynamic Armor Variants
 ## 115 Patchers
 
 - Acoustic Space Improvement Fixes (Corrected Reverb - Ambience - Interiors - SkyPatcher)
@@ -234,6 +241,7 @@ No active project status entries.
 ## 320 NPC Enemy
 
 - Heritage Enemies 2
+- More Undying Undead
 
 <details>
 <summary><strong>Ghosts</strong></summary>
@@ -272,9 +280,16 @@ No active project status entries.
 ## 410 Mesh Overrides
 
 <details>
+<summary><strong>Roads</strong></summary>
+
+- Snow Roads for Skyrim
+
+</details>
+
+<details>
 <summary><strong>Weapon Meshes</strong></summary>
 
-- LeanWolf's Better-Shaped Weapons SE[H]
+- LeanWolf's Better-Shaped Weapons SE [H]
   - Comments: `Hid all the meshes which conflict with Believable Weapons`
 - Believable Weapons
 
@@ -290,6 +305,7 @@ No active project status entries.
 - Skyland AIO - Complex Parallax
 - Skyking Fantasia Landscapes
 - Skyking Fantasia Landscapes - Green Tundra - Complex Parallax
+- TB's 3D Driftwood
 
 </details>
 
@@ -334,17 +350,9 @@ No active project status entries.
 </details>
 
 <details>
-<summary><strong>Road Textures</strong></summary>
-
-- Tomato's Blended Roads Retexture - 2k
-
-</details>
-
-<details>
 <summary><strong>Snow Textures</strong></summary>
 
-- Simplicity of Snow
-- Simplicity of Snow - Parallax Meshes
+- Simplicity of Snow - Sulfur Ash Moss
 - Skyking Snowburst - 4K Complex Parallax Snow
 
 </details>
@@ -368,6 +376,13 @@ No active project status entries.
 <summary><strong>NPC Animal Fluffy</strong></summary>
 
 - Wolves of Cyrodiil - Fluffy
+
+</details>
+
+<details>
+<summary><strong>Item Textures</strong></summary>
+
+- Medieval Potions
 
 </details>
 
@@ -457,6 +472,7 @@ No active project status entries.
 - Legendary Map
 - Kill Feed
 - Show Empty Bottes in the Menu
+- Informed Mail Delivery
 
 </details>
 
@@ -500,6 +516,7 @@ No active project status entries.
 - Phenomenally Enriched and Nuanced Ingredients for SkyUI (P.E.N.I.S. for B.O.O.B.I.E.S.)
 - Rotols More Icons
 - Rotols Additional Icons - AIT Sunhelm Patch
+- Wounds - I4 and Wheeler patch
 
 </details>
 
@@ -584,6 +601,8 @@ No active project status entries.
 <summary><strong>Overlays</strong></summary>
 
 - Dunmer Overlays for RaceMenu
+- Wounds - Overlays For RaceMenu
+- Wounds - Overlays Applied
 
 </details>
 
@@ -594,6 +613,8 @@ No active project status entries.
 - Improved Closefaced Helmets (ICH) - SkyPatched
 - Creation Club Open Helmets
 - Creation Club Open Helmets 2.0 - Patches
+- Dynamic Lowered Hoods
+  - Comments: `Has patches for Armor And Clothes Expansion, Northborn Fur Hoods`
 ## 750 Leveling
 
 - Experience
@@ -624,11 +645,12 @@ No active project status entries.
   - Comments: `Removes all block/bash entries from the precision_base.toml. Fixes bashes not connecting in first person.`
 - Dynamic combat collision
 - Blade and Blunt - A Combat Overhaul
-  - Comments: `Minor Conflict currently with Faster Blocking Movements`
+  - Comments: `Minor Conflict currently with Faster Blocking Movements, Injuries = false`
 - Simple Dual Sheath
   - Comments: `[ShieldOnBack] Flags=Player`
 - Death Drop Overhaul
 - Unpoisoned Blocking
+- Wounds
 
 <details>
 <summary><strong>Archery</strong></summary>
@@ -684,6 +706,7 @@ No active project status entries.
 - Engaging Combat - Keep Combat Dynamic at Higher Levels
 - Maxsu Block Overhaul
 - Dynamic Block Hit
+- Shield debuff
 
 </details>
 
@@ -751,6 +774,9 @@ No active project status entries.
 - Equipment Durability System NG
 - Dynamic Things Alternative - Base Object Swapper
 - Shame of Skyrim
+- Helmet Toggle 2
+- Fully Harvest Hanging Carcasses and Coin Purses
+- Dirt and Blood - Dynamic Visual Effects
 
 <details>
 <summary><strong>Stealth</strong></summary>
@@ -820,6 +846,7 @@ No active project status entries.
 - Hammer and Whetstone - Portable Tempering
 - Alchemy Requires Bottles Redux
 - Alchemy Requires Bottles - Empty Potions at the Alchemy Lab
+- Alchemical Appraisal Services
 
 </details>
 
@@ -844,6 +871,9 @@ No active project status entries.
 - Campfire - Complete Camping System
 - Campfire - Script Optimization
 - Campfire - Dynamic Activation Key
+- Campfire - Usable Unlit Campfires Addon
+- Campfire - Collectable Deadwood and Branches [BOS]
+- Campfire - Dynamic Collisions
 - Frostfall - Hypothermia Camping Survival
 - Frostfall - Spell Monitor Optimized
 - Campfire and Frostfall - Unofficial SSE Update
@@ -887,6 +917,8 @@ No active project status entries.
 - Another Jump Animation - Male
 - Fishermen Fish
   - Comments: `Patches: Whispers of the depths, Thuldors Ivarstead, JK's Skyrim, Shadows Over Illinalta`
+- Ultimate Animated Potions NG
+- Medieval Potions - UAPNG Patch
 
 <details>
 <summary><strong>IED</strong></summary>
@@ -980,6 +1012,7 @@ No active project status entries.
 
 - Campfire Animations
 - Igniting Animation for Campfire
+- Wounds - Injury animations
 
 </details>
 
@@ -1191,4 +1224,8 @@ No active project status entries.
 - Respite
 
 </details>
+
+## 999 Skyrim Ancestries - Testing & Issues
+
+- Wet and Cold SE
 

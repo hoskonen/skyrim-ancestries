@@ -91,6 +91,19 @@ function Copy-DirectoryContents {
     }
 }
 
+function Open-DestinationFolder {
+    param([string]$Path)
+
+    try {
+        Start-Process -FilePath "explorer.exe" -ArgumentList @("`"$Path`"") | Out-Null
+        Start-Sleep -Milliseconds 750
+        Write-Host "  Destination opened in File Explorer."
+    } catch {
+        Write-Host "WARNING"
+        Write-Host "  Copy succeeded, but File Explorer could not be opened: $($_.Exception.Message)"
+    }
+}
+
 if ($Yes -and -not $Apply) {
     Write-Host "-Yes is only valid with -Apply."
     Write-Host "No files changed."
@@ -167,6 +180,10 @@ if (-not $Yes) {
     Write-Host ""
 }
 
+if (-not $CleanOnly) {
+    Open-DestinationFolder $DestinationPath
+}
+
 try {
     if ($CleanOnly) {
         Clear-DirectoryContents $SourcePath
@@ -186,6 +203,7 @@ try {
     }
     Write-Host "  Source entries after action: $sourceEntriesAfter"
     Write-Host "  Destination entries after action: $finalEntries"
+
 } catch {
     Write-Host "FAILED"
     Write-Host "  Reason: $($_.Exception.Message)"

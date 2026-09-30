@@ -22,15 +22,19 @@
 *TrueHUD.esl
 *LexiconSKSE.esl
 *RASS - Visual Effects.esl
-*PGPatcher.esp
 *WEC - Core.esp
+*PGPatcher.esp
+*CritterSpawnMaster.esl
 *DynDOLOD.esm
 *SkyUI_SE.esp
 *I4IconAddon.esp
 *SMIM-SE-Merged-All.esp
+*Audio Overhaul Skyrim.esp
 *EnhancedLightsandFX.esp
 *ELFX Shadows.esp
 *Realistic Treeline.esp
+*Landscape Fixes For Grass Mods.esp
+*Landscape and Water Fixes - Patch - LFfGM.esp
 *AI Overhaul.esp
 *HappyLittleTrees.esp
 *Parallax TXST Fixes.esp
@@ -42,6 +46,7 @@
 *SpectersOfSkyrim.esp
 *Andrealletius Harder Quests - MERGED.esp
 *LoS II - ELFX patch.esp
+*Common Clothes and Armors.esp
 *Frostfall.esp
 *SC ClefJ Winterhold - AI Overhaul.esp
 *Landscape and Water Fixes - Patch - Farming.esp
@@ -53,6 +58,7 @@
 *C.O.I.N.esp
 *TreasuryExchange.esp
 *StandardLightingTemplatesUSSEP.esp
+*Riverwood Trader Is A Mess.esp
 *AI Overhaul - USSEP Patch.esp
 *mihailwolvesofcyrodiil.esp
 *Embers XD - Patch - Lanterns of Skyrim II.esp
@@ -60,6 +66,7 @@
 *UAEZP.esp
 *RiverwoodBandits.esp
 *BleakFallsReCovered.esp
+*HeartOfTheReach.esp
 *Landscape and Water Fixes - CC Fishing patch.esp
 *TerrainHelper.esp
 *Fantasia Complex Parallax.esp
@@ -139,12 +146,10 @@
 *Locks Are Just Locked.esp
 *madEngagingCombat.esp
 *ImmersiveWeaponSwitch.esp
-*Embers XD - Patch - Survival Mode.esp
 *Embers XD - Patch - ELFX.esp
 *Embers XD - Fire Magick Add-On.esp
 *Embers XD - Patch - Goldenhills Plantation.esp
 *The Book of Origins.esp
-*The Book of Origins - Alternate Start.esp
 *imp_helm_legend.esp
 *CC Open Helmets.esp
 *CC Open Helmets Patches.esp
@@ -167,7 +172,6 @@
 *KynesAccord.esp
 *Witchy Wilderness Resources.esp
 *Witchy Wilderness Full.esp
-*Riverwood Trader Is A Mess.esp
 *RiverwoodTraderIsAMess-ELFXShadows-Patch.esp
 *StoreDoorbells.esp
 *BountiesRedone_MissivesExtension.esp
@@ -262,9 +266,37 @@
 *WoundsOverlay.esp
 *Wounds Overlays Applied.esp
 *Dirt and Blood - Dynamic Visuals.esp
-*alternate start - live another life.esp
-*ClefJ Winterhold - Alternate Start patch.esp
-*AlternateStart-Loot-Patch.esp
+*Improved Traps - Dangerous.esp
+*Use Telekinesis on Traps.esp
+*Vanilla Eating Animation Fix.esp
+*Beards.esp
+*SkillsOfTheWild.esp
+*AlchemyRequiresBottlesRedux-EmptyPotion-Patch.esp
+*Stress and Fear.esp
+*Left Hand Equipment Overhaul.esp
+*AudioOverhaul-CracklingFire-Patch.esp
+*Embers XD - Patch - SunHelm Survival.esp
+*curse_of_the_firmament.esp
+*SotW - Gather Branches.esp
+*Wounds - IED Displays.esp
+*BrokenPicks.esp
+*TimedLockpicking.esp
+*Timed Lockpicking - Visualized.esp
+*NARC SE for Vanilla.esp
+*Venom Requires Empty Bottles.esp
+*Papyrus Debug Mode.esp
+*SimpleTaxes.esp
+*GLZ-Hotkey_Conflict_Manager.esp
+*Extended Encounters.esp
+*TaberuAnimation.esp
+*Taberu Animation - USSEP Patch.esp
+*Dirt and Blood - Shader Tweak.esp
+*3BBB.esp
+*Landscape and Water Fixes - Patch - LoS II.esp
+*Generic Grass Limiter.esp
+*AlternatePerspective.esp
+*Alternate Perspective - Gate to Sovngarde Edition.esp
+*The Book of Origins - Alternate Perspective.esp
 *ELFX - Hardcore.esp
 *Scarcity SE - Less Loot Mod.esp
 *Scarcity SE - 6x Loot Rarity.esp

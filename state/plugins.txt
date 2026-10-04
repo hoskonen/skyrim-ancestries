@@ -22,13 +22,14 @@
 *TrueHUD.esl
 *LexiconSKSE.esl
 *RASS - Visual Effects.esl
-*WEC - Core.esp
-*PGPatcher.esp
 *CritterSpawnMaster.esl
+*PGPatcher.esp
+*WEC - Core.esp
 *DynDOLOD.esm
-*SkyUI_SE.esp
+*DisarmingTrapsIsDangerous.esl
 *I4IconAddon.esp
 *SMIM-SE-Merged-All.esp
+*SkyUI_SE.esp
 *Audio Overhaul Skyrim.esp
 *EnhancedLightsandFX.esp
 *ELFX Shadows.esp
@@ -46,10 +47,14 @@
 *SpectersOfSkyrim.esp
 *Andrealletius Harder Quests - MERGED.esp
 *LoS II - ELFX patch.esp
+*Open World Loot.esp
+*AVExpansion.esp
+*Open World Loot - AVExpansion Patch.esp
 *Common Clothes and Armors.esp
 *Frostfall.esp
 *SC ClefJ Winterhold - AI Overhaul.esp
 *Landscape and Water Fixes - Patch - Farming.esp
+*AP - Missile Additional Starts.esp
 *SunHelmSurvival.esp
 *SkyrimReputation_SSE.esp
 *Missives.esp
@@ -62,8 +67,8 @@
 *AI Overhaul - USSEP Patch.esp
 *mihailwolvesofcyrodiil.esp
 *Embers XD - Patch - Lanterns of Skyrim II.esp
-*Echoes of Oblivion.esp
 *UAEZP.esp
+*Echoes of Oblivion.esp
 *RiverwoodBandits.esp
 *BleakFallsReCovered.esp
 *HeartOfTheReach.esp
@@ -74,7 +79,6 @@
 *Diverse Farmhouse Chimneys.esp
 *AutoBlend.esp
 *Simplicity of Snow.esp
-*SnowFixer.esp
 *Parallax TXST Fixes - Simplicity of Snow.esp
 *RaceMenu.esp
 *RaceMenuPlugin.esp
@@ -88,7 +92,6 @@
 *Broken Feathers.esp
 *SkyHUD.esp
 *UntarnishedUI_Subtitle.esp
-*Open World Loot.esp
 *MMSF.esp
 *Next-Gen Decapitations.esp
 *DF - Official Creature Pack.esp
@@ -106,6 +109,7 @@
 *Player Stagger.esp
 *FloatingSubtitles.esp
 *BladeAndBlunt.esp
+*Weapon Armor Attribute Tweaks.esp
 *fasterblockingmovement.esp
 *BOOBIES_ImmersiveIcons.esp
 *ASS_IconsAddon.esp
@@ -128,21 +132,25 @@
 *Maevan2 Eye Brows for High Poly Head.esp
 *ClefJ's Winterhold-LOS2-Patch.esp
 *SVMiscMCMMerged.esp
+*Defeat the Dragon Cult.esp
 *LoS II - SMIM patch.esp
 *Missives - Solstheim.esp
 *Slays-Many-Beasts Quest Mod.esp
 *Mostly Treeless Tundra - Happy Little Trees patch.esp
+*Open World Loot - RFM Patch.esp
 *LoS II - Skyrim Bridges patch.esp
 *LoS II - USSEP patch.esp
 *AI Overhaul - Fishing Addon.esp
 *FishermenFish.esp
 *Torch Mechanics Fixed.esp
+*Improved Traps - Dangerous.esp
+*Poisonous Bear Traps.esp
 *Producers of Skyrim.esp
 *Producers of Skyrim - CC Fishing.esp
+*Ships on the Horizon.esp
 *ClefJsWinterhold-Missives-Patch.esp
 *CoMAP - KhajiitCaravans.esp
 *TheEyesOfBeauty.esp
-*BBNoKillmoves.esp
 *Locks Are Just Locked.esp
 *madEngagingCombat.esp
 *ImmersiveWeaponSwitch.esp
@@ -153,7 +161,6 @@
 *imp_helm_legend.esp
 *CC Open Helmets.esp
 *CC Open Helmets Patches.esp
-*OWLRM.esp
 *Dynamic Activation Key - Addons Collection.esp
 *ELFX-Shadows-ClefJs-Winterhold-Patch.esp
 *Parallax TXST Fixes - _ResourcePack.esp
@@ -178,7 +185,6 @@
 *BountiesRedone_Missives_Solstheim.esp
 *Missile IED Meshes.esp
 *Legendary Map.esp
-*StaticSkillLeveling.esp
 *Personal Music Framework - MTD.esp
 *Wolves of Cyrodiil - Food Addon - Survival.esp
 *DF - Xtudo Creature Pack - Mihail's Wolves of Cyrodiil.esp
@@ -266,7 +272,6 @@
 *WoundsOverlay.esp
 *Wounds Overlays Applied.esp
 *Dirt and Blood - Dynamic Visuals.esp
-*Improved Traps - Dangerous.esp
 *Use Telekinesis on Traps.esp
 *Vanilla Eating Animation Fix.esp
 *Beards.esp
@@ -284,7 +289,6 @@
 *Timed Lockpicking - Visualized.esp
 *NARC SE for Vanilla.esp
 *Venom Requires Empty Bottles.esp
-*Papyrus Debug Mode.esp
 *SimpleTaxes.esp
 *GLZ-Hotkey_Conflict_Manager.esp
 *Extended Encounters.esp
@@ -294,10 +298,40 @@
 *3BBB.esp
 *Landscape and Water Fixes - Patch - LoS II.esp
 *Generic Grass Limiter.esp
+*Brawling - No Hitting Bystanders.esp
+*World Eater's Influence.esp
+*Brawl Lines Expansion.esp
+*DeadlySpellImpacts.esp
+*DeadlySpellImpacts-AudioOverhaulSkyrim-Patch.esp
+*Sunhelm - EAS - water patch.esp
+*Name Randomizer UI.esp
+*b612.esp
+*StressAndFearUI.esp
+*DovaJumpMCM.esp
+*sh SkillsOfTheWild Craftable Bear Traps.esp
+*PoisonousBearTraps-ImprovedTraps-Patch.esp
+*ImmersiveInteractions-AnimationDisabler-Patch.esp
+*Leveling Freedom.esp
+*Undiscover Skyrim - No Discovery Sounds.esp
+*Wounds-Addon.esp
+*SB_Traps.esp
+*BlkFallsBarrowSpiderTrapFix.esp
+*honorthedead.esp
+*Papyrus Debug Mode.esp
+*PrvtI_ArgonianWeapons.esp
+*PrvtI_ArgonianWeapons_Addon.esp
+*OpenWorldLoot-ARBR-Patch.esp
+*Heritage-OpenWorldLoot-Patch.esp
+*AVExpansion_ICFH Add-on.esp
+*Open World Loot - AVExpansion - Common Clothes and Armors Patch.esp
+*DEST_ISL.esp
+*UltimateArachnophobia.esp
 *AlternatePerspective.esp
+DynDOLOD.esp
 *Alternate Perspective - Gate to Sovngarde Edition.esp
 *The Book of Origins - Alternate Perspective.esp
 *ELFX - Hardcore.esp
+*SnowFixer.esp
 *Scarcity SE - Less Loot Mod.esp
 *Scarcity SE - 6x Loot Rarity.esp
 *Scarcity SE - 4x Merchant Item Rarity.esp
@@ -310,10 +344,10 @@
 *Helios_NAT III_Dim.esp
 *RASS - Tweaks and Fixes NAT III.esp
 *Dawnfire ENB NAT3 Addon.esp
-*Synthesis.esp
 *PG_1.esp
-*DynDOLOD.esp
+*Bashed Patch, 0.esp
+*Synthesis.esp
 *Occlusion.esp
 *FWMF for Fantasy Paper Maps.esp
 *RW2 - Patch - FWMF for Fantasy Paper Maps.esp
-*Bashed Patch, 0.esp
+*Late UAEZP-FWMF-Patch.esp

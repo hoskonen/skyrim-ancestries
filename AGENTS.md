@@ -148,6 +148,12 @@ Use `tools/toggle-dyndolod-patches.ps1` to toggle `Synthesis.esp` and
 `.mohidden` names before and after DynDOLOD generation. Mixed or missing states
 must block the toggle without changing either plugin.
 
+Use `tools/copy-autoseq-output.ps1` for AutoSEQ output. Preview checks for the
+exact `AutoSEQ Output.zip` in the `AutoSEQ` mod. Apply validates and extracts
+its `Seq` folder into the existing `AutoSeq [O]` mod, replacing only the old
+`Seq` folder. Delete the source and destination ZIP copies only after a
+successful extraction and replacement.
+
 ## Testing and issue tracking
 
 `Skyrim Ancestries - Testing & Issues` is a special MO2 placeholder mod used

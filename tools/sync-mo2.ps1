@@ -168,11 +168,17 @@ if (Test-Path -LiteralPath $statusMetaPath) {
     )
 
     foreach ($match in $matches) {
-        $text = $match.Groups[1].Value -replace '<[^>]+>', ''
-        $text = [System.Net.WebUtility]::HtmlDecode($text).Trim()
+        $text = $match.Groups[1].Value `
+            -replace '(?i)<br\s*/?>', "`n" `
+            -replace '<[^>]+>', ''
+        $text = [System.Net.WebUtility]::HtmlDecode($text)
 
-        if ($text) {
-            $paragraphs += $text
+        foreach ($line in ($text -split "`r?`n")) {
+            $line = $line.Trim()
+
+            if ($line) {
+                $paragraphs += $line
+            }
         }
     }
 

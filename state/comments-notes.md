@@ -2,15 +2,23 @@
 
 ## Skyrim Ancestries - Testing & Issues
 
-- Notes: "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n<html><head><meta name=\"qrichtext\" content=\"1\" /><meta charset=\"utf-8\" /><style type=\"text/css\">\np, li { white-space: pre-wrap; }\nhr { height: 1px; border-width: 0; }\nli.unchecked::marker { content: \"\\2610\"; }\nli.checked::marker { content: \"\\2612\"; }\n</style></head><body style=\" font-family:'Segoe UI'; font-size:9pt; font-weight:400; font-style:normal;\">\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">[CRITICAL]</p>\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">[TEST]</p>\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">Ryn's Bleakfalls</p>\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">[BROKEN]</p>\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">[TODO]</p>\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">[NOTE]</p></body></html>"
+- Notes: "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n<html><head><meta name=\"qrichtext\" content=\"1\" /><meta charset=\"utf-8\" /><style type=\"text/css\">\np, li { white-space: pre-wrap; }\nhr { height: 1px; border-width: 0; }\nli.unchecked::marker { content: \"\\2610\"; }\nli.checked::marker { content: \"\\2612\"; }\n</style></head><body style=\" font-family:'Segoe UI'; font-size:9pt; font-weight:400; font-style:normal;\">\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">[CRITICAL]</p>\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">[TEST]</p>\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">Ryn's Bleakfalls<br />Traps in Bleakfalls</p>\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">[BROKEN]</p>\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">[TODO]</p>\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">[NOTE]</p></body></html>"
 
 ## Papyrus Debug Mode
 
 - Comments: Enable for Papyrus Logs
 
+## Dragon Actor Script Infinite Loop Fix - ADSLP Script Compatibility Patch
+
+- Comments: Compatibility patch between Dragon Actor Script Infinite Loop Fix and Absorb Dragon Soul Lesser Power
+
+## Dragon Actor Script Infinite Loop Fix [FOMOD]
+
+- Comments: Patch for Dragon War
+
 ## Skills of the Wild - New Campfire Survival Skill Trees
 
-- Comments: "Skill of the wild loaded here to overwrite Norden, this way player marker is not visible, when game starts"
+- Comments: "Skill of the wild loaded here to overwrite Norden, this way player marker is not visible, when game starts, disabled chaurus mesh"
 
 ## Custom Map Markers for Traditional Skyrim and Solstheim Paper Maps [FOMOD]
 
@@ -19,6 +27,10 @@
 ## PGPatcher Output [O]
 
 - Comments: Turn off when running PGPatcher
+
+## Extended Tween Menu
+
+- Comments: "No Norden support yet, has to override it"
 
 ## Norder UI Settings - Tweak your settings here
 
@@ -52,6 +64,14 @@
 
 - Comments: Removed LeveledLists
 
+## Heritage - Open World Loot - Patch
+
+- Comments: [PATCH]
+
+## Open World Loot - ARBR - Patch
+
+- Comments: [PATCH]
+
 ## Immerive Carcass Carrying - Simple Hunting Overhaul
 
 - Comments: Use ICC - Simple Hunting Overhaul IED Preset
@@ -62,11 +82,15 @@
 
 ## Fishermen Fish [FOMOD]
 
-- Comments: "Patches: Whispers of the depths, Thuldors Ivarstead, JK's Skyrim, Shadows Over Illinalta"
+- Comments: "Patches: Whispers of the depths, Thuldors Ivarstead, JK's Skyrim, Shadows Over Illinalta. Should load after AI Overhaul Fishing Addon and don't patch this!"
 
 ## First Person Interactions [FOMOD]
 
 - Comments: Override Immersive Interactions
+
+## Poisonous Bear Traps - Improved Traps - Patch
+
+- Comments: [PATCH]
 
 ## Alchemy Requires Bottles Redux - Empty Potion - Patch
 
@@ -194,7 +218,7 @@
 
 ## Torch Mechanics Fixed [FOMOD]
 
-- Comments: "Has ELFX Patch, loaded after Enb Light"
+- Comments: "Has ELFX Patch, loaded after Enb Light, has VMAD conflicts, which needs be sorted manually before playing"
 
 ## ENB Light [FOMOD]
 

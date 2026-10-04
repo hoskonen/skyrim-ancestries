@@ -141,3 +141,11 @@
 # 2026-09-30 - 564 listed mods
 
 - Synced the Ancestries profile and updated the README for the large mod-list, section, patch, and metadata changes.
+
+# 2026-10-03 - 599 listed mods
+
+- Synced the Ancestries profile and updated the README for the expanded fixes, UI, combat, immersion, animation, textures, world additions, LOD resources, patches, and metadata.
+
+# 2026-10-04 - 627 listed mods
+
+- Synced the Ancestries profile and updated the README for the expanded fixes, UI, character, armor, leveling, combat, immersion, animation, loot, textures, creatures, patches, and testing status.

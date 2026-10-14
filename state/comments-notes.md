@@ -1,20 +1,16 @@
-﻿# MO2 Comments and Notes
+# MO2 Comments and Notes
 
 ## Skyrim Ancestries - Testing & Issues
 
-- Notes: "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n<html><head><meta name=\"qrichtext\" content=\"1\" /><meta charset=\"utf-8\" /><style type=\"text/css\">\np, li { white-space: pre-wrap; }\nhr { height: 1px; border-width: 0; }\nli.unchecked::marker { content: \"\\2610\"; }\nli.checked::marker { content: \"\\2612\"; }\n</style></head><body style=\" font-family:'Segoe UI'; font-size:9pt; font-weight:400; font-style:normal;\">\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">[CRITICAL]</p>\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">[TEST]</p>\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">Ryn's Bleakfalls<br />Traps in Bleakfalls</p>\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">[BROKEN]</p>\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">[TODO]</p>\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">[NOTE]</p></body></html>"
+- Notes: "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n<html><head><meta name=\"qrichtext\" content=\"1\" /><meta charset=\"utf-8\" /><style type=\"text/css\">\np, li { white-space: pre-wrap; }\nhr { height: 1px; border-width: 0; }\nli.unchecked::marker { content: \"\\2610\"; }\nli.checked::marker { content: \"\\2612\"; }\n</style></head><body style=\" font-family:'Segoe UI'; font-size:9pt; font-weight:400; font-style:normal;\">\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">[CRITICAL]</p>\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">[TEST]</p>\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">Ryn's Bleakfalls</p>\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">[BROKEN]</p>\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">White fireplaces in Bannered Mare</p>\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">[TODO]</p>\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">[NOTE]</p></body></html>"
 
 ## Papyrus Debug Mode
 
 - Comments: Enable for Papyrus Logs
 
-## Dragon Actor Script Infinite Loop Fix - ADSLP Script Compatibility Patch
+## SCROTE Scripts - Low Risk
 
-- Comments: Compatibility patch between Dragon Actor Script Infinite Loop Fix and Absorb Dragon Soul Lesser Power
-
-## Dragon Actor Script Infinite Loop Fix [FOMOD]
-
-- Comments: Patch for Dragon War
+- Comments: Scripts Carefully Reworked Optimized and Tactfully Enhanced (SCROTE) - Low Risk Scripts seperated
 
 ## Skills of the Wild - New Campfire Survival Skill Trees
 
@@ -28,11 +24,7 @@
 
 - Comments: Turn off when running PGPatcher
 
-## Extended Tween Menu
-
-- Comments: "No Norden support yet, has to override it"
-
-## Norder UI Settings - Tweak your settings here
+## Vel'dun UI Settings - Tweak your settings here
 
 - Comments: "This is so that Norden updates won't wipe your preferred settings, global fontfconfig, Equipment Durability SkyUI"
 
@@ -64,13 +56,13 @@
 
 - Comments: Removed LeveledLists
 
-## Heritage - Open World Loot - Patch
-
-- Comments: [PATCH]
-
 ## Open World Loot - ARBR - Patch
 
 - Comments: [PATCH]
+
+## Open World Loot - Encounter Zone and Loot Overhaul
+
+- Comments: "Added: Relev, Delev bash tags"
 
 ## Immerive Carcass Carrying - Simple Hunting Overhaul
 
@@ -88,6 +80,14 @@
 
 - Comments: Override Immersive Interactions
 
+## Just Knock - Simply Knock Tweaks and Patches [FOMOD]
+
+- Notes: "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n<html><head><meta name=\"qrichtext\" content=\"1\" /><meta charset=\"utf-8\" /><style type=\"text/css\">\np, li { white-space: pre-wrap; }\nhr { height: 1px; border-width: 0; }\nli.unchecked::marker { content: \"\\2610\"; }\nli.checked::marker { content: \"\\2612\"; }\n</style></head><body style=\" font-family:'Segoe UI'; font-size:9pt; font-weight:400; font-style:normal;\">\n<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">DAK and Take a Peek integration for Simply Knock. Uses Papyrus Extender instead of the original Simply Knock DLL. Intentionally overwrites scripts from Immersive Interactions and First Person Interactions for keyholder compatibility. Keep below both mods in MO2's left pane.</p></body></html>"
+
+## Contraband Confiscation
+
+- Comments: Added Lockpicks to the Contraband FLM list
+
 ## Poisonous Bear Traps - Improved Traps - Patch
 
 - Comments: [PATCH]
@@ -99,6 +99,10 @@
 ## Simple Hunting Overhaul
 
 - Comments: "Minor cell conflict with Lighting template, Use ICC - Simple Hunting Overhaul IED Preset"
+
+## Imperial Thalmor Stormcloak Patrols Fixes [FOMOD]
+
+- Comments: Needs to overwrite Skyrim Souls
 
 ## Absorb Dragon Soul Lesser Power
 
@@ -144,6 +148,10 @@
 
 - Comments: Saved in CK to fix plugin format
 
+## Caliente's Beautiful Bodies Enhancer CBBE [FOMOD]
+
+- Comments: "Vanilla shape, underwear"
+
 ## SSS-CT - Slaughterfish Stay Submerged - Collision Tweak
 
 - Comments: Skeleton tweak
@@ -159,6 +167,10 @@
 ## Dynamic Activation Key - DLL NG Edition
 
 - Notes: "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n<html><head><meta name=\"qrichtext\" content=\"1\" /><meta charset=\"utf-8\" /><style type=\"text/css\">\np, li { white-space: pre-wrap; }\nhr { height: 1px; border-width: 0; }\nli.unchecked::marker { content: \"\\2610\"; }\nli.checked::marker { content: \"\\2612\"; }\n</style></head><body style=\" font-family:'Segoe UI'; font-size:9pt; font-weight:400; font-style:normal;\">\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">iDAKModifierKey = 209</p>\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">iDAKControllerKey = 267</p></body></html>"
+
+## Extended Tween Menu
+
+- Comments: "No Norden support yet, has to override it"
 
 ## Realistic High Altitude Treeline
 
@@ -191,6 +203,18 @@
 ## Lanterns Of Skyrim II [FOMOD]
 
 - Comments: Don't install ClefJ's Winterhold patch - it's outdated
+
+## ICFur's Dead Shrubs and Thickets [FOMOD]
+
+- Comments: Uses only Thicket01
+
+## HFs - StrongBox Diversification 2K [BOS]
+
+- Comments: Includes sound patch
+
+## Basic Dining Set Replacer 2K
+
+- Comments: No Tankards
 
 ## Carts HD - Pfuscher
 

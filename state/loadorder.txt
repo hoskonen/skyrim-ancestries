@@ -45,6 +45,7 @@ Expressive Facegen Morphs.esl
 AHZmoreHUD.esl
 RFM.esm
 Experience.esl
+NoBrokenWhiterunTower.esp
 Campfire.esm
 Embers XD.esm
 Helios.esp
@@ -54,42 +55,43 @@ TrueHUD.esl
 LexiconSKSE.esl
 RASS - Visual Effects.esl
 CritterSpawnMaster.esl
-PGPatcher.esp
 WEC - Core.esp
-DynDOLOD.esm
 DisarmingTrapsIsDangerous.esl
+PGPatcher.esp
+VHVP.esm
+DynDOLOD.esm
+SkyUI_SE.esp
 I4IconAddon.esp
 SMIM-SE-Merged-All.esp
-SkyUI_SE.esp
 Audio Overhaul Skyrim.esp
+QuestsAreInSkyrimUSSEP.esp
 EnhancedLightsandFX.esp
 ELFX Shadows.esp
 Realistic Treeline.esp
 Landscape Fixes For Grass Mods.esp
 Landscape and Water Fixes - Patch - LFfGM.esp
+NPCs Ain't Hachikos.esp
 AI Overhaul.esp
 HappyLittleTrees.esp
 Parallax TXST Fixes.esp
 Skyrim Bridges.esp
 Embers XD.esp
 ClefJ Winterhold - ELFX.esp
-Morning Fogs SSE.esp
 Andrealphus Jobs Overhaul - MASTER.esp
 SpectersOfSkyrim.esp
 Andrealletius Harder Quests - MERGED.esp
 LoS II - ELFX patch.esp
 Open World Loot.esp
-AVExpansion.esp
-Open World Loot - AVExpansion Patch.esp
-Common Clothes and Armors.esp
 Frostfall.esp
 SC ClefJ Winterhold - AI Overhaul.esp
+Dragon Wall Wisdom.esp
 Landscape and Water Fixes - Patch - Farming.esp
 AP - Missile Additional Starts.esp
 SunHelmSurvival.esp
 SkyrimReputation_SSE.esp
 Missives.esp
 MissivesExpansion.esp
+ContrabandConfiscation.esp
 Headhunter - Bounties Redone.esp
 C.O.I.N.esp
 TreasuryExchange.esp
@@ -99,6 +101,7 @@ AI Overhaul - USSEP Patch.esp
 mihailwolvesofcyrodiil.esp
 Embers XD - Patch - Lanterns of Skyrim II.esp
 UAEZP.esp
+HoldBorderBanners.esp
 Echoes of Oblivion.esp
 RiverwoodBandits.esp
 BleakFallsReCovered.esp
@@ -178,9 +181,12 @@ Improved Traps - Dangerous.esp
 Poisonous Bear Traps.esp
 Producers of Skyrim.esp
 Producers of Skyrim - CC Fishing.esp
+PriestlyDuties.esp
 Ships on the Horizon.esp
 ClefJsWinterhold-Missives-Patch.esp
+ByTheOrderOfTheJarl.esp
 CoMAP - KhajiitCaravans.esp
+Ivy - Whiterun Exterior Addon.esp
 TheEyesOfBeauty.esp
 Locks Are Just Locked.esp
 madEngagingCombat.esp
@@ -204,7 +210,6 @@ Parallax TXST Fixes - ccBGSSSE001-Fish.esp
 Parallax TXST Fixes - ccBGSSSE025-AdvDSGS.esp
 Simplicity of Snow - Dwemer Sanctuary Patch.esp
 Simple Hunting Overhaul.esp
-KillFeed.esp
 UnderwaterNG.esp
 SwimmingExtensions.esp
 KynesAccord.esp
@@ -315,9 +320,6 @@ Embers XD - Patch - SunHelm Survival.esp
 curse_of_the_firmament.esp
 SotW - Gather Branches.esp
 Wounds - IED Displays.esp
-BrokenPicks.esp
-TimedLockpicking.esp
-Timed Lockpicking - Visualized.esp
 NARC SE for Vanilla.esp
 Venom Requires Empty Bottles.esp
 SimpleTaxes.esp
@@ -326,7 +328,6 @@ Extended Encounters.esp
 TaberuAnimation.esp
 Taberu Animation - USSEP Patch.esp
 Dirt and Blood - Shader Tweak.esp
-3BBB.esp
 Landscape and Water Fixes - Patch - LoS II.esp
 Generic Grass Limiter.esp
 Brawling - No Hitting Bystanders.esp
@@ -352,13 +353,51 @@ Papyrus Debug Mode.esp
 PrvtI_ArgonianWeapons.esp
 PrvtI_ArgonianWeapons_Addon.esp
 OpenWorldLoot-ARBR-Patch.esp
-Heritage-OpenWorldLoot-Patch.esp
-AVExpansion_ICFH Add-on.esp
-Open World Loot - AVExpansion - Common Clothes and Armors Patch.esp
+Open World Loot - Heritage 2.esp
 DEST_ISL.esp
-UltimateArachnophobia.esp
+MCM Unlocked.esp
+HammerHair.esp
+KS_Hairdo's_Lite_NoNPCs.esp
+koralinas_freckles_moles.esp
+OrcPonytailsForHumans.esp
+SC_BSBM_TofuHair.esp
+Take a Nap.esp
+EatFromFlora.esp
+StealthKillDetectionFix.esp
+RespectTheLegate.esp
+TheCleverPrisoner.esp
+Imperial Thalmor Stormcloak Patrols Fixes.esp
+Imperial Thalmor Stormcloak Patrols Fixes - TheCleverPrisoner Patch.esp
+ElementalWeathersLITE.esp
+ElementalWeathersLITE - Frostfall.esp
+VilliageBeds_BaseObjectSwapper.esp
+HorseFix.esp
+Neutral Whiterun Guards.esp
+Smoking Torches And Candles.esp
+NW_Steel_Plate_Armors.esp
+Steel Plate Armors - OWL - Patch.esp
+Glazed Pottery HD - Nordic Pottery patch by Xtudo.esp
+SimplyKnock.esp
+Just Simply Knock.esp
+Just Simply Peek.esp
+RFM - Balance Patch.esp
+ContrabandConfiscation - USSEP.esp
+CrimeDecay.esp
+Shout Progression - MCM.esp
+BrokenPicks.esp
+TimedLockpicking.esp
+Timed Lockpicking - Visualized.esp
+NPC Loots in Combat.esp
+WiZkiD Specific Signs.esp
+No Compass In Dialogue.esp
+evgmodularSMPhair.esp
+KabuArgonianFins.esp
+KabuArgonianFins - High Poly Head Patch.esp
+_Fuse00HairPack01.esp
+_Fuse00HairPack02_ESL.esp
+Faction Ranks.esp
+HFs_StrongBox_Diversification.esp
 AlternatePerspective.esp
-DynDOLOD.esp
 Alternate Perspective - Gate to Sovngarde Edition.esp
 The Book of Origins - Alternate Perspective.esp
 ELFX - Hardcore.esp
@@ -378,6 +417,7 @@ Dawnfire ENB NAT3 Addon.esp
 PG_1.esp
 Bashed Patch, 0.esp
 Synthesis.esp
+DynDOLOD.esp
 Occlusion.esp
 FWMF for Fantasy Paper Maps.esp
 RW2 - Patch - FWMF for Fantasy Paper Maps.esp

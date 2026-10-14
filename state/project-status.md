@@ -1,7 +1,10 @@
-﻿# Skyrim Ancestries - Testing & Issues
+# Skyrim Ancestries - Testing & Issues
 
 ## [TEST]
 
 - Ryn's Bleakfalls
-- Traps in Bleakfalls
+
+## [BROKEN]
+
+- White fireplaces in Bannered Mare
 

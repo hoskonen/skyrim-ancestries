@@ -1,4 +1,4 @@
-﻿# Skyrim Ancestries
+# Skyrim Ancestries
 
 Lightweight documentation workspace for the Ancestries Skyrim mod list.
 
@@ -15,7 +15,6 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 ## Patches Created
 
 - Audio Overhaul - Crackling Fire - Patch
-- Heritage - Open World Loot - Patch
 - Open World Loot - ARBR - Patch
 - Poisonous Bear Traps - Improved Traps - Patch
 - Alchemy Requires Bottles Redux - Empty Potion - Patch
@@ -32,7 +31,10 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 ### Testing
 
 - Ryn's Bleakfalls
-- Traps in Bleakfalls
+
+### Broken
+
+- White fireplaces in Bannered Mare
 
 <!-- project-status:end -->
 
@@ -89,6 +91,14 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 - Disk Cache Enabler
 - Dynamic Footprints
 - Wash That Blood Off 2
+- Hold on a sec - Pause Dialogue Menus
+- MCM Unlocked
+- Don't send me there again (dosemetha)
+- Hair Colour Sync
+- You Can Sleep SKSE Remake
+- Crafting Recipe Distributor
+- Cinematic DoF Standalone
+- Inertia - Physical Movement Response System
 
 <details>
 <summary><strong>Controller Related</strong></summary>
@@ -179,6 +189,9 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 - Dylbills Papyrus Functions
 - B612 - my little asteroid of useful UI components
 - Andrealletius Papyrus Functions
+- Custom Skills Framework
+- AnimObject Swapper
+- Dynamic Inventory Icon Injector
 ## 115 Patchers
 
 - Acoustic Space Improvement Fixes (Corrected Reverb - Ambience - Interiors - SkyPatcher)
@@ -190,7 +203,9 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 - Kynes Accord - Modded Animals
 - Simple Hunting Overhaul - Modded Support [KIDFLM]
 - No Random Books in Crypts and Dwemer Ruins
-- SB - Pressure Plate Trap Blending - Base Object Swapper (BOS)
+- SB - Pressure Plate Trap Blending - Base Object Swapper [BOS]
+- Merchants Have Standards - Loot Economy Rebalance [Skypatcher]
+- Lightened Skyrim - Base Object Swapper edition
 ## 120 ENB
 
 - ENB Light
@@ -198,6 +213,7 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 - ENB Light - Patch 1
 - ENB Light - Patch 2
 - ENB Extender and Helper Skyrim
+- ENB Lights For Effect Shaders
 ## 200 Patches & Fixes
 
 - Unofficial Skyrim Special Edition Patch - USSEP
@@ -229,6 +245,13 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 - NPC AI Process Position Fix - NG
 - Brawling - No Hitting Bystanders
 - Motionless Rocks Killing People Fix [SCRIPT]
+- Shadow Scene Node Crash Fix
+- Stealth Detection Fixes
+- Native Mesh Light Flicker Fix
+- Hitch Hunter and Fixes
+- Sky Reflection Fix for ENB
+- Horse Save Load Fix
+- Havok Solver Crash Fix - SKSE
 
 <details>
 <summary><strong>First Person Fixes</strong></summary>
@@ -261,17 +284,6 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 
 - Static Mesh Improvement Mod
 - Static Mesh improvement Mod - SMIM - Quality Addon
-## 310 NPC Animals
-
-- Wolves of Cyrodiil - Mihail Monsters and Animals
-- Wolves of Cyrodiil - Food Addon - Survival
-
-<details>
-<summary><strong>Spiders and Nasty Stuff</strong></summary>
-
-- Faster Spiders - Ultimate Arachnophobia 2.5X
-
-</details>
 ## 320 NPC Enemy
 
 - Heritage Enemies 2
@@ -292,6 +304,11 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 - Defeat the Dragon Cult
 
 </details>
+
+## 310 NPC Animals
+
+- Wolves of Cyrodiil - Mihail Monsters and Animals
+- Wolves of Cyrodiil - Food Addon - Survival
 
 ## 350 Lighting
 
@@ -322,6 +339,7 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 - Wood Wall Trap Mesh and UV Fix
 - FYX - Nordic Doors and Traps Collisions
 - FYX - Nordic Doors and Traps Collisions - Trap Fix - BOS Patch
+- Whiterun Objects SMIMed (and fixes too)
 ## 410 Mesh Overrides
 
 <details>
@@ -368,6 +386,7 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 <summary><strong>Fire and Fireplaces</strong></summary>
 
 - Embers XD
+- Smoking Torches and Candles
 - Skyking Ash Piles and Dust Piles
 
 </details>
@@ -379,6 +398,7 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 - Carts HD - Pfuscher
   - Comments: `This replaces vanilla Cart mesh and textures`
 - JS Shrines of the Divines SE
+- Rally's Banners of Skyrim 2K
 
 </details>
 
@@ -436,6 +456,12 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 - Medieval Spirits
 - Medieval Spirits - Empty Hearthfire Wine Bottles Patch
 - Realistic Paper Retexture
+- Basic Dining Set Replacer 2K
+  - Comments: `No Tankards`
+- ElSopa - Barrels Redone
+- Sacks Remodeled - Mathy
+- High Poly 3D Deer Skull
+- High Poly 3D Deer Skull - Dynamic Things Alternative patch
 
 </details>
 
@@ -443,6 +469,30 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 <summary><strong>Furniture and Household</strong></summary>
 
 - Detailed Rugs
+- Real Rural Beds - 3D Vanilla immersion
+- Village beds
+- Skyrim 3D Furniture
+- Skyrim 3D Furniture - SMIM patch
+- Medieval Silverworks
+- Medieval Silverworks - STAC Patch
+- Rudy HQ - Miscellaneous SE
+- Glazed Pottery - iimVampy - 2K
+- Glazed Pottery - Xtudo - Optimized textures
+- Glazed Pottery - Xtudo - STAC - Rudy
+- Nordic Ruins Pottery - Halffaces - 2K
+- HFs - StrongBox Diversification 2K [BOS]
+  - Comments: `Includes sound patch`
+
+</details>
+
+<details>
+<summary><strong>Flora Textures</strong></summary>
+
+- Edmond's Nature Series - Mountain Flowers Ultra HD Retexture
+- ICFur's Tundra Scrubs Red 2K
+- Skyking Thickets and Shrubs
+- ICFur's Dead Shrubs and Thickets
+  - Comments: `Uses only Thicket01`
 
 </details>
 
@@ -453,6 +503,8 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
   - Comments: `Don't install ClefJ's Winterhold patch - it's outdated`
 - Farmhouse Chimneys SE
 - Cooking Pots in Inns
+- Hold Border Banners
+- WiZkiD Specific Signs
 ## 450 Town Overhauls
 
 <details>
@@ -480,6 +532,14 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 
 </details>
 
+<details>
+<summary><strong>Whiterun</strong></summary>
+
+- Whiterun Watchtower Doesn't Start Broken
+- Whiterun Exterior Small Bridge Addon
+
+</details>
+
 ## 460 Grass & Ground Cover
 
 - DrJacopo's - 3D Landscapes and Grass Library
@@ -501,10 +561,11 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 
 - Realistic Water Two SE (RWT)
 - Realistic Water Two SE - Darker Gradient Textures v5 and up
-## 490 Dynamic Replacers
+## 490 Runtime Replacers
 
 - Handcarts - Base Object Swapper
 - Diverse Farmhouse Chimneys - Base Object Swapper
+- Villiage beds - Renthal - Base Object Swapper
 ## 500 User Interface
 
 <details>
@@ -531,13 +592,19 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 - moreHUD SE
 - Oxygen Meter 2
 - Legendary Map
-- Kill Feed
 - Show Empty Bottes in the Menu
 - Informed Mail Delivery
 - Player Name Randomizer
-- Player Name Randomizer - Show in UI
+- Player Name Randomizer - Show in UI Vanilla
 - Stress and Fear - Show in UI for the Character Menu
 - Undiscover Skyrim SE
+- No Compass In Dialogue
+- Extended Tween Menu
+  - Comments: `No Norden support yet, has to override it`
+- Extended Tween Menu - Character Menu Patch
+- Extended Tween Menu - Photo Mode Patch
+- Faction Ranks
+- Navigation Bar for SkyUI
 
 </details>
 
@@ -569,7 +636,6 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 - Show Player In Inventory
 - Fullscreen Book and Item Zoom
 - Hud NG
-- Clean Loading Transitions Settings
 
 </details>
 
@@ -587,6 +653,7 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 - Standing Stones - I4 icon - Curse of the Firmament - Patch
 - Campfire - I4 Icons
 - Dirt and Blood - I4 Icons
+- Quest Item Icon
 
 </details>
 
@@ -607,7 +674,7 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 
 </details>
 
-## 600 Skeleton
+## 600 Core Skeleton
 
 - XP32 Maximum Skeleton Special Extended - FOMOD
 - XPMSSE - Left Hand Sheath Rotation Fix
@@ -637,9 +704,11 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 <details>
 <summary><strong>Body</strong></summary>
 
-- Caliente's Beautiful Bodies Enhancer CBBE
 - BodySlide and Outfit Studio
-- CBBE 3BA (3BBB)
+- Caliente's Beautiful Bodies Enhancer CBBE
+  - Comments: `Vanilla shape, underwear`
+- FSMP - Faster HDT-SMP
+- FSMP - Faster HDT-SMP User Settings
 
 </details>
 
@@ -669,8 +738,18 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 <details>
 <summary><strong>Hair</strong></summary>
 
-- Vanilla Hair Remake - NO SMP
+- Vanilla hair remake SMP
+- Weight adjustment for Vanilla Hair Remake SMP
+- Modular SMP Hairstyles
 - LM's Vanilla Hair Retexture
+- KS Hairdos Lite SE
+- Vanilla Textures for KS Hairdos Lite
+- Orc Shaved Ponytails for Humans SE
+- SC - Hairstyles of Argonia
+- HammerHair V1.18
+- Vanilla Hair Variety Plus SE
+- Valkyr HDT-SMP Hairstyles
+- Valkyr HDT-SMP Hairstyles 02
 
 </details>
 
@@ -689,6 +768,7 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 - Northbourne Maiden Skin CBBE
 - Keloid Scars
   - Comments: `Magnificent scar mod which is not in nexus`
+- Koralina's Freckles and Moles - 2K
 
 </details>
 
@@ -711,6 +791,22 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 
 </details>
 
+<details>
+<summary><strong>Argonian</strong></summary>
+
+- Kabu's Argonian Fins
+- Absurdly High Resolution Argonians
+
+</details>
+
+<details>
+<summary><strong>Character Presets</strong></summary>
+
+- Vanilla plus presets
+- Vanilla plus presets 2
+
+</details>
+
 ## 710 Armor
 
 - Improved Closefaced Helmets
@@ -720,10 +816,7 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 - Creation Club Open Helmets 2.0 - Patches
 - Dynamic Lowered Hoods
   - Comments: `Has patches for Armor And Clothes Expansion, Northborn Fur Hoods`
-- Common Clothes and Armors
-- Open World Loot - Common Clothes and Armors - Patch
-- Armor Variants Expansion
-- Armor Variants Expansion - Improved closefaced helmets Add-on
+- Steel Plate Armors
 ## 720 Weapons
 
 - New Armory Series - Argonian Weapons
@@ -753,9 +846,9 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 ## 810 Combat
 
 - Precision
-- Precision Creatures
 - Precision - Ancestries Tweaks TOML
   - Comments: `Removes all block/bash entries from the precision_base.toml. Fixes bashes not connecting in first person.`
+- Precision Creatures
 - Standing Stealth
 - Dynamic combat collision
 - Blade and Blunt - A Combat Overhaul
@@ -765,6 +858,7 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 - Death Drop Overhaul
 - Unpoisoned Blocking
 - Wounds
+- Wounds Addon Patch
 
 <details>
 <summary><strong>Archery</strong></summary>
@@ -828,7 +922,14 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 <summary><strong>Spawning and Encounter Zones</strong></summary>
 
 - Ultimate Automated Encounter Zones Patcher - Easy
-- Wounds Addon Patch
+
+</details>
+
+<details>
+<summary><strong>Shouts</strong></summary>
+
+- Shout Progression
+- Shout Progression - MCM Menu
 
 </details>
 
@@ -837,6 +938,7 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 - Immersive Spell Learning - DESTified
 - Use Telekinesis on Traps
 - Curse of the Firmament
+- Elemental Weathers LITE
 ## 830 Economy
 
 - SV Mods Menu SE - Crimes Spells and Followers
@@ -892,12 +994,18 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 - Skyrim Reputation - Fixed and Patched
 - Skyrim Reputation Improved
 - Equipment Durability System NG
-- Dynamic Things Alternative - Base Object Swapper
 - Shame of Skyrim
-- Helmet Toggle 2
 - Fully Harvest Hanging Carcasses and Coin Purses
 - Dirt and Blood - Dynamic Visual Effects
 - Dirt and Blood HD Retexture
+- Winding Mortality - Immersive Funerals
+- Respect for the Legate
+- The Clever Prisoner
+- Imperial Thalmor Stormcloak Patrols Fixes
+  - Comments: `Needs to overwrite Skyrim Souls`
+- Neutral Whiterun Guards
+- NPC Loots in Combat
+- NPCs Ain't Hachikos
 
 <details>
 <summary><strong>Stealth</strong></summary>
@@ -1026,7 +1134,6 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 - C.O.I.N. - Coins of Interesting Nature
 - C.O.I.N. - Treasury Exchange
 - Improved Innkeepers
-- Turn in Contraband
 
 </details>
 
@@ -1037,6 +1144,7 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 - Poisonous Bear Traps
 - Poisonous Bear Traps - Improved Traps - Patch
 - Disarming Traps Is Dangerous
+- Skills of the Wild - Craftable Bear Traps
 
 </details>
 
@@ -1047,7 +1155,30 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 - SunHelm - Eating Animations patch - Waterskins and Water Bottles (ESL)
 - Stress and Fear - A Dynamic Sanity System
 - Wet and Cold SE
-- Skills of the Wild - Craftable Bear Traps
+
+</details>
+
+<details>
+<summary><strong>Immersive Mechanics</strong></summary>
+
+- Dynamic Things Alternative - Base Object Swapper
+- Helmet Toggle 2
+- Take a Nap - Sleep on Chairs
+- Grab and Eat - Eat directly from harvestable flora
+- Simply Knock SE
+- Dragon Wall Wisdom - Readable Dragon Walls
+
+</details>
+
+<details>
+<summary><strong>Crime</strong></summary>
+
+- Turn in Contraband
+- Contraband Confiscation
+  - Comments: `Added Lockpicks to the Contraband FLM list`
+- Contraband Confiscation - USSEP Patch
+- Contraband Confiscation - Script Fixes
+- Crime Bounty Decay SE
 
 </details>
 
@@ -1055,9 +1186,12 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 
 - Pristine Vanilla Movement
 - Immersive Interactions - Animated Actions
-- Immersive Interactions - Animation Disabler - Patch
+- Just Knock - Simply Knock Tweaks and Patches
+  - Notes:
+    - `DAK and Take a Peek integration for Simply Knock. Uses Papyrus Extender instead of the original Simply Knock DLL. Intentionally overwrites scripts from Immersive Interactions and First Person Interactions for keyholder compatibility. Keep below both mods in MO2's left pane.`
 - First Person Interactions
   - Comments: `Override Immersive Interactions`
+- Immersive Interactions - Animation Disabler - Patch
 - First Person Stagger Animation Remade
 - JellyFishFP Movement Remake (1st person animations series)
 - JellyFishFP Torch (1st person animations series)
@@ -1117,6 +1251,7 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 - No More Swimming In Air - Fixed Floating SwimIdle
 - First Person Animation Teleport Bug Fix
 - Jump Slide Fix OAR
+- Cross and Jab Speed fix
 
 </details>
 
@@ -1182,6 +1317,7 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 
 - Eating Animations and Sounds SE
 - Eating Animations and Sounds - First Person Patch
+- HSF BOS Tankards - Eating Animations and Sounds - Tankard Style 01
 - Eating Animations - Patch Collection
 
 </details>
@@ -1198,10 +1334,11 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 
 - Weapon Armor Attribute Tweaks
 - Open World Loot - Encounter Zone and Loot Overhaul
+  - Comments: `Added: Relev, Delev bash tags`
 - Open World Loot - Reforging - To the Masses - Patch
 - Open World Loot - ARBR - Patch
-- Heritage - Open World Loot - Patch
-- Open World Loot - Armor Variants Expansion - Patch
+- Open World Loot - Heritage Enemies 2 - Patch
+- Steel Plate Armors - OWL - Patch
 
 <details>
 <summary><strong>Loot Reduction and Rarity</strong></summary>
@@ -1242,11 +1379,11 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 - Whispers of the Depths - Quest Mod
 - Why I Came to Skyrim - Origin Stories
 - Heart of the Reach
+- Quests Are In Skyrim
 ## 900 Weather
 
 - NAT.ENB III - Natural and Atmospheric Tamriel
 - Dawnfire NAT3 ENB - Reborn
-- Morning Fogs SSE - Thin Fog
 - Moons And Stars - Sky Overhaul SKSE
 - Twilight
 - Splashes of Storms
@@ -1314,14 +1451,11 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 - Ships On The Horizon
 ## 960 Skin
 
-- Norden UI
-- Norder UI Settings - Tweak your settings here
+- Vel'dun UI
+- Vel'dun UI Patches
+- Vel'dun UI Patches 2
+- Vel'dun UI Settings - Tweak your settings here
   - Comments: `This is so that Norden updates won't wipe your preferred settings, global fontfconfig, Equipment Durability SkyUI`
-- Test BG
-- Extended Tween Menu
-  - Comments: `No Norden support yet, has to override it`
-- Extended Tween Menu - Character Menu Patch
-- Extended Tween Menu - Photo Mode Patch
 ## 970 LODs
 
 <details>
@@ -1406,20 +1540,25 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
   - Comments: `Skill of the wild loaded here to overwrite Norden, this way player marker is not visible, when game starts, disabled chaurus mesh`
 - Skills of the Wild - Reskin Skill Tree
 - Paper UI Sounds for Skyrim
-- Dragon Actor Script Infinite Loop Fix
-  - Comments: `Patch for Dragon War`
-- Dragon Actor Script Infinite Loop Fix - ADSLP Script Compatibility Patch
-  - Comments: `Compatibility patch between Dragon Actor Script Infinite Loop Fix and Absorb Dragon Soul Lesser Power`
 - CC Plugins Universal Start Fix
+- Clever Prisoner - Skyrim Souls - ITSPF - Compatibility Script
+- SCROTE Scripts - Low Risk
+  - Comments: `Scripts Carefully Reworked Optimized and Tactfully Enhanced (SCROTE) - Low Risk Scripts seperated`
 
 <details>
 <summary><strong>Development</strong></summary>
 
 - GripBreaker
 - Respite
-- Effect Watchlist
+- By The Order Of Jarl
 - Papyrus Debug Mode
   - Comments: `Enable for Papyrus Logs`
 
 </details>
+
+## 999 Under Review
+
+- Skyrim Performance Solution (SPS)
+- Reforging - To The Masses - Weapon Balance Patch
+- Favorite Wheel - Radial Actions
 

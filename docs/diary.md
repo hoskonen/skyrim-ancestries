@@ -161,3 +161,13 @@
 # 2026-10-14 - 716 listed mods
 
 - Synced the Ancestries profile and updated the README for the latest framework, UI, character, immersion, clutter, loot, development, and under-review changes.
+
+# 2026-10-19 - 770 listed mods
+
+- Synced the Ancestries profile and updated the README for the expanded fixes, textures, runtime replacers, UI, armor, weapons, immersion, animation, loot, and script changes.
+
+# 2026-10-24 - 810 listed mods
+
+- Synced the Ancestries profile and updated the README for the expanded interactions, fixes, enemies, textures, trees, UI, armor, magic, animation, loot, sound, LOD, and development changes.
+- Added the `[OWLPATCH]` convention and an Open World Loot patch summary, beginning with the Silverthorn distribution note.
+- Synced three marker-only `[OWLPATCH]` comments for an initial name-only summary.

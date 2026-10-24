@@ -2,7 +2,7 @@
 
 ## Skyrim Ancestries - Testing & Issues
 
-- Notes: "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n<html><head><meta name=\"qrichtext\" content=\"1\" /><meta charset=\"utf-8\" /><style type=\"text/css\">\np, li { white-space: pre-wrap; }\nhr { height: 1px; border-width: 0; }\nli.unchecked::marker { content: \"\\2610\"; }\nli.checked::marker { content: \"\\2612\"; }\n</style></head><body style=\" font-family:'Segoe UI'; font-size:9pt; font-weight:400; font-style:normal;\">\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">[CRITICAL]</p>\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">[TEST]</p>\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">Ryn's Bleakfalls</p>\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">[BROKEN]</p>\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">White fireplaces in Bannered Mare</p>\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">[TODO]</p>\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">[NOTE]</p></body></html>"
+- Notes: "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n<html><head><meta name=\"qrichtext\" content=\"1\" /><meta charset=\"utf-8\" /><style type=\"text/css\">\np, li { white-space: pre-wrap; }\nhr { height: 1px; border-width: 0; }\nli.unchecked::marker { content: \"\\2610\"; }\nli.checked::marker { content: \"\\2612\"; }\n</style></head><body style=\" font-family:'Segoe UI'; font-size:9pt; font-weight:400; font-style:normal;\">\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">[CRITICAL]</p>\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">[TEST]</p>\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">Ryn's Bleakfalls</p>\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">[BROKEN]</p>\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">[TODO]</p>\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">[NOTE]</p>\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">Sleeping mods, SKSE sleeping has broken animation<br /></p>\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">Who could use silver weapons:</p>\n<p style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><br /></p>\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-Erikur</p>\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-Jarl personal guards.</p>\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-Merceneries on their way to clear out a Hagraven coven, necromancer den, or vampire nest.</p>\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-At least one Alik'r warrior in each group.</p>\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-College of Winterhold conjurers.</p>\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-The Vigilants, which you probably knew but forgot to mention.</p></body></html>"
 
 ## Papyrus Debug Mode
 
@@ -12,6 +12,10 @@
 
 - Comments: Scripts Carefully Reworked Optimized and Tactfully Enhanced (SCROTE) - Low Risk Scripts seperated
 
+## Vel'dun UI Settings - Tweak your settings here
+
+- Comments: "This is so that Norden updates won't wipe your preferred settings, global fontfconfig, Equipment Durability SkyUI"
+
 ## Skills of the Wild - New Campfire Survival Skill Trees
 
 - Comments: "Skill of the wild loaded here to overwrite Norden, this way player marker is not visible, when game starts, disabled chaurus mesh"
@@ -20,14 +24,6 @@
 
 - Comments: Using only player marker
 
-## PGPatcher Output [O]
-
-- Comments: Turn off when running PGPatcher
-
-## Vel'dun UI Settings - Tweak your settings here
-
-- Comments: "This is so that Norden updates won't wipe your preferred settings, global fontfconfig, Equipment Durability SkyUI"
-
 ## Audio Overhaul - Crackling Fire - Patch
 
 - Comments: [PATCH]
@@ -35,6 +31,10 @@
 ## Splashes of Storms [FOMOD]
 
 - Comments: "Disable ripples, they look bad and small area."
+
+## NAT.ENB III - Natural and Atmospheric Tamriel
+
+- Comments: Fireplaces deleted caused conflicts with Embers
 
 ## A Lovely Letter Alternate Routes
 
@@ -55,6 +55,18 @@
 ## Scarcity SE - Less Loot Mod [FOMOD]
 
 - Comments: Removed LeveledLists
+
+## Open World Loot - Silver Hand Equipment - Patch
+
+- Comments: [OWLPATCH]
+
+## Open World Loot - Mantle OF The Silver Hand - Patch
+
+- Comments: [OWLPATCH]
+
+## Open World Loot - Silverthorn Weaponry - Patch
+
+- Comments: [OWLPATCH]
 
 ## Open World Loot - ARBR - Patch
 
@@ -84,6 +96,10 @@
 
 - Notes: "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n<html><head><meta name=\"qrichtext\" content=\"1\" /><meta charset=\"utf-8\" /><style type=\"text/css\">\np, li { white-space: pre-wrap; }\nhr { height: 1px; border-width: 0; }\nli.unchecked::marker { content: \"\\2610\"; }\nli.checked::marker { content: \"\\2612\"; }\n</style></head><body style=\" font-family:'Segoe UI'; font-size:9pt; font-weight:400; font-style:normal;\">\n<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">DAK and Take a Peek integration for Simply Knock. Uses Papyrus Extender instead of the original Simply Knock DLL. Intentionally overwrites scripts from Immersive Interactions and First Person Interactions for keyholder compatibility. Keep below both mods in MO2's left pane.</p></body></html>"
 
+## Alternate Perspective - OSHS - Patch
+
+- Comments: [PATCH]
+
 ## Contraband Confiscation
 
 - Comments: Added Lockpicks to the Contraband FLM list
@@ -91,6 +107,14 @@
 ## Poisonous Bear Traps - Improved Traps - Patch
 
 - Comments: [PATCH]
+
+## Immersive World Encounters - USSEP - Patch
+
+- Comments: [PATCH]
+
+## Campfire - Complete Camping System
+
+- Comments: Disable Cooking animations
 
 ## Alchemy Requires Bottles Redux - Empty Potion - Patch
 
@@ -135,6 +159,10 @@
 ## Skyrim Skill Uncapper for SE and AE
 
 - Comments: "bUsePCLevelSkillExpMults = false, SkillExpGainMults all to 0.0"
+
+## Mantle of the Silver Hand
+
+- Comments: "Oldrim ported, saved in CK and run through CAO. Removed NPC records"
 
 ## Dynamic Lowered Hoods [FOMOD]
 
@@ -200,6 +228,10 @@
 
 - Comments: [PATCH]
 
+## Khajiit Has Tents
+
+- Comments: Has patches fomod on the page
+
 ## Lanterns Of Skyrim II [FOMOD]
 
 - Comments: Don't install ClefJ's Winterhold patch - it's outdated
@@ -232,6 +264,10 @@
 
 - Notes: "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n<html><head><meta name=\"qrichtext\" content=\"1\" /><meta charset=\"utf-8\" /><style type=\"text/css\">\np, li { white-space: pre-wrap; }\nhr { height: 1px; border-width: 0; }\nli.unchecked::marker { content: \"\\2610\"; }\nli.checked::marker { content: \"\\2612\"; }\n</style></head><body style=\" font-family:'Segoe UI'; font-size:9pt; font-weight:400; font-style:normal;\">\n<pre style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; line-height:19px; background-color:#193549;\"><span style=\" font-family:'Dank Mono','Consolas','Courier New','monospace','Consolas','Courier New','monospace'; font-size:14px; color:#e1efff;\">Let SLaWF meshes overwrite SMIM,Enhanced texture detail (UV-tweaks), ELFX and No Sunlight Through Mountains.</span></pre>\n<pre style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#193549;\"><span style=\" font-family:'Dank Mono','Consolas','Courier New','monospace','Consolas','Courier New','monospace'; font-size:14px; color:#e1efff;\">Let meshes from other WiZkiD, Majestic Mountains and Flickering Meshes Fix overwrite SLaWF.</span></pre>\n<pre style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; background-color:#193549;\"><span style=\" font-family:'Dank Mono','Consolas','Courier New','monospace','Consolas','Courier New','monospace'; font-size:14px; color:#e1efff;\">For other mods you can decide which mod should win the conflict yourself. SLaWF meshes are fixed carefully, especially regarding collisions, therefore you can overwrite most other mesh fix mods. If it's necessary, you can let other mods overwrite SLaWF at the cost of losing our fixes for those meshes.</span></pre></body></html>"
 
+## TS - Silver Hand Lore Overhaul
+
+- Comments: Has Lawbringer Patch
+
 ## Kontrol FPS Preset - No Quick Load Save
 
 - Comments: https://hawk.bar/SkyrimControlMapper/
@@ -259,6 +295,10 @@
 ## Better Third Person Selection - BTPS [SKSE]
 
 - Comments: "bIsActivationButtonEnabled = 0"
+
+## Animated Interactions SKSE
+
+- Comments: "If using with Jayserpa's Immersive Interactions (recommended), disable the conflicting options with the mod's MCM."
 
 ## EngineFixes
 

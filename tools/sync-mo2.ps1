@@ -67,7 +67,7 @@ $metadata | Set-Content "$repo\state\comments-notes.md" -Encoding UTF8
 function Get-ReadmeModName {
     param([string]$ModName)
 
-    return ($ModName -replace '\s+\[(?:SKSE|FOMOD|O)\]', '').Trim()
+    return ($ModName -replace '\s+\[(?:SKSE|FOMOD|O|OWLPATCH)\]', '').Trim()
 }
 
 function Get-InlineCode {
@@ -95,7 +95,7 @@ function Get-VisibleComment {
 
     $text = $text -replace '\\n', ' '
     $text = $text -replace '\\"', '"'
-    $text = $text -replace '(?i)\[PATCH\]', ''
+    $text = $text -replace '(?i)\[(?:PATCH|OWLPATCH)\]', ''
 
     return $text.Trim()
 }
@@ -131,6 +131,13 @@ $patchMods = @($enabledMods | Where-Object {
     $_ -notmatch '\[O\]' -and
     $commentsByMod.ContainsKey($_) -and
     $commentsByMod[$_] -match '(?i)\[PATCH\]'
+})
+$owlPatchMods = @($enabledMods | Where-Object {
+    $_ -notmatch '\[O\]' -and (
+        $_ -match '(?i)\[OWLPATCH\]' -or
+        ($commentsByMod.ContainsKey($_) -and
+            $commentsByMod[$_] -match '(?i)\[OWLPATCH\]')
+    )
 })
 
 $statusModName = "Skyrim Ancestries - Testing & Issues"
@@ -264,6 +271,26 @@ $overviewReadme += ""
 if ($patchMods.Count -gt 0) {
     foreach ($modName in $patchMods) {
         $overviewReadme += Get-TopListItem $modName
+    }
+} else {
+    $overviewReadme += "- None"
+}
+
+$overviewReadme += ""
+$overviewReadme += "## Open World Loot Patches"
+$overviewReadme += ""
+
+if ($owlPatchMods.Count -gt 0) {
+    foreach ($modName in $owlPatchMods) {
+        $overviewReadme += "- $(Get-ReadmeModName $modName)"
+
+        if ($commentsByMod.ContainsKey($modName)) {
+            $comment = Get-InlineCode $commentsByMod[$modName]
+
+            if ($comment) {
+                $overviewReadme += "  - $comment"
+            }
+        }
     }
 } else {
     $overviewReadme += "- None"

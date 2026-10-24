@@ -61,17 +61,24 @@ rename them.
 - `[DEV]` mod being developed
 - `[H]` mod has files that has been set to hidden
 - `[LODS]` DynDoLod meshes
+- `[OWLPATCH]` marks an Open World Loot compatibility or distribution patch.
+  It may be placed in the MO2 mod name or Comments field.
 
 Near the top of `README.md`, maintain a concise generated summary block:
 
 - `## Being Developed` lists enabled non-`[O]` mods tagged `[DEV]`.
 - `## Patches Created` lists enabled non-`[O]` mods whose MO2 Comments field
   contains `[PATCH]` (case-insensitive).
+- `## Open World Loot Patches` lists enabled non-`[O]` mods whose name or MO2
+  Comments field contains `[OWLPATCH]`. When a tagged mod has additional MO2
+  Comment text, show it as a nested inline-code detail describing the patch's
+  distribution or behavior.
 
 If a listed mod has an MO2 comment, include it after the mod name as inline
-code. Treat `[PATCH]` as hidden metadata: remove the marker from all README
-output. If nothing remains after removing it, show only the mod name. Preserve
-visible metadata tags such as `[SkyPatcher]` and `[DEV]` in this summary.
+code. Treat `[PATCH]` and `[OWLPATCH]` as hidden metadata: remove the markers
+from all README output. If nothing remains after removing them, show only the
+mod name. Preserve visible metadata tags such as `[SkyPatcher]` and `[DEV]` in
+this summary.
 
 For `[O]` mods:
 

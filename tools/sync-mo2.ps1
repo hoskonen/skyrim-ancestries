@@ -19,6 +19,7 @@ Copy-Item `
 
 $metadata = @("# MO2 Comments and Notes", "")
 $commentsByMod = @{}
+$notesByMod = @{}
 
 Get-Content "$repo\state\modlist.txt" | ForEach-Object {
     if (-not $_.StartsWith("+")) {
@@ -54,6 +55,8 @@ Get-Content "$repo\state\modlist.txt" | ForEach-Object {
         }
 
         if ($notes) {
+            $notesByMod[$modName] = $notes
+
             $metadata += ""
             $metadata += "- Notes: $notes"
         }
@@ -114,6 +117,45 @@ function Get-TopListItem {
     }
 
     return "- $displayName"
+}
+
+function Get-PlainNoteParagraphs {
+    param([string]$Value)
+
+    $text = $Value.Trim()
+
+    if ($text.StartsWith('"') -and $text.EndsWith('"')) {
+        $text = $text.Substring(1, $text.Length - 2)
+    }
+
+    $text = $text `
+        -replace '\\n', "`n" `
+        -replace '\\"', '"'
+
+    $paragraphs = @()
+    $matches = [regex]::Matches(
+        $text,
+        '<(?:p|pre)\b[^>]*>(.*?)</(?:p|pre)>',
+        [System.Text.RegularExpressions.RegexOptions]::IgnoreCase -bor
+            [System.Text.RegularExpressions.RegexOptions]::Singleline
+    )
+
+    foreach ($match in $matches) {
+        $paragraph = $match.Groups[1].Value `
+            -replace '(?i)<br\s*/?>', "`n" `
+            -replace '<[^>]+>', ''
+        $paragraph = [System.Net.WebUtility]::HtmlDecode($paragraph).Trim()
+
+        if ($paragraph) {
+            $paragraphs += $paragraph
+        }
+    }
+
+    if ($paragraphs.Count -eq 0 -and $text -notmatch '<[^>]+>') {
+        $paragraphs += $text
+    }
+
+    return $paragraphs
 }
 
 $enabledMods = @()
@@ -289,6 +331,12 @@ if ($owlPatchMods.Count -gt 0) {
 
             if ($comment) {
                 $overviewReadme += "  - $comment"
+            }
+        }
+
+        if ($notesByMod.ContainsKey($modName)) {
+            foreach ($paragraph in (Get-PlainNoteParagraphs $notesByMod[$modName])) {
+                $overviewReadme += "  - $(Get-InlineCode $paragraph)"
             }
         }
     }

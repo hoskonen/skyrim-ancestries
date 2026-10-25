@@ -60,13 +60,19 @@
 
 - Comments: [OWLPATCH]
 
+- Notes: "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n<html><head><meta name=\"qrichtext\" content=\"1\" /><meta charset=\"utf-8\" /><style type=\"text/css\">\np, li { white-space: pre-wrap; }\nhr { height: 1px; border-width: 0; }\nli.unchecked::marker { content: \"\\2610\"; }\nli.checked::marker { content: \"\\2612\"; }\n</style></head><body style=\" font-family:'Segoe UI'; font-size:9pt; font-weight:400; font-style:normal;\">\n<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">Overhauls Silver Hand equipment distribution using Open World Loot leveled lists. Replaces generic bandit outfits with faction-specific armor for melee fighters, archers, ambush variants, and corpses. Introduces Studded Heavy Armor for archers and level-gated Silver Armor variants for melee fighters at level 25+, while preserving OWL's equipment progression and existing NPC behavior.</p></body></html>"
+
 ## Open World Loot - Mantle OF The Silver Hand - Patch
 
 - Comments: [OWLPATCH]
 
+- Notes: "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n<html><head><meta name=\"qrichtext\" content=\"1\" /><meta charset=\"utf-8\" /><style type=\"text/css\">\np, li { white-space: pre-wrap; }\nhr { height: 1px; border-width: 0; }\nli.unchecked::marker { content: \"\\2610\"; }\nli.checked::marker { content: \"\\2612\"; }\n</style></head><body style=\" font-family:'Segoe UI'; font-size:9pt; font-weight:400; font-style:normal;\">\n<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">Integrates werewolf trophy mantles into Silver Hand equipment distribution. Adds randomized mantle and helmet selection for regular hunters and archers, while providing bosses with a guaranteed mantle. Preserves the underlying OWL-based armor distribution and integrates the custom Silverthorn boss weapon progression.</p></body></html>"
+
 ## Open World Loot - Silverthorn Weaponry - Patch
 
 - Comments: [OWLPATCH]
+
+- Notes: "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n<html><head><meta name=\"qrichtext\" content=\"1\" /><meta charset=\"utf-8\" /><style type=\"text/css\">\np, li { white-space: pre-wrap; }\nhr { height: 1px; border-width: 0; }\nli.unchecked::marker { content: \"\\2610\"; }\nli.checked::marker { content: \"\\2612\"; }\n</style></head><body style=\" font-family:'Segoe UI'; font-size:9pt; font-weight:400; font-style:normal;\">\n<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">Integrates Silverthorn and Steelthorn weapons into Open World Loot's leveled-list system. Distributes Steelthorn weapons through appropriate OWL weapon lists while reserving Silverthorn weapons for Silver Hand encounters. Adds level-gated boss weapon progression with dedicated one-handed, two-handed, and heavy shield selections, allowing higher-level Silver Hand bosses to receive coordinated weapon-and-shield equipment.</p></body></html>"
 
 ## Open World Loot - ARBR - Patch
 
@@ -244,13 +250,13 @@
 
 - Comments: Includes sound patch
 
-## Basic Dining Set Replacer 2K
-
-- Comments: No Tankards
-
 ## Carts HD - Pfuscher
 
 - Comments: This replaces vanilla Cart mesh and textures
+
+## Basic Dining Set Replacer 2K
+
+- Comments: No Tankards
 
 ## Skyland AIO [FOMOD]
 

@@ -28,8 +28,11 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 ## Open World Loot Patches
 
 - Open World Loot - Silver Hand Equipment - Patch
+  - `Overhauls Silver Hand equipment distribution using Open World Loot leveled lists. Replaces generic bandit outfits with faction-specific armor for melee fighters, archers, ambush variants, and corpses. Introduces Studded Heavy Armor for archers and level-gated Silver Armor variants for melee fighters at level 25+, while preserving OWL's equipment progression and existing NPC behavior.`
 - Open World Loot - Mantle OF The Silver Hand - Patch
+  - `Integrates werewolf trophy mantles into Silver Hand equipment distribution. Adds randomized mantle and helmet selection for regular hunters and archers, while providing bosses with a guaranteed mantle. Preserves the underlying OWL-based armor distribution and integrates the custom Silverthorn boss weapon progression.`
 - Open World Loot - Silverthorn Weaponry - Patch
+  - `Integrates Silverthorn and Steelthorn weapons into Open World Loot's leveled-list system. Distributes Steelthorn weapons through appropriate OWL weapon lists while reserving Silverthorn weapons for Silver Hand encounters. Adds level-gated boss weapon progression with dedicated one-handed, two-handed, and heavy shield selections, allowing higher-level Silver Hand bosses to receive coordinated weapon-and-shield equipment.`
 
 <!-- mod-development:end -->
 
@@ -109,6 +112,7 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 - Crafting Recipe Distributor
 - Inertia - Physical Movement Response System
 - Alchemy Plus
+- Faster Objects
 
 <details>
 <summary><strong>Controller Related</strong></summary>
@@ -422,6 +426,25 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 </details>
 
 <details>
+<summary><strong>Clutter Textures</strong></summary>
+
+- Skyland Bits and Bobs - A Clutter Overhaul
+- Medieval Potions
+- Medieval Spirits
+- Medieval Spirits - Empty Hearthfire Wine Bottles Patch
+- Realistic Paper Retexture
+- Basic Dining Set Replacer 2K
+  - Comments: `No Tankards`
+- ElSopa - Barrels Redone
+- Sacks Remodeled - Mathy
+- ElSopa - HD Iron Tools Redone SE 2K
+- Realistic HD Baskets Remastered
+- Rally's Brooms
+- JS Embalming Tools SE 2K
+
+</details>
+
+<details>
 <summary><strong>Architecture</strong></summary>
 
 - High Quality Hearth - 3D Farmhouse Firepit
@@ -429,6 +452,10 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
   - Comments: `This replaces vanilla Cart mesh and textures`
 - JS Shrines of the Divines SE
 - Rally's Banners of Skyrim 2K
+- Rudy HQ - Nordic Ruins SE
+- Rudy HQ - Nordic Ruins SE - Patch for Smoking Torches and Candles
+- Rudy HQ - Nordic Ruins SE - Ruin Levers addon SE version
+- Rudy HQ - Nordic Ruins SE - Chests addon
 
 </details>
 
@@ -484,24 +511,6 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 </details>
 
 <details>
-<summary><strong>Clutter Textures</strong></summary>
-
-- Medieval Potions
-- Medieval Spirits
-- Medieval Spirits - Empty Hearthfire Wine Bottles Patch
-- Realistic Paper Retexture
-- Basic Dining Set Replacer 2K
-  - Comments: `No Tankards`
-- ElSopa - Barrels Redone
-- Sacks Remodeled - Mathy
-- ElSopa - HD Iron Tools Redone SE 2K
-- Realistic HD Baskets Remastered
-- Rally's Brooms
-- JS Embalming Tools SE 1K
-
-</details>
-
-<details>
 <summary><strong>Furniture and Household</strong></summary>
 
 - Detailed Rugs
@@ -534,6 +543,7 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 - KG's Frost Mirriam
 - KG's Elves Ear
 - Thistle by Mari SE 2K
+- 3D Tundra Cotton - DrJacopo
 
 </details>
 
@@ -623,6 +633,7 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 - Water On Steroids (WOS)
 ## 490 Runtime Replacers
 
+- RMB SPIDified - Core Framework
 - Handcarts - Base Object Swapper
 - Diverse Farmhouse Chimneys - Base Object Swapper
 - Villiage beds - Renthal - Base Object Swapper
@@ -635,6 +646,8 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 - Horses Flee Combat [Skypatcher]
 - Diverse and Lootable Firewood - Vanilla [BOS]
 - Diverse Garlic Braids - BOS - Single
+- Plant Size Variety [BOS]
+- RMB SPCH - Pelts o Plenty
 ## 500 User Interface
 
 <details>
@@ -646,7 +659,6 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 - Favorites Menu Effects Description
 - Infinity UI
 - ImGui Icons
-- Floating Subtitles
 - Character Menu SE
 
 </details>
@@ -694,8 +706,7 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
     - `iDAKControllerKey = 267`
 - Read Or Take
 - Use or Take SKSE
-- Favorite Wheel - Radial Actions
-- FavoriteWheel 0.7.2 Controller Chord Test
+- FavoriteWheel 0.8.0
 
 </details>
 
@@ -707,7 +718,7 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 - MCM Memory - Settings Backup and Restore
 - Clean Loading Transitions
 - Show Player In Inventory
-- Fullscreen Book and Item Zoom
+- Convenient Reading UI - SE
 - Hud NG
 - Dynamic Interface Patcher - DIP
 
@@ -720,7 +731,6 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 - Aura's Scrumptious Supplement (A.S.S. for B.O.O.B.I.E.S.)
 - Phenomenally Enriched and Nuanced Ingredients for SkyUI (P.E.N.I.S. for B.O.O.B.I.E.S.)
 - Rotols More Icons
-- Rotols Additional Icons - AIT Sunhelm Patch
 - Wounds - I4
 - Wounds - I4 Misc Objects Icons
 - Standing Stones - I4 icon
@@ -903,6 +913,10 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 - Silver Armor SE - Equipment Toggle 2 - Patch - by Xtudo
 - Silver Armor SE - Shinny Metal Patch ALT- by Xtudo
 - Studded Heavy Armor - Standalone
+## 730 Clothes
+
+- Pelts 'o' Plenty - Fur Pelt Cloaks
+- Pelts 'o' Plenty - Fur Pelt Cloaks - Survival Fix
 ## 720 Weapons
 
 - New Armory Series - Argonian Weapons
@@ -1006,6 +1020,7 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 - Maxsu Block Overhaul
 - Dynamic Block Hit
 - Shield debuff
+- No Large Recoil
 
 </details>
 
@@ -1429,6 +1444,7 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 <summary><strong>Eating Animations</strong></summary>
 
 - Eating Animations and Sounds SE
+- Eating Animations - Fishing Patch
 - Eating Animations and Sounds - First Person Patch
 - HSF BOS Tankards - Eating Animations and Sounds - Tankard Style 01
 - Eating Animations - Patch Collection
@@ -1669,6 +1685,7 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 - By The Order Of Jarl
 - Call and Deliver
 - Better Placing
+- Hook Inspector
 - Papyrus Debug Mode
   - Comments: `Enable for Papyrus Logs`
 

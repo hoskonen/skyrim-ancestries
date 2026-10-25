@@ -65,6 +65,26 @@ $mappings = @(
         Source = "Viny Mods"
         TargetMod = "Viny Mods [O]"
         TargetPath = "Viny Mods"
+    },
+    @{
+        Source = "SunHelm"
+        TargetMod = "SunHelm Survival and needs [FOMOD]"
+        TargetPath = "SunHelm"
+    },
+    @{
+        Source = "FUCKs"
+        TargetMod = "FLICK - Fuzz's Legally Intelligible Core Kit"
+        TargetPath = "FUCKs"
+    },
+    @{
+        Source = "KreatE"
+        TargetMod = "KreatE"
+        TargetPath = ""
+    },
+    @{
+        Source = "AutoBlend"
+        TargetMod = "AutoBlend"
+        TargetPath = ""
     }
 )
 
@@ -85,7 +105,11 @@ function Copy-MappedEntry {
         [string[]]$ExcludedRelativePaths = @()
     )
 
-    $targetRoot = Join-Path $TargetModPath $Mapping.TargetPath
+    if ([string]::IsNullOrEmpty($Mapping.TargetPath)) {
+        $targetRoot = $TargetModPath
+    } else {
+        $targetRoot = Join-Path $TargetModPath $Mapping.TargetPath
+    }
 
     try {
         if (-not $Entry.PSIsContainer) {
@@ -228,7 +252,11 @@ foreach ($mapping in $mappings) {
     }
 
     $targetModPath = Join-Path $ModsPath $mapping.TargetMod
-    $targetDisplay = Join-Path $mapping.TargetMod $mapping.TargetPath
+    if ([string]::IsNullOrEmpty($mapping.TargetPath)) {
+        $targetDisplay = $mapping.TargetMod
+    } else {
+        $targetDisplay = Join-Path $mapping.TargetMod $mapping.TargetPath
+    }
     $route = @{
         Entry = $entry
         Mapping = $mapping

@@ -171,3 +171,7 @@
 - Synced the Ancestries profile and updated the README for the expanded interactions, fixes, enemies, textures, trees, UI, armor, magic, animation, loot, sound, LOD, and development changes.
 - Added the `[OWLPATCH]` convention and an Open World Loot patch summary, beginning with the Silverthorn distribution note.
 - Synced three marker-only `[OWLPATCH]` comments for an initial name-only summary.
+
+# 2026-10-25 - 822 listed mods
+
+- Synced the Ancestries profile and updated the README for the latest SKSE, textures, runtime replacers, UI, clothing, combat, animation, and development changes.

@@ -71,8 +71,8 @@ Near the top of `README.md`, maintain a concise generated summary block:
   contains `[PATCH]` (case-insensitive).
 - `## Open World Loot Patches` lists enabled non-`[O]` mods whose name or MO2
   Comments field contains `[OWLPATCH]`. When a tagged mod has additional MO2
-  Comment text, show it as a nested inline-code detail describing the patch's
-  distribution or behavior.
+  Comment or Notes text, show it as a nested inline-code detail describing the
+  patch's distribution or behavior.
 
 If a listed mod has an MO2 comment, include it after the mod name as inline
 code. Treat `[PATCH]` and `[OWLPATCH]` as hidden metadata: remove the markers

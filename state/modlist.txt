@@ -7,11 +7,12 @@
 -999 ______________________ UNDER REVIEW _________________________separator
 +Skyrim Ancestries - Testing & Issues
 -995 ________ SKYRIM ANCESTRIES - TESTING & ISSUES _________separator
+-Shackled Skeleton
 +Papyrus Debug Mode
 -Papyrus Stack Stalker NG
 -Skyrim Reputation - Fixed and Patched - Audit
 -Skyrim Reputation - Audit
--Hook Inspector [SKSE]
++Hook Inspector [SKSE]
 +Better Placing [SKSE]
 +Call and Deliver
 +By The Order Of Jarl
@@ -178,6 +179,7 @@
 +Eating Animations - Patch Collection [FOMOD]
 +HSF BOS Tankards - Eating Animations and Sounds - Tankard Style 01
 +Eating Animations and Sounds - First Person Patch
++Eating Animations - Fishing Patch
 +Eating Animations and Sounds SE
 -Eating Animations_separator
 +Gesture Animation Remix (OAR)
@@ -407,6 +409,7 @@
 +Ultimate Automated Encounter Zones Patcher - Easy
 -Ultimate Automated Encounter Zones Patcher - Hard
 -Spawning and Encounter Zones_separator
++No Large Recoil
 +Shield debuff
 +Dynamic Block Hit
 +Maxsu Block Overhaul
@@ -474,6 +477,9 @@
 +Reforging - To the Masses (Weapons Expansion)
 +New Armory Series - Argonian Weapons [FOMOD]
 -720 _________________________ WEAPONS _________________________separator
++Pelts 'o' Plenty - Fur Pelt Cloaks - Survival Fix
++Pelts 'o' Plenty - Fur Pelt Cloaks
+-730 _________________________ CLOTHES _________________________separator
 +Studded Heavy Armor - Standalone
 +Silver Armor SE - Shinny Metal Patch ALT- by Xtudo
 +Silver Armor SE - Equipment Toggle 2 - Patch - by Xtudo
@@ -504,6 +510,7 @@
 +Wounds - Overlays For RaceMenu
 +Dunmer Overlays for RaceMenu
 -Overlays_separator
+-Pelts 'o' Plenty - Fur Pelt Cloaks - 3BA
 +Armor Variants Expansion - CBBE BodySlide
 +Iron Armors and Weapons Retexture SE - Bodyslides [FOMOD]
 +CBBE AE-CC Outfits
@@ -568,7 +575,6 @@
 +Standing Stones - I4 icon
 +Wounds - I4 Misc Objects Icons
 +Wounds - I4
-+Rotols Additional Icons - AIT Sunhelm Patch
 +Rotols More Icons
 +Phenomenally Enriched and Nuanced Ingredients for SkyUI (P.E.N.I.S. for B.O.O.B.I.E.S.) [FOMOD]
 +Aura's Scrumptious Supplement (A.S.S. for B.O.O.B.I.E.S.) [FOMOD]
@@ -576,16 +582,17 @@
 -Icons_separator
 +Dynamic Interface Patcher - DIP
 +Hud NG
-+Fullscreen Book and Item Zoom
++Convenient Reading UI - SE
 +Show Player In Inventory [SKSE]
 +Clean Loading Transitions [SKSE]
 +MCM Memory - Settings Backup and Restore
--Automatic Patcher
 +Photo Mode [FOMOD]
 +Modex - A Mod Explorer Menu (AddItemMenu)
+-Automatic Patcher
 -Utility_separator
-+FavoriteWheel 0.7.2 Controller Chord Test
-+Favorite Wheel - Radial Actions [SKSE]
+-FavoriteWheel 0.7.2 Controller Chord Test
+-Favorite Wheel - Radial Actions [SKSE]
++FavoriteWheel 0.8.0
 +Use or Take SKSE [SKSE]
 +Read Or Take [SKSE]
 +Dynamic Activation Key - Addons Collection
@@ -617,7 +624,6 @@
 +TrueHUD - HUD Additions
 -HUD Elements_separator
 +Character Menu SE
-+Floating Subtitles [FOMOD]
 +ImGui Icons
 +Infinity UI
 +Favorites Menu Effects Description
@@ -626,6 +632,8 @@
 +SkyUI
 -Core UI_separator
 -500 _____________________ USER INTERFACE _______________________separator
++RMB SPCH - Pelts o Plenty [FOMOD]
++Plant Size Variety [BOS]
 +Diverse Garlic Braids - BOS - Single
 +Diverse and Lootable Firewood - Vanilla [BOS]
 +Horses Flee Combat [Skypatcher]
@@ -638,6 +646,7 @@
 +Villiage beds - Renthal - Base Object Swapper
 +Diverse Farmhouse Chimneys - Base Object Swapper
 +Handcarts - Base Object Swapper
++RMB SPIDified - Core Framework [FOMOD]
 -490 ___________________ RUNTIME REPLACERS ____________________separator
 +Water On Steroids (WOS) [SKSE]
 +Realistic Water Two SE - Darker Gradient Textures v5 and up
@@ -699,6 +708,7 @@
 +Draugrs - New models and textures 2K
 +Skeleton Replacer HD [FOMOD]
 -Undead Textures_separator
++3D Tundra Cotton - DrJacopo
 +Thistle by Mari SE 2K
 -3D Thistle - DrJacopo's
 +KG's Elves Ear
@@ -724,19 +734,6 @@
 +Real Rural Beds - 3D Vanilla immersion
 +Detailed Rugs
 -Furniture and household_separator
-+JS Embalming Tools SE 1K
--JS Embalming Tools SE 2K
-+Rally's Brooms
-+Realistic HD Baskets Remastered
-+ElSopa - HD Iron Tools Redone SE 2K
-+Sacks Remodeled - Mathy
-+ElSopa - Barrels Redone
-+Basic Dining Set Replacer 2K
-+Realistic Paper Retexture
-+Medieval Spirits - Empty Hearthfire Wine Bottles Patch
-+Medieval Spirits
-+Medieval Potions
--Clutter textures_separator
 +Wolves of Cyrodiil - Fluffy
 -NPC Animal Fluffy_separator
 +Slightly Better Deer Pelt 2K
@@ -751,8 +748,6 @@
 +Skyking Snowburst - 4K Complex Parallax Snow [FOMOD]
 +Simplicity of Snow - Sulfur Ash Moss [FOMOD]
 -Snow Textures_separator
--Tomato's Blended Roads Retexture - 2k
--Road Textures_separator
 +Darker Elven Weapons - Retexture
 +Iron Armors and Weapons Retexture SE [FOMOD]
 -Weapons and Armors Remastered - Complex Materials
@@ -761,12 +756,28 @@
 +Deadly Spell Impacts [FOMOD]
 +Glorious Gradients
 -Particles Textures_separator
--Skyrim 3D Signs
++Rudy HQ - Nordic Ruins SE - Chests addon
++Rudy HQ - Nordic Ruins SE - Ruin Levers addon SE version
++Rudy HQ - Nordic Ruins SE - Patch for Smoking Torches and Candles
++Rudy HQ - Nordic Ruins SE
 +Rally's Banners of Skyrim 2K
 +JS Shrines of the Divines SE
 +Carts HD - Pfuscher
 +High Quality Hearth - 3D Farmhouse Firepit
 -Architecture_separator
++JS Embalming Tools SE 2K
++Rally's Brooms
++Realistic HD Baskets Remastered
++ElSopa - HD Iron Tools Redone SE 2K
++Sacks Remodeled - Mathy
++ElSopa - Barrels Redone
++Basic Dining Set Replacer 2K
++Realistic Paper Retexture
++Medieval Spirits - Empty Hearthfire Wine Bottles Patch
++Medieval Spirits
++Medieval Potions
++Skyland Bits and Bobs - A Clutter Overhaul
+-Clutter textures_separator
 +Skyking Ash Piles and Dust Piles
 +Smoking Torches and Candles [FOMOD]
 +Embers XD [FOMOD]
@@ -997,6 +1008,7 @@
 -Item Preview Customizer [SKSE]
 -No UI On Screenshots
 -AutoSEQ
++Faster Objects [SKSE]
 +Alchemy Plus [SKSE]
 +Inertia - Physical Movement Response System [SKSE]
 +Crafting Recipe Distributor [SKSE]

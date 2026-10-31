@@ -175,3 +175,11 @@
 # 2026-10-25 - 822 listed mods
 
 - Synced the Ancestries profile and updated the README for the latest SKSE, textures, runtime replacers, UI, clothing, combat, animation, and development changes.
+
+# 2026-10-26 - 822 listed mods
+
+- Synced the Ancestries profile and updated the README for the latest SKSE, fixes, textures, runtime replacers, UI, weapons, combat, immersion, dialogue, and development changes.
+
+# 2026-10-31 - 859 listed mods
+
+- Synced the Ancestries profile and updated the README for the latest SKSE, frameworks, fixes, custom patches, horses, textures, NPCs, clothing, combat, animation, sound, and under-review changes.

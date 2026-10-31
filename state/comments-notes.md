@@ -1,4 +1,4 @@
-# MO2 Comments and Notes
+﻿# MO2 Comments and Notes
 
 ## Skyrim Ancestries - Testing & Issues
 
@@ -23,6 +23,10 @@
 ## Custom Map Markers for Traditional Skyrim and Solstheim Paper Maps [FOMOD]
 
 - Comments: Using only player marker
+
+## A Bow's Whisper - Bow sound overhaul
+
+- Comments: Wins AOS
 
 ## Audio Overhaul - Crackling Fire - Patch
 
@@ -102,13 +106,13 @@
 
 - Notes: "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n<html><head><meta name=\"qrichtext\" content=\"1\" /><meta charset=\"utf-8\" /><style type=\"text/css\">\np, li { white-space: pre-wrap; }\nhr { height: 1px; border-width: 0; }\nli.unchecked::marker { content: \"\\2610\"; }\nli.checked::marker { content: \"\\2612\"; }\n</style></head><body style=\" font-family:'Segoe UI'; font-size:9pt; font-weight:400; font-style:normal;\">\n<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">DAK and Take a Peek integration for Simply Knock. Uses Papyrus Extender instead of the original Simply Knock DLL. Intentionally overwrites scripts from Immersive Interactions and First Person Interactions for keyholder compatibility. Keep below both mods in MO2's left pane.</p></body></html>"
 
-## Alternate Perspective - OSHS - Patch
-
-- Comments: [PATCH]
-
 ## Contraband Confiscation
 
 - Comments: Added Lockpicks to the Contraband FLM list
+
+## Dynamic Things Alternative - Base Object Swapper [FOMOD]
+
+- Comments: "Mead Barrel swap is disabled, since Interior Diversity does mead barrel swaps"
 
 ## Poisonous Bear Traps - Improved Traps - Patch
 
@@ -142,6 +146,10 @@
 
 - Notes: "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n<html><head><meta name=\"qrichtext\" content=\"1\" /><meta charset=\"utf-8\" /><style type=\"text/css\">\np, li { white-space: pre-wrap; }\nhr { height: 1px; border-width: 0; }\nli.unchecked::marker { content: \"\\2610\"; }\nli.checked::marker { content: \"\\2612\"; }\n</style></head><body style=\" font-family:'Segoe UI'; font-size:9pt; font-weight:400; font-style:normal;\">\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">[UNPAUSED_MENUS]</p>\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">bBarterMenu = true</p>\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">bBookMenu = true</p>\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">bConsole = false</p>\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">bContainerMenu = true</p>\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">bFavoritesMenu = true</p>\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">bGiftMenu = true</p>\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">bInventoryMenu = true</p>\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">bJournalMenu = false</p>\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">bLevelUpMenu = true</p>\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">bLockpickingMenu = true</p>\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">bMagicMenu = true</p>\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">bMapMenu = true</p>\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">bMessageBoxMenu = true</p>\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">bModManagerMenu = false</p>\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">bSleepWaitMenu = false</p>\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">bStatsMenu = true</p>\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">bTrainingMenu = true</p>\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">bTutorialMenu = true</p>\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">bTweenMenu = true</p>\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">bCustomMenu = false</p>\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">bQuestJournalOverhaul_QuestMenu = true</p>\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">bDragonbornsBestiary_BestiaryMenu = true</p></body></html>"
 
+## Alternate Perspective - OSHS - Patch
+
+- Comments: [PATCH]
+
 ## SV Mods Menu SE - Crimes Spells and Followers
 
 - Comments: Includes Skyrim Souls Fix
@@ -165,6 +173,12 @@
 ## Skyrim Skill Uncapper for SE and AE
 
 - Comments: "bUsePCLevelSkillExpMults = false, SkillExpGainMults all to 0.0"
+
+## Silverthorn Weaponry - Rebalance - Patch
+
+- Comments: [PATCH]
+
+- Notes: "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n<html><head><meta name=\"qrichtext\" content=\"1\" /><meta charset=\"utf-8\" /><style type=\"text/css\">\np, li { white-space: pre-wrap; }\nhr { height: 1px; border-width: 0; }\nli.unchecked::marker { content: \"\\2610\"; }\nli.checked::marker { content: \"\\2612\"; }\n</style></head><body style=\" font-family:'Segoe UI'; font-size:9pt; font-weight:400; font-style:normal;\">\n<p style=\" margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">Rebalances Steelthorn and Silverthorn equipment to approximately Glass-tier performance, reducing their original Ebony-tier weapon damage. Both weapon families retain identical base damage, while Silverthorn weapons receive a higher monetary value (+500 gold, with an additional +200 gold for two-handed weapons) to reflect their rarity and specialized silver properties. Adjusts heavy and light shield armor ratings to 30 and 27 respectively, down from the original 32 and 24, while preserving their distinct armor classes, weights, and material identities. Existing silver-related</p></body></html>"
 
 ## Mantle of the Silver Hand
 
@@ -194,6 +208,10 @@
 
 - Comments: Wonder if this is still needed?
 
+## Use or Take SKSE [SKSE]
+
+- Comments: Eating herbs disabled to remove Eat from mead barrels
+
 ## Dynamic Activation Key - Addons Collection
 
 - Notes: "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n<html><head><meta name=\"qrichtext\" content=\"1\" /><meta charset=\"utf-8\" /><style type=\"text/css\">\np, li { white-space: pre-wrap; }\nhr { height: 1px; border-width: 0; }\nli.unchecked::marker { content: \"\\2610\"; }\nli.checked::marker { content: \"\\2612\"; }\n</style></head><body style=\" font-family:'Segoe UI'; font-size:9pt; font-weight:400; font-style:normal;\">\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">iDAKModifierKey = 209</p>\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">iDAKControllerKey = 267</p></body></html>"
@@ -205,6 +223,10 @@
 ## Extended Tween Menu
 
 - Comments: "No Norden support yet, has to override it"
+
+## Interior Diversity [BOS]
+
+- Notes: "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n<html><head><meta name=\"qrichtext\" content=\"1\" /><meta charset=\"utf-8\" /><style type=\"text/css\">\np, li { white-space: pre-wrap; }\nhr { height: 1px; border-width: 0; }\nli.unchecked::marker { content: \"\\2610\"; }\nli.checked::marker { content: \"\\2612\"; }\n</style></head><body style=\" font-family:'Segoe UI'; font-size:9pt; font-weight:400; font-style:normal;\">\n<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">-Inn Mead Barrels<br />-Inn plates</p></body></html>"
 
 ## Realistic High Altitude Treeline
 
@@ -273,6 +295,30 @@
 ## TS - Silver Hand Lore Overhaul
 
 - Comments: Has Lawbringer Patch
+
+## Wounds Addon - CIOTEA - Patch
+
+- Comments: [PATCH]
+
+## Immersive Interactions - Animation Disabler - Patch
+
+- Comments: [PATCH]
+
+## SC Horses - AI Overhaul - Patch
+
+- Comments: [PATCH]
+
+## Mysticism - SC Horses - Patch
+
+- Comments: [PATCH]
+
+## Post Effect Shader - Patch
+
+- Comments: [PATCH]
+
+## Enb Light - Mysticism - Patch
+
+- Comments: [PATCH]
 
 ## Kontrol FPS Preset - No Quick Load Save
 

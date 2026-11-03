@@ -25,6 +25,7 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 - Riverwood Trader Is A Mess - ELFX Shadows - Patch
 - ClefJ's Winterhold - Cooking in Inns - Patch
 - ClefJ's Winterhold - LOS2 - Patch
+- Mihail House Cats - Volume Slider - Patch
 - Wounds Addon - CIOTEA - Patch
 - Immersive Interactions - Animation Disabler - Patch
 - SC Horses - AI Overhaul - Patch
@@ -46,13 +47,16 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 <!-- project-status:start -->
 ## Project Status
 
-### Testing
+### Broken
 
-- Ryn's Bleakfalls
+- UI: Item card usually broken
+
+### Todo
+
+- Visit all the ponds
 
 ### Notes
 
-- Sleeping mods, SKSE sleeping has broken animation
 - Who could use silver weapons:
 - Erikur
 - Jarl personal guards.
@@ -118,6 +122,7 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 - Inertia - Physical Movement Response System
 - Alchemy Plus
 - Faster Objects
+- Responsive Grounds
 
 <details>
 <summary><strong>Controller Related</strong></summary>
@@ -216,6 +221,7 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 - Custom Skills Framework
 - AnimObject Swapper
 - Dynamic Inventory Icon Injector
+- Dynamic Wind Framework
 
 <details>
 <summary><strong>Combat Frameworks</strong></summary>
@@ -289,13 +295,17 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 - Havok Solver Crash Fix
 - Shadow Fixes
 - Invisible Rune Explosion Fix
-- Stealth Fixes
 - Stamina of Steeds
 - Opening Scene Horse Stagger
 - Non-Horse Mount Animation Fix
 - Skyrim Performance Solution (SPS)
 - Death Idle Fix
 - Loading Screen Truce AE
+- Baked Goods - Skyrim Engine Fixes
+- Occlusion Limit Fix
+- Path Idle Crash Fix
+- AI Pathing Freeze Fix
+- Whiterun Basement Tiling Fix - Jorrvaskr - Dragonsreach - Honningbrew Meadery
 
 <details>
 <summary><strong>First Person Fixes</strong></summary>
@@ -321,7 +331,6 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 - Media Keys Fix SKSE
 - Kontrol FPS Preset - No Quick Load Save
   - Comments: `https://hawk.bar/SkyrimControlMapper/`
-- Occlusion Limit Fix
 
 </details>
 
@@ -333,6 +342,7 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 - SC Horses - AI Overhaul - Patch
 - Immersive Interactions - Animation Disabler - Patch
 - Wounds Addon - CIOTEA - Patch
+- Mihail House Cats - Volume Slider - Patch
 
 ## 300 Core Meshes
 
@@ -367,6 +377,9 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 
 - Wolves of Cyrodiil - Mihail Monsters and Animals
 - Wolves of Cyrodiil - Food Addon - Survival
+- House Cats - Mihail
+- House Cats - No HeadT - Xtudo
+- House Cats - FluffyC 2K - Xtudo
 
 <details>
 <summary><strong>Horses</strong></summary>
@@ -488,7 +501,7 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 - Carts HD - Pfuscher
   - Comments: `This replaces vanilla Cart mesh and textures`
 - JS Shrines of the Divines SE
-- Rally's Banners of Skyrim 2K
+- Sigils of Skyrim 2K - Banners
 - Rudy HQ - Nordic Ruins SE
 - Rudy HQ - Nordic Ruins SE - Patch for Smoking Torches and Candles
 - Rudy HQ - Nordic Ruins SE - Ruin Levers addon SE version
@@ -581,6 +594,8 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 - KG's Elves Ear
 - Thistle by Mari SE 2K
 - 3D Tundra Cotton - DrJacopo
+- Junipers 3D - Trees and Berries
+- Junipers 3D - Retexture - Desaturated
 
 </details>
 
@@ -686,10 +701,10 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 - Random Barrel Roll [BOS]
 - Horses Flee Combat [Skypatcher]
 - Diverse and Lootable Firewood - Vanilla [BOS]
-- Diverse Garlic Braids - BOS - Single
+- Diverse Garlic Braids - Single [BOS]
 - Plant Size Variety [BOS]
-- Whiterun Basement Tiling Fix - Jorrvaskr - Dragonsreach - Honningbrew Meadery
-- Detailed NPCs - Winter Is Coming for NPCs (SPID)
+- Detailed NPCs - Winter Is Coming for NPCs [SPID]
+- Cloaks and Capes - Distribution [SPID]
 ## 500 User Interface
 
 <details>
@@ -730,6 +745,7 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 - Weapon Stat Viewer V2
 - Compare Equipment NG
 - Needs Widget AIO
+- STB Widgets
 
 </details>
 
@@ -1009,6 +1025,7 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 - Unpoisoned Blocking
 - Wounds
 - Wounds Addon Patch
+- Common Injuries of the Everyday Adventurer - Wounds Addon
 
 <details>
 <summary><strong>Archery</strong></summary>
@@ -1206,7 +1223,7 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 
 - Soaking Wet - Character Wetness Effect
 - R.A.S.S. Rain Ash And Snow Shaders - Wet Frost Cold Dust [AUDIT]
-- R.A.S.S. Rain Ash And Snow Shaders - No Animal Shaders
+- R.A.S.S - ToosTruus Choice
 
 </details>
 
@@ -1263,13 +1280,15 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 
 - Campfire - Complete Camping System
   - Comments: `Disable Cooking animations`
-- Campfire - Script Optimization
+- Campfire - Script Optimization [SCRIPT]
+- Campfire - Hotkey modded menu fix [SCRIPT]
 - Campfire - Dynamic Activation Key
 - Campfire - Usable Unlit Campfires Addon
 - Campfire - Collectable Deadwood and Branches [BOS]
 - Campfire - Dynamic Collisions
 - Frostfall - Hypothermia Camping Survival
-- Frostfall - Spell Monitor Optimized
+- Frostfall - Spell Monitor Optimized [SCRIPT]
+- Frostfall - Accessory warmth and coverage fix [SCRIPT]
 - Campfire and Frostfall - Unofficial SSE Update
 - The Pigeon's Nest - Assortment of small mods - SOTW Gather Branches
 
@@ -1578,6 +1597,8 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 - Dawnfire NAT3 ENB - Reborn
 - Moons And Stars - Sky Overhaul SKSE
 - Twilight
+- Rain Splashes
+- Rain Splashes - Reduced Splash Brightness Patch
 - Splashes of Storms
   - Comments: `Disable ripples, they look bad and small area.`
 - Rudy fix for Splashes of Storms and ENB
@@ -1751,15 +1772,8 @@ The live Mod Organizer 2 installation is authoritative. `state/modlist.txt` is t
 - Skyrim Arrow Overhaul Test
 - Papyrus Debug Mode
   - Comments: `Enable for Papyrus Logs`
-- Cloak Distributor Lab
 
 </details>
 
 ## 999 Under Review
-
-- SmoothCam
-- Ancestries Smoothcam - Preset
-- Path Idle Crash Fix
-- AI Pathing Freeze Fix
-- Common Injuries of the Everyday Adventurer - Wounds Addon
 

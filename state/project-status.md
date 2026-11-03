@@ -1,12 +1,15 @@
 ﻿# Skyrim Ancestries - Testing & Issues
 
-## [TEST]
+## [BROKEN]
 
-- Ryn's Bleakfalls
+- UI: Item card usually broken
+
+## [TODO]
+
+- Visit all the ponds
 
 ## [NOTE]
 
-- Sleeping mods, SKSE sleeping has broken animation
 - Who could use silver weapons:
 - Erikur
 - Jarl personal guards.

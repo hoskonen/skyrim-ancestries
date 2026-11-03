@@ -77,9 +77,8 @@ DisarmingTrapsIsDangerous.esl
 Embers XD.esm
 1SilverArmor.esl
 RMB SPID - Core Definitions.esp
-unofficial fearsome fists patch.esl
 PGPatcher.esp
-SmoothCam.esl
+unofficial fearsome fists patch.esl
 DynDOLOD.esm
 SkyUI_SE.esp
 I4IconAddon.esp
@@ -122,6 +121,7 @@ SC ClefJ Winterhold - AI Overhaul.esp
 Dragon Wall Wisdom.esp
 Landscape and Water Fixes - Patch - Farming.esp
 AP - Missile Additional Starts.esp
+mihailhousecat.esp
 SunHelmSurvival.esp
 SkyrimReputation_SSE.esp
 Missives.esp
@@ -229,7 +229,6 @@ Ivy - Whiterun Exterior Addon.esp
 Skyrim Arrow Overhaul Test.esp
 TheEyesOfBeauty.esp
 Locks Are Just Locked.esp
-madEngagingCombat.esp
 The Book of Origins.esp
 imp_helm_legend.esp
 CC Open Helmets.esp
@@ -271,7 +270,6 @@ Lore Ghosts.esp
 Cut Content - Ghost Shader - Philter of the Phantom.esp
 spookier ghosts.esp
 TimingIsEverything.esp
-RASS - No Animal Shaders.esp
 Character Menu SE.esp
 StormLightning.esp
 Dunmerpaint.esp
@@ -504,9 +502,13 @@ Horsepower-SkillsOfTheWildPatch.esp
 Horsepower_Ragdoll - SC Horses Patch.esp
 1nivWICCloaksCRAFT.esp
 DNPCsWinterIsComing.esp
-CloakDistributorLab.esp
 CH_BookCommonInjuries.esp
 Wounds Addon - CIOTEA - Patch.esp
+madEngagingCombat.esp
+CloaksAndCapes-DistributionSPID.esp
+Mihail House Cats - Volume Slider - Patch.esp
+ToosTruus Choice for RASS - Glowing Shader Fix.esp
+ToosTruus Choice for RASS - WetandCold Patch.esp
 AlternatePerspective.esp
 Alternate Perspective - Gate to Sovngarde Edition.esp
 The Book of Origins - Alternate Perspective.esp
